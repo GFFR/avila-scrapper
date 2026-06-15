@@ -8,7 +8,7 @@
     "node": ">=20"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["better-sqlite3", "esbuild"]
+    "onlyBuiltDependencies": ["esbuild"]
   },
   "bin": {
     "avila": "./dist/cli.js"
@@ -25,14 +25,13 @@
     "schedule": "tsx src/scheduler.ts"
   },
   "dependencies": {
-    "better-sqlite3": "^11.8.1",
     "commander": "^13.1.0",
     "dotenv": "^16.4.7",
     "node-cron": "^3.0.3",
+    "postgres": "^3.4.5",
     "zod": "^3.24.1"
   },
   "devDependencies": {
-    "@types/better-sqlite3": "^7.6.12",
     "@types/node": "^22.13.1",
     "@types/node-cron": "^3.0.11",
     "tsx": "^4.19.2",

@@ -2,10 +2,6 @@
 FROM node:22-bookworm-slim AS build
 WORKDIR /app
 
-# better-sqlite3 is a native module; needs build toolchain to compile.
-RUN apt-get update && apt-get install -y --no-install-recommends python3 make g++ \
-    && rm -rf /var/lib/apt/lists/*
-
 RUN corepack enable
 COPY package.json pnpm-lock.yaml* ./
 RUN pnpm install --frozen-lockfile || pnpm install
@@ -28,7 +24,7 @@ RUN pnpm install --prod --frozen-lockfile || pnpm install --prod
 
 COPY --from=build /app/dist ./dist
 
-# Data lives on a mounted volume so it survives redeploys.
+# JSON snapshots are written here; mount a volume to persist them across deploys.
 VOLUME ["/app/data"]
 
 # Default: long-running scheduler. Override with `node dist/cli.js sync` for one-shot.

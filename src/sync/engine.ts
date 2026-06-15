@@ -43,21 +43,22 @@ export class SyncEngine {
   }
 
   private async syncResource(def: ResourceDef, forceFull: boolean): Promise<ResourceResult> {
-    this.db.ensureTable(def.name);
+    await this.db.ensureTable(def.name);
     const useIncremental = def.incremental && !forceFull;
-    const watermark = useIncremental ? this.db.maxModifiedAt(def.name) : undefined;
+    const watermark = useIncremental ? await this.db.maxModifiedAt(def.name) : undefined;
     const mode: "full" | "incremental" = watermark ? "incremental" : "full";
 
     log.info(`Syncing ${def.name}`, { mode, since: watermark });
 
     try {
       const count = await this.pull(def, watermark);
-      this.db.recordSyncState(def.name, {
+      const total = await this.db.countRows(def.name);
+      await this.db.recordSyncState(def.name, {
         full: mode === "full",
-        modifiedSeen: this.db.maxModifiedAt(def.name),
-        count: this.db.countRows(def.name),
+        modifiedSeen: await this.db.maxModifiedAt(def.name),
+        count: total,
       });
-      log.info(`Synced ${def.name}`, { mode, written: count, total: this.db.countRows(def.name) });
+      log.info(`Synced ${def.name}`, { mode, written: count, total });
       return { resource: def.name, mode, records: count, ok: true };
     } catch (err) {
       // If an incremental filter was rejected, retry once with a full pull.
@@ -65,10 +66,10 @@ export class SyncEngine {
         log.warn(`Incremental filter rejected for ${def.name}; falling back to full pull`);
         try {
           const count = await this.pull(def, undefined);
-          this.db.recordSyncState(def.name, {
+          await this.db.recordSyncState(def.name, {
             full: true,
-            modifiedSeen: this.db.maxModifiedAt(def.name),
-            count: this.db.countRows(def.name),
+            modifiedSeen: await this.db.maxModifiedAt(def.name),
+            count: await this.db.countRows(def.name),
           });
           return { resource: def.name, mode: "full", records: count, ok: true };
         } catch (err2) {
@@ -85,7 +86,7 @@ export class SyncEngine {
       modifiedSince,
       incrementalField: def.incrementalField,
     })) {
-      written += this.db.upsertBatch(def.name, page);
+      written += await this.db.upsertBatch(def.name, page);
     }
     return written;
   }

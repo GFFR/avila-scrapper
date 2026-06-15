@@ -25,25 +25,27 @@ program
 
 program
   .command("export")
-  .description("Re-export the SQLite store to JSON snapshots")
-  .action(() => {
+  .description("Re-export the Postgres store to JSON snapshots")
+  .action(async () => {
     const db = new BackupDB();
     try {
-      exportJson(db);
+      await db.init();
+      await exportJson(db);
     } finally {
-      db.close();
+      await db.close();
     }
   });
 
 program
   .command("restore")
-  .description("Rebuild the SQLite store from committed JSON snapshots")
-  .action(() => {
+  .description("Rebuild the Postgres store from committed JSON snapshots")
+  .action(async () => {
     const db = new BackupDB();
     try {
-      restoreFromJson(db);
+      await db.init();
+      await restoreFromJson(db);
     } finally {
-      db.close();
+      await db.close();
     }
   });
 

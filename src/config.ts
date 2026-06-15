@@ -9,6 +9,12 @@ const schema = z.object({
   OFFICERND_CLIENT_SECRET: z.string().min(1, "OFFICERND_CLIENT_SECRET is required"),
   OFFICERND_ORG_SLUG: z.string().min(1, "OFFICERND_ORG_SLUG is required"),
   OFFICERND_SCOPES: z.string().optional().default(""),
+  DATABASE_URL: z.string().min(1, "DATABASE_URL is required (Postgres connection string)"),
+  DB_SSL: z
+    .string()
+    .optional()
+    .default("false")
+    .transform((v) => v.toLowerCase() === "true"),
   DATA_DIR: z.string().optional().default("./data"),
   SYNC_CRON: z.string().optional().default("15 3 * * *"),
   SYNC_TZ: z.string().optional().default("Europe/Lisbon"),
@@ -38,9 +44,12 @@ export const config = {
     tokenUrl: "https://identity.officernd.com/oauth/token",
     baseUrl: `https://app.officernd.com/api/v2/organizations/${env.OFFICERND_ORG_SLUG}`,
   },
+  db: {
+    url: env.DATABASE_URL,
+    ssl: env.DB_SSL,
+  },
   paths: {
     dataDir,
-    sqliteFile: path.join(dataDir, "officernd.sqlite"),
     jsonDir: path.join(dataDir, "json"),
   },
   schedule: {

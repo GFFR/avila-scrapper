@@ -10,14 +10,14 @@ import { log } from "../logger.js";
  * data/json/. This is the canonical, git-committed, vendor-portable backup.
  * Stable ordering (by _id) keeps git diffs minimal day-to-day.
  */
-export function exportJson(db: BackupDB, dir: string = config.paths.jsonDir): number {
+export async function exportJson(db: BackupDB, dir: string = config.paths.jsonDir): Promise<number> {
   fs.mkdirSync(dir, { recursive: true });
   let files = 0;
   const manifest: Record<string, number> = {};
 
   for (const def of RESOURCES) {
-    db.ensureTable(def.name);
-    const records = db.allRecords(def.name);
+    await db.ensureTable(def.name);
+    const records = await db.allRecords(def.name);
     const file = path.join(dir, `${def.name}.json`);
     fs.writeFileSync(file, JSON.stringify(records, null, 2) + "\n");
     manifest[def.name] = records.length;
@@ -34,17 +34,17 @@ export function exportJson(db: BackupDB, dir: string = config.paths.jsonDir): nu
 }
 
 /**
- * Rebuild the SQLite store from committed JSON snapshots. Lets anyone restore a
- * queryable DB from the repo alone (the DB binary itself is not committed).
+ * Rebuild the Postgres store from committed JSON snapshots. Lets anyone restore a
+ * queryable DB from the repo alone (e.g. into a fresh Dokploy Postgres instance).
  */
-export function restoreFromJson(db: BackupDB, dir: string = config.paths.jsonDir): number {
+export async function restoreFromJson(db: BackupDB, dir: string = config.paths.jsonDir): Promise<number> {
   let total = 0;
   for (const def of RESOURCES) {
     const file = path.join(dir, `${def.name}.json`);
     if (!fs.existsSync(file)) continue;
-    db.ensureTable(def.name);
+    await db.ensureTable(def.name);
     const records = JSON.parse(fs.readFileSync(file, "utf8"));
-    const written = db.upsertBatch(def.name, records);
+    const written = await db.upsertBatch(def.name, records);
     total += written;
     log.debug(`Restored ${def.name}`, { records: written });
   }

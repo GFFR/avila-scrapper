@@ -1,13 +1,33 @@
 services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: avila
+      POSTGRES_PASSWORD: avila
+      POSTGRES_DB: avila
+    volumes:
+      - ornd_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U avila"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
   scrapper:
     build: .
     restart: unless-stopped
     env_file: .env
     environment:
-      # Path inside the container; mapped to the named volume below.
+      DATABASE_URL: postgres://avila:avila@db:5432/avila
+      DB_SSL: "false"
       DATA_DIR: /app/data
     volumes:
       - ornd_data:/app/data
+    depends_on:
+      db:
+        condition: service_healthy
 
 volumes:
+  ornd_pg:
   ornd_data:

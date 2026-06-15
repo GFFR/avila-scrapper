@@ -17,10 +17,11 @@ export interface RunOptions extends SyncOptions {
 export async function runSync(opts: RunOptions = {}): Promise<ResourceResult[]> {
   const db = new BackupDB();
   try {
+    await db.init();
     const engine = new SyncEngine(new OfficeRndClient(), db);
     const results = await engine.run({ full: opts.full, only: opts.only });
 
-    if (opts.exportAfter !== false) exportJson(db);
+    if (opts.exportAfter !== false) await exportJson(db);
     if (opts.commit ?? config.schedule.autoGitCommit) commitBackup();
 
     const failed = results.filter((r) => !r.ok);
