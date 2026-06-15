@@ -1,0 +1,13 @@
+services:
+  scrapper:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      # Path inside the container; mapped to the named volume below.
+      DATA_DIR: /app/data
+    volumes:
+      - ornd_data:/app/data
+
+volumes:
+  ornd_data:

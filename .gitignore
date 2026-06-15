@@ -1,0 +1,17 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+
+# Secrets — never commit
+.env
+.env.local
+
+# SQLite is a derived artifact: rebuildable from the committed JSON snapshots
+# via `pnpm restore`. We keep it out of git to avoid binary churn in history.
+# The canonical, vendor-portable backup is data/json/ (committed).
+data/officernd.sqlite
+data/officernd.sqlite-*
+data/*.sqlite
+data/*.sqlite-shm
+data/*.sqlite-wal
