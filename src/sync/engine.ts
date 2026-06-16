@@ -3,6 +3,10 @@ import { BackupDB } from "../db/database.js";
 import { RESOURCES, type ResourceDef } from "../officernd/resources.js";
 import { log } from "../logger.js";
 
+// On incremental fan-out, include parents modified within this window before the
+// last run, to absorb clock skew and long-running syncs.
+const FANOUT_OVERLAP_MS = 48 * 60 * 60 * 1000;
+
 export interface SyncOptions {
   /** Ignore watermarks and pull every record for every resource. */
   full?: boolean;
@@ -12,7 +16,7 @@ export interface SyncOptions {
 
 export interface ResourceResult {
   resource: string;
-  mode: "full" | "incremental";
+  mode: "full" | "incremental" | "skipped";
   records: number;
   ok: boolean;
   error?: string;
@@ -29,8 +33,11 @@ export class SyncEngine {
       ? RESOURCES.filter((r) => opts.only!.includes(r.name))
       : RESOURCES;
 
+    // Fan-out resources depend on their parent being synced first, so run them last.
+    const ordered = [...targets].sort((a, b) => Number(!!a.fanOut) - Number(!!b.fanOut));
+
     const results: ResourceResult[] = [];
-    for (const resource of targets) {
+    for (const resource of ordered) {
       results.push(await this.syncResource(resource, opts.full ?? false));
     }
 
@@ -43,7 +50,14 @@ export class SyncEngine {
   }
 
   private async syncResource(def: ResourceDef, forceFull: boolean): Promise<ResourceResult> {
+    if (def.available === false) {
+      log.warn(`Skipping ${def.name}: scope "${def.scope}" not granted to the API app`);
+      return { resource: def.name, mode: "skipped", records: 0, ok: true };
+    }
     await this.db.ensureTable(def.name);
+
+    if (def.fanOut) return this.syncFanOut(def, forceFull);
+
     const useIncremental = def.incremental && !forceFull;
     const watermark = useIncremental ? await this.db.maxModifiedAt(def.name) : undefined;
     const mode: "full" | "incremental" = watermark ? "incremental" : "full";
@@ -89,6 +103,59 @@ export class SyncEngine {
       written += await this.db.upsertBatch(def.name, page);
     }
     return written;
+  }
+
+  /** Pull a collection that requires a parent filter, once per parent id. */
+  private async syncFanOut(def: ResourceDef, forceFull: boolean): Promise<ResourceResult> {
+    const { parent, param } = def.fanOut!;
+
+    // Incremental fan-out: only iterate parents changed since the last run. This
+    // cuts daily request count dramatically. Caveat: child changes that don't
+    // bump the parent's modifiedAt are missed until the next full reconciliation,
+    // so run `sync --full` periodically (e.g. weekly).
+    const prior = await this.db.getSyncState(def.name);
+    const incremental = def.incremental && !forceFull && !!prior?.last_run_at;
+    let parentIds: string[];
+    let mode: "full" | "incremental";
+    if (incremental) {
+      const since = new Date(prior!.last_run_at!.getTime() - FANOUT_OVERLAP_MS).toISOString();
+      parentIds = await this.db.idsModifiedSince(parent, since);
+      mode = "incremental";
+      log.info(`Syncing ${def.name} (fan-out)`, { parent, mode, since, parents: parentIds.length });
+    } else {
+      parentIds = await this.db.allIds(parent);
+      mode = "full";
+      log.info(`Syncing ${def.name} (fan-out)`, { parent, mode, parents: parentIds.length });
+    }
+
+    let written = 0;
+    let errors = 0;
+    let lastError: unknown;
+    for (const id of parentIds) {
+      try {
+        for await (const page of this.client.listAll(def.path, { extraParams: { [param]: id } })) {
+          written += await this.db.upsertBatch(def.name, page);
+        }
+      } catch (err) {
+        // A single parent failing (e.g. transient 429 after retries) shouldn't
+        // abort the whole collection — log and keep going.
+        errors++;
+        lastError = err;
+        log.warn(`Fan-out ${def.name} failed for ${param}=${id}`, {
+          error: err instanceof Error ? err.message : String(err),
+        });
+      }
+    }
+
+    const total = await this.db.countRows(def.name);
+    await this.db.recordSyncState(def.name, { full: mode === "full", count: total });
+    log.info(`Synced ${def.name}`, { mode: `fan-out/${mode}`, written, total, parentErrors: errors });
+
+    if (errors > 0) {
+      const error = `${errors}/${parentIds.length} ${param} queries failed (last: ${lastError instanceof Error ? lastError.message : String(lastError)})`;
+      return { resource: def.name, mode, records: written, ok: false, error };
+    }
+    return { resource: def.name, mode, records: written, ok: true };
   }
 }
 

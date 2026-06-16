@@ -22,6 +22,14 @@ OfficeRnD API v2  ──►  Postgres (jsonb per record)  ──►  JSON (data/
 - **Sync** is incremental by default (uses each record's `modifiedAt` watermark),
   with automatic fallback to a full pull when an API filter isn't supported.
   Static/small collections (plans, locations, tax rates…) are pulled in full.
+- A few endpoints (`assignments`, `payment-details`) can't be bulk-listed and
+  require a parent filter, so they **fan out** — one request per parent id.
+  `payment-details` fans out incrementally (only companies changed since the last
+  run); a **weekly full reconciliation** (`SYNC_FULL_CRON`) re-pulls everything
+  to catch changes that didn't bump a parent's `modifiedAt`.
+- **Scopes** are derived from the resource registry; OfficeRnD rejects the whole
+  token if any requested scope isn't granted to the app, so un-granted resources
+  are skipped (see "Granting more scopes").
 
 Each record is stored with its OfficeRnD `_id` as the primary key plus the full
 raw record as `jsonb`.
@@ -44,8 +52,18 @@ In OfficeRnD: **Settings → Data & Extensibility → Developer Tools → Add
 Application** (Read-only is enough). Copy the Client ID and Client Secret into
 `.env`, and set `OFFICERND_ORG_SLUG` to your org slug.
 
-If list calls return 403, set explicit read scopes in `OFFICERND_SCOPES`
-(space-separated, e.g. `flex.community.members.read flex.billing.payments.read`).
+Scopes are computed automatically from the resource registry — no need to set
+`OFFICERND_SCOPES` unless you want to override them.
+
+### Granting more scopes
+
+OfficeRnD's token endpoint **rejects the entire request** if it includes a scope
+the application hasn't been granted, so each resource in `src/officernd/resources.ts`
+carries its exact scope and an `available` flag. Resources whose scope isn't
+granted (currently `events`, `posts`, `tickets`, `benefits`, `credits`) are
+**skipped**. To back them up, enable those read permissions on the application in
+**Settings → Data & Extensibility → Developer Tools**, then flip `available` to
+`true` for those entries.
 
 ## Usage
 
@@ -62,7 +80,8 @@ pnpm dev backup           # sync + export + git commit/push snapshots
 ## Deployment (VPS / Dokploy)
 
 The container's default command is a long-running **scheduler** that runs an
-incremental sync on `SYNC_CRON` (default `15 3 * * *`, Europe/Lisbon).
+incremental sync on `SYNC_CRON` (default `15 3 * * *`) and a full reconciliation
+on `SYNC_FULL_CRON` (default Sundays `0 4 * * 0`), Europe/Lisbon.
 
 1. In Dokploy, provision a **Postgres** database service (it handles backups).
 2. Create a Dokploy application from this repo (Dockerfile build).
@@ -85,7 +104,8 @@ Locally: `docker compose up --build` (starts Postgres + the scrapper).
 | `DATABASE_URL` | — | Postgres connection string |
 | `DB_SSL` | `false` | Require TLS for the Postgres connection |
 | `DATA_DIR` | `./data` | Where JSON snapshots are written |
-| `SYNC_CRON` | `15 3 * * *` | Scheduler cron |
+| `SYNC_CRON` | `15 3 * * *` | Daily incremental sync cron |
+| `SYNC_FULL_CRON` | `0 4 * * 0` | Weekly full reconciliation cron |
 | `SYNC_TZ` | `Europe/Lisbon` | Cron timezone |
 | `AUTO_GIT_COMMIT` | `false` | Commit & push snapshots after each sync |
 

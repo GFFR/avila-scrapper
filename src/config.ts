@@ -17,6 +17,9 @@ const schema = z.object({
     .transform((v) => v.toLowerCase() === "true"),
   DATA_DIR: z.string().optional().default("./data"),
   SYNC_CRON: z.string().optional().default("15 3 * * *"),
+  // Weekly full reconciliation (default Sundays 04:00) so incremental fan-outs
+  // catch any child changes that didn't bump the parent's modifiedAt.
+  SYNC_FULL_CRON: z.string().optional().default("0 4 * * 0"),
   SYNC_TZ: z.string().optional().default("Europe/Lisbon"),
   AUTO_GIT_COMMIT: z
     .string()
@@ -54,6 +57,7 @@ export const config = {
   },
   schedule: {
     cron: env.SYNC_CRON,
+    fullCron: env.SYNC_FULL_CRON,
     tz: env.SYNC_TZ,
     autoGitCommit: env.AUTO_GIT_COMMIT,
   },

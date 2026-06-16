@@ -2,6 +2,7 @@ import { OfficeRndClient } from "./officernd/client.js";
 import { BackupDB } from "./db/database.js";
 import { SyncEngine, type SyncOptions, type ResourceResult } from "./sync/engine.js";
 import { exportJson } from "./export/json.js";
+import { grantedScopes } from "./officernd/resources.js";
 import { commitBackup } from "./git.js";
 import { config } from "./config.js";
 import { log } from "./logger.js";
@@ -18,7 +19,9 @@ export async function runSync(opts: RunOptions = {}): Promise<ResourceResult[]> 
   const db = new BackupDB();
   try {
     await db.init();
-    const engine = new SyncEngine(new OfficeRndClient(), db);
+    // Request only the scopes our app is granted (env override wins if set).
+    const scopes = config.officernd.scopes || grantedScopes();
+    const engine = new SyncEngine(new OfficeRndClient(scopes), db);
     const results = await engine.run({ full: opts.full, only: opts.only });
 
     if (opts.exportAfter !== false) await exportJson(db);

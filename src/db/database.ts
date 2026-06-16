@@ -136,6 +136,22 @@ export class BackupDB {
     `;
   }
 
+  /** All `_id`s of a resource — used to drive fan-out of child collections. */
+  async allIds(resource: string): Promise<string[]> {
+    const table = this.sql(this.ident(resource));
+    const rows = await this.sql<{ _id: string }[]>`SELECT _id FROM ${table} ORDER BY _id`;
+    return rows.map((r) => r._id);
+  }
+
+  /** `_id`s of a resource modified at/after `sinceISO` — drives incremental fan-out. */
+  async idsModifiedSince(resource: string, sinceISO: string): Promise<string[]> {
+    const table = this.sql(this.ident(resource));
+    const rows = await this.sql<{ _id: string }[]>`
+      SELECT _id FROM ${table} WHERE modified_at >= ${sinceISO} ORDER BY _id
+    `;
+    return rows.map((r) => r._id);
+  }
+
   /** Read all rows of a resource as parsed records, ordered by _id (stable diffs). */
   async allRecords(resource: string): Promise<OrndRecord[]> {
     const table = this.sql(this.ident(resource));

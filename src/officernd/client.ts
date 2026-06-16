@@ -23,14 +23,30 @@ export interface ListOptions {
   incrementalField?: string;
   /** Page size. OfficeRnD v2 max is 50. */
   pageSize?: number;
+  /** Extra query params (e.g. a required parent filter for fan-out endpoints). */
+  extraParams?: Record<string, string>;
 }
 
 const TOKEN_SKEW_MS = 60_000; // refresh a minute before expiry
 const MAX_PAGE_SIZE = 50;
-const MAX_RETRIES = 5;
+const MAX_RETRIES = 6;
+// OfficeRnD v2 allows ~400 reads/min. Space requests ~180ms apart (~333/min)
+// to stay comfortably under the cap and avoid 429 throttling on fan-outs.
+const MIN_REQUEST_INTERVAL_MS = 180;
 
 export class OfficeRndClient {
   private token: TokenState | null = null;
+  private readonly scopes: string;
+  private lastRequestAt = 0;
+
+  /**
+   * @param scopes space-separated OAuth scopes to request. The token endpoint
+   *   rejects the whole request if any scope is invalid or not granted to the
+   *   application, so pass only granted scopes.
+   */
+  constructor(scopes: string = config.officernd.scopes) {
+    this.scopes = scopes.trim();
+  }
 
   /** Obtain (and cache) a bearer token via OAuth2 client-credentials. */
   private async getToken(): Promise<string> {
@@ -43,7 +59,7 @@ export class OfficeRndClient {
       client_id: config.officernd.clientId,
       client_secret: config.officernd.clientSecret,
     });
-    if (config.officernd.scopes) body.set("scope", config.officernd.scopes);
+    if (this.scopes) body.set("scope", this.scopes);
 
     const res = await this.fetchWithRetry(
       config.officernd.tokenUrl,
@@ -60,12 +76,26 @@ export class OfficeRndClient {
     return this.token.accessToken;
   }
 
-  /** Fetch with retry on 429 (Retry-After honored) and transient 5xx. */
+  /** Fetch with retry on network errors, 429 (Retry-After honored), and 5xx. */
   private async fetchWithRetry(url: string, init: RequestInit, label: string): Promise<Response> {
     let attempt = 0;
     while (true) {
       attempt++;
-      const res = await fetch(url, init);
+
+      let res: Response;
+      try {
+        res = await fetch(url, init);
+      } catch (err) {
+        // Network-level failure (DNS, dropped connection, machine sleep, etc.).
+        if (attempt > MAX_RETRIES) {
+          throw new Error(`OfficeRnD ${label} network error after ${attempt} attempts: ${err instanceof Error ? err.message : String(err)}`);
+        }
+        const waitMs = Math.min(30_000, 2 ** attempt * 500);
+        log.warn(`Retrying ${label} after network error`, { attempt, waitMs });
+        await sleep(waitMs);
+        continue;
+      }
+
       if (res.ok) return res;
 
       const retryable = res.status === 429 || (res.status >= 500 && res.status < 600);
@@ -83,9 +113,17 @@ export class OfficeRndClient {
     }
   }
 
+  /** Space out API reads to stay under the per-minute rate limit. */
+  private async throttle(): Promise<void> {
+    const wait = MIN_REQUEST_INTERVAL_MS - (Date.now() - this.lastRequestAt);
+    if (wait > 0) await sleep(wait);
+    this.lastRequestAt = Date.now();
+  }
+
   /** Authenticated GET against the org base URL. */
   private async apiGet(pathAndQuery: string): Promise<Response> {
     const accessToken = await this.getToken();
+    await this.throttle();
     return this.fetchWithRetry(
       `${config.officernd.baseUrl}${pathAndQuery}`,
       { headers: { Authorization: `Bearer ${accessToken}`, Accept: "application/json" } },
@@ -109,6 +147,7 @@ export class OfficeRndClient {
         const field = opts.incrementalField ?? "modifiedAt";
         params.set(`${field}[$gte]`, opts.modifiedSince);
       }
+      for (const [k, v] of Object.entries(opts.extraParams ?? {})) params.set(k, v);
 
       const res = await this.apiGet(`${resourcePath}?${params.toString()}`);
       const payload = (await res.json()) as
