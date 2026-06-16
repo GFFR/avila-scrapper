@@ -557,6 +557,28 @@
     "paymentCustomer": "cus_RfzAP4QYx9WWK4"
   },
   {
+    "_id": "679a5bbc3a6c9b7ba02c04d5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "1912",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-01-29T16:47:56.615Z",
+    "createdBy": "67224f800cbdf81fa18a7371",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1QmeQYCdbiaQLvgX5Dj5tGPT",
+    "paymentCustomer": "cus_Rg0Q9UaySlxuNm"
+  },
+  {
     "_id": "67a3a36f86ce94188915940b",
     "type": "stripe",
     "method": "card",
@@ -1210,6 +1232,33 @@
     "paymentCustomer": "cus_Rn622vSKr2wFxH"
   },
   {
+    "_id": "67bdb94603662e4fae6110d9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1QwNMwCdbiaQLvgX2logzGNk",
+      "name": "Harry Horner",
+      "brand": "MasterCard",
+      "last4": "0633",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1QwNN4CdbiaQLvgXwdbzhZkP"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-02-25T12:36:22.959Z",
+    "createdBy": "67bdb94354cb8c23510e9de5",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1QwNMwCdbiaQLvgX2logzGNk",
+    "paymentCustomer": "cus_Rq3UpLuwIxIpaA"
+  },
+  {
     "_id": "67be1b84875b1e1ed59acba0",
     "type": "stripe",
     "method": "card",
@@ -1387,6 +1436,33 @@
     "paymentCustomer": "cus_RsMHJRH5hKxIk7"
   },
   {
+    "_id": "67caff27b405ef41f4ab716c",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1R01enBGYBAQ24lUeePSI81f",
+      "name": "Premium Castle Investiments",
+      "brand": "Visa",
+      "last4": "1771",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1R01f1BGYBAQ24lUZbENpL6e"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-03-07T14:13:59.816Z",
+    "createdBy": "67caff23b405ef41f4ab6c89",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1R01enBGYBAQ24lUeePSI81f",
+    "paymentCustomer": "cus_RtpJoJfqSVMcoB"
+  },
+  {
     "_id": "67d068b332b15abcd95ceb76",
     "type": "stripe",
     "method": "card",
@@ -1411,6 +1487,60 @@
     "paymentCustomer": "cus_RgIhBsAN8bZtyI"
   },
   {
+    "_id": "67d16b2b856e2e857f749912",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1R1n8rI8B1riowTwSoh5V3Zb",
+      "name": "ROGERIO ANDRADE",
+      "brand": "MasterCard",
+      "last4": "2773",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1R1n9CI8B1riowTw27qowaAb"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-03-12T11:08:27.050Z",
+    "createdBy": "67d16b269bd3efda6bec464b",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1R1n8rI8B1riowTwSoh5V3Zb",
+    "paymentCustomer": "cus_RveSwkccCm65Zu"
+  },
+  {
+    "_id": "67d2e07b14ba7dfcc3965159",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1R2C0JI8B1riowTw9v0JcM2X",
+      "name": "Comitiva Irresistivel Lda",
+      "brand": "Visa",
+      "last4": "5738",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1R2C0cI8B1riowTw8qO91Uyu"
+      },
+      "expirationYear": 2025,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-03-13T13:41:15.621Z",
+    "createdBy": "67d2e076e8516b246d428725",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1R2C0JI8B1riowTw9v0JcM2X",
+    "paymentCustomer": "cus_Rw48gfME64Q3AO"
+  },
+  {
     "_id": "67d2e76e3d49045e2fc3d3d0",
     "type": "stripe",
     "method": "card",
@@ -1423,6 +1553,72 @@
     ],
     "paymentSource": "pm_1R2CT3BGYBAQ24lUqvH0iYUV",
     "paymentCustomer": "cus_QmthUefQScL9mh"
+  },
+  {
+    "_id": "67d7efc05fce100fdb61ce40",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-03-17T09:47:44.204Z",
+    "createdBy": "67d45c2f6044ba1f2a597604",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1R3aGpCdbiaQLvgXEhE6rf4v",
+    "paymentCustomer": "cus_RxVFvCu2zkWACB"
+  },
+  {
+    "_id": "67d9700f9e9dc6cae502a53b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1R3zrTCdbiaQLvgXfAK5Uy3G",
+      "name": "Oleksandra Reshko",
+      "brand": "Visa",
+      "last4": "6726",
+      "country": "UA",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1R3zreCdbiaQLvgXujhx7lPY"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-03-18T13:07:27.921Z",
+    "createdBy": "67d9700ae1fb1470bd5ac8e6",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1R3zrTCdbiaQLvgXfAK5Uy3G",
+    "paymentCustomer": "cus_Rxvjhyt4K9F47q"
+  },
+  {
+    "_id": "67d9d8c19e9dc6cae52b02bc",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "4049",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-03-18T20:34:09.188Z",
+    "createdBy": "67cab44bcafe4ced2466f451",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1R46pTI8B1riowTw960mMGbt",
+    "paymentCustomer": "cus_Ry2udM392BM2mb"
   },
   {
     "_id": "67da8ddf74e468f2158ef097",
@@ -1494,6 +1690,57 @@
     ],
     "paymentSource": "pm_1R6bABBGYBAQ24lUEtQVdACp",
     "paymentCustomer": "cus_S0cMvvzkosBau1"
+  },
+  {
+    "_id": "67e4289018def8de4f6694c9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1R6wdbI8B1riowTwenZMfs5w",
+      "name": "Alcina Mota",
+      "brand": "Visa",
+      "last4": "2967",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1R6wdnI8B1riowTwOUpHhacu"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 12
+    },
+    "createdAt": "2025-03-26T16:17:20.219Z",
+    "createdBy": "67e4288c967e50b07f5c8f48",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1R6wdbI8B1riowTwenZMfs5w",
+    "paymentCustomer": "cus_S0ya59J9TLGUTR"
+  },
+  {
+    "_id": "67e59127441b521df1a924f5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "7461",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-03-27T17:55:51.366Z",
+    "createdBy": "66abd799a1914b9d124fad5d",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1R7KefI8B1riowTwpw1cgir8",
+    "paymentCustomer": "cus_S1NOpB3Xb9m5UF"
   },
   {
     "_id": "67e6db4f234fb430e398349a",
@@ -1574,6 +1821,109 @@
     "paymentCustomer": "cus_Rfz9gFA0GDL7gU"
   },
   {
+    "_id": "67ed0757eab929cd6e1f0dc9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "American Express",
+      "last4": "5514",
+      "country": "CH",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2026,
+      "expirationMonth": 6
+    },
+    "createdAt": "2025-04-02T09:45:59.621Z",
+    "createdBy": "67ea78b8d1811440b00937be",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1R9NrqI8B1riowTwZmGWB6P5",
+    "paymentCustomer": "cus_S2logvhmsJICmJ"
+  },
+  {
+    "_id": "67f62d3bfa078dbca43d6939",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RBtpTCdbiaQLvgXuFN7Jkow",
+      "name": "Ivo Anastacio",
+      "brand": "Visa",
+      "last4": "0123",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RBtpfCdbiaQLvgXpo0bYQLh"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-04-09T08:18:03.934Z",
+    "createdBy": "67f62d38a478ebf444436917",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RBtpTCdbiaQLvgXuFN7Jkow",
+    "paymentCustomer": "cus_S661vx6FVFkstR"
+  },
+  {
+    "_id": "67f67d539ff21c8196ff4033",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RBzACI8B1riowTwKlvxbEF8",
+      "name": "danysoft Internacional ",
+      "brand": "American Express",
+      "last4": "3002",
+      "country": "ES",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RBzANI8B1riowTwv5itG3gb"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 2
+    },
+    "createdAt": "2025-04-09T13:59:47.500Z",
+    "createdBy": "67f67d4f132fa28652eadae0",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1RBzACI8B1riowTwKlvxbEF8",
+    "paymentCustomer": "cus_S6BXy1Otylt8QN"
+  },
+  {
+    "_id": "67f6c14a62e9e655b71d72af",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RC3gcCdbiaQLvgXqRxjqj5Y",
+      "name": "PEDRO SALES",
+      "brand": "MasterCard",
+      "last4": "1988",
+      "country": "BR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1RC3gzCdbiaQLvgXk2umiZQz"
+      },
+      "expirationYear": 2032,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-04-09T18:49:46.624Z",
+    "createdBy": "67f6c146db1ce81d5cfbf2b1",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RC3gcCdbiaQLvgXqRxjqj5Y",
+    "paymentCustomer": "cus_S6GD2K0XEUeuDa"
+  },
+  {
     "_id": "67f7fde5d9c6b3987de460ca",
     "type": "stripe",
     "method": "card",
@@ -1593,6 +1943,33 @@
     ],
     "paymentSource": "pm_1RCOmBI8B1riowTwa18h9wp3",
     "paymentCustomer": "cus_S6bzKfPCW5IJkE"
+  },
+  {
+    "_id": "67ff9cbbc6c0abdd85de0cec",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1REUgyCdbiaQLvgXYWEXQ8Df",
+      "name": "Laura Kuklase",
+      "brand": "MasterCard",
+      "last4": "9768",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1REUhKCdbiaQLvgXsxkDCER0"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-04-16T12:04:11.440Z",
+    "createdBy": "67ff9cb8fd43d9a54804482f",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1REUgyCdbiaQLvgXYWEXQ8Df",
+    "paymentCustomer": "cus_S8mFa3GufeZ6xk"
   },
   {
     "_id": "680a11efd35e70a14b313adf",
@@ -1634,6 +2011,27 @@
     "paymentCustomer": "cus_SDeTRUt7twosc4"
   },
   {
+    "_id": "681221fa914b07c8d850e379",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "3090",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-04-30T13:13:30.826Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1RJaS1CdbiaQLvgXGeqsuqfN",
+    "paymentCustomer": "cus_SE2RsYhc1L0cJm"
+  },
+  {
     "_id": "6813843567067b6e057c6ea3",
     "type": "stripe",
     "method": "card",
@@ -1647,6 +2045,60 @@
     ],
     "paymentSource": "pm_1RJy2hI8B1riowTwZBWtq6Q4",
     "paymentCustomer": "cus_SEQsMX34hks1cA"
+  },
+  {
+    "_id": "681493fd3a482980a490dbc5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RKG8hI8B1riowTwywD5vYST",
+      "name": "Gabriel A Beraldi",
+      "brand": "Visa",
+      "last4": "5704",
+      "country": "BR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1RKG8uI8B1riowTwum6pzDtJ"
+      },
+      "expirationYear": 2032,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-05-02T09:44:29.389Z",
+    "createdBy": "681493f9c7b522e7bbf74130",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1RKG8hI8B1riowTwywD5vYST",
+    "paymentCustomer": "cus_SEjconuwz8mYjd"
+  },
+  {
+    "_id": "681494d73a482980a49131bd",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RKGBvI8B1riowTwat53cvcF",
+      "name": "Cristianne Araujo da Costa Vaz",
+      "brand": "Visa",
+      "last4": "8496",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RKGCQI8B1riowTwJbI7VIiB"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-05-02T09:48:07.225Z",
+    "createdBy": "681494cba2ee422872231286",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1RKGBvI8B1riowTwat53cvcF",
+    "paymentCustomer": "cus_SEjfNgINsaw4tJ"
   },
   {
     "_id": "6819029ebf08d6785c1bae40",
@@ -1742,6 +2194,102 @@
     "paymentCustomer": "cus_Nq7J6iYiKNZ7xM"
   },
   {
+    "_id": "681a4df274f60843235ade6f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RLpl8BGYBAQ24lUN0fdfxKU",
+      "name": "Raphael de Oliveira Duarte Matias",
+      "brand": "MasterCard",
+      "last4": "4782",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RLpluBGYBAQ24lUz8oHSIUU"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-05-06T17:59:14.731Z",
+    "createdBy": "681a4def77d2d6f8b38657f4",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1RLpl8BGYBAQ24lUN0fdfxKU",
+    "paymentCustomer": "cus_SGMUO3uTmz1Jov"
+  },
+  {
+    "_id": "681c62bc8e48c76ade755529",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-05-08T07:52:28.178Z",
+    "createdBy": "66bb6a628449b695ff194b56",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1RMPFnI8B1riowTwOCbDSZ1n",
+    "paymentCustomer": "cus_SB1A1ZSGpkgrAz"
+  },
+  {
+    "_id": "681c6a054bf3258e63f3d080",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RMPjpCdbiaQLvgXWgaZRKdb",
+      "name": "Easy Street GmbH",
+      "brand": "MasterCard",
+      "last4": "4370",
+      "country": "DE",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RMPjtCdbiaQLvgXYQ5t7zlr"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-05-08T08:23:33.703Z",
+    "createdBy": "681c6a021761ea6bb3fe38f3",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RMPjpCdbiaQLvgXWgaZRKdb",
+    "paymentCustomer": "cus_SGxfKAVfFxlYag"
+  },
+  {
+    "_id": "6823523b87195df13e10c80f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1ROJUYBGYBAQ24lUb18R6yaB",
+      "name": "TIAGO BAPTISTA",
+      "brand": "Visa",
+      "last4": "7581",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1ROJUsBGYBAQ24lUX4WW8VWb"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-05-13T14:07:55.342Z",
+    "createdBy": "68235237879857b4aae4799f",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1ROJUYBGYBAQ24lUb18R6yaB",
+    "paymentCustomer": "cus_SIvLjyq1WIUo9Z"
+  },
+  {
     "_id": "68309b425212e2632e1f9b58",
     "type": "stripe",
     "method": "card",
@@ -1754,6 +2302,27 @@
     ],
     "paymentSource": "pm_1RRxzmBGYBAQ24lU27VmhtHW",
     "paymentCustomer": "cus_QPL4GjELFulw0N"
+  },
+  {
+    "_id": "6834363060fa637a5e428f75",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "9604",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2030,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-05-26T09:36:48.140Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RSxSVBGYBAQ24lUixk0zVTa",
+    "paymentCustomer": "cus_RwVc2xFnU5hisc"
   },
   {
     "_id": "68359c6f148f42e60635ab4c",
@@ -1794,6 +2363,129 @@
     "paymentCustomer": "cus_QPL4GjELFulw0N"
   },
   {
+    "_id": "6835e282fd562003700d243e",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RTPywCdbiaQLvgXg67iTA5U",
+      "name": "ANTONIO PESO JIMENEZ",
+      "brand": "Visa",
+      "last4": "0841",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1RTPzCCdbiaQLvgXZ4tGeJmi"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-05-27T16:04:18.610Z",
+    "createdBy": "6835e27ea44572e5b5cc4482",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RTPywCdbiaQLvgXg67iTA5U",
+    "paymentCustomer": "cus_SOCN71DazI2x06"
+  },
+  {
+    "_id": "6835edcefea871c890ea8b72",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RTQjhCdbiaQLvgXnKDHYY0D",
+      "name": "heverton anunciacao",
+      "brand": "Visa",
+      "last4": "5043",
+      "country": "BR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1RTQjpCdbiaQLvgX1QfNVZTy"
+      },
+      "expirationYear": 2033,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-05-27T16:52:30.903Z",
+    "createdBy": "6835edca8cd398dfb5220fa0",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RTQjhCdbiaQLvgXnKDHYY0D",
+    "paymentCustomer": "cus_SODAG4nr72u9xW"
+  },
+  {
+    "_id": "683612c2055bcdcc75febaa6",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-05-27T19:30:10.594Z",
+    "createdBy": "68360c40703afa64ce91aba8",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RTTCPBGYBAQ24lUWA1u8Us4",
+    "paymentCustomer": "cus_SOFGEd5kPM3KeZ"
+  },
+  {
+    "_id": "68373e67283944e6686cdb36",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RTn9QI8B1riowTwX9LkAVuz",
+      "name": "L Horizon Mikhail",
+      "brand": "MasterCard",
+      "last4": "1690",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1RTn9fI8B1riowTwic3MAcWW"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 6
+    },
+    "createdAt": "2025-05-28T16:48:39.554Z",
+    "createdBy": "68373e648f96622eb6dc2219",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1RTn9QI8B1riowTwX9LkAVuz",
+    "paymentCustomer": "cus_SOaKHkGTyMjagO"
+  },
+  {
+    "_id": "68376c85e9184decb26879c5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RTqDjBGYBAQ24lUZJMfHKrg",
+      "name": "Mehdi Nejat-hosseini",
+      "brand": "Visa",
+      "last4": "8022",
+      "country": "CA",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1RTqE4BGYBAQ24lU6rackjdn"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-05-28T20:05:25.501Z",
+    "createdBy": "68376c818f96622eb6e93cba",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1RTqDjBGYBAQ24lUZJMfHKrg",
+    "paymentCustomer": "cus_SOdVQjlGPCWAQ4"
+  },
+  {
     "_id": "68387e03a9f0364caa505a7f",
     "type": "stripe",
     "method": "card",
@@ -1822,6 +2514,28 @@
     "paymentCustomer": "cus_QPL4GjELFulw0N"
   },
   {
+    "_id": "683ee34105e1b4b19d0ce9ec",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "0569",
+      "country": "GB",
+      "funding": "prepaid",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 2
+    },
+    "createdAt": "2025-06-03T11:57:53.173Z",
+    "createdBy": "67bc3ae28dea5784c124a173",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1RVtSrI8B1riowTwYrjZLiuY",
+    "paymentCustomer": "cus_SQkyTKvvbeV1uJ"
+  },
+  {
     "_id": "683f044469f84420c312e163",
     "type": "stripe",
     "method": "card",
@@ -1834,6 +2548,33 @@
     ],
     "paymentSource": "pm_1RVvfqCdbiaQLvgXpOtEwlDH",
     "paymentCustomer": "cus_SQj4P3NkLeeXBf"
+  },
+  {
+    "_id": "68404fdd7ea86b2431bd20dd",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RWHkfBGYBAQ24lUNPwvqZh0",
+      "name": "Tonis Karu",
+      "brand": "MasterCard",
+      "last4": "4156",
+      "country": "EE",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RWHl2BGYBAQ24lU6Vz5klJ4"
+      },
+      "expirationYear": 2025,
+      "expirationMonth": 8
+    },
+    "createdAt": "2025-06-04T13:53:33.008Z",
+    "createdBy": "68404fd9b3db2b52f1ce9e07",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1RWHkfBGYBAQ24lUNPwvqZh0",
+    "paymentCustomer": "cus_SRA5OLdcKkwkBJ"
   },
   {
     "_id": "6840b22748309095569444bb",
@@ -1850,6 +2591,141 @@
     "paymentCustomer": "cus_QPL4GjELFulw0N"
   },
   {
+    "_id": "6842c7d57f86b53f524419a3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RWxqICdbiaQLvgXuoLgGCG6",
+      "name": "Charles Liu",
+      "brand": "MasterCard",
+      "last4": "2209",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1RWxqSCdbiaQLvgXpD6nBKQU"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-06-06T10:49:57.735Z",
+    "createdBy": "6842c7d07f86b53f52441945",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RWxqICdbiaQLvgXuoLgGCG6",
+    "paymentCustomer": "cus_SRrZmpIBIocK7u"
+  },
+  {
+    "_id": "6842c8b3920c02a3ddab2ae1",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RWxtxCdbiaQLvgXRbA6uAsz",
+      "name": "Kelvin Zhang",
+      "brand": "MasterCard",
+      "last4": "3890",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1RWxu2CdbiaQLvgX17T7mtbk"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-06-06T10:53:39.863Z",
+    "createdBy": "6842c8afccde0c2961b57855",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RWxtxCdbiaQLvgXRbA6uAsz",
+    "paymentCustomer": "cus_SRrdd1IA96xvuL"
+  },
+  {
+    "_id": "6842ed99fd4cbb143e7e8a85",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RX0MECdbiaQLvgXHbkp0wPQ",
+      "name": "Kelvin Zhang",
+      "brand": "Visa",
+      "last4": "6090",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1RX0MOCdbiaQLvgXoCR3yqsL"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-06-06T13:31:05.503Z",
+    "createdBy": "6842ed95fd4cbb143e7e8a10",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RX0MECdbiaQLvgXHbkp0wPQ",
+    "paymentCustomer": "cus_SRuA2BIcxgpehw"
+  },
+  {
+    "_id": "68482f035d569789adbfd6e3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RYRxRI8B1riowTwxMhTzajr",
+      "name": "Nuno Tomás",
+      "brand": "Visa",
+      "last4": "9074",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RYRxfI8B1riowTwo15TO0D2"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-06-10T13:11:31.998Z",
+    "createdBy": "68482f00e9773e6a972e37d1",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1RYRxRI8B1riowTwxMhTzajr",
+    "paymentCustomer": "cus_STOlQll781V3bH"
+  },
+  {
+    "_id": "6848a4d25cc7976b36bedf1e",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RYZnqCdbiaQLvgXD6JEFFbO",
+      "name": "Ian Cleary",
+      "brand": "MasterCard",
+      "last4": "6466",
+      "country": "IE",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RYZo5CdbiaQLvgXD9bfAUT1"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-06-10T21:34:10.257Z",
+    "createdBy": "6848a4cdd8e3752b1fc35ca2",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RYZnqCdbiaQLvgXD6JEFFbO",
+    "paymentCustomer": "cus_STWrSepoPqeLr9"
+  },
+  {
     "_id": "684995a9a3838f5607c01e1a",
     "type": "stripe",
     "method": "card",
@@ -1864,6 +2740,55 @@
     "paymentCustomer": "cus_QPL4GjELFulw0N"
   },
   {
+    "_id": "68499d236f8c7a386fe9b822",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RYqLECdbiaQLvgXKlgZi5sL",
+      "name": "Marcial Barros",
+      "brand": "Visa",
+      "last4": "7287",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RYqLPCdbiaQLvgXrt8E6ifR"
+      },
+      "expirationYear": 2025,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-06-11T15:13:39.538Z",
+    "createdBy": "68499d1fd88454b45272df7d",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RYqLECdbiaQLvgXKlgZi5sL",
+    "paymentCustomer": "cus_STnxJbwYor3GYL"
+  },
+  {
+    "_id": "68514f3f9de3cf815b36febd",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "6945",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-06-17T11:19:27.472Z",
+    "createdBy": "68237d2cc42fcd5fa9e9883f",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1RaxXICdbiaQLvgXdBN1ZfHZ",
+    "paymentCustomer": "cus_SIyIAQpqXZRC82"
+  },
+  {
     "_id": "68519f70fb0f2a0500326a51",
     "type": "stripe",
     "method": "card",
@@ -1876,6 +2801,237 @@
     ],
     "paymentSource": "pm_1Rb2t7I8B1riowTwccti1tmw",
     "paymentCustomer": "cus_SVy5yCJri8JM7h"
+  },
+  {
+    "_id": "6855620dccfd90fcd62c939b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Rc4yqCdbiaQLvgXQ4Me9H6z",
+      "name": "REV",
+      "brand": "MasterCard",
+      "last4": "1548",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1Rc4zpCdbiaQLvgX9k85UpQP"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 3
+    },
+    "createdAt": "2025-06-20T13:28:45.930Z",
+    "createdBy": "6855620abe4b966163ea57f1",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1Rc4yqCdbiaQLvgXQ4Me9H6z",
+    "paymentCustomer": "cus_SX9IhgrrYqsYt8"
+  },
+  {
+    "_id": "685583f5be4b966163fa2971",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Rc7DoBGYBAQ24lUE4QWGdwr",
+      "name": "Jad Bsaibes",
+      "brand": "Visa",
+      "last4": "9564",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1Rc7FpBGYBAQ24lUBb2P1jP5"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-06-20T15:53:25.587Z",
+    "createdBy": "685583f2ccfd90fcd63ad7c4",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1Rc7DoBGYBAQ24lUE4QWGdwr",
+    "paymentCustomer": "cus_SXBdy89yNcrf0p"
+  },
+  {
+    "_id": "68597ab4aa3161a5aa8f2140",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RdBb0BGYBAQ24lU1LF2mswf",
+      "name": "Sergio de Carvalho",
+      "brand": "Visa",
+      "last4": "5487",
+      "country": "LU",
+      "funding": "credit",
+      "cvcCheck": "unchecked",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1RdCpjBGYBAQ24lUHBO5rHgR"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-06-23T16:03:00.568Z",
+    "createdBy": "68597ab1429109cd7a6f8be9",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1RdBb0BGYBAQ24lU1LF2mswf",
+    "paymentCustomer": "cus_SYJSaT05ZomeMo"
+  },
+  {
+    "_id": "685c06a2446fc7351c8ad54b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-06-25T14:24:34.733Z",
+    "createdBy": "683d71cbbff3f9505884e116",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1RduFZCdbiaQLvgXKprTLE3e",
+    "paymentCustomer": "cus_SQLZe2iKKuDnJL"
+  },
+  {
+    "_id": "685d060a6c8b91a658d6c8e1",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1ReBG4I8B1riowTw6GDRQ9Hj",
+      "name": "João Figueiredo",
+      "brand": "Visa",
+      "last4": "1305",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1ReBGAI8B1riowTwPi94A1Q2"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-06-26T08:34:18.734Z",
+    "createdBy": "668e9a798e8102724f1cefc7",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1ReBG4I8B1riowTw6GDRQ9Hj",
+    "paymentCustomer": "cus_SZJtogTHA22U4t"
+  },
+  {
+    "_id": "685d74f0b4bf818a282cfe4c",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1ReIdzCdbiaQLvgXzcdKcOON",
+      "name": "Rodrigo Aguiar",
+      "brand": "MasterCard",
+      "last4": "9216",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1ReIe3CdbiaQLvgXb3XsgbAs"
+      },
+      "expirationYear": 2025,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-06-26T16:27:28.207Z",
+    "createdBy": "685d74ed475cfdc29c2b44fb",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1ReIdzCdbiaQLvgXzcdKcOON",
+    "paymentCustomer": "cus_SZRX7lBzw1QEOK"
+  },
+  {
+    "_id": "685eb3ef35c1364c69f09876",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RedkWI8B1riowTwq2ecMxMl",
+      "name": "Wei Sun",
+      "brand": "MasterCard",
+      "last4": "9919",
+      "country": "NL",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RedtDI8B1riowTwcPkHGK1z"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-06-27T15:08:31.719Z",
+    "createdBy": "685eb3ec199bcb8264f0b7d8",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1RedkWI8B1riowTwq2ecMxMl",
+    "paymentCustomer": "cus_SZnUyXRyIZjURw"
+  },
+  {
+    "_id": "686103032010fd09fabe4845",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RfHFQI8B1riowTw4Sc20xF2",
+      "name": "ASHLEIGH RICHARDSON",
+      "brand": "Visa",
+      "last4": "8726",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1RfHFmI8B1riowTwCVQPLOEX"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-06-29T09:10:27.200Z",
+    "createdBy": "686102ff127b94a6aa315524",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1RfHFQI8B1riowTw4Sc20xF2",
+    "paymentCustomer": "cus_SaSAxlyV5uccPQ"
+  },
+  {
+    "_id": "6867873bbc7bf8c192a7b69a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Rh4LiI8B1riowTwIMD4nNLS",
+      "name": "Arq Marco Oliveira",
+      "brand": "Visa",
+      "last4": "1741",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1Rh4LvI8B1riowTwiKbPS0iM"
+      },
+      "expirationYear": 2025,
+      "expirationMonth": 8
+    },
+    "createdAt": "2025-07-04T07:48:11.661Z",
+    "createdBy": "68678738128ce595d93891ce",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1Rh4LiI8B1riowTwIMD4nNLS",
+    "paymentCustomer": "cus_ScIxzb6qkDi33S"
   },
   {
     "_id": "6867bde5865ddbba22979fb7",
@@ -1897,6 +3053,51 @@
     ],
     "paymentSource": "pm_1Rh7z8CdbiaQLvgXp9m7Z1jx",
     "paymentCustomer": "cus_ScMd10ajjmgN2Q"
+  },
+  {
+    "_id": "686aa01d91158596de40ecb5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "6638",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-07-06T16:11:09.017Z",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1Rhv9gI8B1riowTwStU4HO8U",
+    "paymentCustomer": "cus_Scp4jVns0wqt99"
+  },
+  {
+    "_id": "686ae36b8e3ddf02bc94e6cb",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "7790",
+      "country": "GB",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-07-06T20:58:19.737Z",
+    "createdBy": "686ae0638e3ddf02bc94049e",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rhzd9BGYBAQ24lUKXjkvBZk",
+    "paymentCustomer": "cus_SdG6CvZq5uKYeH"
   },
   {
     "_id": "686ce2007cd0d9c52cc41a58",
@@ -1923,6 +3124,156 @@
     "paymentCustomer": "cus_RgldOyYQISGZnx"
   },
   {
+    "_id": "686d1d5ad8fea6a61ef6beb2",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RibaZI8B1riowTwaHOgGJf8",
+      "name": "Helena Tomaz",
+      "brand": "Visa",
+      "last4": "4827",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1RibawI8B1riowTwJl0v6zZi"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 6
+    },
+    "createdAt": "2025-07-08T13:30:02.704Z",
+    "createdBy": "686d1d55659c5b1733c61ecb",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1RibaZI8B1riowTwaHOgGJf8",
+    "paymentCustomer": "cus_SdtNKMw0aJlMfp"
+  },
+  {
+    "_id": "6870ed06447724dd9c141fbe",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RjeZECdbiaQLvgXxuFlWmQn",
+      "name": "Jessica Kowalczyk",
+      "brand": "MasterCard",
+      "last4": "2160",
+      "country": "PL",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RjeZWCdbiaQLvgXWdrhsKgX"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-07-11T10:52:54.561Z",
+    "createdBy": "6870ed031aed4a5de8293989",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RjeZECdbiaQLvgXxuFlWmQn",
+    "paymentCustomer": "cus_SeyWe5fN59PYL6"
+  },
+  {
+    "_id": "6874ccc7ea694ccb8f6643b3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RkicKI8B1riowTwgfSfzqvO",
+      "name": "DIOGO COSTA",
+      "brand": "Visa",
+      "last4": "8696",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RkicVI8B1riowTwKKd2AB3N"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 7
+    },
+    "createdAt": "2025-07-14T09:24:23.634Z",
+    "createdBy": "6874ccc45b4b319b7e4f388f",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1RkicKI8B1riowTwgfSfzqvO",
+    "paymentCustomer": "cus_Sg4ml6F2P7KpAM"
+  },
+  {
+    "_id": "68761ef0f542721720209663",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Rl58cBGYBAQ24lUxtxxWZJW",
+      "name": "GABRIEL REIS",
+      "brand": "Visa",
+      "last4": "6811",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1Rl58mBGYBAQ24lUhbREbJo0"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 7
+    },
+    "createdAt": "2025-07-15T09:27:12.552Z",
+    "createdBy": "68761eec6398ff49cf2b272f",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1Rl58cBGYBAQ24lUxtxxWZJW",
+    "paymentCustomer": "cus_SgS2fVeOaOXnxt"
+  },
+  {
+    "_id": "6876802a67402d76e6dc2da8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-15T16:22:02.602Z",
+    "createdBy": "67d815b4a95dd9d8ae9128bc",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1RlBcDI8B1riowTwdyJFCJcR",
+    "paymentCustomer": "cus_RxWQ81hVWjNrzh"
+  },
+  {
+    "_id": "6877f556a8b17d0f99cc218a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RlaQzCdbiaQLvgXFCmrFkNT",
+      "name": "umit turan ",
+      "brand": "Visa",
+      "last4": "5409",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RlaT3CdbiaQLvgXGgL4EF61"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 3
+    },
+    "createdAt": "2025-07-16T18:54:14.130Z",
+    "createdBy": "6877f55253936992165883d2",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RlaQzCdbiaQLvgXFCmrFkNT",
+    "paymentCustomer": "cus_SgyPkh4EaHWm2Z"
+  },
+  {
     "_id": "687a3eaf95b48c5b7ee93c7f",
     "type": "stripe",
     "method": "card",
@@ -1943,6 +3294,87 @@
     ],
     "paymentSource": "pm_1QahDfBGYBAQ24lUOVqtP7yv",
     "paymentCustomer": "cus_RTeWvWmbJbwV3o"
+  },
+  {
+    "_id": "687dfb9dc7e542d75b1dedd8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RnFAwCdbiaQLvgXlpf1VjgM",
+      "name": "Isadora mori Muniz pollo",
+      "brand": "Visa",
+      "last4": "6201",
+      "country": "BR",
+      "funding": "prepaid",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1RnFBACdbiaQLvgXFEwdkVju"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-07-21T08:34:37.786Z",
+    "createdBy": "687dfb994770ec8aa242df3a",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RnFAwCdbiaQLvgXlpf1VjgM",
+    "paymentCustomer": "cus_SigYuPlfGHdDAH"
+  },
+  {
+    "_id": "687dfc2f1cf978bf1a9b3db5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RnFD6CdbiaQLvgXnVlSK7eO",
+      "name": "Ramtin monazahian",
+      "brand": "Visa",
+      "last4": "0893",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RnFDWCdbiaQLvgXIPtZtVWh"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 8
+    },
+    "createdAt": "2025-07-21T08:37:03.317Z",
+    "createdBy": "687dfc2bc7e542d75b1e2905",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RnFD6CdbiaQLvgXnVlSK7eO",
+    "paymentCustomer": "cus_SigaRNuCiIdE03"
+  },
+  {
+    "_id": "687e6c461cf978bf1ac82be8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RnMg9BGYBAQ24lUfFn9jMDI",
+      "name": "Sara Hooker",
+      "brand": "MasterCard",
+      "last4": "2627",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1RnMgKBGYBAQ24lUtxuVisp6"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 6
+    },
+    "createdAt": "2025-07-21T16:35:18.133Z",
+    "createdBy": "687e6c3f06d498420644f398",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1RnMg9BGYBAQ24lUfFn9jMDI",
+    "paymentCustomer": "cus_SioIecJL0OpO9Q"
   },
   {
     "_id": "687f6b28c7e542d75bb4b9c5",
@@ -1973,6 +3405,149 @@
     ],
     "paymentSource": "pm_1RndkqBGYBAQ24lUhpwjEq0Y",
     "paymentCustomer": "cus_QPM0351FWJQ8Re"
+  },
+  {
+    "_id": "6880f2bc22d2a8bf92e3a147",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Ro3jSI8B1riowTwH0Q5VhM8",
+      "name": "Tiago Monteiro",
+      "brand": "Visa",
+      "last4": "0650",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1Ro3jbI8B1riowTwDNhSadZB"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-07-23T14:33:32.227Z",
+    "createdBy": "6880f2b9fc377c189a022d58",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1Ro3jSI8B1riowTwH0Q5VhM8",
+    "paymentCustomer": "cus_SjWnbvpusxCHkV"
+  },
+  {
+    "_id": "6883a818c0f4651edb49f15e",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-25T15:51:52.595Z",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1RonuTI8B1riowTwKFDWWZ6c",
+    "paymentCustomer": "cus_SkISC37pMRMxlQ"
+  },
+  {
+    "_id": "6886ac820337e6778ccc6b3b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RpdLTI8B1riowTwKlmWMriq",
+      "name": "Daria Stepko",
+      "brand": "Visa",
+      "last4": "8819",
+      "country": "UA",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1RpdLpI8B1riowTwjwIlSHRA"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-07-27T22:47:30.826Z",
+    "createdBy": "6886ac7e0337e6778ccc69e5",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1RpdLTI8B1riowTwKlmWMriq",
+    "paymentCustomer": "cus_Sl9f9Eq3wFNOy2"
+  },
+  {
+    "_id": "6886acc9e8aa02d1a4524fc8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RpdMtI8B1riowTwhwj98VNm",
+      "name": "Daria Stepko",
+      "brand": "Visa",
+      "last4": "8819",
+      "country": "UA",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1RpdMyI8B1riowTwvRGZi7F9"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-07-27T22:48:41.834Z",
+    "createdBy": "6886ac7e0337e6778ccc69e5",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1RpdMtI8B1riowTwhwj98VNm",
+    "paymentCustomer": "cus_Sl9f9Eq3wFNOy2"
+  },
+  {
+    "_id": "688776c046a953bff82ccc13",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RpqojCdbiaQLvgXvG4Rn2dn",
+      "name": "Gennaro Pancia",
+      "brand": "MasterCard",
+      "last4": "0626",
+      "country": "IT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1RpqouCdbiaQLvgXnPae6Y5Z"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-07-28T13:10:24.650Z",
+    "createdBy": "688776bc022ff3c4b0cd1c5f",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RpqojCdbiaQLvgXvG4Rn2dn",
+    "paymentCustomer": "cus_SlNaaBeSEkRQIQ"
+  },
+  {
+    "_id": "688a3a4b4d94aa4e3a5eabe3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "2637",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-07-30T15:29:15.854Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1RqbwICdbiaQLvgX37ui1y7x",
+    "paymentCustomer": "cus_SmAFgQHlDFqAKS"
   },
   {
     "_id": "688b704b1c1deab467c53561",
@@ -3685,6 +5260,30 @@
     "paymentCustomer": "cus_QPzJEbGnewJIYu"
   },
   {
+    "_id": "688b706daf5007a00d1b8915",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1REUZiCdbiaQLvgX3Kpqu130",
+      "name": "Laura Kuklase",
+      "brand": "MasterCard",
+      "last4": "9768",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2030,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-07-31T13:32:29.736Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1REUZiCdbiaQLvgX3Kpqu130",
+    "paymentCustomer": "cus_S8m8HNVVKr7cvI"
+  },
+  {
     "_id": "688ba4cec7585952a923b3bb",
     "type": "stripe",
     "method": "card",
@@ -3698,6 +5297,87 @@
     ],
     "paymentSource": "pm_1Rr05BCdbiaQLvgX36Ux8Pr5",
     "paymentCustomer": "cus_Sf0C6SdandnpAd"
+  },
+  {
+    "_id": "689084069ab051b342dfb664",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RsL8qCdbiaQLvgX7u0wBYaO",
+      "name": "Igor Leite",
+      "brand": "Visa",
+      "last4": "6307",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RsL90CdbiaQLvgXH5nYjOMM"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 12
+    },
+    "createdAt": "2025-08-04T09:57:26.638Z",
+    "createdBy": "689084033a57f82b7afaa2a1",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RsL8qCdbiaQLvgX7u0wBYaO",
+    "paymentCustomer": "cus_Snx3gqGmnVAiLa"
+  },
+  {
+    "_id": "6890a57433cd91627e6808b2",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RsNMoCdbiaQLvgXcjMhTNU3",
+      "name": "Brent fulfer ",
+      "brand": "Visa",
+      "last4": "3297",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1RsNN0CdbiaQLvgX9lzACZl0"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-08-04T12:20:04.143Z",
+    "createdBy": "6890a56e1c9026b63e78931e",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1RsNMoCdbiaQLvgXcjMhTNU3",
+    "paymentCustomer": "cus_SnzLcLcKiTrru0"
+  },
+  {
+    "_id": "6890e4a0dbecb1d6230624f9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RsRZZBGYBAQ24lUneY7fne4",
+      "name": "Nuno Antunes",
+      "brand": "Visa",
+      "last4": "2431",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RsRZrBGYBAQ24lUC6XGbyJx"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-08-04T16:49:36.421Z",
+    "createdBy": "6890e49df5bb5c2ad26bf757",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1RsRZZBGYBAQ24lUneY7fne4",
+    "paymentCustomer": "cus_So3hvU10M2Cz4v"
   },
   {
     "_id": "6891ab74f29ceb1ecac5f82c",
@@ -3863,6 +5543,60 @@
     ],
     "paymentSource": "pm_1RrOuMBGYBAQ24lUVacxQaVZ",
     "paymentCustomer": "cus_QPzLbCzNNQ7W5Z"
+  },
+  {
+    "_id": "6891bdce8c5a5c931184c0db",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Rsg2SBGYBAQ24lUltD1hqMB",
+      "name": "Sean Gorman",
+      "brand": "MasterCard",
+      "last4": "5967",
+      "country": "IE",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1Rsg2bBGYBAQ24lUmoTmhwB8"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 12
+    },
+    "createdAt": "2025-08-05T08:16:14.176Z",
+    "createdBy": "6891bdca95fbc5d9b7b63ab1",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1Rsg2SBGYBAQ24lUltD1hqMB",
+    "paymentCustomer": "cus_SoIdhnQzs7VomP"
+  },
+  {
+    "_id": "689277e86bd7f1aabee76eee",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RssQsBGYBAQ24lUJZSFaMNr",
+      "name": "Daniela Martin Takuma",
+      "brand": "MasterCard",
+      "last4": "5477",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RssR1BGYBAQ24lUFnyEccKt"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 3
+    },
+    "createdAt": "2025-08-05T21:30:16.310Z",
+    "createdBy": "689277e415f50b60d110e446",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1RssQsBGYBAQ24lUJZSFaMNr",
+    "paymentCustomer": "cus_SoVRMRqZZ2mcT7"
   },
   {
     "_id": "689346ddf7f7d3f48badfa09",
@@ -4504,6 +6238,48 @@
     "paymentCustomer": "cus_SoXJgB0IXuL4Hj"
   },
   {
+    "_id": "68939efdc56eb5db4bbff147",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RtC5EI8B1riowTwPwLYpW5D",
+      "name": "INES MARTINS",
+      "brand": "MasterCard",
+      "last4": "8117",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RtC5QI8B1riowTwQuBMhFrD"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-08-06T18:29:17.342Z",
+    "createdBy": "68939ef91a6cad2efc60511a",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1RtC5EI8B1riowTwPwLYpW5D",
+    "paymentCustomer": "cus_SopkPIqE8vDff2"
+  },
+  {
+    "_id": "68946462390c25c322dcb8ee",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-07T08:31:30.484Z",
+    "createdBy": "68939dfb9bdb0a03fa3fa19d",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RtPETBGYBAQ24lU8oMgmHQN",
+    "paymentCustomer": "cus_Sp3IdXS5G5YMYQ"
+  },
+  {
     "_id": "689627df33795230c7e91222",
     "type": "stripe",
     "method": "card",
@@ -4528,6 +6304,60 @@
     "paymentCustomer": "cus_SpYOyEXOxXsRPR"
   },
   {
+    "_id": "6899b811e0fbaacd393a1fa5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Rus2xBGYBAQ24lUcPlGdSuE",
+      "name": "Tiago Ramalho",
+      "brand": "Visa",
+      "last4": "1066",
+      "country": "JP",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1Rus39BGYBAQ24lUWnYfWq1O"
+      },
+      "expirationYear": 2025,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-08-11T09:29:53.439Z",
+    "createdBy": "6899b80bdb08962261258d84",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1Rus2xBGYBAQ24lUcPlGdSuE",
+    "paymentCustomer": "cus_SqZBho53WhI73x"
+  },
+  {
+    "_id": "6899c89b054eedc1bef5b395",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Rut9LBGYBAQ24lUJwjtL1qp",
+      "name": "David Fisiha",
+      "brand": "Visa",
+      "last4": "4773",
+      "country": "GB",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1Rut9TBGYBAQ24lURIjaC9zg"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-08-11T10:40:27.674Z",
+    "createdBy": "6899c897d7853319be3e82a8",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1Rut9LBGYBAQ24lUJwjtL1qp",
+    "paymentCustomer": "cus_SqaKJ3NngFJFaJ"
+  },
+  {
     "_id": "6899d8fde0fbaacd3946d080",
     "type": "stripe",
     "method": "card",
@@ -4550,6 +6380,60 @@
     ],
     "paymentSource": "pm_1RuuF4BGYBAQ24lUifkzak7L",
     "paymentCustomer": "cus_RjPF6hfygfDLb7"
+  },
+  {
+    "_id": "6899e65c29e111099cbc91d5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Ruv81CdbiaQLvgX3RI2rCW1",
+      "name": "W. Cruz",
+      "brand": "Visa",
+      "last4": "4267",
+      "country": "NL",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1Ruv8KCdbiaQLvgX8wfnrViW"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-08-11T12:47:24.835Z",
+    "createdBy": "6899e65a90d473277c2be3a9",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1Ruv81CdbiaQLvgX3RI2rCW1",
+    "paymentCustomer": "cus_SqcNlq4xNhAS4c"
+  },
+  {
+    "_id": "689cf974a60ee97d41cb5c6d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RvlXtBGYBAQ24lU18yOpxMG",
+      "name": "Enredo Veraneante Lda ",
+      "brand": "MasterCard",
+      "last4": "8681",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1RvlYGBGYBAQ24lUvPjatNCv"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 8
+    },
+    "createdAt": "2025-08-13T20:45:40.709Z",
+    "createdBy": "689cf971c704c17d1bf2944e",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1RvlXtBGYBAQ24lU18yOpxMG",
+    "paymentCustomer": "cus_SrUXSVAVlYuo9O"
   },
   {
     "_id": "689da4fbc6e7195ea180e572",
@@ -4619,6 +6503,54 @@
     "paymentCustomer": "cus_StdJZimBaAgpWx"
   },
   {
+    "_id": "68a5b91faefe6b1e3f7a4ac7",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "6016",
+      "country": "ES",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 12
+    },
+    "createdAt": "2025-08-20T12:01:35.748Z",
+    "createdBy": "68a5ad03f8085bbaa46ac374",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1RyAhjCdbiaQLvgXCAiP8fep",
+    "paymentCustomer": "cus_StyeAKtUIJUcG0"
+  },
+  {
+    "_id": "68a8baf290a0d807c15d0c5f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "5393",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 8
+    },
+    "createdAt": "2025-08-22T18:46:10.257Z",
+    "createdBy": "689cf971c704c17d1bf2944e",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RyzxmBGYBAQ24lUVhU8L1le",
+    "paymentCustomer": "cus_SrUXSVAVlYuo9O"
+  },
+  {
     "_id": "68ad949e61dac1b61223341a",
     "type": "stripe",
     "method": "card",
@@ -4643,6 +6575,131 @@
     "paymentCustomer": "cus_Rfz9WzjluOczuD"
   },
   {
+    "_id": "68adaf026c5cb6d5ed117169",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-26T12:56:34.258Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1S0MQNCdbiaQLvgXkyvtW1FB",
+    "paymentCustomer": "cus_SwEqt84hZRKkL1"
+  },
+  {
+    "_id": "68aef7606392722ebce157e5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1S0iHoCdbiaQLvgXWpo03MwJ",
+      "name": "Ekaterina Leushina",
+      "brand": "MasterCard",
+      "last4": "3097",
+      "country": "AM",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1S0iIFCdbiaQLvgXK2uKMZ4w"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 7
+    },
+    "createdAt": "2025-08-27T12:17:36.754Z",
+    "createdBy": "68aef75c5cdda123602bf2aa",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1S0iHoCdbiaQLvgXWpo03MwJ",
+    "paymentCustomer": "cus_SwbVsoWZ2xfuHz"
+  },
+  {
+    "_id": "68af30f0a2ef85d3181faa75",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-27T16:23:12.308Z",
+    "createdBy": "68357f345475af699462381f",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1S0m7vI8B1riowTwSxjYrP1K",
+    "paymentCustomer": "cus_SO5YeDrs64f3hf"
+  },
+  {
+    "_id": "68af33cf474c2ff5aef79661",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1S0mJYCdbiaQLvgXM3WrxC4A",
+      "name": "Dr Paulo Domingues",
+      "brand": "Visa",
+      "last4": "4962",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1S0mJmCdbiaQLvgXUPdn8c6B"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 12
+    },
+    "createdAt": "2025-08-27T16:35:27.575Z",
+    "createdBy": "68af33cc82d0463343d0b447",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1S0mJYCdbiaQLvgXM3WrxC4A",
+    "paymentCustomer": "cus_SwffjTUKEJCIX8"
+  },
+  {
+    "_id": "68b08228895d8fbd91b03216",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1S18a0BGYBAQ24lUTq9CHx2n",
+      "name": "MAURI C GUERREIRO",
+      "brand": "MasterCard",
+      "last4": "9827",
+      "country": "DE",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1S18aJBGYBAQ24lURm1T9sSN"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-08-28T16:22:00.541Z",
+    "createdBy": "68b08224b6e331cec2cf1110",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1S18a0BGYBAQ24lUTq9CHx2n",
+    "paymentCustomer": "cus_Sx2fd9txQa4siG"
+  },
+  {
+    "_id": "68b59cb15acc6ca8615b4f2f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-09-01T13:16:33.120Z",
+    "createdBy": "68b59bf224962b7316ccb457",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1S2Xb2CdbiaQLvgXSaILsS8S",
+    "paymentCustomer": "cus_SyUXGKRVh37qtS"
+  },
+  {
     "_id": "68b72fc7fdd93f00f6f7597d",
     "type": "stripe",
     "method": "card",
@@ -4663,6 +6720,153 @@
     ],
     "paymentSource": "pm_1S2yPyCdbiaQLvgX6iHnqR5V",
     "paymentCustomer": "cus_RtVE0cBPEhkmTU"
+  },
+  {
+    "_id": "68b801b6176291f4927d14bc",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1S3CQ6CdbiaQLvgX28PZCrqH",
+      "name": "Mario Almeida",
+      "brand": "Visa",
+      "last4": "9402",
+      "country": "GB",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1S3CQDCdbiaQLvgXFPsK7nQm"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 7
+    },
+    "createdAt": "2025-09-03T08:52:06.108Z",
+    "createdBy": "68b801b01ee1d28db45ed7ca",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1S3CQ6CdbiaQLvgX28PZCrqH",
+    "paymentCustomer": "cus_SzAlzPzWbhjKS0"
+  },
+  {
+    "_id": "68b879188d24e9dbebfce007",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1S3KMPCdbiaQLvgXeuE1RzZq",
+      "name": "Dina Grigorovitch",
+      "brand": "MasterCard",
+      "last4": "0650",
+      "country": "US",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1S3KN9CdbiaQLvgXGykdVomm"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-09-03T17:21:28.995Z",
+    "createdBy": "68b87914bab191ad371842c4",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1S3KMPCdbiaQLvgXeuE1RzZq",
+    "paymentCustomer": "cus_SzIztbNQjsK19z"
+  },
+  {
+    "_id": "68babba8675a7054aece9796",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "3291",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-09-05T10:30:00.686Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1S3wseCdbiaQLvgXuPCem3Ml",
+    "paymentCustomer": "cus_Syq3nZDAdrQpyb"
+  },
+  {
+    "_id": "68bb06377d9ad2ca86200a7a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1S41rgI8B1riowTwsalOLnXE",
+      "name": "Daniel Marques",
+      "brand": "MasterCard",
+      "last4": "9437",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1S41ruI8B1riowTwlmVsQll0"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-09-05T15:48:07.108Z",
+    "createdBy": "68bb06312df256527b9b9941",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1S41rgI8B1riowTwsalOLnXE",
+    "paymentCustomer": "cus_T01v55YLNxqKAA"
+  },
+  {
+    "_id": "68bdb136a0a624d39e6efbfd",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "4064",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 8
+    },
+    "createdAt": "2025-09-07T16:22:14.038Z",
+    "createdBy": "68927b2915f50b60d111d4e0",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1S4lKgCdbiaQLvgX2l4B5WcL",
+    "paymentCustomer": "cus_SoVfeN88Lv5GuY"
+  },
+  {
+    "_id": "68bee17fc196b39957fc1ec6",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "3429",
+      "country": "CH",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2026,
+      "expirationMonth": 2
+    },
+    "createdAt": "2025-09-08T14:00:31.489Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1S55cMCdbiaQLvgXwn3KNvFO",
+    "paymentCustomer": "cus_T17rqnjW1s7mgh"
   },
   {
     "_id": "68bef92952360393fee94aa7",
@@ -4701,6 +6905,102 @@
     "paymentCustomer": "cus_SPcZ2ACMtj2N2S"
   },
   {
+    "_id": "68c3f64be2993952e61630a0",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1S6UFHCdbiaQLvgXjLZAWLzK",
+      "name": "Julieta Scordo",
+      "brand": "Visa",
+      "last4": "5025",
+      "country": "ES",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1S6UFSCdbiaQLvgXZ2JZ9VGB"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 6
+    },
+    "createdAt": "2025-09-12T10:30:35.261Z",
+    "createdBy": "68c3f64775489473d7d09aad",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1S6UFHCdbiaQLvgXjLZAWLzK",
+    "paymentCustomer": "cus_T2ZOKv9BaHilf5"
+  },
+  {
+    "_id": "68c85988e799106d60e62f97",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "7279",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2025,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-09-15T18:23:04.922Z",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1S7h2uI8B1riowTwY5mKytxK",
+    "paymentCustomer": "cus_T3odsNQtAdlBIL"
+  },
+  {
+    "_id": "68c88c1b6f3b6e5e899707ce",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1S7kPtCdbiaQLvgXh4fLAlKq",
+      "name": "EMELINE DUPONT",
+      "brand": "MasterCard",
+      "last4": "0232",
+      "country": "FR",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1S7kQBCdbiaQLvgXTZVu1TYn"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 2
+    },
+    "createdAt": "2025-09-15T21:58:51.830Z",
+    "createdBy": "68c88c173e0fff17cbe473f4",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1S7kPtCdbiaQLvgXh4fLAlKq",
+    "paymentCustomer": "cus_T3sAJTzOJ4vuOe"
+  },
+  {
+    "_id": "68ca5d491db5f844537522df",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "9546",
+      "country": "GB",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-09-17T07:03:37.368Z",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1S8FFOI8B1riowTw8TBVSbjA",
+    "paymentCustomer": "cus_T4NyylqKxrR2bW"
+  },
+  {
     "_id": "68cd9b5f7cf126f9b77b52be",
     "type": "stripe",
     "method": "card",
@@ -4728,6 +7028,141 @@
     "paymentCustomer": "cus_T5JIRYzZnYddqT"
   },
   {
+    "_id": "68d412585413ca58c3fca90c",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SAutfBGYBAQ24lUUvGFLoCR",
+      "name": "Maria Manuel Saffran Unip Lda",
+      "brand": "Visa",
+      "last4": "1357",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SAutnBGYBAQ24lUeuXUizve"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 3
+    },
+    "createdAt": "2025-09-24T15:46:32.053Z",
+    "createdBy": "68d412550ab0b5f8202887f5",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1SAutfBGYBAQ24lUUvGFLoCR",
+    "paymentCustomer": "cus_T79CQSBkzAhuj1"
+  },
+  {
+    "_id": "68d44f3f0e2a9836ba0dcf4e",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SAyx6I8B1riowTwxcErZ4hH",
+      "name": "Rodrigo Sepriano",
+      "brand": "Visa",
+      "last4": "6846",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SAyxGI8B1riowTwgtjOOjDx"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 12
+    },
+    "createdAt": "2025-09-24T20:06:23.457Z",
+    "createdBy": "68d44f3c0d431570f9973dc3",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1SAyx6I8B1riowTwxcErZ4hH",
+    "paymentCustomer": "cus_T7DOUsicMICEwN"
+  },
+  {
+    "_id": "68dc05afddd48aeea97807e0",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SD6RYCdbiaQLvgXlZRXJELE",
+      "name": "Anibal Castro Fabrica",
+      "brand": "Visa",
+      "last4": "0488",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SD6RmCdbiaQLvgXv3rN7sKK"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 6
+    },
+    "createdAt": "2025-09-30T16:30:39.151Z",
+    "createdBy": "68dc05aa09d21f521fcf9a46",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1SD6RYCdbiaQLvgXlZRXJELE",
+    "paymentCustomer": "cus_T9PGbFNpzr1u9K"
+  },
+  {
+    "_id": "68dd4d225713922a09322a3c",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SDSFRBGYBAQ24lUQv0Yol3a",
+      "name": "Ari Lustbader",
+      "brand": "Visa",
+      "last4": "8233",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1SDSFpBGYBAQ24lUxNYP5YcH"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 2
+    },
+    "createdAt": "2025-10-01T15:47:46.374Z",
+    "createdBy": "68dd4d1d5713922a093228c7",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1SDSFRBGYBAQ24lUQv0Yol3a",
+    "paymentCustomer": "cus_T9lnTi0n9Fimk0"
+  },
+  {
+    "_id": "68e388735dcc578bbf9faf29",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SFAUuCdbiaQLvgXNXeoVnZn",
+      "name": "Xandra",
+      "brand": "Visa",
+      "last4": "2740",
+      "country": "US",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1SFAUwCdbiaQLvgXAYxS02DD"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 12
+    },
+    "createdAt": "2025-10-06T09:14:27.983Z",
+    "createdBy": "68dece2d08ed7cdd70134738",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1SFAUuCdbiaQLvgXNXeoVnZn",
+    "paymentCustomer": "cus_TACICbbfUfqlL2"
+  },
+  {
     "_id": "68e4ec8755a9541271910fac",
     "type": "stripe",
     "method": "card",
@@ -4741,6 +7176,181 @@
     ],
     "paymentSource": "pm_1SFYDCBGYBAQ24lUt5MMKFYt",
     "paymentCustomer": "cus_TBw2JlcJvGSzar"
+  },
+  {
+    "_id": "68e6607012f6bb8f0eaaa0c0",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SFwyeBGYBAQ24lUQ74sDGCp",
+      "name": "SURESTE SEGURIDAD",
+      "brand": "MasterCard",
+      "last4": "9020",
+      "country": "ES",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SFwyqBGYBAQ24lU8NEeiDyp"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 6
+    },
+    "createdAt": "2025-10-08T13:00:32.732Z",
+    "createdBy": "68e6606d7c54a4df3468bc59",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1SFwyeBGYBAQ24lUQ74sDGCp",
+    "paymentCustomer": "cus_TCLgAdPf2agPqD"
+  },
+  {
+    "_id": "68e7f726a6c0cc857798e78d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SGO3qCdbiaQLvgX550MlXIk",
+      "name": "Alexey Pisarevskiy",
+      "brand": "Visa",
+      "last4": "3538",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SGO49CdbiaQLvgXjFlB3dMD"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-10-09T17:55:50.401Z",
+    "createdBy": "68e7f0b9874246e9960181d4",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1SGO3qCdbiaQLvgX550MlXIk",
+    "paymentCustomer": "cus_TCnfRK3By7Ml7o"
+  },
+  {
+    "_id": "68e91f33678a68dd708db6b3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "4790",
+      "country": "IE",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 3
+    },
+    "createdAt": "2025-10-10T14:58:59.746Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SGhlwCdbiaQLvgXYzfNT2SB",
+    "paymentCustomer": "cus_TD7k3K2ZOzgREY"
+  },
+  {
+    "_id": "68ee8647821bb69faf77d3d7",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SIBt0BGYBAQ24lUa80jZVdr",
+      "name": "Arjun Nair",
+      "brand": "Visa",
+      "last4": "9130",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SIBtKBGYBAQ24lUlsYlEg9B"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-10-14T17:20:07.324Z",
+    "createdBy": "68ee86443c63158db22dbcfc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1SIBt0BGYBAQ24lUa80jZVdr",
+    "paymentCustomer": "cus_TEfDurO8EDeWJ9"
+  },
+  {
+    "_id": "68ef66be0a240c18aa94bb38",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SIQprBGYBAQ24lUNUEgr4FF",
+      "name": "Ana Figueiras",
+      "brand": "MasterCard",
+      "last4": "6014",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SIQqABGYBAQ24lUCDhl1SiI"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-10-15T09:17:50.832Z",
+    "createdBy": "68ef66bb9b2eac94c22c3969",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1SIQprBGYBAQ24lUNUEgr4FF",
+    "paymentCustomer": "cus_TEuf1IW5Ag7L11"
+  },
+  {
+    "_id": "68f086aa879c7187c9a5fb36",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "4240",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-10-16T05:46:18.140Z",
+    "createdBy": "67d30aa2392338cbeedbcd71",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SIk0CCdbiaQLvgXfnERr1Vl",
+    "paymentCustomer": "cus_Rw72tbNTBgrT3f"
+  },
+  {
+    "_id": "68f13cdd11fcce47d026613f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "8949",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2030,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-10-16T18:43:41.205Z",
+    "createdBy": "682e2b6c170357273d439b61",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SIw96CdbiaQLvgXmm2TpFOG",
+    "paymentCustomer": "cus_SM0S56Z92cVzJ2"
   },
   {
     "_id": "68f5f41acfca3c48afdf1deb",
@@ -4762,6 +7372,396 @@
     ],
     "paymentSource": "pm_1SKEVhBGYBAQ24lUD5uiATwA",
     "paymentCustomer": "cus_TGm3s5fa5PAa4w"
+  },
+  {
+    "_id": "68f5fc0083bb97f7cacde193",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SKF4KI8B1riowTwSiP0Sf4M",
+      "name": "BRUNA VAZ ALVES",
+      "brand": "MasterCard",
+      "last4": "0419",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SKF4dI8B1riowTw0f86soxz"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-10-20T09:08:16.488Z",
+    "createdBy": "68f5fbfce47272db49d7bf31",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1SKF4KI8B1riowTwSiP0Sf4M",
+    "paymentCustomer": "cus_TGmdTs4XQ8hTZ9"
+  },
+  {
+    "_id": "68f61295e47272db49e01c90",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SKGZeCdbiaQLvgXFruRGG2k",
+      "name": "STEPHANE SALEMA",
+      "brand": "MasterCard",
+      "last4": "8845",
+      "country": "FR",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SKGZtCdbiaQLvgX88xKwG9J"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-10-20T10:44:37.685Z",
+    "createdBy": "68f61292dc154f527de9af87",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1SKGZeCdbiaQLvgXFruRGG2k",
+    "paymentCustomer": "cus_TGoC04WnU8rxJn"
+  },
+  {
+    "_id": "68f6965c302f0736f5314f80",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "2907",
+      "country": "CH",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2030,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-10-20T20:06:52.532Z",
+    "createdBy": "68f111e0f8644179e70fdf1f",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1SKPLuBGYBAQ24lUdD90vEkZ",
+    "paymentCustomer": "cus_TGxGuI5rvA2IEU"
+  },
+  {
+    "_id": "68f7a8d5f3f13b64f3f71540",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "American Express",
+      "last4": "1548",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 8
+    },
+    "createdAt": "2025-10-21T15:37:57.612Z",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1SKhdDI8B1riowTwFHNopWGL",
+    "paymentCustomer": "cus_THG9zKRP2XRAxo"
+  },
+  {
+    "_id": "68f8a0115039e995bf577e23",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SKy5yBGYBAQ24lUqn0XVQz4",
+      "name": "Alireza Hosseini",
+      "brand": "Visa",
+      "last4": "3780",
+      "country": "DE",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SKy68BGYBAQ24lUL5hVjJl0"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 7
+    },
+    "createdAt": "2025-10-22T09:12:49.002Z",
+    "createdBy": "68f8a00d5a06a5913771e53e",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1SKy5yBGYBAQ24lUqn0XVQz4",
+    "paymentCustomer": "cus_THXATOuBLtX8om"
+  },
+  {
+    "_id": "68f8a2df5a06a591377306b6",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "3780",
+      "country": "DE",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 7
+    },
+    "createdAt": "2025-10-22T09:24:47.755Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1SKyHgBGYBAQ24lUlcb6LsLo",
+    "paymentCustomer": "cus_THXM0XPFspqn3i"
+  },
+  {
+    "_id": "68f8f5dc750c65af4f9342a5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SL3oEBGYBAQ24lUkdDSIDsp",
+      "name": "Jebril Mohamed",
+      "brand": "MasterCard",
+      "last4": "1900",
+      "country": "GB",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SL3oOBGYBAQ24lUVq5dEFkQ"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-10-22T15:18:52.824Z",
+    "createdBy": "68f8f5d9aa2f4802aabc53ce",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1SL3oEBGYBAQ24lUkdDSIDsp",
+    "paymentCustomer": "cus_THd4M8qxGRQzdx"
+  },
+  {
+    "_id": "68f921275e033bcf7dec2b6e",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SL6gyI8B1riowTwHvnchgSe",
+      "name": "Bruno Anibal",
+      "brand": "Visa",
+      "last4": "2087",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SL6h9I8B1riowTw7T6s8hya"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 6
+    },
+    "createdAt": "2025-10-22T18:23:35.831Z",
+    "createdBy": "68f92124bf8a00317d6b0d95",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1SL6gyI8B1riowTwHvnchgSe",
+    "paymentCustomer": "cus_THg3YtWk2KD3AB"
+  },
+  {
+    "_id": "68fa398079f88ca9c4e18844",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "5540",
+      "country": "IN",
+      "funding": "prepaid",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-10-23T14:19:44.941Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SLPMdCdbiaQLvgXPEtbNQIl",
+    "paymentCustomer": "cus_TGwDF9jVtSOLWB"
+  },
+  {
+    "_id": "68fde98a8c31a9d28015eb2a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "3207",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-10-26T09:27:38.817Z",
+    "createdBy": "68fb7d2d9baad5d00fc56507",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SMQDZCdbiaQLvgXvUSwaJGu",
+    "paymentCustomer": "cus_TJ2HgctClsdMEv"
+  },
+  {
+    "_id": "690377edc4f64d06dfed2c42",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SNwxQCdbiaQLvgX7WGlv2iE",
+      "name": "Mundo Perseverante",
+      "brand": "MasterCard",
+      "last4": "3861",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SNwxlCdbiaQLvgXMOA6BvlB"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-10-30T14:36:29.840Z",
+    "createdBy": "690377eac4f64d06dfed2b82",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1SNwxQCdbiaQLvgX7WGlv2iE",
+    "paymentCustomer": "cus_TKcCv0MF6QkwSR"
+  },
+  {
+    "_id": "690495dbfdf4e264c52a060a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "3529",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-10-31T10:56:27.154Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SOG0HCdbiaQLvgX7ZU8eNR0",
+    "paymentCustomer": "cus_TKvpbivOCBTF1m"
+  },
+  {
+    "_id": "690498202ae1f5d1a1c1958b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "3140",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 8
+    },
+    "createdAt": "2025-10-31T11:06:08.598Z",
+    "createdBy": "69034fc3159397e876913f8d",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1SOG9OBGYBAQ24lUxCO8YqeM",
+    "paymentCustomer": "cus_TKvzBGQbCcM7s2"
+  },
+  {
+    "_id": "6904b36dc29f232039a24673",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "8407",
+      "country": "GB",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2030,
+      "expirationMonth": 7
+    },
+    "createdAt": "2025-10-31T13:02:37.627Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SOHy6CdbiaQLvgX6F3v64Za",
+    "paymentCustomer": "cus_TKxtoQAorOZIBX"
+  },
+  {
+    "_id": "69088dc52e2366104914eaec",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SPLevCdbiaQLvgX7TeemQ2T",
+      "name": "maria silva",
+      "brand": "Visa",
+      "last4": "8967",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SPLf6CdbiaQLvgXABNYu8Bz"
+      },
+      "expirationYear": 2025,
+      "expirationMonth": 12
+    },
+    "createdAt": "2025-11-03T11:11:01.440Z",
+    "createdBy": "69088dc24f971aee5fa7bbf9",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1SPLevCdbiaQLvgX7TeemQ2T",
+    "paymentCustomer": "cus_TM3mMAEkIJlGFq"
+  },
+  {
+    "_id": "69088de1de88a3e6068ae0f9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SPLfHCdbiaQLvgXE7UBXyy1",
+      "name": "Tania Pires ",
+      "brand": "Visa",
+      "last4": "2243",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SPLfYCdbiaQLvgXvlNtvjYk"
+      },
+      "expirationYear": 2025,
+      "expirationMonth": 12
+    },
+    "createdAt": "2025-11-03T11:11:29.219Z",
+    "createdBy": "69088dde2895affe7799a744",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1SPLfHCdbiaQLvgXE7UBXyy1",
+    "paymentCustomer": "cus_TM3njtmYc3aSjL"
   },
   {
     "_id": "6908b5f02537baa14cc1fffa",
@@ -4786,6 +7786,291 @@
     "paymentCustomer": "cus_RxXn4IwdBGeZyK"
   },
   {
+    "_id": "6908d45841be6c563312cb64",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SPQMNI8B1riowTwuxY7M12j",
+      "name": "Pedro Reis",
+      "brand": "MasterCard",
+      "last4": "9481",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SPQMVI8B1riowTw1yN3Qyqa"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-11-03T16:12:08.283Z",
+    "createdBy": "6908d10a2537baa14cd0f2f4",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1SPQMNI8B1riowTwuxY7M12j",
+    "paymentCustomer": "cus_TM8dzGkdoSTMn5"
+  },
+  {
+    "_id": "6908dcc9a17d735e502e3632",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SPQvDCdbiaQLvgXMiVfF0z6",
+      "name": "Derrick Healy",
+      "brand": "MasterCard",
+      "last4": "3148",
+      "country": "IE",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SPQvMCdbiaQLvgXPCndBQsQ"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-11-03T16:48:09.417Z",
+    "createdBy": "6908dcc6cb70fb4b963738c3",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1SPQvDCdbiaQLvgXMiVfF0z6",
+    "paymentCustomer": "cus_TM9DDNp1ebko1l"
+  },
+  {
+    "_id": "690a03ace409968472e20e38",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-11-04T13:46:20.916Z",
+    "createdBy": "6909ec78c216bb4ade705db9",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SPkYxCdbiaQLvgXnbR7Jx8h",
+    "paymentCustomer": "cus_TMRvteGsyalpbe"
+  },
+  {
+    "_id": "690e1ee9ef9d6067a85164d8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SQsZICdbiaQLvgXrQFiyeJO",
+      "name": "Luisa Viegas Piló",
+      "brand": "Visa",
+      "last4": "6407",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1SQsZYCdbiaQLvgXMopKhtCA"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-11-07T16:31:37.447Z",
+    "createdBy": "690e1d94ef9d6067a850e89f",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1SQsZICdbiaQLvgXrQFiyeJO",
+    "paymentCustomer": "cus_TNdrghEFnVQDRV"
+  },
+  {
+    "_id": "6915d62bae393d41e94a9833",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1ST07QCdbiaQLvgXwPk8aFjN",
+      "name": "All Colors Of Communication",
+      "brand": "Visa",
+      "last4": "0968",
+      "country": "BE",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1ST07TCdbiaQLvgXIeht1EO0"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 8
+    },
+    "createdAt": "2025-11-13T12:59:23.632Z",
+    "createdBy": "68dfd5a86906d72e4b699440",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1ST07QCdbiaQLvgXwPk8aFjN",
+    "paymentCustomer": "cus_TPpn4mCHQMjTVL"
+  },
+  {
+    "_id": "6916f029c9d2bfa21dc6e9f3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "1235",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2026,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-11-14T09:02:33.958Z",
+    "createdBy": "690b6ad6875edeae87c26bd3",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1STItbI8B1riowTwudzXaz9Z",
+    "paymentCustomer": "cus_TQ97yBAC0hrzAr"
+  },
+  {
+    "_id": "691aff620110609c8486247c",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "4507",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-11-17T10:56:34.308Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1SUQ6lI8B1riowTwPXkoGuOO",
+    "paymentCustomer": "cus_TL7y4t6UKx1LId"
+  },
+  {
+    "_id": "691c76a1bf1525c1ff322541",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "4171",
+      "country": "DE",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-11-18T13:37:37.880Z",
+    "createdBy": "691b5a943c81102d4a2a3c8e",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SUp5qCdbiaQLvgX3azK2Bni",
+    "paymentCustomer": "cus_TRiV4QnQBPWOTH"
+  },
+  {
+    "_id": "691f2d6cf5b44cbd8945cb26",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "7265",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-11-20T15:02:04.014Z",
+    "createdBy": "691f182a7e8b957e8df9b9b8",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1SVZLGBGYBAQ24lUcVqEKcV0",
+    "paymentCustomer": "cus_TSUIx4uILjSHya"
+  },
+  {
+    "_id": "692075bb6f5bec290eefb5de",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SVvEUBGYBAQ24lUFpKC1t6a",
+      "name": "SEBASTIEN LESIEUX",
+      "brand": "Visa",
+      "last4": "5859",
+      "country": "GB",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SVvEcBGYBAQ24lUjaqhNjDZ"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-11-21T14:22:51.460Z",
+    "createdBy": "692075b82c9e6b06668ab0dc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1SVvEUBGYBAQ24lUFpKC1t6a",
+    "paymentCustomer": "cus_TSqwRq9xsdUnYs"
+  },
+  {
+    "_id": "692096e0b236dcd47b1cba8f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "1328",
+      "country": "DK",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2027,
+      "expirationMonth": 2
+    },
+    "createdAt": "2025-11-21T16:44:16.979Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SVxQUCdbiaQLvgXUpQnblgg",
+    "paymentCustomer": "cus_TSrD0JOe5pyflN"
+  },
+  {
+    "_id": "692478aa42ef5437d328d8bd",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "8100",
+      "country": "GB",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2030,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-11-24T15:24:26.283Z",
+    "createdBy": "686e2b0846b513685aaa9a2a",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1SX1bcI8B1riowTwVJF5wYt1",
+    "paymentCustomer": "cus_TM6QvIwz91y1tp"
+  },
+  {
     "_id": "6926d988b4c7a13e48410e15",
     "type": "stripe",
     "method": "card",
@@ -4799,6 +8084,87 @@
     ],
     "paymentSource": "pm_1SXgAtBGYBAQ24lUp7AowLcQ",
     "paymentCustomer": "cus_QPymHi8hImiGO5"
+  },
+  {
+    "_id": "69270ee59653503f16e0d341",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SXjj8I8B1riowTwdGI7wAHn",
+      "name": "Sandor Pal",
+      "brand": "MasterCard",
+      "last4": "6363",
+      "country": "GB",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SXjjEI8B1riowTwpKoHo5TT"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-11-26T14:29:57.234Z",
+    "createdBy": "692050c889806dd35045d941",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1SXjj8I8B1riowTwdGI7wAHn",
+    "paymentCustomer": "cus_TUjBs8eUfifzde"
+  },
+  {
+    "_id": "69284697e66a681e134718a3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SY4UCBGYBAQ24lUeiFXAdwj",
+      "name": "Instant Relocation Portugal",
+      "brand": "MasterCard",
+      "last4": "4423",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SY4UEBGYBAQ24lUZq9aF4bU"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-11-27T12:39:51.569Z",
+    "createdBy": "692065e6145c81fa1e7efc54",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1SY4UCBGYBAQ24lUeiFXAdwj",
+    "paymentCustomer": "cus_TV4dhGAqQqR5kx"
+  },
+  {
+    "_id": "69299208c215c9257e3cca47",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SYQYaCdbiaQLvgXcqXHwBrj",
+      "name": "ANDERSON BITTENCOURT",
+      "brand": "MasterCard",
+      "last4": "3916",
+      "country": "DE",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SYQYlCdbiaQLvgX7EjcHfi6"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-11-28T12:14:00.531Z",
+    "createdBy": "692992042c6696eb71b61452",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1SYQYaCdbiaQLvgXcqXHwBrj",
+    "paymentCustomer": "cus_TVRRvw0TZ0Ppjx"
   },
   {
     "_id": "69308c463074401cc9eb9134",
@@ -4816,6 +8182,28 @@
     "paymentCustomer": "cus_RJ2nPLgmSuaFEa"
   },
   {
+    "_id": "6931a8c5b5bc328a12ad6856",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "3792",
+      "country": "NL",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 6
+    },
+    "createdAt": "2025-12-04T15:29:09.760Z",
+    "createdBy": "69307196a4996dab867c2862",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1SaeSMI8B1riowTwBGvVFIBT",
+    "paymentCustomer": "cus_TXOXxtI5J6TjI4"
+  },
+  {
     "_id": "693fec4ac53b038992755ef0",
     "type": "stripe",
     "method": "card",
@@ -4829,6 +8217,114 @@
     ],
     "paymentSource": "pm_1SeZe9BGYBAQ24lURte4uiqc",
     "paymentCustomer": "cus_QPLl9YUyHyr93v"
+  },
+  {
+    "_id": "693fedaba0bd73f89cc0c89a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SeZjYBGYBAQ24lUOkMURND1",
+      "name": "Miguel Elias",
+      "brand": "Visa",
+      "last4": "7186",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SeZjrBGYBAQ24lU0nNfgsz5"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-12-15T11:14:51.851Z",
+    "createdBy": "693feda7c708dfd0e5c9dfd1",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1SeZjYBGYBAQ24lUOkMURND1",
+    "paymentCustomer": "cus_TbnKbDC7rQpN25"
+  },
+  {
+    "_id": "69417a7c44fdcf7afdb070a5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Sf0A6CdbiaQLvgXN4RMXtOV",
+      "name": "ICA - Ind com alimentar",
+      "brand": "Visa",
+      "last4": "3052",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1Sf0AJCdbiaQLvgX06KmqQvo"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-12-16T15:27:56.482Z",
+    "createdBy": "69417a792115a3634b29744d",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1Sf0A6CdbiaQLvgXN4RMXtOV",
+    "paymentCustomer": "cus_TcEdwdSKLSWHD5"
+  },
+  {
+    "_id": "6943d9e6dd117f9be061ef2a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SfebzI8B1riowTwMFmUFECh",
+      "name": "Diogo Palha",
+      "brand": "MasterCard",
+      "last4": "7081",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SfecLI8B1riowTwQ43GlahQ"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 7
+    },
+    "createdAt": "2025-12-18T10:39:34.242Z",
+    "createdBy": "6943d9e3997bf41e2f1d11ba",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1SfebzI8B1riowTwMFmUFECh",
+    "paymentCustomer": "cus_TcuRTJAd2hEX4Y"
+  },
+  {
+    "_id": "6947e69bccd6a06744696e70",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SglecCdbiaQLvgXbtjsey9z",
+      "name": "JOAO MAIA",
+      "brand": "MasterCard",
+      "last4": "7732",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SglexCdbiaQLvgXG4hLmPgT"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-12-21T12:22:51.815Z",
+    "createdBy": "6947e698ccd6a06744696d30",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1SglecCdbiaQLvgXbtjsey9z",
+    "paymentCustomer": "cus_Te3mTItVapPPzg"
   },
   {
     "_id": "6948f626c3bf42af16f65310",
@@ -4858,6 +8354,111 @@
     "paymentCustomer": "cus_TeMOs3bx4AoceA"
   },
   {
+    "_id": "694bb9a6e2aebcf70a6c9d82",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-12-24T10:00:06.483Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1ShorPCdbiaQLvgXLzSqIi9P",
+    "paymentCustomer": "cus_Tf8ypg9YjWjrCv"
+  },
+  {
+    "_id": "6952a15e9c51c1593d31d341",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Sjia5CdbiaQLvgXkSNt6aHE",
+      "name": "Geir Holmer",
+      "brand": "American Express",
+      "last4": "1000",
+      "country": "GB",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SjiaPCdbiaQLvgXiJf8CyKg"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 6
+    },
+    "createdAt": "2025-12-29T15:42:22.380Z",
+    "createdBy": "6952a1591cc3ef506372ad6a",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1Sjia5CdbiaQLvgXkSNt6aHE",
+    "paymentCustomer": "cus_Th6oruqf43pXr7"
+  },
+  {
+    "_id": "69553a63a9f589a0718cf537",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "6938",
+      "country": "GB",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 8
+    },
+    "createdAt": "2025-12-31T14:59:47.168Z",
+    "createdBy": "6955370ca9f589a0718b7e67",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1SkQrzI8B1riowTwHr0T7ldE",
+    "paymentCustomer": "cus_ThqQk3WMiaviQC"
+  },
+  {
+    "_id": "6957d725f459ef70c02a7387",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-01-02T14:33:09.985Z",
+    "createdBy": "694675d4494dc2e96eccb36e",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Sl9PcBGYBAQ24lUajew5EWv",
+    "paymentCustomer": "cus_TdePL0HhCnjWui"
+  },
+  {
+    "_id": "695828e7ef38a13a4469baee",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SlEr6BGYBAQ24lUPIiDYAJY",
+      "name": "Anton Lebodkin",
+      "brand": "MasterCard",
+      "last4": "1455",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SlErDBGYBAQ24lUlHL4UOJ1"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 1
+    },
+    "createdAt": "2026-01-02T20:21:59.690Z",
+    "createdBy": "695828e4f459ef70c04a49bd",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1SlEr6BGYBAQ24lUPIiDYAJY",
+    "paymentCustomer": "cus_TigDa6Xwvxaslf"
+  },
+  {
     "_id": "695ba601a3aa82849a998645",
     "type": "stripe",
     "method": "card",
@@ -4877,6 +8478,198 @@
     ],
     "paymentSource": "pm_1SmCKkCdbiaQLvgXpwh79J58",
     "paymentCustomer": "cus_Rfz86OMVrdeUZY"
+  },
+  {
+    "_id": "695be300ea2228a77d660bd9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-01-05T16:12:48.212Z",
+    "createdBy": "6790e8dde7b0e229245a2eba",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SmGOhCdbiaQLvgXzHSMNXF2",
+    "paymentCustomer": "cus_TjimJPG8sN5bOF"
+  },
+  {
+    "_id": "695e6d80f493e4ee38aaafaf",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SmxiOBGYBAQ24lUriaJNrQ3",
+      "name": "Anton Pryimak",
+      "brand": "Visa",
+      "last4": "7645",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SmxidBGYBAQ24lUlQzVzHbO"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 2
+    },
+    "createdAt": "2026-01-07T14:28:16.276Z",
+    "createdBy": "695e6d7c4476d10b777a0f74",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1SmxiOBGYBAQ24lUriaJNrQ3",
+    "paymentCustomer": "cus_TkSdQla27eyQtU"
+  },
+  {
+    "_id": "695f747f7322bec4844306a8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SnFEJCdbiaQLvgXRNr1EcFb",
+      "name": "Mariia Taran",
+      "brand": "MasterCard",
+      "last4": "2798",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1SnFEXCdbiaQLvgXmDsDzzbo"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 11
+    },
+    "createdAt": "2026-01-08T09:10:23.323Z",
+    "createdBy": "695f747a6eec62e8f086b2c4",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1SnFEJCdbiaQLvgXRNr1EcFb",
+    "paymentCustomer": "cus_TkkjUf0wj9w8JS"
+  },
+  {
+    "_id": "696018b15bbe1eed12a7224b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SnQAGI8B1riowTwg0Pj8rxg",
+      "name": "Filipe Almeida",
+      "brand": "Visa",
+      "last4": "4145",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SnQAWI8B1riowTw2EV9qpyZ"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 1
+    },
+    "createdAt": "2026-01-08T20:50:57.447Z",
+    "createdBy": "696018aeea618f3697668f88",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1SnQAGI8B1riowTwg0Pj8rxg",
+    "paymentCustomer": "cus_Tkw2BDc9RMlscB"
+  },
+  {
+    "_id": "6960e7807e585f941bfca65b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Sndw7CdbiaQLvgXqVEwGi6z",
+      "name": "Vitalii Levchenko",
+      "brand": "MasterCard",
+      "last4": "5562",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "unavailable",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1SndwRCdbiaQLvgXvrIDUplU"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 6
+    },
+    "createdAt": "2026-01-09T11:33:20.794Z",
+    "createdBy": "6960e77b5d780d68dd538b71",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1Sndw7CdbiaQLvgXqVEwGi6z",
+    "paymentCustomer": "cus_TlAGmP1U3YSmcA"
+  },
+  {
+    "_id": "6964e190bf9fffb2aa106b03",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SojjzCdbiaQLvgXOLLWrxh7",
+      "name": "Mooddie Digital Data",
+      "brand": "Visa",
+      "last4": "9729",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1Sojk3CdbiaQLvgX59QSumVH"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 2
+    },
+    "createdAt": "2026-01-12T11:57:04.209Z",
+    "createdBy": "6964e173c3c334bd77043aea",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1SojjzCdbiaQLvgXOLLWrxh7",
+    "paymentCustomer": "cus_TmIKdDEsTqsu53"
+  },
+  {
+    "_id": "6964e49082275b64110028b5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-01-12T12:09:52.606Z",
+    "createdBy": "6964e173c3c334bd77043aea",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SojwRCdbiaQLvgXd90XuSjf",
+    "paymentCustomer": "cus_TmIKdDEsTqsu53"
+  },
+  {
+    "_id": "6967ac4aeec89858f7aed8ac",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SpVKxI8B1riowTwPdLgFnV9",
+      "name": "Lukasz Kulczynski",
+      "brand": "MasterCard",
+      "last4": "6740",
+      "country": "PL",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SpVLCI8B1riowTwMSTuHSIQ"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 2
+    },
+    "createdAt": "2026-01-14T14:46:34.854Z",
+    "createdBy": "6967ac4757990290372da132",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1SpVKxI8B1riowTwPdLgFnV9",
+    "paymentCustomer": "cus_Tn5WSMwp90Y59t"
   },
   {
     "_id": "696da0d130e5bb65387babe3",
@@ -4901,6 +8694,281 @@
     ],
     "paymentSource": "pm_1Sr8rzBGYBAQ24lUDrCodowU",
     "paymentCustomer": "cus_QYVNcFOvTB5qJU"
+  },
+  {
+    "_id": "696e4c785f570a2ef9710554",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "0188",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 6
+    },
+    "createdAt": "2026-01-19T15:23:36.875Z",
+    "createdBy": "6909d38ffd0469a980d7b794",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SrKIJCdbiaQLvgX8od08ZaV",
+    "paymentCustomer": "cus_TMQClOMfn12tN4"
+  },
+  {
+    "_id": "696e51e2192fca82fc1e8160",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "5860",
+      "country": "CH",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-01-19T15:46:42.188Z",
+    "createdBy": "695ea590efafabff0b8f2775",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SrKf5CdbiaQLvgXmwgyEqV2",
+    "paymentCustomer": "cus_TkWVuXvwTmxvDC"
+  },
+  {
+    "_id": "696e795d27da21b7d8314875",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "6003",
+      "country": "GR",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 3
+    },
+    "createdAt": "2026-01-19T18:35:09.919Z",
+    "createdBy": "691112f2dbf7019ca540fa22",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1SrNI7I8B1riowTw65blVU5C",
+    "paymentCustomer": "cus_Tp1KV8DUEWHt4j"
+  },
+  {
+    "_id": "6970fce336856e9a0df0a8db",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Ss48vI8B1riowTwqtyIqwVq",
+      "name": "Tim Collart",
+      "brand": "MasterCard",
+      "last4": "8572",
+      "country": "BE",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1Ss49HI8B1riowTwrbb3Yfms"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 12
+    },
+    "createdAt": "2026-01-21T16:20:51.725Z",
+    "createdBy": "6970fce0860f51c9ddc768dd",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1Ss48vI8B1riowTwqtyIqwVq",
+    "paymentCustomer": "cus_TpjcxqRQO3wv6K"
+  },
+  {
+    "_id": "697126248e585c772e5f6144",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "0508",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 11
+    },
+    "createdAt": "2026-01-21T19:16:52.996Z",
+    "createdBy": "6759e0bab8995a243086441e",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1Ss6taI8B1riowTwQflriijc",
+    "paymentCustomer": "cus_SJMkHPOO5piaVl"
+  },
+  {
+    "_id": "69720745d76508632fc83658",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SsLsyCdbiaQLvgX03mqXTJz",
+      "name": "Heidi DeCoux ",
+      "brand": "Visa",
+      "last4": "8823",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1SsLtACdbiaQLvgXqkLFdlKk"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 11
+    },
+    "createdAt": "2026-01-22T11:17:25.309Z",
+    "createdBy": "697207418b5220e17b6de723",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1SsLsyCdbiaQLvgX03mqXTJz",
+    "paymentCustomer": "cus_Tq1xuzrQprLr1S"
+  },
+  {
+    "_id": "6978a95bbd56a434873ec872",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SuAySBGYBAQ24lUhxOkcF27",
+      "name": "Jay Digital Hub, Lda.",
+      "brand": "Visa",
+      "last4": "0010",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1SuAycBGYBAQ24lUNTZp7Hu6"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 2
+    },
+    "createdAt": "2026-01-27T12:02:35.406Z",
+    "createdBy": "6978a8ad80cf7c7869df7a12",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1SuAySBGYBAQ24lUhxOkcF27",
+    "paymentCustomer": "cus_TrulM0mVXEcc1m"
+  },
+  {
+    "_id": "697c744ee79d8402ed2f1796",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "8692",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 5
+    },
+    "createdAt": "2026-01-30T09:05:18.605Z",
+    "createdBy": "68074a753c6a81a810bdb2d7",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1SvDdcI8B1riowTwqwWzaUzZ",
+    "paymentCustomer": "cus_TszUmVBYoyzUEv"
+  },
+  {
+    "_id": "697f8d16cff1431983d05b49",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Sw4QlCdbiaQLvgXliRzpzxx",
+      "name": "Fernando Castro Fontes Pereira",
+      "brand": "Visa",
+      "last4": "7350",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1Sw4R8CdbiaQLvgXgCZNPM8j"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 6
+    },
+    "createdAt": "2026-02-01T17:27:50.799Z",
+    "createdBy": "697f8d13cff1431983d05ac8",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1Sw4QlCdbiaQLvgXliRzpzxx",
+    "paymentCustomer": "cus_TtsBCnFsaHkp81"
+  },
+  {
+    "_id": "6981b1abcccf74a03061756d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "9246",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2031,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-02-03T08:28:27.311Z",
+    "createdBy": "660a0dbf2f1f841f2fe511d9",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SweyACdbiaQLvgXKo8bOQvz",
+    "paymentCustomer": "cus_TJo3tGq2idBi2Y"
+  },
+  {
+    "_id": "698a0981c76783625b303d78",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1SyxCpBGYBAQ24lUGPEosfan",
+      "name": "Valentin Fakhrutdinov",
+      "brand": "MasterCard",
+      "last4": "8548",
+      "country": "KZ",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1SyxD9BGYBAQ24lURdIZk3iO"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 9
+    },
+    "createdAt": "2026-02-09T16:21:21.678Z",
+    "createdBy": "698a097bdfd746ac26ebf539",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1SyxCpBGYBAQ24lUGPEosfan",
+    "paymentCustomer": "cus_TwquZKlpgkz6ci"
   },
   {
     "_id": "698cf33f9ffccdb8512e265e",
@@ -4952,6 +9020,132 @@
     "paymentCustomer": "cus_TyCrnz3xK7kkBS"
   },
   {
+    "_id": "698f02ee18f88542a536a38a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1T0K0yI8B1riowTw8LcxNtsf",
+      "name": "Patrick van Egmond",
+      "brand": "Visa",
+      "last4": "9308",
+      "country": "LU",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1T0K1CI8B1riowTwtPYwHouh"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-02-13T10:54:38.852Z",
+    "createdBy": "698f02ea9b4c332ba2ea41d2",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1T0K0yI8B1riowTw8LcxNtsf",
+    "paymentCustomer": "cus_TyGYLjpE700OfX"
+  },
+  {
+    "_id": "698f5bcd054f33d742ac1717",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1T0PvsI8B1riowTwljkt6V9q",
+      "name": "JOAO DANIEL PARTILHAMANIA LDA",
+      "brand": "MasterCard",
+      "last4": "1608",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1T0Pw9I8B1riowTwMIpXq5fc"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 12
+    },
+    "createdAt": "2026-02-13T17:13:49.743Z",
+    "createdBy": "698f5bca18f88542a55b2ae4",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1T0PvsI8B1riowTwljkt6V9q",
+    "paymentCustomer": "cus_TyMfDYLQkzbk9v"
+  },
+  {
+    "_id": "6992fc8a00a636dd47bfa945",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "0593",
+      "country": "TR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 3
+    },
+    "createdAt": "2026-02-16T11:16:26.125Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1T1PmrBGYBAQ24lUPteOY2Ih",
+    "paymentCustomer": "cus_SlMmg2iyvysPQW"
+  },
+  {
+    "_id": "6992ffcd8625e9f52667cf6b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1T1Q08I8B1riowTwDYf6hVQR",
+      "name": "Sergey Sotnichenko",
+      "brand": "Visa",
+      "last4": "6189",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1T1Q0OI8B1riowTwhhQ7wQMu"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 12
+    },
+    "createdAt": "2026-02-16T11:30:21.332Z",
+    "createdBy": "6992ffc9e7b7f10ad8cf36fe",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1T1Q08I8B1riowTwDYf6hVQR",
+    "paymentCustomer": "cus_TzOn9wHyxu1P4J"
+  },
+  {
+    "_id": "6995bbc37e05830f323d7e0e",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "7013",
+      "country": "GB",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 6
+    },
+    "createdAt": "2026-02-18T13:16:51.106Z",
+    "createdBy": "685537babe4b966163d9d52b",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1T2AbzCdbiaQLvgXtNQrnVh2",
+    "paymentCustomer": "cus_SX6NJVMS8t4S9V"
+  },
+  {
     "_id": "6995c524988fb2f8bfa030c8",
     "type": "stripe",
     "method": "card",
@@ -4982,6 +9176,21 @@
     "paymentCustomer": "cus_QPCSKlnAZRN3DK"
   },
   {
+    "_id": "69986dcf1c6356625b5ae04f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-02-20T14:21:03.401Z",
+    "createdBy": "660a0e9c3730f742064ced0f",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1T2uZmBGYBAQ24lUqaXRd6aJ",
+    "paymentCustomer": "cus_QPKwTJC62PwW98"
+  },
+  {
     "_id": "699c69b6841a7671feb7cfc2",
     "type": "stripe",
     "method": "card",
@@ -5001,6 +9210,21 @@
     ],
     "paymentSource": "pm_1T40UvCdbiaQLvgXT2CBpWNm",
     "paymentCustomer": "cus_U24cYwJ96akGao"
+  },
+  {
+    "_id": "699d8b856d6b0c570fa2dfdb",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-02-24T11:29:09.032Z",
+    "createdBy": "68e57816a73c6cea25b5d6ee",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1T4JncBGYBAQ24lUchh37Ejp",
+    "paymentCustomer": "cus_TC5gTMIUQna3zs"
   },
   {
     "_id": "699f141eff826648590518dd",
@@ -5023,6 +9247,48 @@
     ],
     "paymentSource": "pm_1T4jviBGYBAQ24lUl4NJeG4T",
     "paymentCustomer": "cus_QPKhYr0mhXkYOt"
+  },
+  {
+    "_id": "699f186a09c5d0e5ed9204bc",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1T4kEDI8B1riowTwfLb1J1T8",
+      "name": "Andreas Jaritz",
+      "brand": "MasterCard",
+      "last4": "5991",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1T4kEQI8B1riowTwsJltZ4Cw"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 1
+    },
+    "createdAt": "2026-02-25T15:42:34.887Z",
+    "createdBy": "699f18674fb741546d2cc78e",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1T4kEDI8B1riowTwfLb1J1T8",
+    "paymentCustomer": "cus_U2puLWdbmLW7zH"
+  },
+  {
+    "_id": "699f193a09c5d0e5ed925a3a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-02-25T15:46:02.162Z",
+    "createdBy": "691c39b47303dac29248eb7e",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1T4kHkBGYBAQ24lUr8bXegpY",
+    "paymentCustomer": "cus_TReLBaZddJL4SS"
   },
   {
     "_id": "699f1c9373c88da7b85b72ba",
@@ -5067,6 +9333,265 @@
     "paymentCustomer": "cus_U38Hj8bvJMpy6g"
   },
   {
+    "_id": "69a19ff5a868552844e83ce1",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1T5RKbCdbiaQLvgXxpuoQeak",
+      "name": "Annabel Morgan",
+      "brand": "MasterCard",
+      "last4": "0465",
+      "country": "GB",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1T5RM8CdbiaQLvgXYwaFG0zd"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 9
+    },
+    "createdAt": "2026-02-27T13:45:25.066Z",
+    "createdBy": "69a19ff1a868552844e83bd3",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1T5RKbCdbiaQLvgXxpuoQeak",
+    "paymentCustomer": "cus_U3YT317hdpSgTa"
+  },
+  {
+    "_id": "69a5a6f7a8521fb9ef120667",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "0086",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2030,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-03-02T15:04:23.342Z",
+    "createdBy": "69a5a4f487fc089cd39dcc31",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1T6Y1ACdbiaQLvgX3U1utORJ",
+    "paymentCustomer": "cus_Rkoez3BFmULVw8"
+  },
+  {
+    "_id": "69a5b0294947f9f60b18e5b5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-03-02T15:43:37.333Z",
+    "createdBy": "69908eca4f61aa983ab138c0",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1T6YdAI8B1riowTwdSF2rw0R",
+    "paymentCustomer": "cus_TyhnGBft5iiLbI"
+  },
+  {
+    "_id": "69a5ca7881e43831d0946507",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1T6aNZCdbiaQLvgXsLk5sONt",
+      "name": "Filipe Roquette",
+      "brand": "Visa",
+      "last4": "9449",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1T6aNoCdbiaQLvgXt1Y3drgw"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 10
+    },
+    "createdAt": "2026-03-02T17:35:52.655Z",
+    "createdBy": "69a5ca759060fb927f955c09",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1T6aNZCdbiaQLvgXsLk5sONt",
+    "paymentCustomer": "cus_U4jr5uR3CERHGm"
+  },
+  {
+    "_id": "69a5d1a48f1a2ad7ded8401b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1T6arGCdbiaQLvgXizPB7Ekk",
+      "name": "Felipe Nabuco ",
+      "brand": "MasterCard",
+      "last4": "2439",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1T6arPCdbiaQLvgX4Ff8NzlW"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-03-02T18:06:28.523Z",
+    "createdBy": "69a5cfa44947f9f60b297c59",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1T6arGCdbiaQLvgXizPB7Ekk",
+    "paymentCustomer": "cus_U4kDNqyKsgpC0C"
+  },
+  {
+    "_id": "69a95041d2230d04a50691db",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "1787",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 10
+    },
+    "createdAt": "2026-03-05T09:43:29.103Z",
+    "createdBy": "69a33cdeb61fcbb7e2b39130",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1T7YQXI8B1riowTw7cngacfG",
+    "paymentCustomer": "cus_U40sRMdmzFvWzk"
+  },
+  {
+    "_id": "69ac09df75e4b0bdcb3d458f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1T8ItgCdbiaQLvgXBHtmpP7H",
+      "name": "Healin",
+      "brand": "MasterCard",
+      "last4": "2116",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1T8ItmCdbiaQLvgX0wjX5OE8"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 8
+    },
+    "createdAt": "2026-03-07T11:19:59.073Z",
+    "createdBy": "69a1b2c82be04a75802e7c4b",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1T8ItgCdbiaQLvgXBHtmpP7H",
+    "paymentCustomer": "cus_U3ZlLsfSEBjt78"
+  },
+  {
+    "_id": "69ae99bb07d4a4f1dcc6ef42",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-03-09T09:58:19.132Z",
+    "createdBy": "68df80e68303bb594f1ea4e8",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1T90ZqI8B1riowTw9AmuvP8E",
+    "paymentCustomer": "cus_TAOa3VgWslOuE9"
+  },
+  {
+    "_id": "69aeb2454fed093a7be5e2e8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "American Express",
+      "last4": "8006",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 10
+    },
+    "createdAt": "2026-03-09T11:43:01.560Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1T92D3BGYBAQ24lUrwThFKZs",
+    "paymentCustomer": "cus_U7Gj1JRVfq6hzF"
+  },
+  {
+    "_id": "69aff32dd94b45a5ffdaed9c",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1T9Na4CdbiaQLvgXUsPZalEs",
+      "name": "Omer Cinal",
+      "brand": "Visa",
+      "last4": "4369",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1T9NaCCdbiaQLvgXrCx1ug27"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 12
+    },
+    "createdAt": "2026-03-10T10:32:13.244Z",
+    "createdBy": "69aff329ad768a6c58c1a910",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1T9Na4CdbiaQLvgXUsPZalEs",
+    "paymentCustomer": "cus_U7cp88BLbIiX6o"
+  },
+  {
+    "_id": "69aff847d1586e0c44db6bff",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1T9NuyCdbiaQLvgXodmUteBJ",
+      "name": "Benjamin Duncan",
+      "brand": "MasterCard",
+      "last4": "3773",
+      "country": "GB",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1T9NvGCdbiaQLvgXdy3MUTAR"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 7
+    },
+    "createdAt": "2026-03-10T10:53:59.030Z",
+    "createdBy": "69aff84236a47796d9b52981",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1T9NuyCdbiaQLvgXodmUteBJ",
+    "paymentCustomer": "cus_U7dBfUEUaYAZbl"
+  },
+  {
     "_id": "69b14330cb19bce07a300976",
     "type": "stripe",
     "method": "card",
@@ -5080,6 +9605,209 @@
     ],
     "paymentSource": "pm_1T9jxbCdbiaQLvgXFCaAI4R6",
     "paymentCustomer": "cus_RivzQgCPBA3BAw"
+  },
+  {
+    "_id": "69b1706f8c0535b0b214a50f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1T9my5I8B1riowTwiIIqqQbP",
+      "name": "Mercedes Benz Club Portugal",
+      "brand": "Visa",
+      "last4": "1146",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1T9myRI8B1riowTw07V6Sj73"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 5
+    },
+    "createdAt": "2026-03-11T13:38:55.628Z",
+    "createdBy": "69b1706bf66af16536799f4b",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1T9my5I8B1riowTwiIIqqQbP",
+    "paymentCustomer": "cus_U834j27mjSy3kc"
+  },
+  {
+    "_id": "69b290fffa4171376c5e2520",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TA6BhCdbiaQLvgXXWyMIFHP",
+      "name": "R N Fonseca Almeida",
+      "brand": "Visa",
+      "last4": "5627",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TA6BuCdbiaQLvgX1vxoJrHR"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 9
+    },
+    "createdAt": "2026-03-12T10:10:07.435Z",
+    "createdBy": "69b290fbbd7fbfff581f4fb6",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TA6BhCdbiaQLvgXXWyMIFHP",
+    "paymentCustomer": "cus_U8MvrV8bEkjo1M"
+  },
+  {
+    "_id": "69b2d345a97a6c6300e5ee6b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TAAbOI8B1riowTwRT6F1hmH",
+      "name": "Joaquim Nico",
+      "brand": "MasterCard",
+      "last4": "8554",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TAAbYI8B1riowTwZszwv5Tu"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 5
+    },
+    "createdAt": "2026-03-12T14:52:53.407Z",
+    "createdBy": "69b2d34131729417f2553b7e",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TAAbOI8B1riowTwRT6F1hmH",
+    "paymentCustomer": "cus_U8RUk5rpBKiteR"
+  },
+  {
+    "_id": "69b2fee95a117b321f56a56d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "4074",
+      "country": "ES",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2027,
+      "expirationMonth": 5
+    },
+    "createdAt": "2026-03-12T17:59:05.008Z",
+    "createdBy": "69b2fdd65a117b321f5661d8",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1TADTfI8B1riowTwlSeECqgY",
+    "paymentCustomer": "cus_U8URkHvDk3aGwS"
+  },
+  {
+    "_id": "69b31d9779d3d03089bee3e0",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "7447",
+      "country": "BR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2034,
+      "expirationMonth": 1
+    },
+    "createdAt": "2026-03-12T20:09:59.066Z",
+    "createdBy": "6893be02b4d35a30ba2e9779",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1TAFYOCdbiaQLvgXl21oSEcb",
+    "paymentCustomer": "cus_SortEE4SkKOEVF"
+  },
+  {
+    "_id": "69b39f41142e41f2529fc916",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TAOBdBGYBAQ24lUkTTTyFoT",
+      "name": "lusakivana yungu ",
+      "brand": "MasterCard",
+      "last4": "5679",
+      "country": "BE",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TAOBoBGYBAQ24lUexhSgpCa"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 12
+    },
+    "createdAt": "2026-03-13T05:23:13.126Z",
+    "createdBy": "69b39f3da50ea437c239633d",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1TAOBdBGYBAQ24lUkTTTyFoT",
+    "paymentCustomer": "cus_U8fWnorhQuCASB"
+  },
+  {
+    "_id": "69b3cf853bcca6950d5a1038",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TAROnCdbiaQLvgXtfE8LzjX",
+      "name": "cheyenne vancooten",
+      "brand": "Visa",
+      "last4": "7347",
+      "country": "US",
+      "funding": "debit",
+      "cvcCheck": "unavailable",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1TARP6CdbiaQLvgXYMaol7Qm"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 7
+    },
+    "createdAt": "2026-03-13T08:49:09.826Z",
+    "createdBy": "69b3cf800a72805063bc207a",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TAROnCdbiaQLvgXtfE8LzjX",
+    "paymentCustomer": "cus_U8iqQzNdxMSsle"
+  },
+  {
+    "_id": "69b90f42a075c7f058020aef",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "9419",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2031,
+      "expirationMonth": 3
+    },
+    "createdAt": "2026-03-17T08:22:26.809Z",
+    "createdBy": "67d7d55912546f5a2be64cbe",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1TBssrCdbiaQLvgXRu8VftXJ",
+    "paymentCustomer": "cus_RxTSDzBjFLfSXm"
   },
   {
     "_id": "69b9aa2dcb786f92ada0b97b",
@@ -5106,6 +9834,195 @@
     "paymentCustomer": "cus_RsjGaWuk9P5IEX"
   },
   {
+    "_id": "69bc6a0757b6db036d749062",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TCo47CdbiaQLvgXHFqPFn31",
+      "name": "Oleksandr Maklakov ",
+      "brand": "Visa",
+      "last4": "2934",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TCo5KCdbiaQLvgX24d9MrJR"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 9
+    },
+    "createdAt": "2026-03-19T21:26:31.223Z",
+    "createdBy": "69bc6a038a514c9e1b0af5ad",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TCo47CdbiaQLvgXHFqPFn31",
+    "paymentCustomer": "cus_UBAQxMFYbkuUCA"
+  },
+  {
+    "_id": "69bd15121ce91ef30f4a45ba",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TCzSnCdbiaQLvgXPzSB19W6",
+      "name": "Jan Weinreich",
+      "brand": "Visa",
+      "last4": "0951",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "unavailable",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1TCzTZCdbiaQLvgXc2zCCios"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 7
+    },
+    "createdAt": "2026-03-20T09:36:18.740Z",
+    "createdBy": "69bd150ead9e799ba5043afb",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TCzSnCdbiaQLvgXPzSB19W6",
+    "paymentCustomer": "cus_UBMBUBi3XjGYJn"
+  },
+  {
+    "_id": "69bd2fe1e565169106438221",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TD1FUI8B1riowTwiMfeTXtY",
+      "name": "Scale Labs",
+      "brand": "Visa",
+      "last4": "1680",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1TD1GHI8B1riowTwsc5UAU7v"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 3
+    },
+    "createdAt": "2026-03-20T11:30:41.654Z",
+    "createdBy": "69bd2fdda5fb8ba3f8cb6746",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TD1FUI8B1riowTwiMfeTXtY",
+    "paymentCustomer": "cus_UBO2YFt0krvFBM"
+  },
+  {
+    "_id": "69bd310eadd4bfbf1f88eb7b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TD1L2I8B1riowTwZfuSxewN",
+      "name": "Scale Labs",
+      "brand": "Visa",
+      "last4": "1680",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TD1L7I8B1riowTwPs3Cfmhq"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 3
+    },
+    "createdAt": "2026-03-20T11:35:42.047Z",
+    "createdBy": "69bd2fdda5fb8ba3f8cb6746",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TD1L2I8B1riowTwZfuSxewN",
+    "paymentCustomer": "cus_UBO2YFt0krvFBM"
+  },
+  {
+    "_id": "69c122cbe4bc3d658bd1c594",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TE6aEBGYBAQ24lUIOwVmSLS",
+      "name": "ANTON VINOGRADNIK",
+      "brand": "Visa",
+      "last4": "7910",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TE6aMBGYBAQ24lUVMwoNTZ5"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 2
+    },
+    "createdAt": "2026-03-23T11:23:55.397Z",
+    "createdBy": "69c122c892d922ef58413045",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1TE6aEBGYBAQ24lUIOwVmSLS",
+    "paymentCustomer": "cus_UCVbPpdJLSfQ1b"
+  },
+  {
+    "_id": "69c2bc8fe65ca80a4e51979c",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TEXs5CdbiaQLvgX6aQrGAgy",
+      "name": "Pedro Rodrigues",
+      "brand": "Visa",
+      "last4": "4148",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "unavailable",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1TEXsHCdbiaQLvgXEYpLnLxo"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 12
+    },
+    "createdAt": "2026-03-24T16:32:15.296Z",
+    "createdBy": "69c2bc89fda326de28abb581",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TEXs5CdbiaQLvgX6aQrGAgy",
+    "paymentCustomer": "cus_UCxnj7SUAVZl6B"
+  },
+  {
+    "_id": "69c3be99c5584a0a14cd7fd6",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TEp3TI8B1riowTwEEKTJmq8",
+      "name": "Fouque Nicolas",
+      "brand": "MasterCard",
+      "last4": "2565",
+      "country": "CH",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1TEp3kI8B1riowTwQnKDMgy4"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-03-25T10:53:13.304Z",
+    "createdBy": "69c3be9598e014431f5f6092",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TEp3TI8B1riowTwEEKTJmq8",
+    "paymentCustomer": "cus_UDFYv9rDMMOwxk"
+  },
+  {
     "_id": "69c3e1baf82eb8b16be0047d",
     "type": "stripe",
     "method": "card",
@@ -5118,6 +10035,84 @@
     ],
     "paymentSource": "pm_1TErOfI8B1riowTwjueK1qIJ",
     "paymentCustomer": "cus_UDHws73UuiFFrB"
+  },
+  {
+    "_id": "69c40bb92e55c79bb51606dd",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TEuBzCdbiaQLvgXlVlYCPsK",
+      "name": "Ana pacifico",
+      "brand": "Visa",
+      "last4": "9947",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TEuCCCdbiaQLvgXfkPMbmD6"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-03-25T16:22:17.382Z",
+    "createdBy": "69c40bb5904ec5215de59350",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TEuBzCdbiaQLvgXlVlYCPsK",
+    "paymentCustomer": "cus_UDKrcETSm3zUGV"
+  },
+  {
+    "_id": "69c4345807e9fa453d002ec9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "7024",
+      "country": "BR",
+      "funding": "debit",
+      "cvcCheck": "fail",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 2
+    },
+    "createdAt": "2026-03-25T19:15:36.973Z",
+    "createdBy": "69c2bfb1e65ca80a4e52dfda",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1TEwttBGYBAQ24lUoM3lRc9c",
+    "paymentCustomer": "cus_UCy1sJBsME1WwC"
+  },
+  {
+    "_id": "69c460d5904ec5215dfe6e04",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TEzr2I8B1riowTwxdVfIxD9",
+      "name": "André Geraldes",
+      "brand": "Visa",
+      "last4": "0038",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TEzrcI8B1riowTwTxsuzfwE"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 12
+    },
+    "createdAt": "2026-03-25T22:25:25.315Z",
+    "createdBy": "69c460ce07e9fa453d0d6054",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TEzr2I8B1riowTwxdVfIxD9",
+    "paymentCustomer": "cus_UDQjI22zS7WKTZ"
   },
   {
     "_id": "69ca34d52ef9bd11443efc52",
@@ -5140,6 +10135,163 @@
     ],
     "paymentSource": "pm_1TGbE1BGYBAQ24lUjobV10TP",
     "paymentCustomer": "cus_RQFfzZmNrOCY1h"
+  },
+  {
+    "_id": "69ca8638548094022605e9bd",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TGge5I8B1riowTwTmxMMN43",
+      "name": "Harrison Polites",
+      "brand": "MasterCard",
+      "last4": "0564",
+      "country": "AU",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1TGgeAI8B1riowTw1d1ZOG9J"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 6
+    },
+    "createdAt": "2026-03-30T14:18:32.875Z",
+    "createdBy": "69ca8633cce72175ef00e998",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TGge5I8B1riowTwTmxMMN43",
+    "paymentCustomer": "cus_UFB0LDrgw0tzVm"
+  },
+  {
+    "_id": "69cbe24e66833bc65f7137ab",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TH3ovCdbiaQLvgX5tTj1mvR",
+      "name": "Amanda Sundara",
+      "brand": "MasterCard",
+      "last4": "7999",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1TH3pRCdbiaQLvgXxCLZG8US"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 10
+    },
+    "createdAt": "2026-03-31T15:03:42.935Z",
+    "createdBy": "69cbe24a264f1d4e0551f65c",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TH3ovCdbiaQLvgX5tTj1mvR",
+    "paymentCustomer": "cus_UFYxIJosvvLce6"
+  },
+  {
+    "_id": "69cc178fb30af7598e459953",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TH7MoCdbiaQLvgXStRhFzMG",
+      "name": "C PASSOS DERZIE LUZ",
+      "brand": "Visa",
+      "last4": "5212",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TH7NLCdbiaQLvgX62QNbvud"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 8
+    },
+    "createdAt": "2026-03-31T18:50:55.702Z",
+    "createdBy": "69cc178c9f5ab4f4a898ee34",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TH7MoCdbiaQLvgXStRhFzMG",
+    "paymentCustomer": "cus_UFccZVomrrpAnT"
+  },
+  {
+    "_id": "69d4ebd969ef6bd5ed0a2cf6",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "8105",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 11
+    },
+    "createdAt": "2026-04-07T11:34:49.554Z",
+    "createdBy": "69ccdb0a034ca4603015531f",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1TJXtlCdbiaQLvgXZmzMlum7",
+    "paymentCustomer": "cus_UFvQ3ZLwXgPrt4"
+  },
+  {
+    "_id": "69d512ac250b28fa83001aad",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TJaUDCdbiaQLvgX3xfWkpzD",
+      "name": "Reuben Parish",
+      "brand": "American Express",
+      "last4": "4699",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1TJaURCdbiaQLvgXGGTJVYaf"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-04-07T14:20:28.671Z",
+    "createdBy": "69d512a8b45aee3a0e2d328e",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TJaUDCdbiaQLvgX3xfWkpzD",
+    "paymentCustomer": "cus_UIAqrS1HUJhBsK"
+  },
+  {
+    "_id": "69d631b18391ac7de0b195b1",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TJtbGCdbiaQLvgXUD2t0tIG",
+      "name": "Nuno Pimenta",
+      "brand": "Visa",
+      "last4": "7119",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TJtbZCdbiaQLvgX62L6ZXWD"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 1
+    },
+    "createdAt": "2026-04-08T10:45:05.965Z",
+    "createdBy": "69d631aee9695cf5324e5adb",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TJtbGCdbiaQLvgXUD2t0tIG",
+    "paymentCustomer": "cus_UIUadA7rNX279O"
   },
   {
     "_id": "69d657e02efbe2fd8ca60163",
@@ -5169,6 +10321,136 @@
     "paymentCustomer": "cus_UIXDtdysf9TEf5"
   },
   {
+    "_id": "69d66aec1cb7b042a5c31cca",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "8287",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 3
+    },
+    "createdAt": "2026-04-08T14:49:16.893Z",
+    "createdBy": "69d6678bb4ee4e83d4868029",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1TJxOwCdbiaQLvgXkW0fALVK",
+    "paymentCustomer": "cus_UIYQLHZGQEihoO"
+  },
+  {
+    "_id": "69d779e6492439ddfe12af8d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TKFSZBGYBAQ24lU3aOIOLS7",
+      "name": "Bruno Oliveira",
+      "brand": "MasterCard",
+      "last4": "5435",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TKFSjBGYBAQ24lUi4bDQxGJ"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 8
+    },
+    "createdAt": "2026-04-09T10:05:26.522Z",
+    "createdBy": "69d779e18ba52e2d789a3ed3",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1TKFSZBGYBAQ24lU3aOIOLS7",
+    "paymentCustomer": "cus_UIrBsdfSipKSjC"
+  },
+  {
+    "_id": "69d7bd664c5ea3de8b6e2401",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TKJxFI8B1riowTw2rJHhEos",
+      "name": "Joseph William Duffelen",
+      "brand": "American Express",
+      "last4": "4001",
+      "country": "GB",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TKJxRI8B1riowTwifYVWJ4q"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-04-09T14:53:26.377Z",
+    "createdBy": "69d7bd624c5ea3de8b6e22a9",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TKJxFI8B1riowTw2rJHhEos",
+    "paymentCustomer": "cus_UIvphNPXUNbA8h"
+  },
+  {
+    "_id": "69d7c3d94571f4ab6ee188d8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TKKNWBGYBAQ24lUtJpr1fDy",
+      "name": "Tágide Aquisição SA",
+      "brand": "Visa",
+      "last4": "7411",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TKKO4BGYBAQ24lUh8qSdj40"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 2
+    },
+    "createdAt": "2026-04-09T15:20:57.539Z",
+    "createdBy": "69d7c3d6492439ddfe2fc91e",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1TKKNWBGYBAQ24lUtJpr1fDy",
+    "paymentCustomer": "cus_UIwG3uN0A52X3v"
+  },
+  {
+    "_id": "69d8af841f1e2c0d671590e4",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TKa4wBGYBAQ24lUbs2Dathj",
+      "name": "MIKHAIL NIKITIN",
+      "brand": "Visa",
+      "last4": "0356",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TKa59BGYBAQ24lUvLdeDPxS"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 9
+    },
+    "createdAt": "2026-04-10T08:06:28.355Z",
+    "createdBy": "69d8af7fdaf5ddc298ade10f",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1TKa4wBGYBAQ24lUbs2Dathj",
+    "paymentCustomer": "cus_UJCU6SBMmTe3zP"
+  },
+  {
     "_id": "69d8c6f362452818b15e1cd8",
     "type": "stripe",
     "method": "card",
@@ -5190,6 +10472,60 @@
     "paymentCustomer": "cus_UJE4ra2fDZ8n8c"
   },
   {
+    "_id": "69da999d6db3a2c55fc096b7",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TL6icBGYBAQ24lU2HeUiDP2",
+      "name": "Francisco Manuel Laso Joyanes",
+      "brand": "Visa",
+      "last4": "6816",
+      "country": "ES",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TL6inBGYBAQ24lU4NdB7RCf"
+      },
+      "expirationYear": 2033,
+      "expirationMonth": 3
+    },
+    "createdAt": "2026-04-11T18:57:33.731Z",
+    "createdBy": "69da999a6db3a2c55fc09614",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1TL6icBGYBAQ24lU2HeUiDP2",
+    "paymentCustomer": "cus_UJkDGejoPPsmw4"
+  },
+  {
+    "_id": "69dcce51a885f5f3627b08af",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TLiKMI8B1riowTwDppWmVIX",
+      "name": "dario antunes",
+      "brand": "MasterCard",
+      "last4": "0732",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TLiKSI8B1riowTwV0cMLsz9"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 5
+    },
+    "createdAt": "2026-04-13T11:06:57.109Z",
+    "createdBy": "69dccdf52ac2e353d6f174a7",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TLiKMI8B1riowTwDppWmVIX",
+    "paymentCustomer": "cus_UKN3USw7qmFJbN"
+  },
+  {
     "_id": "69dd02618a0bae0ab9b4869f",
     "type": "stripe",
     "method": "card",
@@ -5202,6 +10538,60 @@
     ],
     "paymentSource": "pm_1TLlnOI8B1riowTwjcn17PW9",
     "paymentCustomer": "cus_UKQbYSvWac6HiP"
+  },
+  {
+    "_id": "69dedf2e0bae2392fd345743",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TMHXyI8B1riowTwkjpVTeGL",
+      "name": "Marcel Frenzel ",
+      "brand": "Visa",
+      "last4": "6672",
+      "country": "DE",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TMHY9I8B1riowTwdWktRs1y"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-04-15T00:43:26.210Z",
+    "createdBy": "69dedf2a7d005b416cf4bbba",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TMHXyI8B1riowTwkjpVTeGL",
+    "paymentCustomer": "cus_UKxTLDEpNANZ4v"
+  },
+  {
+    "_id": "69e1177e97d8faddd8cbead8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TMtOUI8B1riowTwOJuC1paY",
+      "name": "Eduardo Chagas Monteiro",
+      "brand": "MasterCard",
+      "last4": "7625",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TMtOjI8B1riowTwF8Z4mhR3"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 6
+    },
+    "createdAt": "2026-04-16T17:08:14.404Z",
+    "createdBy": "69e1177a643214b6e906e7b5",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TMtOUI8B1riowTwOJuC1paY",
+    "paymentCustomer": "cus_ULaZN4HumqHT4r"
   },
   {
     "_id": "69e1f69e4b33017d12d87a5a",
@@ -5217,6 +10607,141 @@
     ],
     "paymentSource": "pm_1TN8G1BGYBAQ24lUYwaLYdWJ",
     "paymentCustomer": "cus_QPLFKXPQ3P3K9H"
+  },
+  {
+    "_id": "69e22bd22cb1f23e6b6dd566",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TNBmlBGYBAQ24lUPzXZNkVk",
+      "name": "Haben Hadgu",
+      "brand": "Visa",
+      "last4": "4031",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TNBnhBGYBAQ24lUzFtSSmBR"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 11
+    },
+    "createdAt": "2026-04-17T12:47:14.251Z",
+    "createdBy": "69e22bce34591522e0c8a5e9",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1TNBmlBGYBAQ24lUPzXZNkVk",
+    "paymentCustomer": "cus_ULtam3BaERwLt4"
+  },
+  {
+    "_id": "69e661ca2fd650c64658cbd6",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TOLaQBGYBAQ24lUSrQ1T2PW",
+      "name": "Silvia Amado",
+      "brand": "Visa",
+      "last4": "7100",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TOLagBGYBAQ24lUw8VAUX1v"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 3
+    },
+    "createdAt": "2026-04-20T17:26:34.603Z",
+    "createdBy": "69e661c7fea0c3a108900baf",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1TOLaQBGYBAQ24lUSrQ1T2PW",
+    "paymentCustomer": "cus_UN5mvzlHJQYqNa"
+  },
+  {
+    "_id": "69e662d4717d53c05d7a36cc",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TOLelBGYBAQ24lUwBEWJ5Lm",
+      "name": "Silvia Amado",
+      "brand": "Visa",
+      "last4": "6852",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TOLeyBGYBAQ24lUxd45F2hY"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 3
+    },
+    "createdAt": "2026-04-20T17:31:00.823Z",
+    "createdBy": "69e661c7fea0c3a108900baf",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1TOLelBGYBAQ24lUwBEWJ5Lm",
+    "paymentCustomer": "cus_UN5mvzlHJQYqNa"
+  },
+  {
+    "_id": "69e86ba9a3c613747d1b8283",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TOuLABGYBAQ24lUOgWBpUOh",
+      "name": "HUGO GONCALVES",
+      "brand": "MasterCard",
+      "last4": "4976",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TOuLUBGYBAQ24lUPrkY7IBF"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 1
+    },
+    "createdAt": "2026-04-22T06:33:13.281Z",
+    "createdBy": "69e86ba4fbf316f22535b697",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1TOuLABGYBAQ24lUOgWBpUOh",
+    "paymentCustomer": "cus_UNfg4iGwmTD0WW"
+  },
+  {
+    "_id": "69ec85741f1bb59ffc7a61e6",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TQ2FwI8B1riowTwuDPQ6N4d",
+      "name": "Miligram Lda",
+      "brand": "Visa",
+      "last4": "6397",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TQ2G7I8B1riowTwv8mLl1eM"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-04-25T09:12:20.229Z",
+    "createdBy": "69ec85701f1bb59ffc7a6088",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TQ2FwI8B1riowTwuDPQ6N4d",
+    "paymentCustomer": "cus_UOpv6C56YWnEMs"
   },
   {
     "_id": "69ef3410006c4c7f0eb9dd87",
@@ -5241,6 +10766,60 @@
     ],
     "paymentSource": "pm_1TQlyyCdbiaQLvgXiCtgl4NH",
     "paymentCustomer": "cus_RfzBOvLMPZ5ZqI"
+  },
+  {
+    "_id": "69f8caf7e683bd71c15e41f9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TTPSrBGYBAQ24lU4f75zbK8",
+      "name": "Filipe Simões",
+      "brand": "Visa",
+      "last4": "8892",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TTPTWBGYBAQ24lUbWXt9SZm"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 6
+    },
+    "createdAt": "2026-05-04T16:36:07.754Z",
+    "createdBy": "69f8caf3a20aacef23209c52",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1TTPSrBGYBAQ24lU4f75zbK8",
+    "paymentCustomer": "cus_USK7XCnveQvIfN"
+  },
+  {
+    "_id": "69f8ce6b8085c73bfc7f6b13",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TTPhbBGYBAQ24lU2ruWtq97",
+      "name": "Filipe Simões",
+      "brand": "Visa",
+      "last4": "5438",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TTPhmBGYBAQ24lUH1KxJeEH"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 5
+    },
+    "createdAt": "2026-05-04T16:50:51.042Z",
+    "createdBy": "69f8caf3a20aacef23209c52",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1TTPhbBGYBAQ24lU2ruWtq97",
+    "paymentCustomer": "cus_USK7XCnveQvIfN"
   },
   {
     "_id": "69fb154d779fc100ec90947d",
@@ -5297,6 +10876,55 @@
     "paymentCustomer": "cus_USyTIY9RsGYOyX"
   },
   {
+    "_id": "69fb25f6bde4c4428a2462ef",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TU3ctI8B1riowTw8haUAl0r",
+      "name": "Tatiana Catruc",
+      "brand": "Visa",
+      "last4": "9509",
+      "country": "GB",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TU3dJI8B1riowTwIptKaYo6"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 2
+    },
+    "createdAt": "2026-05-06T11:28:54.398Z",
+    "createdBy": "69fb25f282eee492ad6bd7e2",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TU3ctI8B1riowTw8haUAl0r",
+    "paymentCustomer": "cus_USzc6BrbtlJ0mS"
+  },
+  {
+    "_id": "69fdc11ff1b770934c437d02",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "1147",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2027,
+      "expirationMonth": 5
+    },
+    "createdAt": "2026-05-08T10:55:27.612Z",
+    "createdBy": "69fc620881a7966644ddf341",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1TUm3MBGYBAQ24lUbNYy439s",
+    "paymentCustomer": "cus_UTLNauv1UyujAy"
+  },
+  {
     "_id": "6a01e906397adc9fde46bf87",
     "type": "stripe",
     "method": "card",
@@ -5319,6 +10947,183 @@
     "paymentCustomer": "cus_Pwljy2MGU2dUes"
   },
   {
+    "_id": "6a02ef0a34370ad3817f0f52",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TWCMgBGYBAQ24lUifyOP8vD",
+      "name": "Jade Batstone ",
+      "brand": "MasterCard",
+      "last4": "3550",
+      "country": "GB",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TWCMoBGYBAQ24lUaeWDfz8p"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 5
+    },
+    "createdAt": "2026-05-12T09:12:42.576Z",
+    "createdBy": "6a02ef06808b2695507b63b1",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1TWCMgBGYBAQ24lUifyOP8vD",
+    "paymentCustomer": "cus_UVCmsWKPY5ouMC"
+  },
+  {
+    "_id": "6a02fc5cde2ab8721127ffda",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TWDFfBGYBAQ24lUJeTo1zas",
+      "name": "S.hesselink",
+      "brand": "American Express",
+      "last4": "4003",
+      "country": "NL",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TWDFnBGYBAQ24lUoVywIFwF"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 5
+    },
+    "createdAt": "2026-05-12T10:09:32.449Z",
+    "createdBy": "6a02fc595bb8c88978d6bee9",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1TWDFfBGYBAQ24lUJeTo1zas",
+    "paymentCustomer": "cus_UVDhkIsVD5efwV"
+  },
+  {
+    "_id": "6a041d1a980746919886e2a6",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TWWToCdbiaQLvgXnM7DXufI",
+      "name": "MEHMET ALI INCE",
+      "brand": "Visa",
+      "last4": "7552",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TWWU2CdbiaQLvgXA86x4vvK"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 6
+    },
+    "createdAt": "2026-05-13T06:41:30.920Z",
+    "createdBy": "6a041d17de6bd06acd45faaa",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TWWToCdbiaQLvgXnM7DXufI",
+    "paymentCustomer": "cus_UVXZHzDxoJi1oy"
+  },
+  {
+    "_id": "6a0426234a776dec96106531",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TWX5DCdbiaQLvgXhUuBinOd",
+      "name": "Alex Evander",
+      "brand": "American Express",
+      "last4": "1000",
+      "country": "SE",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TWX5LCdbiaQLvgXEFXVt3Ci"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 3
+    },
+    "createdAt": "2026-05-13T07:20:03.679Z",
+    "createdBy": "6542f9f683648cdb98ed2e42",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TWX5DCdbiaQLvgXhUuBinOd",
+    "paymentCustomer": "cus_UVYBiUVemSxrWe"
+  },
+  {
+    "_id": "6a06c602da6f8e48473b3012",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TXFpHI8B1riowTwYafUZ88G",
+      "name": "mfr42 Lda.",
+      "brand": "Visa",
+      "last4": "6672",
+      "country": "DE",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TXFpWI8B1riowTwTJzNFYFO"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-05-15T07:06:42.830Z",
+    "createdBy": "6a06c5ff8ad17ff67826b153",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TXFpHI8B1riowTwYafUZ88G",
+    "paymentCustomer": "cus_UWIQQB8kKBh5VG"
+  },
+  {
+    "_id": "6a06d9e6ceb0e327664a6199",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "1146",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2030,
+      "expirationMonth": 5
+    },
+    "createdAt": "2026-05-15T08:31:34.945Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1TXH9UBGYBAQ24lUcQmDtOlL",
+    "paymentCustomer": "cus_UWJkeBLI62AmhJ"
+  },
+  {
+    "_id": "6a06d9fbceb0e327664a6241",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "1146",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2030,
+      "expirationMonth": 5
+    },
+    "createdAt": "2026-05-15T08:31:55.165Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1TXH9UBGYBAQ24lUcQmDtOlL",
+    "paymentCustomer": "cus_UWJkeBLI62AmhJ"
+  },
+  {
     "_id": "6a06e130ceb0e327664acb90",
     "type": "stripe",
     "method": "card",
@@ -5331,6 +11136,87 @@
     ],
     "paymentSource": "pm_1TXHddBGYBAQ24lUr1fviRIQ",
     "paymentCustomer": "cus_QPzRAaPHB2Gmfx"
+  },
+  {
+    "_id": "6a06ff915895cbc8a56f3e25",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TXJf2CdbiaQLvgXl8l4hxyC",
+      "name": "anne-laure deplasse",
+      "brand": "MasterCard",
+      "last4": "4215",
+      "country": "BE",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TXJfACdbiaQLvgXoMXSCFkS"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 1
+    },
+    "createdAt": "2026-05-15T11:12:17.493Z",
+    "createdBy": "6a06ff8da0b2e5495c64fc38",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TXJf2CdbiaQLvgXl8l4hxyC",
+    "paymentCustomer": "cus_UWMNL6VCxjrptF"
+  },
+  {
+    "_id": "6a08e841cfc1a2d2bd7954ae",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TXqCmI8B1riowTwshpPIbYZ",
+      "name": "Nuno Correia",
+      "brand": "Visa",
+      "last4": "4076",
+      "country": "LT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TXqCyI8B1riowTwL5mQz001"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-05-16T21:57:21.013Z",
+    "createdBy": "6a08e83d66b2ba175143bb39",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TXqCmI8B1riowTwshpPIbYZ",
+    "paymentCustomer": "cus_UWu0Jz0FiwRAin"
+  },
+  {
+    "_id": "6a0c1ff3852c8cf91b88d1ad",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TYj3kI8B1riowTwzTI6647Z",
+      "name": "Marcio Parente",
+      "brand": "Visa",
+      "last4": "3709",
+      "country": "CH",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1TYj41I8B1riowTwfkUbM2kh"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 1
+    },
+    "createdAt": "2026-05-19T08:31:47.211Z",
+    "createdBy": "6a0c1fee42941989d5528bea",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TYj3kI8B1riowTwzTI6647Z",
+    "paymentCustomer": "cus_UXohiJR7mo9Pvb"
   },
   {
     "_id": "6a0c215d176314aec579a781",
@@ -5355,6 +11241,312 @@
     ],
     "paymentSource": "pm_1TYj9qCdbiaQLvgXEDVNVL9C",
     "paymentCustomer": "cus_UXonmPI8UTkJoZ"
+  },
+  {
+    "_id": "6a0c7776852c8cf91bad502f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TYot8CdbiaQLvgXfci2RlQc",
+      "name": "WISE WINGS u Lda",
+      "brand": "Visa",
+      "last4": "9330",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TYotNCdbiaQLvgXcuLph0CW"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-05-19T14:45:10.454Z",
+    "createdBy": "6a0c777220cc82e5806014ad",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TYot8CdbiaQLvgXfci2RlQc",
+    "paymentCustomer": "cus_UXuiofa8q6sc9g"
+  },
+  {
+    "_id": "6a0d6dfe936eff473c4822bb",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "4520",
+      "country": "CH",
+      "funding": "prepaid",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2027,
+      "expirationMonth": 12
+    },
+    "createdAt": "2026-05-20T08:17:02.805Z",
+    "createdBy": "6601b68b0d3f9b62ca439f46",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1TZ5JIBGYBAQ24lUzaYl3Jlb",
+    "paymentCustomer": "cus_UYBgOmW028f45W"
+  },
+  {
+    "_id": "6a0ec0c7796a4b9cd37939bf",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TZRs1CdbiaQLvgXH8bZ7BFz",
+      "name": "Fergui Consultancy Limited",
+      "brand": "MasterCard",
+      "last4": "6940",
+      "country": "GB",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TZRsBCdbiaQLvgXuzmn73q9"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 8
+    },
+    "createdAt": "2026-05-21T08:22:31.921Z",
+    "createdBy": "6a0ec0c48da438f609df839d",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TZRs1CdbiaQLvgXH8bZ7BFz",
+    "paymentCustomer": "cus_UYZ0moj5eCnKbn"
+  },
+  {
+    "_id": "6a0ec7af0eb7c3e00e753a6e",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-05-21T08:51:59.787Z",
+    "createdBy": "660a0f2d2f1f8450a7e515cb",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1TZSKgI8B1riowTwGTWK6Vjx",
+    "paymentCustomer": "cus_S2NFU7GTP7dRoU"
+  },
+  {
+    "_id": "6a1010f28270b7ff2ac89327",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TZoG0CdbiaQLvgXqkiZvsOl",
+      "name": "Ugur Dahar",
+      "brand": "Visa",
+      "last4": "4082",
+      "country": "TR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1TZoGDCdbiaQLvgX8xheGJIL"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 2
+    },
+    "createdAt": "2026-05-22T08:16:50.755Z",
+    "createdBy": "6a1010ee5ebb59fab3f5a9c3",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TZoG0CdbiaQLvgXqkiZvsOl",
+    "paymentCustomer": "cus_UYw87mMl7qbepN"
+  },
+  {
+    "_id": "6a101dc75ebb59fab3fca58d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TZp6yI8B1riowTwKhqz9yag",
+      "name": "Tiago",
+      "brand": "Visa",
+      "last4": "7437",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TZp7DI8B1riowTwvOn4C3n2"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 6
+    },
+    "createdAt": "2026-05-22T09:11:35.837Z",
+    "createdBy": "6a101dc32999fdf27917cd5b",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TZp6yI8B1riowTwKhqz9yag",
+    "paymentCustomer": "cus_UYx1N6bMCjQ5Mi"
+  },
+  {
+    "_id": "6a14175f5808b302b5654467",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-05-25T09:33:19.620Z",
+    "createdBy": "6a1415baa81cc817102e6828",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1TaussBGYBAQ24lUPrP7QeVl",
+    "paymentCustomer": "cus_Ua4vlY9T2xO3e3"
+  },
+  {
+    "_id": "6a14c306993aea3f173a90a3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "5375",
+      "country": "US",
+      "funding": "prepaid",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2030,
+      "expirationMonth": 3
+    },
+    "createdAt": "2026-05-25T21:45:42.929Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1Tb6JVCdbiaQLvgX2wGbN0Kg",
+    "paymentCustomer": "cus_Ua7PuO1wGl6S32"
+  },
+  {
+    "_id": "6a15a371912d0cbeb660b639",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "6016",
+      "country": "ES",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 12
+    },
+    "createdAt": "2026-05-26T13:43:13.776Z",
+    "createdBy": "6a1596b09f867a376bad146b",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1TbLFzCdbiaQLvgXJkANDkDU",
+    "paymentCustomer": "cus_UaWEYWhfTIOaZv"
+  },
+  {
+    "_id": "6a16efa7192002ac37ebe9dd",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TbhNqCdbiaQLvgXyUbSMUnh",
+      "name": "Jean Jacques DurizY",
+      "brand": "Visa",
+      "last4": "1630",
+      "country": "FR",
+      "funding": "credit",
+      "cvcCheck": "unavailable",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TbhNyCdbiaQLvgX0tYCLFCn"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 9
+    },
+    "createdAt": "2026-05-27T13:20:39.361Z",
+    "createdBy": "6a16efa45fe55ef7cc3107e6",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TbhNqCdbiaQLvgXyUbSMUnh",
+    "paymentCustomer": "cus_UatA7fmGPGqthF"
+  },
+  {
+    "_id": "6a1843be4aa9c985a389ad16",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Tc422CdbiaQLvgX9Zt44bSC",
+      "name": "Olena Owens ",
+      "brand": "American Express",
+      "last4": "2009",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1Tc42DCdbiaQLvgXg1sEFPZC"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-05-28T13:31:42.380Z",
+    "createdBy": "6a1843ba6553f8557634e146",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1Tc422CdbiaQLvgX9Zt44bSC",
+    "paymentCustomer": "cus_UbGZWIZLlbO9Av"
+  },
+  {
+    "_id": "6a186fefc9e1fe561b0c277c",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Tc6yWCdbiaQLvgXTHm4oR1U",
+      "name": "Miguel Angelo Costa",
+      "brand": "Visa",
+      "last4": "2517",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1Tc6yhCdbiaQLvgX0K4mQPPG"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 11
+    },
+    "createdAt": "2026-05-28T16:40:15.824Z",
+    "createdBy": "6a186feb3b14f10fcdc9406b",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1Tc6yWCdbiaQLvgXTHm4oR1U",
+    "paymentCustomer": "cus_UbJbSVPwMLhX2o"
+  },
+  {
+    "_id": "6a1986d94c8f98f436ec15b9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "8918",
+      "country": "ES",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2030,
+      "expirationMonth": 12
+    },
+    "createdAt": "2026-05-29T12:30:17.223Z",
+    "createdBy": "6a1957984c014909be5e0470",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1TcPY2I8B1riowTwmxw1dwrR",
+    "paymentCustomer": "cus_UbcmJUY9Osdv8l"
   },
   {
     "_id": "6a19ae3c986a8a6e58000b9a",
@@ -5384,6 +11576,280 @@
     "paymentCustomer": "cus_Re6abYfOHXxt8v"
   },
   {
+    "_id": "6a1b3ae8290acdad7fdc8807",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TcsafBGYBAQ24lUy2YhwaKp",
+      "name": "Maxime Cariou",
+      "brand": "Visa",
+      "last4": "2923",
+      "country": "FR",
+      "funding": "credit",
+      "cvcCheck": "unavailable",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TcsapBGYBAQ24lUBYYfdrMD"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 12
+    },
+    "createdAt": "2026-05-30T19:30:48.457Z",
+    "createdBy": "6a1b3ae5290acdad7fdc8720",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1TcsafBGYBAQ24lUy2YhwaKp",
+    "paymentCustomer": "cus_Uc6o1UEOn7GN5q"
+  },
+  {
+    "_id": "6a1db22a8d1b3e8c09b51eac",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-06-01T16:24:10.746Z",
+    "createdBy": "682d9a8343b12193ab2a97fd",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1TdYdJCdbiaQLvgXE9sMAEGr",
+    "paymentCustomer": "cus_SLqUY9Qzx214uu"
+  },
+  {
+    "_id": "6a1ea3001c86dec9d9411557",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TdofYI8B1riowTwj3S95BpV",
+      "name": "Matt Baum",
+      "brand": "American Express",
+      "last4": "1232",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1TdofiI8B1riowTwxKBtvQdQ"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 9
+    },
+    "createdAt": "2026-06-02T09:31:44.079Z",
+    "createdBy": "6a1ea2fbf8ddd230cdd8cf90",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TdofYI8B1riowTwj3S95BpV",
+    "paymentCustomer": "cus_Ud4pjW3JUaEkJ9"
+  },
+  {
+    "_id": "6a1eaf40aef09dcad237d7a8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TdpU1CdbiaQLvgXIuopDKFn",
+      "name": "Visa",
+      "brand": "Visa",
+      "last4": "9024",
+      "country": "ES",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TdpUKCdbiaQLvgXYiJ3cZAw"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 1
+    },
+    "createdAt": "2026-06-02T10:24:00.961Z",
+    "createdBy": "6a1eaf3dd4fa8e448babe991",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TdpU1CdbiaQLvgXIuopDKFn",
+    "paymentCustomer": "cus_Ud5f6b9f3SdemF"
+  },
+  {
+    "_id": "6a21e9ce5a6d8d8c091b5bcb",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TeiX2I8B1riowTwV6JTljtC",
+      "name": "Filipe Barbosa",
+      "brand": "Visa",
+      "last4": "7967",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TeiXCI8B1riowTwUFRRsuaT"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 5
+    },
+    "createdAt": "2026-06-04T21:10:38.855Z",
+    "createdBy": "6a21e9ca02436e68fba2ca3c",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TeiX2I8B1riowTwV6JTljtC",
+    "paymentCustomer": "cus_Ue0YhXr14CLYK7"
+  },
+  {
+    "_id": "6a27c04a2afca2d23c9a3dd8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "1904",
+      "country": "DE",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-06-09T07:27:06.295Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1TgK3XBGYBAQ24lUWMJCi8bU",
+    "paymentCustomer": "cus_UffMgHWLkRwy9A"
+  },
+  {
+    "_id": "6a27cd702269a5da8346b6a3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TgKoeCdbiaQLvgXuseeOWey",
+      "name": "Daniel Mross",
+      "brand": "MasterCard",
+      "last4": "0050",
+      "country": "DE",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TgKwFCdbiaQLvgXJKO9euYz"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 3
+    },
+    "createdAt": "2026-06-09T08:23:12.034Z",
+    "createdBy": "6a27cd6ccce50c1f9f60bc8f",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TgKoeCdbiaQLvgXuseeOWey",
+    "paymentCustomer": "cus_UfgIETQ8rpb1Eu"
+  },
+  {
+    "_id": "6a282e51462f7c94161f28bf",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TgRJ9CdbiaQLvgXLpknKdpk",
+      "name": "Alina Abidova",
+      "brand": "MasterCard",
+      "last4": "5478",
+      "country": "IE",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TgROHCdbiaQLvgXfdJcTvNU"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 2
+    },
+    "createdAt": "2026-06-09T15:16:33.699Z",
+    "createdBy": "6a282e4e8d09ed453cdd376c",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TgRJ9CdbiaQLvgXLpknKdpk",
+    "paymentCustomer": "cus_UfmyrbVDL7s9A3"
+  },
+  {
+    "_id": "6a2aa2889c65ec431cd04a22",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "3012",
+      "country": "ES",
+      "funding": "debit",
+      "cvcCheck": "unavailable",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 10
+    },
+    "createdAt": "2026-06-11T11:56:56.743Z",
+    "createdBy": "68ee7015dc747e7f190fea36",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1Th7DfCdbiaQLvgX7S7bs1oE",
+    "paymentCustomer": "cus_TEdhQTNzKkkHsy"
+  },
+  {
+    "_id": "6a2ac68892dca1ba7113113a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Th9cNCdbiaQLvgXyc2iQDJB",
+      "name": "Victoria Kather",
+      "brand": "Visa",
+      "last4": "7163",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1Th9cpCdbiaQLvgX7CRsd8eL"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-06-11T14:30:32.928Z",
+    "createdBy": "6a2ac6834f2286d5fa3b7994",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1Th9cNCdbiaQLvgXyc2iQDJB",
+    "paymentCustomer": "cus_UgWgyGeZlbUhAu"
+  },
+  {
+    "_id": "6a2ac7ef167f411682e3d53b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Th9iRBGYBAQ24lUS2vDpiPm",
+      "name": "LE BOUAR Yann",
+      "brand": "Visa",
+      "last4": "7210",
+      "country": "FR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1Th9icBGYBAQ24lUPY1F5ysI"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 2
+    },
+    "createdAt": "2026-06-11T14:36:31.030Z",
+    "createdBy": "6a2ac7eb45df76f06e42650e",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1Th9iRBGYBAQ24lUS2vDpiPm",
+    "paymentCustomer": "cus_UgWmWZG96ENUhg"
+  },
+  {
     "_id": "6a2ad52421199177c08b0a3b",
     "type": "stripe",
     "method": "card",
@@ -5409,5 +11875,60 @@
     ],
     "paymentSource": "card_1ThAaxBGYBAQ24lUR2JI4fSW",
     "paymentCustomer": "cus_UgXg3PPHblQ0H4"
+  },
+  {
+    "_id": "6a2ae8f2ba082cacedaef5c1",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-06-11T16:57:22.115Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1ThBurCdbiaQLvgXwEltg5wu",
+    "paymentCustomer": "cus_UgYy2PqDlE19Lh"
+  },
+  {
+    "_id": "6a2fcea8ed89763e0febc433",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TiXPBI8B1riowTwscRLxOwX",
+      "name": "A E Goodwin",
+      "brand": "MasterCard",
+      "last4": "4188",
+      "country": "GB",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TiXPYI8B1riowTwOT9dr0Rr"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-06-15T10:06:32.772Z",
+    "createdBy": "6a2fcea54619aacba98e6123",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TiXPBI8B1riowTwscRLxOwX",
+    "paymentCustomer": "cus_UhxK94ETNPcUd2"
+  },
+  {
+    "_id": "6a30943c4dbee3aba14e11e7",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-06-16T00:09:32.333Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1ThBurCdbiaQLvgXwEltg5wu",
+    "paymentCustomer": "cus_UgYy2PqDlE19Lh"
   }
 ]
