@@ -11,9 +11,9 @@
  * - `incremental` whether daily syncs may use a `modifiedSince` filter
  * - `incrementalField` timestamp field to filter on (default "modifiedAt")
  *
- * Scope strings were verified against the live token endpoint. The five
- * `available: false` resources (events, posts, tickets, benefits, credits) exist
- * as v2 endpoints but their scopes are not granted to the current app.
+ * Scope strings were verified against the live token endpoint. Set a resource's
+ * `available: false` when its scope is not yet granted to the API app, so the
+ * token request doesn't fail on an ungranted scope.
  *
  * NOTE: filterability of `modifiedAt` per collection isn't guaranteed by the
  * docs; the sync engine falls back to a full pull if a filter is rejected.
@@ -38,11 +38,13 @@ export const RESOURCES: ResourceDef[] = [
   // Community / CRM
   { name: "members", path: "/members", scope: "flex.community.members.read", incremental: true },
   { name: "companies", path: "/companies", scope: "flex.community.companies.read", incremental: true },
-  { name: "checkins", path: "/checkins", scope: "flex.community.checkins.read", incremental: true },
+  // Checkins are immutable, append-mostly events with no modifiedAt; filter on `start`.
+  { name: "checkins", path: "/checkins", scope: "flex.community.checkins.read", incremental: true, incrementalField: "start" },
   { name: "opportunities", path: "/opportunities", scope: "flex.community.opportunities.read", incremental: true },
   { name: "opportunityStatuses", path: "/opportunity-statuses", scope: "flex.community.opportunityStatuses.read", incremental: false },
-  { name: "visitors", path: "/visitors", scope: "flex.community.visitors.read", incremental: true },
-  { name: "visits", path: "/visits", scope: "flex.community.visits.read", incremental: true },
+  // visitors/visits expose no timestamp at all, so they can't be filtered incrementally (and are tiny).
+  { name: "visitors", path: "/visitors", scope: "flex.community.visitors.read", incremental: false },
+  { name: "visits", path: "/visits", scope: "flex.community.visits.read", incremental: false },
 
   // Membership & contracts
   { name: "memberships", path: "/memberships", scope: "flex.community.memberships.read", incremental: true },
@@ -61,7 +63,7 @@ export const RESOURCES: ResourceDef[] = [
   // details attached only to a member (not a company) are not captured; switch
   // param to "member" (parent: members) for full coverage at more requests.
   { name: "paymentDetails", path: "/payment-details", scope: "flex.billing.paymentDetails.read", incremental: true, fanOut: { parent: "companies", param: "company" } },
-  { name: "credits", path: "/credits", scope: "flex.billing.credits.read", available: false, incremental: true },
+  { name: "credits", path: "/credits", scope: "flex.space.credits.read", incremental: true },
   { name: "passes", path: "/passes", scope: "flex.space.passes.read", incremental: true },
   { name: "taxRates", path: "/tax-rates", scope: "flex.billing.taxRates.read", incremental: false },
   { name: "revenueAccounts", path: "/revenue-accounts", scope: "flex.billing.revenueAccounts.read", incremental: false },
@@ -75,11 +77,11 @@ export const RESOURCES: ResourceDef[] = [
   { name: "floors", path: "/floors", scope: "flex.space.floors.read", incremental: false },
   { name: "bookings", path: "/bookings", scope: "flex.space.bookings.read", incremental: true },
 
-  // Engagement / support (scopes exist but not granted to the current app)
-  { name: "events", path: "/events", scope: "flex.community.events.read", available: false, incremental: true },
-  { name: "posts", path: "/posts", scope: "flex.community.posts.read", available: false, incremental: true },
-  { name: "tickets", path: "/tickets", scope: "flex.community.tickets.read", available: false, incremental: true },
-  { name: "benefits", path: "/benefits", scope: "flex.community.benefits.read", available: false, incremental: false },
+  // Engagement / support
+  { name: "events", path: "/events", scope: "flex.collaboration.events.read", incremental: true },
+  { name: "posts", path: "/posts", scope: "flex.collaboration.posts.read", incremental: true },
+  { name: "tickets", path: "/tickets", scope: "flex.collaboration.tickets.read", incremental: true },
+  { name: "benefits", path: "/benefits", scope: "flex.collaboration.benefits.read", incremental: false },
 
   // Settings / meta
   { name: "customProperties", path: "/custom-properties", scope: "flex.settings.customProperties.read", incremental: false },

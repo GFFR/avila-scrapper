@@ -11520,8 +11520,8 @@
     "createdAt": "2023-08-18T09:35:00.367Z",
     "createdBy": "6414df20754b32e056c1bd6e",
     "startDate": "2022-02-07T00:00:00.000Z",
-    "modifiedAt": "2026-06-15T09:58:00.212Z",
-    "modifiedBy": "6601b525e2a85b069ab78906",
+    "modifiedAt": "2026-06-15T23:02:47.024Z",
+    "modifiedBy": "59634800f789d0e140b0c414",
     "properties": {
       "email": "flamentch@gmail.com",
       "Categoria": "BL 10 DIAS",
@@ -59753,8 +59753,8 @@
     "createdAt": "2025-01-23T16:53:46.942Z",
     "createdBy": "655b942fa1665574c2b8d62e",
     "startDate": "2025-01-23T00:00:00.000Z",
-    "modifiedAt": "2026-06-01T06:05:56.040Z",
-    "modifiedBy": "59634800f789d0e140b0c414",
+    "modifiedAt": "2026-06-16T09:13:50.113Z",
+    "modifiedBy": "6601b68b0d3f9b62ca439f46",
     "properties": {
       "Categoria": "EF - 3D.06 E 3D.07",
       "clientNumber": "10006",
@@ -59822,8 +59822,8 @@
     "createdAt": "2025-01-24T12:44:04.953Z",
     "createdBy": "655b942fa1665574c2b8d62e",
     "startDate": "2025-02-01T00:00:00.000Z",
-    "modifiedAt": "2026-05-07T00:23:59.944Z",
-    "modifiedBy": "69641fee79cdde614684a8a6",
+    "modifiedAt": "2026-06-15T16:41:16.112Z",
+    "modifiedBy": "655b9794b6f0c52a50c06d1b",
     "properties": {
       "Categoria": "EF 5.05",
       "clientNumber": "10008",
@@ -90392,8 +90392,8 @@
     "createdAt": "2026-05-22T08:16:47.012Z",
     "createdBy": "6a1010ee5ebb59fab3f5a9c3",
     "startDate": "2026-05-22T00:00:00.000Z",
-    "modifiedAt": "2026-06-01T06:05:56.040Z",
-    "modifiedBy": "59634800f789d0e140b0c414",
+    "modifiedAt": "2026-06-16T09:51:37.148Z",
+    "modifiedBy": "655b9794b6f0c52a50c06d1b",
     "properties": {
       "clientNumber": "13771",
       "teamBusinessName": "NovaCFO"
@@ -90855,7 +90855,7 @@
     "createdAt": "2026-05-28T17:03:37.134Z",
     "createdBy": "6601b4a7808ba0552014f8d1",
     "startDate": "2026-05-28T00:00:00.000Z",
-    "modifiedAt": "2026-06-15T12:29:42.358Z",
+    "modifiedAt": "2026-06-15T15:40:50.311Z",
     "modifiedBy": "655b9794b6f0c52a50c06d1b",
     "properties": {
       "clientNumber": "13820",
@@ -91295,11 +91295,12 @@
   },
   {
     "_id": "6a1ee0dc53467081f76edb34",
-    "name": "Banco do Brasil, AG-Sucursal Portugal",
+    "name": "Banco do Brasil AG-Sucursal Portugal",
     "tags": [],
     "email": "sce.rh@bb.com.br",
     "status": "drop-in",
     "address": {
+      "zip": "1050-161",
       "city": "Lisboa",
       "street": "Av. da República, 35 7º",
       "country": "Portugal"
@@ -91308,10 +91309,11 @@
     "createdAt": "2026-06-02T13:55:40.272Z",
     "createdBy": "691112f2dbf7019ca540fa22",
     "startDate": "2026-06-02T00:00:00.000Z",
-    "modifiedAt": "2026-06-15T14:17:48.042Z",
-    "modifiedBy": "691112f2dbf7019ca540fa22",
+    "modifiedAt": "2026-06-16T09:29:41.643Z",
+    "modifiedBy": "655b9794b6f0c52a50c06d1b",
     "properties": {
-      "clientNumber": "13856"
+      "clientNumber": "13856",
+      "teamBusinessName": "Banco do Brasil, AG-Sucursal Portugal"
     },
     "billingDetails": {
       "taxRate": "64a55f7dd28ef65b7b29bbc2",

@@ -65,15 +65,26 @@ export class BackupDB {
     `;
   }
 
-  /** Upsert a batch of records into a resource table. Returns rows written. */
-  async upsertBatch(resource: string, records: OrndRecord[]): Promise<number> {
+  /**
+   * Upsert a batch of records into a resource table. Returns rows written.
+   *
+   * `incrementalField` names the field that drives incremental sync for this
+   * resource (default `modifiedAt`). Its value is stored in `modified_at` so the
+   * watermark (maxModifiedAt) and the API `$gte` filter agree on the same cursor —
+   * e.g. checkins have no modifiedAt and use `start` instead.
+   */
+  async upsertBatch(resource: string, records: OrndRecord[], incrementalField?: string): Promise<number> {
     if (records.length === 0) return 0;
     const table = this.sql(this.ident(resource));
     const syncedAt = new Date().toISOString();
+    const cursorOf = (r: OrndRecord): string | null => {
+      const fromField = incrementalField ? (r as Record<string, unknown>)[incrementalField] : undefined;
+      return (fromField as string | undefined) ?? r.modifiedAt ?? r.updatedAt ?? null;
+    };
     const rows = records.map((r) => ({
       _id: r._id,
       created_at: r.createdAt ?? null,
-      modified_at: r.modifiedAt ?? r.updatedAt ?? null,
+      modified_at: cursorOf(r),
       synced_at: syncedAt,
       data: this.sql.json(r as unknown as Parameters<Sql["json"]>[0]),
     }));

@@ -1,1 +1,173 @@
-[]
+[
+  {
+    "_id": "69b2a254bd7fbfff58265697",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Company%20Opening",
+    "name": "Company Opening",
+    "category": "Corporate",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/company-opening-1773317390037.jpeg",
+    "description": "Free analysis - Complete company opening process and start of activity."
+  },
+  {
+    "_id": "69b2a28477b54e9ba1717dd2",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Accounting",
+    "name": "Accounting / Tax Support",
+    "category": "Corporate",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/accounting-tax-support-1773317424029.jpeg",
+    "description": "Free analysis - Accounting organization and support in the restructuring of the Company."
+  },
+  {
+    "_id": "69b2a2d55b944e22f0043918",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Legal%20Support",
+    "name": "Legal Support",
+    "category": "Corporate",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/legal-support-1773317449716.jpeg",
+    "description": "Free analysis - Legal support for Micro Companies and SMEs."
+  },
+  {
+    "_id": "69b2a32ec0857c0a26bf3f8d",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Web%20Design",
+    "name": "Web Design / Ecommerce",
+    "category": "Corporate",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/web-design-ecommerce-1773317475920.jpeg",
+    "description": "Free analysis of your current ecosystem - Development of custom websites and online stores, with optimised SEO and seamless navigation."
+  },
+  {
+    "_id": "69b2a387bc1ea01ab112c591",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Insurances",
+    "name": "Insurances",
+    "category": "Corporate",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/insurances-1773317510030.jpeg",
+    "description": "Free Customer Analysis and Dossier - Discounts never less than 5%."
+  },
+  {
+    "_id": "69b2a3db0eb7f5c336cc5dd7",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Consulting",
+    "name": "Consulting & Coaching",
+    "category": "Finance & Advisory",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/consulting-coaching-1773317533650.jpeg",
+    "description": "Free analysis - Financial consulting and coaching."
+  },
+  {
+    "_id": "69b2a434c0857c0a26bf978f",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20EU%20Funds",
+    "name": "Community EU Funds",
+    "category": "Finance & Advisory",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/community-eu-funds-1773317564019.jpeg",
+    "description": "Free analysis - Active search for financing and support for the management of SMEs."
+  },
+  {
+    "_id": "69b2a491ab6633be7b888ad9",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Auditor%20Reviewer",
+    "name": "Official Auditor Reviewer",
+    "category": "Finance & Advisory",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/official-auditor-reviewer-1773317585506.jpeg",
+    "description": "Free analysis - External audit and statutory audit."
+  },
+  {
+    "_id": "69b2a4ff77b54e9ba1726079",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Crisis%20Communication",
+    "name": "Crises Communication / Management",
+    "category": "Corporate",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/crises-communication-management-1773317610212.jpeg",
+    "description": "Free analysis - Strategic communication consulting."
+  },
+  {
+    "_id": "69b2a577ee1862ca863a9df6",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Events%20Management",
+    "name": "Events Management",
+    "category": "Corporate",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/events-management-1773317632958.jpeg",
+    "description": "Free analysis - Corporate events management and production, online and offline for every type of company."
+  },
+  {
+    "_id": "69b2a5ffab6633be7b8910cc",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Gym",
+    "name": "Gym",
+    "category": "Health & Wellness",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/gym-1773317673135.jpeg",
+    "description": "FP BASIC €49/month · FP PLUS €99/month - Waiver of the registration fee, insurance, and card."
+  },
+  {
+    "_id": "69b2a6950eb7f5c336cd542c",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Pharmacare%20Saldanha",
+    "name": "Pharmacare Saldanha",
+    "category": "Health & Wellness",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/pharmacare-saldanha-1773317704000.jpeg",
+    "description": "10% OFF & Free Delivery - 10% OFF on non-prescription (MNSRM) medications, Rapid Antigen Test (Self-Tests), Wellbeing products and Mom and Baby products."
+  },
+  {
+    "_id": "69b2a716bc1ea01ab114117e",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Pharmacy%20Parque%20das%20Na%C3%A7%C3%B5es",
+    "name": "Pharmacy Parque das Nações",
+    "category": "Health & Wellness",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/pharmacy-parque-das-nacoes-1773317768484.jpeg",
+    "description": "10% OFF & Free Services - To obtain these benefits, present your Avila Spaces card at the Farmacia Vasco da Gama counter."
+  },
+  {
+    "_id": "69b2a797bd7fbfff582899fe",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Clinical%20Analysis",
+    "name": "Clinical Analysis",
+    "category": "Health & Wellness",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/clinical-analysis-1773317830877.jpeg",
+    "description": "Up to 20% OFF for Avila Members - Access to a variety of clinical analyses with the option for home service."
+  },
+  {
+    "_id": "69b2a81dab6633be7b89eac8",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Optical%20Services",
+    "name": "Optical Services",
+    "category": "Health & Wellness",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/optical-services-1773317853938.jpeg",
+    "description": "Free Analysis - Daily optometry, contactology and visual therapy appointments, supported by highly qualified professionals and the most advanced technology in Primary Visual Health Care."
+  },
+  {
+    "_id": "69b2a8a8ab6633be7b8a2303",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Interior%20Design",
+    "name": "Interior Design",
+    "category": "Corporate",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/interior-design-1773317967709.jpeg",
+    "description": "Free analysis - Inner decoration."
+  },
+  {
+    "_id": "69b2a928bc1ea01ab114e94c",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Gin%20Lovers",
+    "name": "Gin Lovers Bar & Restaurant",
+    "category": "Lifestyle",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/gin-lovers-bar-restaurant-1773318002334.jpeg",
+    "description": "Exclusive Voucher: 10% OFF for Avila Members - Submit your information to receive your voucher."
+  },
+  {
+    "_id": "69b2a9c4dda80f0cfbeb2344",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Travel%20Agency",
+    "name": "Travel Agency",
+    "category": "Lifestyle",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/travel-agency-1773318027477.jpeg",
+    "description": "Free analysis - Creative, informed and specialized team in the organization of trips and business events."
+  },
+  {
+    "_id": "69b2aa62bd7fbfff5829ea85",
+    "url": "mailto:info@avilaspaces.com?subject=Marketplace%20%E2%80%94%20Online%20Portuguese%20Classes",
+    "name": "Online Portuguese Classes",
+    "category": "Education",
+    "locations": [],
+    "coverImage": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/online-portuguese-classes-1773318091987.jpeg",
+    "description": "Submit to receive free 30-minute online Portuguese lesson - Courses for all levels in small groups or 1 to 1."
+  }
+]

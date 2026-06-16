@@ -438,7 +438,7 @@
     "createdAt": "2023-08-18T13:56:31.079Z",
     "createdBy": "6414df20754b32e056c1bd6e",
     "startDate": "2009-01-01T00:00:00.000Z",
-    "modifiedAt": "2026-04-16T19:49:05.940Z",
+    "modifiedAt": "2026-06-15T20:25:59.300Z",
     "modifiedBy": "660a0b262f1f8469eee50a01",
     "properties": {},
     "description": "Lawyer | Partner @becoach",
@@ -54648,7 +54648,7 @@
     "location": "657b91bf7f60e04798908d9b",
     "createdAt": "2025-01-13T11:05:18.630Z",
     "createdBy": "655b942fa1665574c2b8d62e",
-    "modifiedAt": "2026-05-19T12:53:40.875Z",
+    "modifiedAt": "2026-06-16T10:12:42.246Z",
     "modifiedBy": "6784f3e4c80c9ea3739d942f",
     "properties": {},
     "portalPrivacy": {
@@ -56915,8 +56915,8 @@
     "location": "657b91bf7f60e04798908d9b",
     "createdAt": "2025-01-24T13:03:44.189Z",
     "createdBy": "655b942fa1665574c2b8d62e",
-    "modifiedAt": "2026-05-21T10:48:51.373Z",
-    "modifiedBy": "6980b059c989a2b58981f259",
+    "modifiedAt": "2026-06-15T16:36:36.850Z",
+    "modifiedBy": "655b9794b6f0c52a50c06d1b",
     "properties": {
       "Community Person": true
     },
@@ -64419,7 +64419,7 @@
     "location": "657b91bf7f60e04798908d9b",
     "createdAt": "2025-03-17T12:29:40.787Z",
     "createdBy": "67d80050c2ce9d413a457627",
-    "modifiedAt": "2026-05-18T20:33:40.063Z",
+    "modifiedAt": "2026-06-15T16:12:15.595Z",
     "modifiedBy": "67d815b4a95dd9d8ae9128bc",
     "properties": {
       "clientNumber": "10342"
@@ -103184,7 +103184,7 @@
     "location": "64a1c07bc31445076eb246c2",
     "createdAt": "2026-03-23T12:34:44.414Z",
     "createdBy": "6601b68b0d3f9b62ca439f46",
-    "modifiedAt": "2026-05-07T14:20:36.746Z",
+    "modifiedAt": "2026-06-15T19:42:32.544Z",
     "modifiedBy": "69fc7ed2a3db48dc08f725b9",
     "properties": {
       "clientNumber": "13130"
@@ -106571,8 +106571,8 @@
     "location": "657b91bf7f60e04798908d9b",
     "createdAt": "2026-04-07T11:17:01.021Z",
     "createdBy": "6601b4a7808ba0552014f8d1",
-    "modifiedAt": "2026-06-01T06:05:56.159Z",
-    "modifiedBy": "59634800f789d0e140b0c414",
+    "modifiedAt": "2026-06-15T22:42:37.091Z",
+    "modifiedBy": "69eb1a9dba1464499283118d",
     "properties": {
       "clientNumber": "13336"
     },
@@ -108950,8 +108950,8 @@
     "location": "657b91bf7f60e04798908d9b",
     "createdAt": "2026-04-08T17:22:18.214Z",
     "createdBy": "690a041591d0c6dcf517a86c",
-    "modifiedAt": "2026-04-09T16:56:40.800Z",
-    "modifiedBy": "690a041591d0c6dcf517a86c",
+    "modifiedAt": "2026-06-15T16:36:36.850Z",
+    "modifiedBy": "655b9794b6f0c52a50c06d1b",
     "properties": {
       "clientNumber": "13460"
     },
@@ -110414,8 +110414,8 @@
     "location": "647a1afd46677c1cf57f4416",
     "createdAt": "2026-04-22T06:33:09.955Z",
     "createdBy": "69e86ba4fbf316f22535b697",
-    "modifiedAt": "2026-06-01T06:05:55.827Z",
-    "modifiedBy": "59634800f789d0e140b0c414",
+    "modifiedAt": "2026-06-15T17:04:33.059Z",
+    "modifiedBy": "69e86ba4fbf316f22535b697",
     "properties": {
       "clientNumber": "13543",
       "teamBusinessName": "Marketing em Si, Lda"
@@ -116329,5 +116329,43 @@
       "vatNumber": "330192280",
       "shouldSendOverdueReminders": true
     }
+  },
+  {
+    "_id": "6a301ea755ca4c44621ff520",
+    "name": "Nicolas Nÿs",
+    "email": "nicolas.nys19@gmail.com",
+    "phone": "+33648491234",
+    "status": "drop-in",
+    "address": {
+      "zip": "78150",
+      "city": "Le Chesnay",
+      "state": "",
+      "street": "3 rue Victor Andre Robert ",
+      "country": "France "
+    },
+    "location": "647a1afd46677c1cf57f4416",
+    "createdAt": "2026-06-15T15:47:51.864Z",
+    "createdBy": "6a301ea7835932983b729f6c",
+    "startDate": "2026-06-19T00:00:00.000Z",
+    "modifiedAt": "2026-06-15T15:48:29.785Z",
+    "modifiedBy": "6a301ea7835932983b729f6c",
+    "properties": {
+      "clientNumber": "13931"
+    },
+    "description": "",
+    "portalPrivacy": {
+      "isVisible": false,
+      "showContactDetails": false,
+      "showSocialProfiles": false
+    },
+    "billingDetails": {
+      "vatNumber": "",
+      "billingName": "",
+      "paymentMethod": "",
+      "registrationNumber": "",
+      "shouldSendOverdueReminders": true
+    },
+    "isBillingPerson": true,
+    "isContactPerson": true
   }
 ]

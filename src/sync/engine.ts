@@ -3,9 +3,11 @@ import { BackupDB } from "../db/database.js";
 import { RESOURCES, type ResourceDef } from "../officernd/resources.js";
 import { log } from "../logger.js";
 
-// On incremental fan-out, include parents modified within this window before the
-// last run, to absorb clock skew and long-running syncs.
-const FANOUT_OVERLAP_MS = 48 * 60 * 60 * 1000;
+// Re-pull anything within this window before the watermark/last run, to absorb
+// clock skew, long-running syncs, and out-of-order writes. Upserts are idempotent,
+// so the only cost is re-fetching a small tail. Applies to both incremental
+// watermarks and incremental fan-out.
+const OVERLAP_MS = 48 * 60 * 60 * 1000;
 
 export interface SyncOptions {
   /** Ignore watermarks and pull every record for every resource. */
@@ -61,11 +63,15 @@ export class SyncEngine {
     const useIncremental = def.incremental && !forceFull;
     const watermark = useIncremental ? await this.db.maxModifiedAt(def.name) : undefined;
     const mode: "full" | "incremental" = watermark ? "incremental" : "full";
+    // Filter from a hair before the watermark so boundary records aren't missed.
+    const since = watermark
+      ? new Date(new Date(watermark).getTime() - OVERLAP_MS).toISOString()
+      : undefined;
 
-    log.info(`Syncing ${def.name}`, { mode, since: watermark });
+    log.info(`Syncing ${def.name}`, { mode, since });
 
     try {
-      const count = await this.pull(def, watermark);
+      const count = await this.pull(def, since);
       const total = await this.db.countRows(def.name);
       await this.db.recordSyncState(def.name, {
         full: mode === "full",
@@ -100,7 +106,7 @@ export class SyncEngine {
       modifiedSince,
       incrementalField: def.incrementalField,
     })) {
-      written += await this.db.upsertBatch(def.name, page);
+      written += await this.db.upsertBatch(def.name, page, def.incrementalField);
     }
     return written;
   }
@@ -118,7 +124,7 @@ export class SyncEngine {
     let parentIds: string[];
     let mode: "full" | "incremental";
     if (incremental) {
-      const since = new Date(prior!.last_run_at!.getTime() - FANOUT_OVERLAP_MS).toISOString();
+      const since = new Date(prior!.last_run_at!.getTime() - OVERLAP_MS).toISOString();
       parentIds = await this.db.idsModifiedSince(parent, since);
       mode = "incremental";
       log.info(`Syncing ${def.name} (fan-out)`, { parent, mode, since, parents: parentIds.length });
@@ -134,7 +140,7 @@ export class SyncEngine {
     for (const id of parentIds) {
       try {
         for await (const page of this.client.listAll(def.path, { extraParams: { [param]: id } })) {
-          written += await this.db.upsertBatch(def.name, page);
+          written += await this.db.upsertBatch(def.name, page, def.incrementalField);
         }
       } catch (err) {
         // A single parent failing (e.g. transient 429 after retries) shouldn't

@@ -1787,5 +1787,12 @@
     "resource": "6a3010bf12af58c1731e30f2",
     "startDate": "2025-06-01T00:00:00.000Z",
     "membership": "6839dd36add4ce0420029dca"
+  },
+  {
+    "_id": "6a311f0b3930fbee67ba21f6",
+    "endDate": null,
+    "resource": "64de8be89e224796fc76838c",
+    "startDate": "2025-11-01T00:00:00.000Z",
+    "membership": "68f76e60330981ef589a798f"
   }
 ]
