@@ -1,0 +1,500 @@
+[
+  {
+    "_id": "64deadf10ae7ac5718904c62",
+    "key": "clientNumber",
+    "type": "String",
+    "rates": [],
+    "title": "Client Number",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "team",
+      "member"
+    ],
+    "placeholder": "Client Number"
+  },
+  {
+    "_id": "65c4eea507b40d9995ae89a5",
+    "key": "Business name",
+    "type": "Text",
+    "rates": [],
+    "title": "Business name",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "office"
+    ]
+  },
+  {
+    "_id": "65c4ef71ea577418f4825a4a",
+    "key": "Vat Id",
+    "type": "String",
+    "rates": [],
+    "title": "Vat Id",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "office"
+    ]
+  },
+  {
+    "_id": "65c4ef92f177d4778a7119ab",
+    "key": "Registration number",
+    "type": "String",
+    "rates": [],
+    "title": "Registration number",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "office"
+    ]
+  },
+  {
+    "_id": "65c4efaaf177d4486a711ac6",
+    "key": "Address",
+    "type": "String",
+    "rates": [],
+    "title": "Address",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "office"
+    ]
+  },
+  {
+    "_id": "65c4efcbea5774510e825f8b",
+    "key": "City",
+    "type": "Text",
+    "rates": [],
+    "title": "City",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "office"
+    ]
+  },
+  {
+    "_id": "65c4effa281a64d0f5c764d5",
+    "key": "Bank Name",
+    "type": "Text",
+    "rates": [],
+    "title": "Bank Name",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "office"
+    ]
+  },
+  {
+    "_id": "65c4f00dea57743e3a82624f",
+    "key": "IBAN",
+    "type": "String",
+    "rates": [],
+    "title": "IBAN",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "office"
+    ]
+  },
+  {
+    "_id": "65c4f028d27f7332e2a52815",
+    "key": "BIC",
+    "type": "Text",
+    "rates": [],
+    "title": "BIC",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "office"
+    ]
+  },
+  {
+    "_id": "65fc74ce6439ef36e46c83e4",
+    "key": "Tem Atendimento",
+    "type": "Boolean",
+    "rates": [],
+    "title": "Has phone answer service",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "plan-membership"
+    ]
+  },
+  {
+    "_id": "660d3ebed298d5a537d643a7",
+    "key": "teamBusinessName",
+    "type": "String",
+    "rates": [],
+    "title": "Invoice name",
+    "values": null,
+    "privacy": "protected",
+    "targets": [
+      "team",
+      "member"
+    ],
+    "placeholder": "Business name for the invoices"
+  },
+  {
+    "_id": "661338e05232ffef75a5b017",
+    "key": "Notas Internas AvilaSpaces",
+    "type": "String",
+    "rates": [],
+    "title": "Notas Internas AvilaSpaces",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "bookings"
+    ]
+  },
+  {
+    "_id": "66140c91b3bff33596dd8fed",
+    "key": "invoicingSystemInvoice",
+    "type": "Boolean",
+    "rates": [],
+    "title": "Invoice created on invoicing system",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "invoice"
+    ]
+  },
+  {
+    "_id": "66140cb30319e94676d82808",
+    "key": "invoicingSystemReceipt",
+    "type": "Boolean",
+    "rates": [],
+    "title": "Receipt created on invoicing system",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "invoice"
+    ]
+  },
+  {
+    "_id": "6617e72fed5be518c26115cc",
+    "key": "Categoria",
+    "type": "Text",
+    "rates": [],
+    "title": "Categoria",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "team"
+    ]
+  },
+  {
+    "_id": "66dac9ef72905a8ff206a4d0",
+    "key": "planVertical",
+    "type": "select",
+    "rates": [],
+    "title": "Vertical",
+    "values": [
+      "Cowork",
+      "VirtualAssistant",
+      "VirtualOffice",
+      "DayPassCowork",
+      "DayPassOffice",
+      "LisboaCentro"
+    ],
+    "privacy": "admin",
+    "targets": [
+      "plan-fee",
+      "plan-membership"
+    ]
+  },
+  {
+    "_id": "66daca1072905a8ff206b23f",
+    "key": "planTier",
+    "type": "select",
+    "rates": [],
+    "title": "Tier",
+    "values": [
+      "Basic",
+      "Corporate",
+      "Plus",
+      "Premium",
+      "Business",
+      "1dia",
+      "10dias",
+      "20dias",
+      "50dias",
+      "100dias"
+    ],
+    "privacy": "admin",
+    "targets": [
+      "plan-fee",
+      "plan-membership"
+    ]
+  },
+  {
+    "_id": "66dae55d37c2f0529d9638d9",
+    "key": "planCategory",
+    "type": "select",
+    "rates": [],
+    "title": "Plan Category",
+    "values": [
+      "Flex",
+      "Fix",
+      "VirtualOffice",
+      "VirtualAssistant",
+      "LisboaCentro",
+      "DayPassCowork"
+    ],
+    "privacy": "admin",
+    "targets": [
+      "plan-fee",
+      "plan-membership"
+    ]
+  },
+  {
+    "_id": "672cd0b3b7e69c7f45110303",
+    "key": "vatScheme",
+    "type": "select",
+    "rates": [],
+    "title": "VAT Scheme",
+    "values": [
+      "Standard",
+      "CashAccounting"
+    ],
+    "privacy": "admin",
+    "targets": [
+      "team"
+    ]
+  },
+  {
+    "_id": "678bfbf2419fcc14e3173f7e",
+    "key": "commitment",
+    "type": "select",
+    "rates": [],
+    "title": "Commitment",
+    "values": [
+      "1M",
+      "6M",
+      "12M"
+    ],
+    "privacy": "admin",
+    "targets": [
+      "plan-fee",
+      "plan-membership"
+    ]
+  },
+  {
+    "_id": "6846fd22f6d735e51cfddc02",
+    "key": "hasMailbox",
+    "type": "Boolean",
+    "rates": [],
+    "title": "hasMailbox",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "plan-membership"
+    ]
+  },
+  {
+    "_id": "6846fd418bd4821f0fc844ab",
+    "key": "hasPhoneLine",
+    "type": "Boolean",
+    "rates": [],
+    "title": "hasPhoneLine",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "plan-membership"
+    ]
+  },
+  {
+    "_id": "6846fd64adc8bbd5c8b4d68a",
+    "key": "hasCommunications",
+    "type": "Boolean",
+    "rates": [],
+    "title": "hasCommunications",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "plan-membership"
+    ]
+  },
+  {
+    "_id": "6846fd78f6d735e51cfdf9eb",
+    "key": "hasSmsNotifications",
+    "type": "Boolean",
+    "rates": [],
+    "title": "hasSmsNotifications",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "plan-membership"
+    ]
+  },
+  {
+    "_id": "6846fd8b274c22589c446119",
+    "key": "hasVoiceMail",
+    "type": "Boolean",
+    "rates": [],
+    "title": "hasVoiceMail",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "plan-membership"
+    ]
+  },
+  {
+    "_id": "6846fdadb781468753449e78",
+    "key": "hasPhysicalAccess",
+    "type": "Boolean",
+    "rates": [],
+    "title": "hasPhysicalAccess",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "plan-membership"
+    ]
+  },
+  {
+    "_id": "6846fdc48ba2314c3400d095",
+    "key": "hasPrivateOffice",
+    "type": "Boolean",
+    "rates": [],
+    "title": "hasPrivateOffice",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "plan-membership"
+    ]
+  },
+  {
+    "_id": "6846fdd3f6d735e51cfe1765",
+    "key": "hasWallLogo",
+    "type": "Boolean",
+    "rates": [],
+    "title": "hasWallLogo",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "plan-membership"
+    ]
+  },
+  {
+    "_id": "6968f1abd66e2c64ac87657b",
+    "key": "Telefone Exclusivo",
+    "type": "String",
+    "rates": [],
+    "title": "Exclusive phone number",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "team"
+    ],
+    "placeholder": "210000000"
+  },
+  {
+    "_id": "6978d78fd33425342e1085ae",
+    "key": "kioskVisible",
+    "type": "Boolean",
+    "rates": [],
+    "title": "Kiosk visible",
+    "values": null,
+    "privacy": "protected",
+    "targets": [
+      "team",
+      "member"
+    ]
+  },
+  {
+    "_id": "6978d83a248c4e798ef91c7e",
+    "key": "Description",
+    "type": "Text",
+    "rates": [],
+    "title": "Description",
+    "values": null,
+    "privacy": "protected",
+    "targets": [
+      "team"
+    ]
+  },
+  {
+    "_id": "697ccc67a296f3f134b2012b",
+    "key": "Access Card Nr",
+    "type": "String",
+    "rates": [],
+    "title": "Access Card Nr",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "team",
+      "member"
+    ]
+  },
+  {
+    "_id": "697cce19182562dc25e67529",
+    "key": "Biometric Access Card Nr",
+    "type": "String",
+    "rates": [],
+    "title": "Access Card Biometric Nr",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "team",
+      "member"
+    ]
+  },
+  {
+    "_id": "6997064faf44fbb918b65db1",
+    "key": "mailbox",
+    "type": "String",
+    "rates": [],
+    "title": "Mailbox Nr",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "team"
+    ],
+    "placeholder": "001"
+  },
+  {
+    "_id": "69e20f3d2cb1f23e6b656245",
+    "key": "interestedIn",
+    "type": "select",
+    "rates": [],
+    "title": "Interested in",
+    "values": [
+      "Private Offices",
+      "Coworking Space",
+      "Virtual Office",
+      "Space for Events",
+      "Meeting Room",
+      "Virtual Assistant"
+    ],
+    "privacy": "admin",
+    "targets": [
+      "lead"
+    ],
+    "placeholder": "Select a service"
+  },
+  {
+    "_id": "6a0c68c11b78857ccd45b968",
+    "key": "Community Person",
+    "type": "Boolean",
+    "rates": [],
+    "title": "Community Person",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "member"
+    ]
+  },
+  {
+    "_id": "6a180816dabcb4f4a7e8ebe1",
+    "key": "printingPin",
+    "type": "Number",
+    "rates": [],
+    "title": "Printing Pin",
+    "values": null,
+    "privacy": "admin",
+    "targets": [
+      "member"
+    ],
+    "placeholder": "0000"
+  }
+]

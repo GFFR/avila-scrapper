@@ -1,0 +1,93 @@
+[
+  {
+    "_id": "647a1afd46677c1cf57f4416",
+    "code": "R",
+    "name": "Avenida da República",
+    "image": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/republica-1708375193925.jpeg",
+    "isOpen": true,
+    "address": {
+      "zip": "1050-191",
+      "city": "Lisboa",
+      "state": "Lisboa",
+      "street": "Avila Spaces",
+      "country": "Portugal",
+      "latitude": "38.734862",
+      "longitude": "-9.1447775",
+      "formattedAddress": "Av. da República 6 1º esq, 1050-191 Lisboa, Portugal"
+    },
+    "isPublic": true,
+    "timezone": "Europe/Lisbon",
+    "properties": {
+      "BIC": "CCCMPTPL",
+      "City": "Lisboa",
+      "IBAN": "PT50 0045 9011 40250025414 10",
+      "Vat Id": "PT507032268",
+      "Address": "Av. República N.6, 1º Esq. 1050-191 Lisboa",
+      "Bank Name": "Caixa Crédito Agrícola",
+      "Business name": "My Office, Consultoria em Projectos, Unipessoal, Ida.",
+      "Registration number": "CRC Lisboa; Matrícula N.º 12999/20041223"
+    },
+    "targetRevenuePerPeriod": []
+  },
+  {
+    "_id": "64a1c07bc31445076eb246c2",
+    "code": "A",
+    "name": "Atrium Saldanha",
+    "image": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/atrium-1708375225741.jpeg",
+    "isOpen": true,
+    "address": {
+      "zip": "1050-094",
+      "city": "Lisboa",
+      "state": "Lisboa",
+      "street": "Atrium Saldanha",
+      "country": "Portugal",
+      "latitude": "38.7329844",
+      "longitude": "-9.1451549",
+      "formattedAddress": "Praça Duque de Saldanha 1, 1050-094 Lisboa, Portugal"
+    },
+    "isPublic": true,
+    "timezone": "Europe/Lisbon",
+    "properties": {
+      "BIC": "CGDIPTPL",
+      "City": "Lisboa",
+      "IBAN": "PT50003506970064316093035",
+      "Vat Id": "PT516345613",
+      "Address": "Av. República, n6, 1º esq. 1050-191",
+      "Bank Name": "Caixa Geral de Depósitos",
+      "Business name": "Exclusiveparallel Lda.",
+      "Registration number": "CRC Lisboa; Matrícula N.º 516345613"
+    },
+    "targetRevenuePerPeriod": []
+  },
+  {
+    "_id": "657b91bf7f60e04798908d9b",
+    "code": "P",
+    "name": "Parque das Nações",
+    "image": "//dzrjcxtasfoip.cloudfront.net/user-resources/organization/parque-das-nacoes-1708375138377.jpeg",
+    "isOpen": true,
+    "address": {
+      "zip": "1990",
+      "city": "Lisboa",
+      "state": "Lisboa",
+      "street": "Avenida Dom João II",
+      "country": "Portugal",
+      "latitude": "38.7736973",
+      "longitude": "-9.097501",
+      "formattedAddress": "Av. Dom João II, 1990 Lisboa, Portugal"
+    },
+    "isPublic": true,
+    "timezone": "Europe/Lisbon",
+    "properties": {
+      "BIC": "CCCMPTPL",
+      "City": "Lisboa",
+      "IBAN": "PT50 0045 9011 40373068648 25",
+      "Vat Id": "PT517486172",
+      "Address": "Av. República N.º6, 1º Esq. 1050 - 191 Lisboa",
+      "Bank Name": "Caixa Crédito Agrícola",
+      "Business name": "AxialSaturn, Lda",
+      "Accountable Person": "Carlos Gonçalves",
+      "Registration number": "CRC Lisboa; Matrícula N.º 12999/20041223"
+    },
+    "targetRevenuePerPeriod": []
+  }
+]

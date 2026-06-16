@@ -1,0 +1,971 @@
+[
+  {
+    "_id": "68f8ab250e0835f38d52939d",
+    "type": "new",
+    "plans": [
+      {
+        "id": "678c1a448535c57fa71c13ed",
+        "count": 1,
+        "price": 65,
+        "steps": [
+          {
+            "price": 65,
+            "endDate": "2026-03-31T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2025-10-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 130,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 479.7,
+    "member": "68f8a00d2e292410b37a30a3",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-R-2025-2",
+    "status": "not_signed",
+    "company": "68f8a00d2e292410b37a3095",
+    "endDate": "2026-03-31T00:00:00.000Z",
+    "location": "647a1afd46677c1cf57f4416",
+    "baseTotal": 390,
+    "createdAt": "2025-10-22T10:00:05.766Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2025-10-01T00:00:00.000Z",
+    "modifiedAt": "2025-10-22T10:07:40.465Z",
+    "modifiedBy": "6601b4a7808ba0552014f8d1",
+    "plansTotal": 390,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "66783f65a3a2496d0d95b1ed"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "694938113686a1cb8a7168b8",
+    "type": "new",
+    "plans": [
+      {
+        "id": "6791219933cdebd2c1e1d8a9",
+        "count": 1,
+        "price": 95,
+        "steps": [
+          {
+            "price": 95,
+            "endDate": "2026-06-30T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2026-01-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 0,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 701.1,
+    "member": "693feda8fce44136f3d6b245",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-R-2026-1",
+    "status": "not_signed",
+    "company": "693feda8fce44136f3d6b22a",
+    "endDate": "2026-06-30T00:00:00.000Z",
+    "location": "647a1afd46677c1cf57f4416",
+    "baseTotal": 570,
+    "createdAt": "2025-12-22T12:22:41.250Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2026-01-01T00:00:00.000Z",
+    "modifiedAt": "2025-12-22T12:22:41.839Z",
+    "modifiedBy": "6601b4a7808ba0552014f8d1",
+    "plansTotal": 570,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "653fdc91ca027f63d9a434ce"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "6967835e37975f94edd05085",
+    "type": "renewal",
+    "plans": [
+      {
+        "id": "67912338bf91e576f5aea649",
+        "count": 1,
+        "price": 95,
+        "steps": [
+          {
+            "price": 95,
+            "endDate": "2026-06-30T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2026-01-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 190,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 701.1,
+    "member": "653e571116f4341045909035",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-R-2026-2",
+    "status": "not_signed",
+    "company": "64df3b4dedca5ff20265a620",
+    "endDate": "2026-06-30T00:00:00.000Z",
+    "location": "647a1afd46677c1cf57f4416",
+    "baseTotal": 570,
+    "createdAt": "2026-01-14T11:51:58.277Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2026-01-01T00:00:00.000Z",
+    "modifiedAt": "2026-01-14T12:18:10.568Z",
+    "modifiedBy": "6601b4a7808ba0552014f8d1",
+    "plansTotal": 570,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "6678aef296eb7e0ebc043c20"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "696791c4bd3c7348bdb8be83",
+    "type": "renewal",
+    "plans": [
+      {
+        "id": "6791219933cdebd2c1e1d8a9",
+        "count": 1,
+        "price": 95,
+        "steps": [
+          {
+            "price": 95,
+            "endDate": "2026-08-31T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2026-03-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 0,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 701.1,
+    "member": "6890e49df5bb5c2ad26bf77e",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-R-2026-3",
+    "status": "not_signed",
+    "company": "6890e49df5bb5c2ad26bf770",
+    "endDate": "2026-08-31T00:00:00.000Z",
+    "location": "647a1afd46677c1cf57f4416",
+    "baseTotal": 570,
+    "createdAt": "2026-01-14T12:53:24.544Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2026-03-01T00:00:00.000Z",
+    "modifiedAt": "2026-01-14T12:53:24.857Z",
+    "modifiedBy": "6601b4a7808ba0552014f8d1",
+    "plansTotal": 570,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "6678aebde24f09d9c8f8915c"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "698326a2f0c90ba4b8cf7d1c",
+    "type": "new",
+    "plans": [
+      {
+        "id": "66856038b022100612606ea9",
+        "count": 1,
+        "price": 69,
+        "steps": [
+          {
+            "price": 69,
+            "endDate": "2027-02-28T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2026-03-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 0,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 1018.44,
+    "member": "6983260699f8a5d9d94aa46b",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-R-2026-4",
+    "status": "not_signed",
+    "company": "698325ab2dc257b4991e7dad",
+    "endDate": "2027-02-28T00:00:00.000Z",
+    "location": "647a1afd46677c1cf57f4416",
+    "baseTotal": 828,
+    "createdAt": "2026-02-04T10:59:46.051Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2026-03-01T00:00:00.000Z",
+    "modifiedAt": "2026-02-04T11:04:44.392Z",
+    "modifiedBy": "6601b4a7808ba0552014f8d1",
+    "plansTotal": 828,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "698327a399f8a5d9d94b3f42"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "69a1731d6bfaf09ce6327c59",
+    "type": "renewal",
+    "plans": [
+      {
+        "id": "64db841333c709aec8879947",
+        "count": 1,
+        "price": 85,
+        "steps": [
+          {
+            "price": 85,
+            "endDate": "2027-09-30T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2025-10-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 0,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 2509.2,
+    "member": "653d3556a7b4b602d56b82d1",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-R-2025-3",
+    "status": "not_signed",
+    "company": "64df3b4aedca5f2a9f65a473",
+    "endDate": "2027-09-30T00:00:00.000Z",
+    "location": "647a1afd46677c1cf57f4416",
+    "baseTotal": 2040,
+    "createdAt": "2026-02-27T10:34:05.623Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2025-10-01T00:00:00.000Z",
+    "modifiedAt": "2026-02-27T10:34:06.114Z",
+    "modifiedBy": "6601b4a7808ba0552014f8d1",
+    "plansTotal": 2040,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "667833baa3a24909cd958dae"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "69aeb2bc580b034fd7de9ee1",
+    "type": "new",
+    "plans": [
+      {
+        "id": "678a55026d78e00bf6f6da5e",
+        "count": 1,
+        "price": 60,
+        "steps": [
+          {
+            "price": 60,
+            "endDate": "2027-02-28T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2026-03-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 0,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 885.6,
+    "member": "69aeb25c32ed3f6474f9a0fe",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-R-2026-10",
+    "status": "not_signed",
+    "company": "6997187471f2ee5df6445463",
+    "endDate": "2027-02-28T00:00:00.000Z",
+    "location": "647a1afd46677c1cf57f4416",
+    "baseTotal": 720,
+    "createdAt": "2026-03-09T11:45:00.708Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2026-03-01T00:00:00.000Z",
+    "modifiedAt": "2026-03-09T11:45:02.087Z",
+    "modifiedBy": "6601b4a7808ba0552014f8d1",
+    "plansTotal": 720,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "68500bcd2f25eaef21645f29"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "69b193e1d2645dc1b5beac06",
+    "type": "new",
+    "plans": [
+      {
+        "id": "6791219933cdebd2c1e1d8a9",
+        "count": 1,
+        "price": 95,
+        "steps": [
+          {
+            "price": 95,
+            "endDate": "2026-08-31T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2026-03-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 0,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 701.1,
+    "member": "682234144a887cc86f3d4277",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-R-2026-11",
+    "status": "not_signed",
+    "company": "6822341487195df13e96100d",
+    "endDate": "2026-08-31T00:00:00.000Z",
+    "location": "647a1afd46677c1cf57f4416",
+    "baseTotal": 570,
+    "createdAt": "2026-03-11T16:10:09.598Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2026-03-01T00:00:00.000Z",
+    "modifiedAt": "2026-03-11T16:10:10.162Z",
+    "modifiedBy": "6601b4a7808ba0552014f8d1",
+    "plansTotal": 570,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "6678aebde24f09d9c8f8915c"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "69b2a105ee1862ca86391292",
+    "type": "new",
+    "plans": [
+      {
+        "id": "678c1a448535c57fa71c13ed",
+        "count": 1,
+        "price": 65,
+        "steps": [
+          {
+            "price": 65,
+            "endDate": "2026-08-31T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2026-03-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 130,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 479.7,
+    "member": "69b2a03977b54e9ba170bf05",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-R-2026-12",
+    "status": "not_signed",
+    "company": "6a197cd10b7a7ba5eb84627e",
+    "endDate": "2026-08-31T00:00:00.000Z",
+    "location": "647a1afd46677c1cf57f4416",
+    "baseTotal": 390,
+    "createdAt": "2026-03-12T11:18:29.478Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2026-03-01T00:00:00.000Z",
+    "modifiedAt": "2026-06-11T16:36:34.666Z",
+    "modifiedBy": "655b9794b6f0c52a50c06d1b",
+    "plansTotal": 390,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "66780079a3a24957ef94cbf2"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "69e258d6c90900d97db7625c",
+    "type": "new",
+    "plans": [
+      {
+        "id": "66857212b022102848615872",
+        "count": 1,
+        "price": 65,
+        "steps": [
+          {
+            "price": 65,
+            "endDate": "2026-09-30T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2026-04-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 239.85,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 479.7,
+    "member": "69e22bcf291ddecdcfce5b95",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-R-2026-15",
+    "status": "not_signed",
+    "company": "69e22bcf291ddecdcfce5b88",
+    "endDate": "2026-09-30T00:00:00.000Z",
+    "location": "647a1afd46677c1cf57f4416",
+    "baseTotal": 390,
+    "createdAt": "2026-04-17T15:59:18.893Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "modifiedAt": "2026-04-17T16:00:50.344Z",
+    "modifiedBy": "6601b4a7808ba0552014f8d1",
+    "plansTotal": 390,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "66783478a3a249b823958f7b"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "69f08ed84a8ac5a310edf540",
+    "type": "new",
+    "plans": [
+      {
+        "id": "668527b63af698ce9720a390",
+        "count": 1,
+        "price": 87,
+        "steps": [
+          {
+            "price": 87,
+            "endDate": "2027-04-30T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2026-05-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 0,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 1284.12,
+    "member": "69ec8571487e3060cd6ea939",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-P-2026-5",
+    "status": "not_signed",
+    "company": "69ec8571487e3060cd6ea92c",
+    "endDate": "2027-04-30T00:00:00.000Z",
+    "location": "657b91bf7f60e04798908d9b",
+    "baseTotal": 1044,
+    "createdAt": "2026-04-28T10:41:28.776Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "modifiedAt": "2026-04-28T10:41:29.425Z",
+    "modifiedBy": "6601b4a7808ba0552014f8d1",
+    "plansTotal": 1044,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "667ee133dcc6b02ee3c686cc"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "69fa1fae82eee492ad06b620",
+    "type": "new",
+    "plans": [
+      {
+        "id": "6791219933cdebd2c1e1d8a9",
+        "count": 1,
+        "price": 95,
+        "steps": [
+          {
+            "price": 95,
+            "endDate": "2026-10-31T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2026-05-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 0,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 701.1,
+    "member": "69f1f1e4596268d5ef96fcbc",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-P-2026-6",
+    "status": "not_signed",
+    "company": "69f1f19bdb892822520473bf",
+    "endDate": "2026-10-31T00:00:00.000Z",
+    "location": "657b91bf7f60e04798908d9b",
+    "baseTotal": 570,
+    "createdAt": "2026-05-05T16:49:50.355Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "modifiedAt": "2026-05-05T17:03:59.636Z",
+    "modifiedBy": "6601b4a7808ba0552014f8d1",
+    "plansTotal": 570,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "667ea733dcc6b09700c3be88"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "6a01ee407038acf068f537c3",
+    "type": "new",
+    "plans": [
+      {
+        "id": "678a55026d78e00bf6f6da5e",
+        "count": 1,
+        "price": 60,
+        "steps": [
+          {
+            "price": 60,
+            "endDate": "2027-04-30T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2026-05-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 0,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 885.6,
+    "member": "6735de57312b8e5981431169",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-P-2026-7",
+    "status": "not_signed",
+    "company": "6735de56312b8e5981431157",
+    "endDate": "2027-04-30T00:00:00.000Z",
+    "location": "657b91bf7f60e04798908d9b",
+    "baseTotal": 720,
+    "createdAt": "2026-05-11T14:57:04.693Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "modifiedAt": "2026-05-11T14:58:05.095Z",
+    "modifiedBy": "6601b4a7808ba0552014f8d1",
+    "plansTotal": 720,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "685ad9b5c3b78052f645384d"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "6a145597d8ca1be34d9c97c1",
+    "type": "new",
+    "plans": [
+      {
+        "id": "678c1a448535c57fa71c13ed",
+        "count": 1,
+        "price": 65,
+        "steps": [
+          {
+            "price": 65,
+            "endDate": "2026-10-31T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2026-05-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 239.85,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 479.7,
+    "member": "6537dc71c3653d260eb049d9",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-R-2026-16",
+    "status": "not_signed",
+    "company": "64df3b3bedca5f6c47659bae",
+    "endDate": "2026-10-31T00:00:00.000Z",
+    "location": "647a1afd46677c1cf57f4416",
+    "baseTotal": 390,
+    "createdAt": "2026-05-25T13:58:47.621Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "modifiedAt": "2026-05-25T13:58:48.182Z",
+    "modifiedBy": "6601b4a7808ba0552014f8d1",
+    "plansTotal": 390,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "6a1082aa531d2653f60cc226"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "6a199a2c621689cd24c5b614",
+    "type": "new",
+    "plans": [
+      {
+        "id": "678c1a448535c57fa71c13ed",
+        "count": 1,
+        "price": 65,
+        "steps": [
+          {
+            "price": 65,
+            "endDate": "2026-11-30T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2026-06-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 239.85,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 479.7,
+    "member": "6a197fe64ae6ad25ffc0016d",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-R-2026-17",
+    "status": "not_signed",
+    "company": "6a197f969dffa41a28e4829b",
+    "endDate": "2026-11-30T00:00:00.000Z",
+    "location": "647a1afd46677c1cf57f4416",
+    "baseTotal": 390,
+    "createdAt": "2026-05-29T13:52:44.108Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2026-06-01T00:00:00.000Z",
+    "modifiedAt": "2026-05-29T13:53:34.674Z",
+    "modifiedBy": "6601b4a7808ba0552014f8d1",
+    "plansTotal": 390,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "6a1071d78270b7ff2af0ccfe"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "6a22a88e0c89e1f9a507d583",
+    "type": "new",
+    "plans": [
+      {
+        "id": "664726b6c8dce4a8d67d77de",
+        "count": 1,
+        "price": 0,
+        "steps": [
+          {
+            "price": 220,
+            "endDate": "2027-11-28T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2024-11-28T00:00:00.000Z"
+          }
+        ],
+        "deposit": 0,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 10012.200000000006,
+    "member": "6748a373abaf5fd696b78f8e",
+    "notice": {
+      "months": 0
+    },
+    "number": "CON-A-2024-1",
+    "status": "not_signed",
+    "company": "6748a353abaf5fd696b7851e",
+    "endDate": "2027-11-28T00:00:00.000Z",
+    "location": "64a1c07bc31445076eb246c2",
+    "baseTotal": 8140,
+    "createdAt": "2026-06-05T10:44:30.339Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2024-11-28T00:00:00.000Z",
+    "modifiedAt": "2026-06-05T10:45:28.601Z",
+    "modifiedBy": "6601b4a7808ba0552014f8d1",
+    "plansTotal": 8140,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "6683fbf14333ea22a171331f"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "6a22aa4bb79ab49e00ccbac6",
+    "type": "new",
+    "plans": [
+      {
+        "id": "678a55026d78e00bf6f6da5e",
+        "count": 1,
+        "price": 60,
+        "steps": [
+          {
+            "price": 60,
+            "endDate": "2027-05-31T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2026-06-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 0,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 885.6,
+    "member": "6a1b3ae5290acdad7fdc8746",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-R-2026-18",
+    "status": "not_signed",
+    "company": "6a1b3ae5290acdad7fdc873a",
+    "endDate": "2027-05-31T00:00:00.000Z",
+    "location": "647a1afd46677c1cf57f4416",
+    "baseTotal": 720,
+    "createdAt": "2026-06-05T10:51:55.776Z",
+    "createdBy": "6601b525e2a85b069ab78906",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2026-06-01T00:00:00.000Z",
+    "modifiedAt": "2026-06-05T10:56:24.435Z",
+    "modifiedBy": "6601b525e2a85b069ab78906",
+    "plansTotal": 720,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "68500bcd2f25eaef21645f29"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "6a22b15dd77cdd3aa5670fac",
+    "type": "new",
+    "plans": [
+      {
+        "id": "66857212b022102848615872",
+        "count": 1,
+        "price": 65,
+        "steps": [
+          {
+            "price": 65,
+            "endDate": "2027-05-31T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2026-06-01T00:00:00.000Z"
+          }
+        ],
+        "deposit": 239.85,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 959.4,
+    "member": "6a2297a1b79ab49e00c5ba51",
+    "notice": {
+      "months": 2
+    },
+    "number": "CON-R-2026-19",
+    "status": "not_signed",
+    "company": "6a22b01143f1248df0282611",
+    "endDate": "2027-05-31T00:00:00.000Z",
+    "location": "647a1afd46677c1cf57f4416",
+    "baseTotal": 780,
+    "createdAt": "2026-06-05T11:22:05.722Z",
+    "createdBy": "6601b4a7808ba0552014f8d1",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2026-06-01T00:00:00.000Z",
+    "modifiedAt": "2026-06-05T11:22:06.487Z",
+    "modifiedBy": "6601b4a7808ba0552014f8d1",
+    "plansTotal": 780,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "6a10721b5ebb59fab323ab01"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  },
+  {
+    "_id": "6a2fd2974619aacba98fce59",
+    "type": "new",
+    "plans": [
+      {
+        "id": "678241d5f05d957e25d448d3",
+        "count": 1,
+        "price": 220,
+        "steps": [
+          {
+            "price": 220,
+            "endDate": "2026-07-04T00:00:00.000Z",
+            "discount": null,
+            "startDate": "2026-06-05T00:00:00.000Z"
+          }
+        ],
+        "deposit": 61.5,
+        "increasePriceInRolling": false
+      }
+    ],
+    "total": 541.2,
+    "member": "6a21518be691e48bfb34c5e4",
+    "notice": {
+      "months": 1
+    },
+    "number": "CON-P-2026-8",
+    "status": "not_signed",
+    "company": "6a2fd0a5aa29e83560c7eeda",
+    "endDate": "2026-07-04T00:00:00.000Z",
+    "location": "657b91bf7f60e04798908d9b",
+    "baseTotal": 440,
+    "createdAt": "2026-06-15T10:23:19.803Z",
+    "createdBy": "6601b525e2a85b069ab78906",
+    "isRolling": false,
+    "resources": [],
+    "startDate": "2026-06-05T00:00:00.000Z",
+    "modifiedAt": "2026-06-15T10:25:05.929Z",
+    "modifiedBy": "6601b525e2a85b069ab78906",
+    "plansTotal": 440,
+    "oneOffPlans": [],
+    "documentType": "membershipagreement",
+    "oneOffsTotal": 0,
+    "legalDocuments": [
+      "667ee40b645ff581145dba73"
+    ],
+    "resourcesTotal": 0,
+    "signatureStatus": null,
+    "activationErrors": [],
+    "previousDepositHeld": 0,
+    "percentagePriceIncrease": 0
+  }
+]

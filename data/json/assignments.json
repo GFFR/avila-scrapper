@@ -1,0 +1,1791 @@
+[
+  {
+    "_id": "658ebdefc1a0965064d170ed",
+    "resource": "64de8be89e2247e1a3768381",
+    "startDate": "2018-04-01T00:00:00.000Z",
+    "membership": "658ebdefc1a0967c78d1709a"
+  },
+  {
+    "_id": "658ebdf0c1a096815bd1717f",
+    "endDate": "2024-10-31T00:00:00.000Z",
+    "resource": "64de8be89e2247a99476836f",
+    "startDate": "2018-08-01T00:00:00.000Z",
+    "membership": "658ebdf0c1a096f38dd17134"
+  },
+  {
+    "_id": "658ebdf0c1a096a94ed1712e",
+    "resource": "64de8be79e2247b0f4768363",
+    "startDate": "2021-02-01T00:00:00.000Z",
+    "membership": "658ebdefc1a0960e44d170f3"
+  },
+  {
+    "_id": "658ebdf1c1a09610e5d171e3",
+    "endDate": "2024-10-31T00:00:00.000Z",
+    "resource": "64de8be89e2247cabc768383",
+    "startDate": "2018-08-01T00:00:00.000Z",
+    "membership": "658ebdf1c1a096fd30d171d0"
+  },
+  {
+    "_id": "658ebdf1c1a0962c9dd171b1",
+    "endDate": "2024-10-31T00:00:00.000Z",
+    "resource": "64de8be89e22473c8d768371",
+    "startDate": "2018-08-01T00:00:00.000Z",
+    "membership": "658ebdf1c1a096399bd1719e"
+  },
+  {
+    "_id": "658ebdf1c1a09655b4d171ca",
+    "endDate": "2024-07-31T00:00:00.000Z",
+    "resource": "64de8be89e224727e576837e",
+    "startDate": "2018-08-01T00:00:00.000Z",
+    "membership": "658ebdf1c1a096c34cd171b7"
+  },
+  {
+    "_id": "658ebdf1c1a09695bfd17198",
+    "endDate": "2024-10-31T00:00:00.000Z",
+    "resource": "64de8be89e22476856768370",
+    "startDate": "2018-08-01T00:00:00.000Z",
+    "membership": "658ebdf0c1a096215bd17185"
+  },
+  {
+    "_id": "658ebdf2c1a09661fcd17256",
+    "endDate": "2025-12-31T00:00:00.000Z",
+    "resource": "64de8be89e22478464768379",
+    "startDate": "2019-09-01T00:00:00.000Z",
+    "membership": "658ebdf2c1a0967bfcd17233"
+  },
+  {
+    "_id": "658ebdf2c1a09697b9d1722d",
+    "endDate": "2025-02-28T00:00:00.000Z",
+    "resource": "64de8be89e22475477768378",
+    "startDate": "2018-07-01T00:00:00.000Z",
+    "membership": "658ebdf2c1a096ee14d17202"
+  },
+  {
+    "_id": "658ebdf2c1a096efd3d171fc",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "resource": "64de8be79e22478d1376835f",
+    "startDate": "2018-08-01T00:00:00.000Z",
+    "membership": "658ebdf1c1a096ada8d171e9"
+  },
+  {
+    "_id": "658ebdf3c1a09682f1d172a7",
+    "endDate": "2026-09-30T00:00:00.000Z",
+    "resource": "64de8be89e22476200768386",
+    "startDate": "2020-02-01T00:00:00.000Z",
+    "membership": "658ebdf2c1a096ad8ad1725c"
+  },
+  {
+    "_id": "658ebdf3c1a096cb2fd17301",
+    "endDate": "2024-01-31T00:00:00.000Z",
+    "resource": "64de8be89e2247502776837d",
+    "startDate": "2020-10-01T00:00:00.000Z",
+    "membership": "658ebdf3c1a0960c29d172c6"
+  },
+  {
+    "_id": "658ebdf4c1a0962bdbd1735b",
+    "endDate": "2025-10-29T00:00:00.000Z",
+    "resource": "64de8be89e22472a68768380",
+    "startDate": "2021-11-01T00:00:00.000Z",
+    "membership": "658ebdf4c1a0960f3cd17338"
+  },
+  {
+    "_id": "658ebdf4c1a0966280d17332",
+    "endDate": "2025-04-30T00:00:00.000Z",
+    "resource": "64de8be89e2247a7b4768382",
+    "startDate": "2021-05-01T00:00:00.000Z",
+    "membership": "658ebdf3c1a0966479d17307"
+  },
+  {
+    "_id": "658ebdf4c1a09686efd17384",
+    "endDate": "2024-08-31T00:00:00.000Z",
+    "resource": "64de8be89e22475ef7768384",
+    "startDate": "2021-09-01T00:00:00.000Z",
+    "membership": "658ebdf4c1a0968befd17361"
+  },
+  {
+    "_id": "658ebdf5c1a09602a3d173d5",
+    "endDate": "2026-04-30T00:00:00.000Z",
+    "resource": "64de8be89e224714eb768375",
+    "startDate": "2021-05-01T00:00:00.000Z",
+    "membership": "658ebdf5c1a096f15dd1738a"
+  },
+  {
+    "_id": "658ebdf5c1a0967943d173ee",
+    "resource": "64de8be89e2247132a768376",
+    "startDate": "2021-05-01T00:00:00.000Z",
+    "membership": "658ebdf5c1a096da13d173db"
+  },
+  {
+    "_id": "658ebdf6c1a0960806d17472",
+    "resource": "64de8be79e224785d3768360",
+    "startDate": "2022-07-01T00:00:00.000Z",
+    "membership": "658ebdf6c1a096855fd1742f"
+  },
+  {
+    "_id": "658ebdf6c1a09642cbd17429",
+    "resource": "64de8be89e224725a0768373",
+    "startDate": "2022-08-01T00:00:00.000Z",
+    "membership": "658ebdf5c1a0961fffd173f4"
+  },
+  {
+    "_id": "658ebdf6c1a0966dedd1748b",
+    "endDate": "2024-11-04T00:00:00.000Z",
+    "resource": "64de8be79e22475064768362",
+    "startDate": "2023-07-01T00:00:00.000Z",
+    "membership": "658ebdf6c1a0962296d17478"
+  },
+  {
+    "_id": "658ebdf7c1a0961ca3d174dc",
+    "endDate": "2024-01-31T00:00:00.000Z",
+    "resource": "64de8be89e2247718076837f",
+    "startDate": "2022-11-01T00:00:00.000Z",
+    "membership": "658ebdf7c1a0960138d17491"
+  },
+  {
+    "_id": "658ebdf7c1a0963748d1751d",
+    "resource": "64de8be89e22477405768372",
+    "startDate": "2022-11-01T00:00:00.000Z",
+    "membership": "658ebdf7c1a0967e82d174e2"
+  },
+  {
+    "_id": "658ebdf7c1a09692ffd17546",
+    "endDate": "2024-08-21T00:00:00.000Z",
+    "resource": "64de8be79e2247592e768361",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "membership": "658ebdf7c1a0965977d17523"
+  },
+  {
+    "_id": "658ebdf8c1a09623cad17577",
+    "endDate": "2024-07-31T00:00:00.000Z",
+    "resource": "658ebc01c7e1a3abb24f9b4d",
+    "startDate": "2022-08-01T00:00:00.000Z",
+    "membership": "658ebdf7c1a0968f3bd1754c"
+  },
+  {
+    "_id": "658ebdf8c1a09641bfd175d8",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "resource": "64de8be79e2247112276836b",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "membership": "658ebdf8c1a096e62cd1757d"
+  },
+  {
+    "_id": "658ebdf8c1a0967116d175f1",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "resource": "64de8be79e2247d6cb768364",
+    "startDate": "2023-05-01T00:00:00.000Z",
+    "membership": "658ebdf8c1a09621ecd175de"
+  },
+  {
+    "_id": "658ebdf9c1a09611a6d1767b",
+    "endDate": "2026-04-30T00:00:00.000Z",
+    "resource": "64de8be89e2247385176837a",
+    "startDate": "2023-05-01T00:00:00.000Z",
+    "membership": "658ebdf9c1a0961c21d17648"
+  },
+  {
+    "_id": "658ebdf9c1a096596bd17642",
+    "endDate": "2024-12-31T00:00:00.000Z",
+    "resource": "64de8be79e2247194e768369",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "membership": "658ebdf8c1a096728bd175f7"
+  },
+  {
+    "_id": "658ebdfac1a0960bc6d1773f",
+    "endDate": "2025-02-28T00:00:00.000Z",
+    "resource": "64de8be89e224728c9768377",
+    "startDate": "2023-05-01T00:00:00.000Z",
+    "membership": "658ebdfac1a096610ed1771c"
+  },
+  {
+    "_id": "658ebdfac1a0964f85d176d5",
+    "endDate": "2025-01-31T00:00:00.000Z",
+    "resource": "64de8be79e2247001376836c",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "membership": "658ebdfac1a0964023d176b2"
+  },
+  {
+    "_id": "658ebdfac1a09695cdd176ac",
+    "resource": "64de8be79e22475054768367",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "membership": "658ebdf9c1a096b2f5d17681"
+  },
+  {
+    "_id": "658ebdfac1a096e12bd17716",
+    "endDate": "2026-02-28T00:00:00.000Z",
+    "resource": "658ebc99e7b41d5e4cdcc70b",
+    "startDate": "2023-03-01T00:00:00.000Z",
+    "membership": "658ebdfac1a096abdad176db"
+  },
+  {
+    "_id": "658ebdfbc1a0960511d177c3",
+    "endDate": "2025-04-30T00:00:00.000Z",
+    "resource": "65861bd8cbbfe7b5bc7a564f",
+    "startDate": "2023-11-01T00:00:00.000Z",
+    "membership": "658ebdfbc1a0961b8ad17798"
+  },
+  {
+    "_id": "658ebdfcc1a0962d07d1782c",
+    "endDate": "2024-03-31T00:00:00.000Z",
+    "resource": "64de8be89e2247b41c768374",
+    "startDate": "2023-07-01T00:00:00.000Z",
+    "membership": "658ebdfcc1a09627add177ff"
+  },
+  {
+    "_id": "658ebdfcc1a0966099d17862",
+    "endDate": "2025-08-31T00:00:00.000Z",
+    "resource": "64de8be79e22475231768366",
+    "startDate": "2023-09-01T00:00:00.000Z",
+    "membership": "658ebdfcc1a0960bc6d17837"
+  },
+  {
+    "_id": "658ebdfcc1a09675c2d177f9",
+    "endDate": "2024-10-28T00:00:00.000Z",
+    "resource": "658ebd604714a732b536afb1",
+    "startDate": "2023-09-01T00:00:00.000Z",
+    "membership": "658ebdfbc1a096d519d177ce"
+  },
+  {
+    "_id": "658ebdfdc1a09640b3d178b3",
+    "endDate": "2024-12-31T00:00:00.000Z",
+    "resource": "64de8be79e2247033476836a",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "membership": "658ebdfdc1a0960bcad178a0"
+  },
+  {
+    "_id": "658ebdfdc1a0966875d1789a",
+    "endDate": "2024-01-31T00:00:00.000Z",
+    "resource": "64de8be89e2247cb36768385",
+    "startDate": "2023-10-01T00:00:00.000Z",
+    "membership": "658ebdfcc1a0965a5bd1786d"
+  },
+  {
+    "_id": "658ebdfec1a0962a48d178fe",
+    "endDate": "2025-03-31T00:00:00.000Z",
+    "resource": "658ebd72ccd7223ff5865485",
+    "startDate": "2023-09-01T00:00:00.000Z",
+    "membership": "658ebdfec1a0960aafd178eb"
+  },
+  {
+    "_id": "658ebdfec1a0964edfd178e5",
+    "endDate": "2025-01-31T00:00:00.000Z",
+    "resource": "64de8be79e2247ddbc76836d",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "membership": "658ebdfec1a0965dacd178d2"
+  },
+  {
+    "_id": "658ebdfec1a0966183d17917",
+    "endDate": "2025-03-31T00:00:00.000Z",
+    "resource": "658ebd86e0f49869dc632cfd",
+    "startDate": "2023-09-01T00:00:00.000Z",
+    "membership": "658ebdfec1a0964bdcd17904"
+  },
+  {
+    "_id": "658ebdfec1a096f722d178cc",
+    "resource": "64de8be79e2247ac35768368",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "membership": "658ebdfdc1a0965e1ed178b9"
+  },
+  {
+    "_id": "658ec52d6f160ea33e0d5c0b",
+    "endDate": "2024-12-17T00:00:00.000Z",
+    "resource": "64e735613c3a7137580c7482",
+    "startDate": "2019-04-01T00:00:00.000Z",
+    "membership": "658ec52d6f160e30350d5be8"
+  },
+  {
+    "_id": "658ec52e6f160e7fcd0d5c4f",
+    "resource": "64e740a4cc3cee728585a05c",
+    "startDate": "2019-09-01T00:00:00.000Z",
+    "membership": "658ec52e6f160e651a0d5c1b"
+  },
+  {
+    "_id": "658ec52f6f160eb1ea0d5c72",
+    "endDate": "2025-09-30T00:00:00.000Z",
+    "resource": "64e7403c3c3a71742d0cf4a4",
+    "startDate": "2019-11-01T00:00:00.000Z",
+    "membership": "658ec52e6f160e70940d5c5f"
+  },
+  {
+    "_id": "658ec52f6f160efa570d5ca5",
+    "endDate": "2025-02-05T00:00:00.000Z",
+    "resource": "64e741083c3a713e460cfcbf",
+    "startDate": "2020-11-01T00:00:00.000Z",
+    "membership": "658ec52f6f160e13830d5c82"
+  },
+  {
+    "_id": "658ec5306f160e0b0f0d5cf2",
+    "endDate": "2024-08-31T00:00:00.000Z",
+    "resource": "64e7408a2b76bea4bcbfedab",
+    "startDate": "2023-12-01T00:00:00.000Z",
+    "membership": "658ec5306f160e26510d5cde"
+  },
+  {
+    "_id": "658ec5306f160e1bd40d5cd8",
+    "endDate": "2025-03-31T00:00:00.000Z",
+    "resource": "64e740bb2b76be3a6ebfefb2",
+    "startDate": "2021-10-01T00:00:00.000Z",
+    "membership": "658ec5306f160ecf670d5cb5"
+  },
+  {
+    "_id": "658ec5316f160e12a70d5d25",
+    "endDate": null,
+    "resource": "64e740f49c0432717616a7f1",
+    "startDate": "2021-11-01T00:00:00.000Z",
+    "membership": "658ec5306f160e30b40d5d02"
+  },
+  {
+    "_id": "658ec5316f160e42320d5d56",
+    "resource": "64e733c6a35ea9c8ca3d5474",
+    "startDate": "2022-01-01T00:00:00.000Z",
+    "membership": "658ec5316f160e518b0d5d2b"
+  },
+  {
+    "_id": "658ec5326f160e01220d5d81",
+    "resource": "64e740e5cc3cee229b85a2fb",
+    "startDate": "2022-05-01T00:00:00.000Z",
+    "membership": "658ec5316f160ed7380d5d66"
+  },
+  {
+    "_id": "658ec5326f160e5be30d5daa",
+    "resource": "64e7401e3c3a71c64b0cf364",
+    "startDate": "2022-09-01T00:00:00.000Z",
+    "membership": "658ec5326f160e0a350d5d87"
+  },
+  {
+    "_id": "658ec5336f160e7d340d5ddd",
+    "endDate": "2025-11-30T00:00:00.000Z",
+    "resource": "64e740ce9c04323f3516a5e0",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "membership": "658ec5326f160e67460d5dba"
+  },
+  {
+    "_id": "658ec5346f160e491a0d5e1a",
+    "endDate": "2025-02-28T00:00:00.000Z",
+    "resource": "64e73591c826438cb8986664",
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "membership": "658ec5346f160ef8210d5def"
+  },
+  {
+    "_id": "658ec5356f160e05130d5e76",
+    "endDate": "2025-01-31T00:00:00.000Z",
+    "resource": "64e7417ca35ea90fe53df675",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "membership": "658ec5356f160e83d40d5e4a"
+  },
+  {
+    "_id": "658ec5356f160e60d10d5e43",
+    "resource": "64e733bea35ea9876f3d5413",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "membership": "658ec5346f160e80710d5e20"
+  },
+  {
+    "_id": "658ec5366f160e66450d5ecf",
+    "endDate": "2025-07-31T00:00:00.000Z",
+    "resource": "64e74156cc3cee8ab185aa76",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "membership": "658ec5366f160ebc290d5ebc"
+  },
+  {
+    "_id": "658ec5366f160ee7b50d5eac",
+    "endDate": "2025-07-31T00:00:00.000Z",
+    "resource": "64e741492b76be3985bff7a6",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "membership": "658ec5356f160e30a00d5e81"
+  },
+  {
+    "_id": "658ec5376f160e48060d5ef5",
+    "endDate": "2024-10-30T00:00:00.000Z",
+    "resource": "64e740dac82643843c98eefd",
+    "startDate": "2023-03-01T00:00:00.000Z",
+    "membership": "658ec5366f160e6c500d5eda"
+  },
+  {
+    "_id": "658ec5376f160ee8db0d5f20",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "resource": "64e7413b2b76be0719bff69e",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "membership": "658ec5376f160ec4000d5f05"
+  },
+  {
+    "_id": "658ec5386f160e7d590d5f88",
+    "endDate": "2025-01-31T00:00:00.000Z",
+    "resource": "64e740b02b76be5b2cbfef22",
+    "startDate": "2023-03-01T00:00:00.000Z",
+    "membership": "658ec5386f160e987b0d5f5e"
+  },
+  {
+    "_id": "658ec5386f160eec740d5f53",
+    "endDate": "2023-12-31T00:00:00.000Z",
+    "resource": "64e74073c82643389498eac7",
+    "startDate": "2023-02-01T00:00:00.000Z",
+    "membership": "658ec5376f160ee3560d5f30"
+  },
+  {
+    "_id": "658ec5396f160e0e370d5fbb",
+    "endDate": "2025-02-28T00:00:00.000Z",
+    "resource": "64e74188a35ea92ee83df6bb",
+    "startDate": "2023-03-01T00:00:00.000Z",
+    "membership": "658ec5386f160e76d50d5f98"
+  },
+  {
+    "_id": "658ec5396f160e79720d5fef",
+    "endDate": "2024-04-04T00:00:00.000Z",
+    "resource": "64e74068cc3ceec607859e09",
+    "startDate": "2023-04-01T00:00:00.000Z",
+    "membership": "658ec5396f160e1fd90d5fcb"
+  },
+  {
+    "_id": "658ec53a6f160ef5430d6022",
+    "endDate": "2024-04-30T00:00:00.000Z",
+    "resource": "64e7359ca35ea965d13d6909",
+    "startDate": "2023-04-01T00:00:00.000Z",
+    "membership": "658ec53a6f160ea84c0d5fff"
+  },
+  {
+    "_id": "658ec53b6f160e5c2a0d608c",
+    "endDate": "2024-11-30T00:00:00.000Z",
+    "resource": "64e7412e2b76be6c46bff60f",
+    "startDate": "2023-05-01T00:00:00.000Z",
+    "membership": "658ec53b6f160e5f850d6079"
+  },
+  {
+    "_id": "658ec53b6f160ec5460d6046",
+    "endDate": "2024-11-30T00:00:00.000Z",
+    "resource": "64e741143c3a710b5d0cfd6b",
+    "startDate": "2023-05-01T00:00:00.000Z",
+    "membership": "658ec53a6f160e0ace0d6032"
+  },
+  {
+    "_id": "658ec53b6f160eee970d6069",
+    "endDate": "2024-11-30T00:00:00.000Z",
+    "resource": "64e74122c826435bc698f1e8",
+    "startDate": "2023-05-01T00:00:00.000Z",
+    "membership": "658ec53b6f160ef6b30d6056"
+  },
+  {
+    "_id": "658ec53c6f160ebc310d60af",
+    "endDate": "2024-11-30T00:00:00.000Z",
+    "resource": "64e741649c0432ecf816ae2d",
+    "startDate": "2023-05-01T00:00:00.000Z",
+    "membership": "658ec53b6f160e97060d609c"
+  },
+  {
+    "_id": "658ec53d6f160e517c0d60ec",
+    "endDate": "2024-02-29T00:00:00.000Z",
+    "resource": "64e741943c3a711b6e0d0311",
+    "startDate": "2023-07-01T00:00:00.000Z",
+    "membership": "658ec53c6f160e703d0d60bf"
+  },
+  {
+    "_id": "658ec53d6f160eb2c10d611a",
+    "endDate": "2024-06-30T00:00:00.000Z",
+    "resource": "64e74170cc3cee59b985abcd",
+    "startDate": "2023-08-01T00:00:00.000Z",
+    "membership": "658ec53d6f160e10090d60f7"
+  },
+  {
+    "_id": "66069714f59d2d6e8bfc7658",
+    "endDate": null,
+    "resource": "65861b73c7e1a340683c9acd",
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "membership": "66057d688feb986164037bd0"
+  },
+  {
+    "_id": "6606f8482388b61ceaf6c3c2",
+    "endDate": "2024-03-15T00:00:00.000Z",
+    "resource": "65861f2c4714a77c0823ae31",
+    "startDate": "2024-03-11T00:00:00.000Z",
+    "membership": "6606b3945f8af27580805b85"
+  },
+  {
+    "_id": "6606fab2faa5b51817955ba1",
+    "endDate": "2024-03-01T00:00:00.000Z",
+    "resource": "6606fa6586c9626f3eea3889",
+    "startDate": "2024-03-01T00:00:00.000Z",
+    "membership": "6606aa6c30e13b4f6c7ff8e0"
+  },
+  {
+    "_id": "660b1f01aecec9343644b1bd",
+    "endDate": "2024-02-29T00:00:00.000Z",
+    "resource": "64de8be79e22473a1a76836e",
+    "startDate": "2023-05-01T00:00:00.000Z",
+    "membership": "658ebdfbc1a0966dffd17745"
+  },
+  {
+    "_id": "660b1ffc7d5c8a74b27339b0",
+    "endDate": "2025-02-28T00:00:00.000Z",
+    "resource": "64de8be89e22475ab4768389",
+    "startDate": "2024-03-01T00:00:00.000Z",
+    "membership": "660b1ffb6ac7f7ae7f8a6f3c"
+  },
+  {
+    "_id": "660d1fe34ed808df6c791b08",
+    "endDate": "2024-11-24T00:00:00.000Z",
+    "resource": "6606fb972388b6fbdef6d173",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "membership": "660d1fe2d298d534d6d52a7d"
+  },
+  {
+    "_id": "6610091e447c9ba9d8c26e63",
+    "endDate": "2024-11-30T00:00:00.000Z",
+    "resource": "64de8be79e22473a1a76836e",
+    "startDate": "2024-03-01T00:00:00.000Z",
+    "membership": "6610091de85373ac18f22aaf"
+  },
+  {
+    "_id": "6627a3570a1626117daa8f2a",
+    "endDate": "2024-06-30T00:00:00.000Z",
+    "resource": "64de8be89e2247eb5876838b",
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "membership": "6627a35762425338e8441833"
+  },
+  {
+    "_id": "6627a37b0a1626361eaa9016",
+    "endDate": "2024-06-30T00:00:00.000Z",
+    "resource": "64de8be89e224796fc76838c",
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "membership": "6627a37a0a16266027aa8ffa"
+  },
+  {
+    "_id": "663b43547b4e1ff3477f090e",
+    "endDate": "2025-10-31T00:00:00.000Z",
+    "resource": "64de8be79e2247112276836b",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "membership": "66227d3867c4c4d71e3d177e"
+  },
+  {
+    "_id": "66424145ba6f8008214cd9bd",
+    "endDate": "2024-05-17T00:00:00.000Z",
+    "resource": "65861f7ce7b41d621ac9eb3f",
+    "startDate": "2024-05-13T00:00:00.000Z",
+    "membership": "664241445df10c18f7dd38aa"
+  },
+  {
+    "_id": "664dc9dd95545edc8733298c",
+    "endDate": "2024-09-30T00:00:00.000Z",
+    "resource": "65861f4eab4a4d7f12a0f290",
+    "startDate": "2024-06-01T00:00:00.000Z",
+    "membership": "664dc9dc3063084921497120"
+  },
+  {
+    "_id": "66547562598dff1d0c79e53b",
+    "endDate": "2025-07-31T00:00:00.000Z",
+    "resource": "64de8be89e2247502776837d",
+    "startDate": "2024-02-01T00:00:00.000Z",
+    "membership": "6654756153b4854575669017"
+  },
+  {
+    "_id": "665f1d54b45111367484e036",
+    "endDate": "2025-03-31T00:00:00.000Z",
+    "resource": "64de8be79e22471ddd768365",
+    "startDate": "2023-09-01T00:00:00.000Z",
+    "membership": "665f17ca706f5427ba568009"
+  },
+  {
+    "_id": "6679475f4acd88835159ed15",
+    "endDate": "2024-11-30T00:00:00.000Z",
+    "resource": "65861f2c4714a77c0823ae31",
+    "startDate": "2024-07-01T00:00:00.000Z",
+    "membership": "6679475ea5c72f19e0b22252"
+  },
+  {
+    "_id": "667ee9d39ad302654f738800",
+    "endDate": "2024-11-05T00:00:00.000Z",
+    "resource": "64e74170cc3cee59b985abcd",
+    "startDate": "2024-07-01T00:00:00.000Z",
+    "membership": "667ee9d39ad30243f37387fa"
+  },
+  {
+    "_id": "668e7857ceebb731bf3c936f",
+    "endDate": "2024-07-05T00:00:00.000Z",
+    "resource": "64de8be79e2247d6cb768364",
+    "startDate": "2024-07-01T00:00:00.000Z",
+    "membership": "668e7857037a4669d98ea8e8"
+  },
+  {
+    "_id": "66c49aea1af1cd64e6403b33",
+    "endDate": "2024-09-30T00:00:00.000Z",
+    "resource": "65861f7ce7b41d621ac9eb3f",
+    "startDate": "2024-09-01T00:00:00.000Z",
+    "membership": "66c49aea2a9708dba6014941"
+  },
+  {
+    "_id": "66c772bee7d70a1dc3b71529",
+    "resource": "64de8be79e22478d1376835f",
+    "startDate": "2024-08-22T00:00:00.000Z",
+    "membership": "658ebdf7c1a0965977d17523"
+  },
+  {
+    "_id": "66c8c0f5bd62e4edf06d1f39",
+    "endDate": "2025-08-31T00:00:00.000Z",
+    "resource": "65861ed9cbbfe752737a5adb",
+    "startDate": "2024-09-01T00:00:00.000Z",
+    "membership": "66c8c0f5733a310111c133e2"
+  },
+  {
+    "_id": "66cf37d26e6e14a42f243906",
+    "endDate": "2026-08-31T00:00:00.000Z",
+    "resource": "64de8be89e224727e576837e",
+    "startDate": "2024-09-01T00:00:00.000Z",
+    "membership": "66cf37d26078fb60078c0290"
+  },
+  {
+    "_id": "67210c999d07ee78afaeeecb",
+    "endDate": "2025-02-28T00:00:00.000Z",
+    "resource": "64de8be89e2247c0cf76838a",
+    "startDate": "2024-03-01T00:00:00.000Z",
+    "membership": "67210c98ae43e7d5b966140d"
+  },
+  {
+    "_id": "672112e717a4bb83a72bdb0c",
+    "endDate": "2024-11-30T00:00:00.000Z",
+    "resource": "6586200cab4a4d4f72a0f39a",
+    "startDate": "2024-07-01T00:00:00.000Z",
+    "membership": "667d5024d043d61211bc8805"
+  },
+  {
+    "_id": "672112f817a4bb83a72be388",
+    "endDate": "2024-12-31T00:00:00.000Z",
+    "resource": "65862029ccd722e545734ddc",
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "membership": "66057f4700dc3eda13cac506"
+  },
+  {
+    "_id": "6721130ddc5af644454170a1",
+    "endDate": null,
+    "resource": "65861fbae7b41d7be0c9ebb7",
+    "startDate": "2024-02-01T00:00:00.000Z",
+    "membership": "66069da7d8aac65674c479d3"
+  },
+  {
+    "_id": "6721156e609a31c1f124218b",
+    "endDate": "2025-03-31T00:00:00.000Z",
+    "resource": "658ebd604714a732b536afb1",
+    "startDate": "2024-10-29T00:00:00.000Z",
+    "membership": "658ebdfbc1a096d519d177ce"
+  },
+  {
+    "_id": "672b7eefcf59b18e6ffcdebf",
+    "endDate": null,
+    "resource": "64e74068cc3ceec607859e09",
+    "startDate": "2024-11-06T00:00:00.000Z",
+    "membership": "667ee9d39ad30243f37387fa"
+  },
+  {
+    "_id": "672b7f632722e5f69c48b9c8",
+    "endDate": "2024-11-30T00:00:00.000Z",
+    "resource": "64e74073c82643389498eac7",
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "membership": "66100858b8c66666efb82f0c"
+  },
+  {
+    "_id": "672b81d0e72bd71c8eb18e1a",
+    "endDate": "2025-07-31T00:00:00.000Z",
+    "resource": "64e7408a2b76bea4bcbfedab",
+    "startDate": "2024-12-01T00:00:00.000Z",
+    "membership": "66d591ce26e9087ed3cea212"
+  },
+  {
+    "_id": "672b83a22fc1b669ae90c550",
+    "endDate": "2025-10-31T00:00:00.000Z",
+    "resource": "64e741943c3a711b6e0d0311",
+    "startDate": "2024-03-01T00:00:00.000Z",
+    "membership": "6654a7da598dffd85a7bad01"
+  },
+  {
+    "_id": "672b8632e72bd71c8eb397b7",
+    "endDate": "2026-06-30T00:00:00.000Z",
+    "resource": "64e7413b2b76be0719bff69e",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "membership": "6630f6cbca3a8d274a6cf1b4"
+  },
+  {
+    "_id": "672b912741d4bb80c626f7a4",
+    "endDate": "2025-05-31T00:00:00.000Z",
+    "resource": "64e740dac82643843c98eefd",
+    "startDate": "2024-11-01T00:00:00.000Z",
+    "membership": "670fb94dab056d0a0422e794"
+  },
+  {
+    "_id": "6731f4cb5104ce981d8967fc",
+    "endDate": "2025-02-06T00:00:00.000Z",
+    "resource": "64e74170cc3cee59b985abcd",
+    "startDate": "2024-11-11T00:00:00.000Z",
+    "membership": "66f29239525a71e9d106632a"
+  },
+  {
+    "_id": "673c4cabb06e58ffbb1506e8",
+    "endDate": "2025-05-21T00:00:00.000Z",
+    "resource": "64de8be79e2247592e768361",
+    "startDate": "2024-11-05T00:00:00.000Z",
+    "membership": "658ebdf6c1a0962296d17478"
+  },
+  {
+    "_id": "673ef5300c225de32fddf555",
+    "endDate": "2024-12-10T00:00:00.000Z",
+    "resource": "658ebc01c7e1a3abb24f9b4d",
+    "startDate": "2024-11-21T00:00:00.000Z",
+    "membership": "673ef5300c225de32fddf4cd"
+  },
+  {
+    "_id": "67448ed7d8e4423ebd02ab0c",
+    "endDate": "2024-10-31T00:00:00.000Z",
+    "resource": "6606fa86faa5b53eca955aea",
+    "startDate": "2024-02-01T00:00:00.000Z",
+    "membership": "670d38655b0e09b72edfe5b1"
+  },
+  {
+    "_id": "67449567d79df2216037e8cc",
+    "endDate": "2024-12-31T00:00:00.000Z",
+    "resource": "65861f2c4714a77c0823ae31",
+    "startDate": "2024-12-01T00:00:00.000Z",
+    "membership": "674494cad8e4423ebd050fa4"
+  },
+  {
+    "_id": "67449ac37d199f61a5bf4414",
+    "endDate": "2024-12-31T00:00:00.000Z",
+    "resource": "6586200cab4a4d4f72a0f39a",
+    "startDate": "2024-12-01T00:00:00.000Z",
+    "membership": "67449aadfe2e0eb3a7b9f00d"
+  },
+  {
+    "_id": "6744aeff3b8b843428ad1ce3",
+    "endDate": "2025-07-31T00:00:00.000Z",
+    "resource": "6606fa6586c9626f3eea3889",
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "membership": "660c8c8041b6dd0864a59a8b"
+  },
+  {
+    "_id": "6744af917c1869f4f5d0c0b8",
+    "endDate": "2025-04-29T00:00:00.000Z",
+    "resource": "6606fbd4d8aac63664c617d7",
+    "startDate": "2024-11-25T00:00:00.000Z",
+    "membership": "660d1fe2d298d534d6d52a7d"
+  },
+  {
+    "_id": "6744afbbb1fececefb8314e3",
+    "endDate": "2025-07-31T00:00:00.000Z",
+    "resource": "6606fb972388b6fbdef6d173",
+    "startDate": "2024-11-25T00:00:00.000Z",
+    "membership": "660c8c8041b6dd8d86a59a89"
+  },
+  {
+    "_id": "6744b02bea6938856cf8d963",
+    "endDate": "2025-07-31T00:00:00.000Z",
+    "resource": "6606fa86faa5b53eca955aea",
+    "startDate": "2024-11-01T00:00:00.000Z",
+    "membership": "660c8c8041b6dde8cba59a8a"
+  },
+  {
+    "_id": "6744b055b1fececefb834adb",
+    "endDate": "2025-01-31T00:00:00.000Z",
+    "resource": "6606fbf030e13b20a4815140",
+    "startDate": "2024-09-01T00:00:00.000Z",
+    "membership": "66bb6a5f8449b695ff1948d0"
+  },
+  {
+    "_id": "6744b6a05b8f7100962371c2",
+    "endDate": "2024-10-15T00:00:00.000Z",
+    "resource": "658ebc01c7e1a3abb24f9b4d",
+    "startDate": "2024-09-01T00:00:00.000Z",
+    "membership": "66eafa70310af54b239dd6d9"
+  },
+  {
+    "_id": "6745bfb196c9cc14c6462775",
+    "endDate": "2024-11-30T00:00:00.000Z",
+    "resource": "64e7408a2b76bea4bcbfedab",
+    "startDate": "2024-09-01T00:00:00.000Z",
+    "membership": "6745bfa1d5ad2601f84f7c7f"
+  },
+  {
+    "_id": "675897cc4af4276434ef373a",
+    "endDate": "2026-03-31T00:00:00.000Z",
+    "resource": "64de8be79e2247d6cb768364",
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "membership": "675897cc37530a2c5e610873"
+  },
+  {
+    "_id": "676009b2d6ebb47ca798c3a2",
+    "endDate": "2025-12-31T00:00:00.000Z",
+    "resource": "64de8be89e2247cabc768383",
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "membership": "676009b118f2bf1984773de9"
+  },
+  {
+    "_id": "6762c907a108636a1ad0cc32",
+    "endDate": null,
+    "resource": "65861f0c4714a7a88a23ae04",
+    "startDate": "2024-12-01T00:00:00.000Z",
+    "membership": "67596980def20f40b1be3fe8"
+  },
+  {
+    "_id": "6762df5d37463d51e5f3b085",
+    "endDate": "2025-12-31T00:00:00.000Z",
+    "resource": "65861fdde7b41d3c43c9ec02",
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "membership": "6762df5cefa335fe14fe85eb"
+  },
+  {
+    "_id": "6762edd451cc569cca0bc12e",
+    "endDate": "2025-12-31T00:00:00.000Z",
+    "resource": "6586200cab4a4d4f72a0f39a",
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "membership": "6761bbab00790e9fe3c856e8"
+  },
+  {
+    "_id": "6763003598d5fe186fe8730c",
+    "endDate": "2025-02-28T00:00:00.000Z",
+    "resource": "65861f2c4714a77c0823ae31",
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "membership": "67630035a3f2b3f11f91ba5b"
+  },
+  {
+    "_id": "6763007d98d5fe186fe88cf2",
+    "endDate": "2025-09-30T00:00:00.000Z",
+    "resource": "65861f2c4714a77c0823ae31",
+    "startDate": "2025-03-01T00:00:00.000Z",
+    "membership": "6763007d6adbefa42289041b"
+  },
+  {
+    "_id": "676304e6efa335fe140c2d6d",
+    "endDate": null,
+    "resource": "64de8be89e2247a99476836f",
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "membership": "676304e651cc569cca13c694"
+  },
+  {
+    "_id": "6772e778ffc69f9519c9e7ce",
+    "endDate": "2025-02-28T00:00:00.000Z",
+    "resource": "64de8be89e224796fc76838c",
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "membership": "6772e7782e12e91bda712805"
+  },
+  {
+    "_id": "678e550498f32f9a83175472",
+    "endDate": "2025-04-29T00:00:00.000Z",
+    "resource": "6606fba66522a80894a2d3ab",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "membership": "6788f3cb1ed41e661e7b4cad"
+  },
+  {
+    "_id": "678e558e8a140ab4380f2484",
+    "endDate": "2025-01-31T00:00:00.000Z",
+    "resource": "6606fba66522a80894a2d3ab",
+    "startDate": "2025-01-16T00:00:00.000Z",
+    "membership": "678e558d5464894c242126cb"
+  },
+  {
+    "_id": "678e64d098f32f9a831db3f8",
+    "endDate": "2026-11-30T00:00:00.000Z",
+    "resource": "678e64855464894c2426eb63",
+    "startDate": "2024-12-01T00:00:00.000Z",
+    "membership": "6765530b87758830a4ee928e"
+  },
+  {
+    "_id": "679274b63e47d8c4f6f9d0b7",
+    "endDate": "2026-01-31T00:00:00.000Z",
+    "resource": "64de8be79e2247194e768369",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "membership": "679274b5e0d74225d91bffee"
+  },
+  {
+    "_id": "679274de149a3dd248791a5d",
+    "endDate": "2026-01-31T00:00:00.000Z",
+    "resource": "64de8be79e2247033476836a",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "membership": "679274db097ed313468f12b6"
+  },
+  {
+    "_id": "67938d6dc813562a710ad217",
+    "endDate": "2026-06-11T00:00:00.000Z",
+    "resource": "67938c27bc628eac95bca8f8",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "membership": "67938d6dc813562a710ad193"
+  },
+  {
+    "_id": "6793b7fd55a8c5d4213e6eba",
+    "endDate": "2026-01-12T00:00:00.000Z",
+    "resource": "678e21b98a140ab438fd2b01",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "membership": "6793b7fd8382329ed6781265"
+  },
+  {
+    "_id": "6793d22f952b1eed0058e496",
+    "endDate": "2025-04-29T00:00:00.000Z",
+    "resource": "6606fbb72388b63f27f6d1ae",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "membership": "67892603797f4b734ba0d197"
+  },
+  {
+    "_id": "6793d236c813562a712304a8",
+    "endDate": "2025-04-29T00:00:00.000Z",
+    "resource": "6606fbc4d8aac655dfc61793",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "membership": "67892603797f4b734ba0d196"
+  },
+  {
+    "_id": "6797ae7d2d2771c447fd4deb",
+    "endDate": null,
+    "resource": "65861b3cc7e1a3b5283c9a95",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "membership": "67923bbc92bb730fb8c5e5f9"
+  },
+  {
+    "_id": "6797bd584d9388e3c3d85d73",
+    "endDate": "2025-01-31T00:00:00.000Z",
+    "resource": "6606fbc4d8aac655dfc61793",
+    "startDate": "2025-01-16T00:00:00.000Z",
+    "membership": "678e546a98f32f9a83171182"
+  },
+  {
+    "_id": "6797bd6428f3ec228c91badb",
+    "endDate": "2025-01-31T00:00:00.000Z",
+    "resource": "6606fbb72388b63f27f6d1ae",
+    "startDate": "2025-01-16T00:00:00.000Z",
+    "membership": "678e544b932cdff957d66821"
+  },
+  {
+    "_id": "67a10413b68e3e2a7820fe7c",
+    "endDate": "2025-09-30T00:00:00.000Z",
+    "resource": "64e7417ca35ea90fe53df675",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "membership": "67a103fa547f859302d3ef73"
+  },
+  {
+    "_id": "67a34d3d666e3ffac13e152e",
+    "endDate": "2026-01-31T00:00:00.000Z",
+    "resource": "64e74122c826435bc698f1e8",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "membership": "67927d3091651913da40dea2"
+  },
+  {
+    "_id": "67a35b3c0cbe6e536da5bc92",
+    "endDate": "2025-02-28T00:00:00.000Z",
+    "resource": "64de8be89e2247eb5876838b",
+    "startDate": "2025-01-27T00:00:00.000Z",
+    "membership": "67975d570396857f4d5ee87b"
+  },
+  {
+    "_id": "67a5d5f45182459cf44869da",
+    "endDate": "2025-10-31T00:00:00.000Z",
+    "resource": "64e74073c82643389498eac7",
+    "startDate": "2024-12-01T00:00:00.000Z",
+    "membership": "673f66ce536c7921953678ef"
+  },
+  {
+    "_id": "67a5de82e1d671dd4678cd42",
+    "endDate": "2025-08-30T00:00:00.000Z",
+    "resource": "64e741649c0432ecf816ae2d",
+    "startDate": "2025-02-06T00:00:00.000Z",
+    "membership": "658ec52f6f160e13830d5c82"
+  },
+  {
+    "_id": "67a5deb560bcc9bbfdd46603",
+    "endDate": "2025-03-19T00:00:00.000Z",
+    "resource": "64e741083c3a713e460cfcbf",
+    "startDate": "2025-02-07T00:00:00.000Z",
+    "membership": "66f29239525a71e9d106632a"
+  },
+  {
+    "_id": "67a5df6fe9edfc8a7b86434a",
+    "endDate": "2025-03-31T00:00:00.000Z",
+    "resource": "64e74170cc3cee59b985abcd",
+    "startDate": "2025-02-07T00:00:00.000Z",
+    "membership": "67978abac65dc63b99c52f86"
+  },
+  {
+    "_id": "67a62b080707205ddbb3d4ef",
+    "endDate": "2025-06-30T00:00:00.000Z",
+    "resource": "64de8be89e22475477768378",
+    "startDate": "2025-03-01T00:00:00.000Z",
+    "membership": "67a62b07c48ad80d0f233710"
+  },
+  {
+    "_id": "67a62b2d0707205ddbb3e5ed",
+    "endDate": "2025-06-30T00:00:00.000Z",
+    "resource": "64de8be89e224728c9768377",
+    "startDate": "2025-03-01T00:00:00.000Z",
+    "membership": "67a62b2c3f2be9fe63b3579b"
+  },
+  {
+    "_id": "67a62c16a160703f0dc3a682",
+    "endDate": "2026-01-31T00:00:00.000Z",
+    "resource": "64de8be89e22476856768370",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "membership": "678a2bb0acb4c9d7a11874fa"
+  },
+  {
+    "_id": "67b35eb4319437919fd711e0",
+    "endDate": "2026-02-28T00:00:00.000Z",
+    "resource": "64de8be89e2247c0cf76838a",
+    "startDate": "2025-03-01T00:00:00.000Z",
+    "membership": "6793a8f28382329ed6721c88"
+  },
+  {
+    "_id": "67b364bd7e6b8bafcb909170",
+    "endDate": "2025-09-30T00:00:00.000Z",
+    "resource": "65862029ccd722e545734ddc",
+    "startDate": "2025-03-01T00:00:00.000Z",
+    "membership": "67b364bc211095c4e96575e3"
+  },
+  {
+    "_id": "67fd26d660b131bad8982094",
+    "endDate": "2026-03-31T00:00:00.000Z",
+    "resource": "658ebd604714a732b536afb1",
+    "startDate": "2025-04-01T00:00:00.000Z",
+    "membership": "67fd26d589e958e7925df963"
+  },
+  {
+    "_id": "67fd270160b131bad898355c",
+    "endDate": "2026-03-31T00:00:00.000Z",
+    "resource": "658ebd72ccd7223ff5865485",
+    "startDate": "2025-04-01T00:00:00.000Z",
+    "membership": "67fd27003e1ab3d4fb47b87a"
+  },
+  {
+    "_id": "67fd272dc642e8986309de32",
+    "endDate": "2026-03-31T00:00:00.000Z",
+    "resource": "658ebd86e0f49869dc632cfd",
+    "startDate": "2025-04-01T00:00:00.000Z",
+    "membership": "67fd272b37c062149c19be3e"
+  },
+  {
+    "_id": "67fd275f7d8d709bef408f28",
+    "endDate": "2026-03-31T00:00:00.000Z",
+    "resource": "64de8be79e22471ddd768365",
+    "startDate": "2025-04-01T00:00:00.000Z",
+    "membership": "67fd275e37c062149c19cd40"
+  },
+  {
+    "_id": "67fe6ade99efda37c6c1c668",
+    "endDate": null,
+    "resource": "672105d1f5f52b9e65222903",
+    "startDate": "2025-06-01T00:00:00.000Z",
+    "membership": "67fe6abef51abace588b874d"
+  },
+  {
+    "_id": "6801279f24952765c37b1d58",
+    "endDate": "2025-04-01T00:00:00.000Z",
+    "resource": "6793a4f6952b1eed0048dd14",
+    "startDate": "2025-04-01T00:00:00.000Z",
+    "membership": "6801279e701b3ea53f20194d"
+  },
+  {
+    "_id": "6807a935f20d00639d8ee8b2",
+    "endDate": "2025-05-21T00:00:00.000Z",
+    "resource": "64e74188a35ea92ee83df6bb",
+    "startDate": "2025-04-22T00:00:00.000Z",
+    "membership": "68075c90af23cf8f594b2528"
+  },
+  {
+    "_id": "681205d27f1bd620d1e11c35",
+    "endDate": "2025-06-30T00:00:00.000Z",
+    "resource": "64de8be79e22475064768362",
+    "startDate": "2025-04-02T00:00:00.000Z",
+    "membership": "6801279e701b3ea53f20194d"
+  },
+  {
+    "_id": "681219bb0363e94be3cf6656",
+    "endDate": "2025-04-30T00:00:00.000Z",
+    "resource": "64e741143c3a710b5d0cfd6b",
+    "startDate": "2025-04-23T00:00:00.000Z",
+    "membership": "6808eb276291be159b6dacdc"
+  },
+  {
+    "_id": "6812200ac0e0955d8fe4dcb0",
+    "endDate": "2025-06-30T00:00:00.000Z",
+    "resource": "64e741083c3a713e460cfcbf",
+    "startDate": "2025-05-01T00:00:00.000Z",
+    "membership": "68120e70cb5d0cf5964e17c6"
+  },
+  {
+    "_id": "681222440363e94be3d315cd",
+    "endDate": "2025-05-31T00:00:00.000Z",
+    "resource": "6606fc2a30e13b4a538151dd",
+    "startDate": "2025-03-27T00:00:00.000Z",
+    "membership": "67e58fc4a35ec38b83eb01c8"
+  },
+  {
+    "_id": "681222af1a41033fd63980f3",
+    "endDate": "2025-08-31T00:00:00.000Z",
+    "resource": "6606fc106522a80fd9a2d51b",
+    "startDate": "2025-04-30T00:00:00.000Z",
+    "membership": "660d1fe2d298d534d6d52a7d"
+  },
+  {
+    "_id": "68123b3567067b6e050f797f",
+    "endDate": "2026-02-28T00:00:00.000Z",
+    "resource": "6606fbfee39444ea4b9c25c2",
+    "startDate": "2025-04-30T00:00:00.000Z",
+    "membership": "6788f3cb1ed41e661e7b4cad"
+  },
+  {
+    "_id": "68123b8aa3ea51fe9a9c7c99",
+    "endDate": null,
+    "resource": "6606fbd4d8aac63664c617d7",
+    "startDate": "2025-04-30T00:00:00.000Z",
+    "membership": "67892603797f4b734ba0d197"
+  },
+  {
+    "_id": "68123b9aa8fb214f7998513a",
+    "endDate": null,
+    "resource": "6606fbf030e13b20a4815140",
+    "startDate": "2025-04-30T00:00:00.000Z",
+    "membership": "67892603797f4b734ba0d196"
+  },
+  {
+    "_id": "68123be3a3ea51fe9a9c8d12",
+    "endDate": "2025-09-30T00:00:00.000Z",
+    "resource": "6606fba66522a80894a2d3ab",
+    "startDate": "2025-04-30T00:00:00.000Z",
+    "membership": "67d814fd5ac866e2b447f5e4"
+  },
+  {
+    "_id": "681b8c9c582862f4b52cdfe8",
+    "endDate": "2025-06-01T00:00:00.000Z",
+    "resource": "6606fbb72388b63f27f6d1ae",
+    "startDate": "2025-05-02T00:00:00.000Z",
+    "membership": "681494fe5dc93ad4d7fc328e"
+  },
+  {
+    "_id": "6821b2eb0dd7c79277886ed4",
+    "endDate": "2025-05-25T00:00:00.000Z",
+    "resource": "64e741143c3a710b5d0cfd6b",
+    "startDate": "2025-05-12T00:00:00.000Z",
+    "membership": "6821b2aacdc71e30f8413930"
+  },
+  {
+    "_id": "6822076279fc7033912a3c2e",
+    "endDate": "2025-04-11T00:00:00.000Z",
+    "resource": "64de8be89e22475ab4768389",
+    "startDate": "2025-03-25T00:00:00.000Z",
+    "membership": "682207580ab6e1b942c32e1d"
+  },
+  {
+    "_id": "6822078b170cd47e252ab0da",
+    "endDate": "2025-04-11T00:00:00.000Z",
+    "resource": "64de8be89e2247eb5876838b",
+    "startDate": "2025-03-25T00:00:00.000Z",
+    "membership": "6822078b9c381950d198c099"
+  },
+  {
+    "_id": "682efa35b22b7f39ce146f5f",
+    "endDate": "2025-06-30T00:00:00.000Z",
+    "resource": "64e740b02b76be5b2cbfef22",
+    "startDate": "2025-06-02T00:00:00.000Z",
+    "membership": "682ee972bca2d303be9a4f8c"
+  },
+  {
+    "_id": "682efef7332de59bdc78ed69",
+    "endDate": null,
+    "resource": "64e74170cc3cee59b985abcd",
+    "startDate": "2025-06-01T00:00:00.000Z",
+    "membership": "682ca1b399df78fd67519b6c"
+  },
+  {
+    "_id": "682efefcb22b7f39ce165da7",
+    "endDate": "2025-05-31T00:00:00.000Z",
+    "resource": "64e74170cc3cee59b985abcd",
+    "startDate": "2025-05-21T00:00:00.000Z",
+    "membership": "682ca195367f2b350db38593"
+  },
+  {
+    "_id": "682f1896ff10cd7fc409d0f5",
+    "endDate": "2025-05-31T00:00:00.000Z",
+    "resource": "64e74188a35ea92ee83df6bb",
+    "startDate": "2025-05-22T00:00:00.000Z",
+    "membership": "682f188fb22b7f39ce20b9a8"
+  },
+  {
+    "_id": "682f191e332de59bdc82f873",
+    "endDate": "2026-02-23T00:00:00.000Z",
+    "resource": "64e74188a35ea92ee83df6bb",
+    "startDate": "2025-06-01T00:00:00.000Z",
+    "membership": "682f191dbca2d303beab6698"
+  },
+  {
+    "_id": "682f48a737c141593bdb514d",
+    "resource": "6793a4f6952b1eed0048dd14",
+    "startDate": "2025-05-22T00:00:00.000Z",
+    "membership": "658ebdf6c1a0962296d17478"
+  },
+  {
+    "_id": "682f4d70042ba24b14e52a16",
+    "endDate": null,
+    "resource": "682f4cd77d058adb44ad7e09",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "membership": "6772edb4630dcb743fc2b269"
+  },
+  {
+    "_id": "683474df4ce0539ce7439ed8",
+    "endDate": "2025-06-11T00:00:00.000Z",
+    "resource": "64e7412e2b76be6c46bff60f",
+    "startDate": "2025-05-26T00:00:00.000Z",
+    "membership": "6821b2aacdc71e30f8413930"
+  },
+  {
+    "_id": "683d90e1962b03bdd8dee357",
+    "endDate": "2025-06-30T00:00:00.000Z",
+    "resource": "64e740dac82643843c98eefd",
+    "startDate": "2025-06-01T00:00:00.000Z",
+    "membership": "683ae501ea987e86bcb5b161"
+  },
+  {
+    "_id": "684b0e58b5548354968acc0a",
+    "endDate": "2025-07-31T00:00:00.000Z",
+    "resource": "64e741143c3a710b5d0cfd6b",
+    "startDate": "2025-06-02T00:00:00.000Z",
+    "membership": "683d706ab4c4d58ee6d4a49e"
+  },
+  {
+    "_id": "6856ac96b88881cfc4039f33",
+    "endDate": "2025-07-14T00:00:00.000Z",
+    "resource": "6856aae6cac91569c38dd76e",
+    "startDate": "2025-06-15T00:00:00.000Z",
+    "membership": "68502ff70b65f50e5e9fd7e8"
+  },
+  {
+    "_id": "6856ac9eb88881cfc403a0b6",
+    "endDate": "2025-07-14T00:00:00.000Z",
+    "resource": "6856aafab88881cfc4035882",
+    "startDate": "2025-06-15T00:00:00.000Z",
+    "membership": "68502ff70b65f50e5e9fd7e7"
+  },
+  {
+    "_id": "6856aca4cac91569c38e251e",
+    "endDate": "2025-07-14T00:00:00.000Z",
+    "resource": "6856ab0acac91569c38ddff0",
+    "startDate": "2025-06-15T00:00:00.000Z",
+    "membership": "68502ff70b65f50e5e9fd7e6"
+  },
+  {
+    "_id": "685aa36cc3b78052f62beecc",
+    "endDate": "2025-12-31T00:00:00.000Z",
+    "resource": "65861bd8cbbfe7b5bc7a564f",
+    "startDate": "2025-07-01T00:00:00.000Z",
+    "membership": "685aa35e15808442f55e2b19"
+  },
+  {
+    "_id": "685bdd0bad2b1a98817bf756",
+    "endDate": "2026-03-31T00:00:00.000Z",
+    "resource": "64de8be79e22475064768362",
+    "startDate": "2025-07-01T00:00:00.000Z",
+    "membership": "685bdcfafce37c4b5905a66e"
+  },
+  {
+    "_id": "687f5f071f12462e5ef22840",
+    "resource": "64e741083c3a713e460cfcbf",
+    "startDate": "2025-08-01T00:00:00.000Z",
+    "membership": "687dfc4906d49842061613cc"
+  },
+  {
+    "_id": "687f5f25c7e542d75bb08ed4",
+    "endDate": "2025-08-20T00:00:00.000Z",
+    "resource": "64e740dac82643843c98eefd",
+    "startDate": "2025-07-21T00:00:00.000Z",
+    "membership": "687dfb9f1cf978bf1a9b05d6"
+  },
+  {
+    "_id": "6887a4cbc741b2720430e300",
+    "endDate": "2026-07-31T00:00:00.000Z",
+    "resource": "64de8be89e2247a7b4768382",
+    "startDate": "2025-08-01T00:00:00.000Z",
+    "membership": "6887a4ca022ff3c4b0e174e0"
+  },
+  {
+    "_id": "6888b35c80d6bdcae93736a3",
+    "endDate": "2025-07-31T00:00:00.000Z",
+    "resource": "64e741083c3a713e460cfcbf",
+    "startDate": "2025-07-21T00:00:00.000Z",
+    "membership": "687f8aa194a4adac27253119"
+  },
+  {
+    "_id": "6889ea502370fa22af0b5f7b",
+    "endDate": "2025-08-28T00:00:00.000Z",
+    "resource": "64e740bb2b76be3a6ebfefb2",
+    "startDate": "2025-07-28T00:00:00.000Z",
+    "membership": "6887f32e222a80a6b74206dc"
+  },
+  {
+    "_id": "689222adac7f8422d50a9084",
+    "endDate": null,
+    "resource": "64e740b02b76be5b2cbfef22",
+    "startDate": "2025-08-01T00:00:00.000Z",
+    "membership": "6888c2c7895b74fc95bbadc5"
+  },
+  {
+    "_id": "6895b75981499d1e4b0504ad",
+    "endDate": "2026-03-31T00:00:00.000Z",
+    "resource": "64e741492b76be3985bff7a6",
+    "startDate": "2025-09-01T00:00:00.000Z",
+    "membership": "6895b73d943ebd05ca812eb0"
+  },
+  {
+    "_id": "6895c79d706210cc6a2db60d",
+    "endDate": null,
+    "resource": "64e7408a2b76bea4bcbfedab",
+    "startDate": "2025-08-01T00:00:00.000Z",
+    "membership": "6895c79d8714088b157c6b35"
+  },
+  {
+    "_id": "68a5dac9f50cd4f6ef084707",
+    "endDate": "2026-03-31T00:00:00.000Z",
+    "resource": "64e74156cc3cee8ab185aa76",
+    "startDate": "2025-09-01T00:00:00.000Z",
+    "membership": "68a5da4b3c49c76c42940e7a"
+  },
+  {
+    "_id": "68a5e8cd017ff0fa651e0844",
+    "endDate": "2025-10-31T00:00:00.000Z",
+    "resource": "64e740dac82643843c98eefd",
+    "startDate": "2025-09-01T00:00:00.000Z",
+    "membership": "68a5e8bbaf030a261dec12db"
+  },
+  {
+    "_id": "68a5e8d4af030a261dec1b36",
+    "endDate": null,
+    "resource": "64e741143c3a710b5d0cfd6b",
+    "startDate": "2025-09-01T00:00:00.000Z",
+    "membership": "68a5e8b0aefe6b1e3f9174c9"
+  },
+  {
+    "_id": "68a6f0f342c7de340949ed4f",
+    "endDate": "2025-11-30T00:00:00.000Z",
+    "resource": "64e7412e2b76be6c46bff60f",
+    "startDate": "2025-09-01T00:00:00.000Z",
+    "membership": "68a6f0f1b16f950c48ae7533"
+  },
+  {
+    "_id": "68ac50e4ad1fd34ebefd6553",
+    "endDate": null,
+    "resource": "6606fb972388b6fbdef6d173",
+    "startDate": "2025-08-26T00:00:00.000Z",
+    "membership": "68a867ab6212fa4be9d24b29"
+  },
+  {
+    "_id": "68b97fd399878d8044b0ce3e",
+    "endDate": "2026-02-28T00:00:00.000Z",
+    "resource": "64e741649c0432ecf816ae2d",
+    "startDate": "2025-09-01T00:00:00.000Z",
+    "membership": "68b6d2e3fe35d989d0f87bfe"
+  },
+  {
+    "_id": "68b9aeb586400f6e02020829",
+    "endDate": "2026-05-19T00:00:00.000Z",
+    "resource": "64de8be79e22475231768366",
+    "startDate": "2025-09-05T00:00:00.000Z",
+    "membership": "68b9aeb599878d8044c3d72d"
+  },
+  {
+    "_id": "68bfeb47430a4f50b62b65f1",
+    "endDate": "2025-09-04T00:00:00.000Z",
+    "resource": "64de8be79e22475231768366",
+    "startDate": "2025-09-01T00:00:00.000Z",
+    "membership": "68bfeb4782406f6553bda332"
+  },
+  {
+    "_id": "68c930ece8e9339aeeeb7675",
+    "endDate": null,
+    "resource": "64de8be89e22475477768378",
+    "startDate": "2025-12-01T00:00:00.000Z",
+    "membership": "68c930ece8e9339aeeeb7581"
+  },
+  {
+    "_id": "68d117fa27819bd97b3d6cd4",
+    "endDate": null,
+    "resource": "64e7403c3c3a71742d0cf4a4",
+    "startDate": "2025-10-01T00:00:00.000Z",
+    "membership": "68d117ec9d95dd5dc9cf7632"
+  },
+  {
+    "_id": "68da7dde5a05b91c86013204",
+    "endDate": null,
+    "resource": "65862029ccd722e545734ddc",
+    "startDate": "2025-10-01T00:00:00.000Z",
+    "membership": "68da7dde820ba2ad2bb52ed5"
+  },
+  {
+    "_id": "68da7e0a02bb125022f721aa",
+    "endDate": null,
+    "resource": "65861ed9cbbfe752737a5adb",
+    "startDate": "2025-10-01T00:00:00.000Z",
+    "membership": "68da7e09820ba2ad2bb54298"
+  },
+  {
+    "_id": "68f76e60446cd589eb5f10ee",
+    "endDate": null,
+    "resource": "64de8be89e224796fc76838c",
+    "startDate": "2025-11-01T00:00:00.000Z",
+    "membership": "68f76e60330981ef589a798f"
+  },
+  {
+    "_id": "68f9e794feec811e7417ee00",
+    "endDate": null,
+    "resource": "64e740bb2b76be3a6ebfefb2",
+    "startDate": "2025-11-01T00:00:00.000Z",
+    "membership": "68f9e794124b9076a1399ef7"
+  },
+  {
+    "_id": "68fa188f7e8b5d1820af5693",
+    "endDate": null,
+    "resource": "64e74073c82643389498eac7",
+    "startDate": "2025-11-01T00:00:00.000Z",
+    "membership": "68fa1889ebc3184ff720c4d9"
+  },
+  {
+    "_id": "68ff3ae783d07aecc0cc49d5",
+    "endDate": "2025-12-02T00:00:00.000Z",
+    "resource": "64e7417ca35ea90fe53df675",
+    "startDate": "2025-11-03T00:00:00.000Z",
+    "membership": "68ff39acf3d3d4cad4fea3a0"
+  },
+  {
+    "_id": "690884937768b2b46dfb946f",
+    "endDate": "2026-04-30T00:00:00.000Z",
+    "resource": "64de8be79e2247112276836b",
+    "startDate": "2025-11-01T00:00:00.000Z",
+    "membership": "690884927768b2b46dfb940c"
+  },
+  {
+    "_id": "6909eaa185a9a45ca6b55e24",
+    "resource": "64e740dac82643843c98eefd",
+    "startDate": "2025-11-03T00:00:00.000Z",
+    "membership": "6908dcd890099c21391fccc9"
+  },
+  {
+    "_id": "691c7dafd6b9c5dbfae355e5",
+    "endDate": null,
+    "resource": "64de8be89e2247718076837f",
+    "startDate": "2025-11-19T00:00:00.000Z",
+    "membership": "691c7dae6b52215004f8ee0a"
+  },
+  {
+    "_id": "69304dbb16cf71dbf4df4b98",
+    "endDate": "2026-04-02T00:00:00.000Z",
+    "resource": "64e7417ca35ea90fe53df675",
+    "startDate": "2025-12-03T00:00:00.000Z",
+    "membership": "692ee312d63b64e51aa7becc"
+  },
+  {
+    "_id": "69304dea3074401cc9d63b2f",
+    "endDate": "2026-04-30T00:00:00.000Z",
+    "resource": "64e740ce9c04323f3516a5e0",
+    "startDate": "2025-12-03T00:00:00.000Z",
+    "membership": "692ee3295a797ccec778f585"
+  },
+  {
+    "_id": "69304e5bda9bbf28b8108b3c",
+    "endDate": "2026-04-30T00:00:00.000Z",
+    "resource": "64e7412e2b76be6c46bff60f",
+    "startDate": "2025-12-03T00:00:00.000Z",
+    "membership": "692ee2ecee7485fd487e4878"
+  },
+  {
+    "_id": "693b12431b30e3d6f3ed51c7",
+    "endDate": "2026-08-31T00:00:00.000Z",
+    "resource": "64de8be89e22478464768379",
+    "startDate": "2026-01-01T00:00:00.000Z",
+    "membership": "693b12431b30e3d6f3ed5196"
+  },
+  {
+    "_id": "695d4ee505782ebb55358127",
+    "endDate": null,
+    "resource": "64de8be89e2247cabc768383",
+    "startDate": "2026-01-01T00:00:00.000Z",
+    "membership": "695d4edf05782ebb5535809f"
+  },
+  {
+    "_id": "6970c12e760ff84a9c1b8c52",
+    "endDate": "2026-01-31T00:00:00.000Z",
+    "resource": "65861bd8cbbfe7b5bc7a564f",
+    "startDate": "2026-01-13T00:00:00.000Z",
+    "membership": "6970c12d46a1efc626d919b6"
+  },
+  {
+    "_id": "6970d38ce0b51a8f7a7a7b14",
+    "endDate": null,
+    "resource": "65861bd8cbbfe7b5bc7a564f",
+    "startDate": "2026-02-01T00:00:00.000Z",
+    "membership": "6970d38c01282950cf160f0f"
+  },
+  {
+    "_id": "6978c31a46a2ab0129173a89",
+    "endDate": "2026-02-28T00:00:00.000Z",
+    "resource": "64e74122c826435bc698f1e8",
+    "startDate": "2026-02-01T00:00:00.000Z",
+    "membership": "6961467cc8ff3cc649ad1a7c"
+  },
+  {
+    "_id": "69809e634a20542e788e4ab3",
+    "endDate": null,
+    "resource": "678e21b98a140ab438fd2b01",
+    "startDate": "2026-02-01T00:00:00.000Z",
+    "membership": "69809e63da0233258143af1d"
+  },
+  {
+    "_id": "699ddfb5cc528e83ef345adc",
+    "endDate": null,
+    "resource": "64e741649c0432ecf816ae2d",
+    "startDate": "2026-03-01T00:00:00.000Z",
+    "membership": "698da732cd9128340f6d7162"
+  },
+  {
+    "_id": "699de14220d44fc05f089e9b",
+    "endDate": "2026-04-30T00:00:00.000Z",
+    "resource": "64e74122c826435bc698f1e8",
+    "startDate": "2026-03-01T00:00:00.000Z",
+    "membership": "699de13c4d838fb45958f414"
+  },
+  {
+    "_id": "699de8af852c855fe228d7c9",
+    "endDate": null,
+    "resource": "64e741943c3a711b6e0d0311",
+    "startDate": "2026-02-24T00:00:00.000Z",
+    "membership": "682f191dbca2d303beab6698"
+  },
+  {
+    "_id": "699de92a763dce0e2d31d455",
+    "endDate": null,
+    "resource": "64e74188a35ea92ee83df6bb",
+    "startDate": "2026-02-24T00:00:00.000Z",
+    "membership": "696e5473b9481de78c169338"
+  },
+  {
+    "_id": "69a83fdd55fb6ce749a079fb",
+    "endDate": null,
+    "resource": "6606fbc4d8aac655dfc61793",
+    "startDate": "2026-03-01T00:00:00.000Z",
+    "membership": "69a6ab4a8cda6d6a518d1af2"
+  },
+  {
+    "_id": "69a863183cda26182eaf7e81",
+    "endDate": "2026-03-27T00:00:00.000Z",
+    "resource": "64de8be89e2247b41c768374",
+    "startDate": "2026-03-23T00:00:00.000Z",
+    "membership": "69a862f255fb6ce749b114be"
+  },
+  {
+    "_id": "69b1449d1694202a25e0132b",
+    "endDate": null,
+    "resource": "64e74156cc3cee8ab185aa76",
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "membership": "69b14485cb19bce07a308d45"
+  },
+  {
+    "_id": "69b144a6cb19bce07a309caa",
+    "endDate": null,
+    "resource": "64e741492b76be3985bff7a6",
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "membership": "69b1442e22792e8769b2f250"
+  },
+  {
+    "_id": "69bc2e46541f4ad921b8ae4b",
+    "endDate": "2026-04-30T00:00:00.000Z",
+    "resource": "64de8be89e2247b41c768374",
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "membership": "69bc2e45541f4ad921b8adf2"
+  },
+  {
+    "_id": "69c130bd364a2d463e0b5377",
+    "endDate": "2027-03-31T00:00:00.000Z",
+    "resource": "658ebc99e7b41d5e4cdcc70b",
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "membership": "69c12ff84f2e6a31cf4537cc"
+  },
+  {
+    "_id": "69c3d85d98f66c0c1f252d2c",
+    "endDate": null,
+    "resource": "64de8be89e224728c9768377",
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "membership": "69c3d85d07e9fa453ddc99f3"
+  },
+  {
+    "_id": "69c54b4abfaf568221fb40eb",
+    "endDate": null,
+    "resource": "64de8be89e2247502776837d",
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "membership": "69c54b49207e50ad53ec1d24"
+  },
+  {
+    "_id": "69c54b5f10c24171d71bc11d",
+    "endDate": null,
+    "resource": "64de8be89e22472a68768380",
+    "startDate": "2026-04-01T00:00:00.000Z",
+    "membership": "69c54b5eaefb55d9ea6482f4"
+  },
+  {
+    "_id": "69d527ee675268d1d2eb9167",
+    "endDate": "2026-09-30T00:00:00.000Z",
+    "resource": "65861f2c4714a77c0823ae31",
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "membership": "69d527eb01dc0e1031ac5983"
+  },
+  {
+    "_id": "69d528af250b28fa8309eed5",
+    "endDate": "2026-09-30T00:00:00.000Z",
+    "resource": "67938ceb8382329ed66732a3",
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "membership": "69d528af6943d97970ecf7c0"
+  },
+  {
+    "_id": "69d642daac10b07f7fb1495b",
+    "endDate": "2026-04-30T00:00:00.000Z",
+    "resource": "64e7417ca35ea90fe53df675",
+    "startDate": "2026-04-03T00:00:00.000Z",
+    "membership": "69c43d700b880dcbc056c22c"
+  },
+  {
+    "_id": "69e8ba7d5137be6eaf6f729f",
+    "endDate": null,
+    "resource": "69e8ba22807fb3e4d08fb33e",
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "membership": "69c43d700b880dcbc056c22c"
+  },
+  {
+    "_id": "69e8baa830b1b8e05d039609",
+    "endDate": null,
+    "resource": "6856aafab88881cfc4035882",
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "membership": "699de13c4d838fb45958f414"
+  },
+  {
+    "_id": "69e8bac00844eb8961512b5d",
+    "endDate": null,
+    "resource": "6856aae6cac91569c38dd76e",
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "membership": "692ee3295a797ccec778f585"
+  },
+  {
+    "_id": "69e8bad20844eb896151305d",
+    "endDate": null,
+    "resource": "6856ab0acac91569c38ddff0",
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "membership": "692ee2ecee7485fd487e4878"
+  },
+  {
+    "_id": "69e8bb2177931bc086a98d0a",
+    "endDate": null,
+    "resource": "64e740ce9c04323f3516a5e0",
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "membership": "69e8b88377931bc086a89532"
+  },
+  {
+    "_id": "69eb45c1c420cf000bf04ddb",
+    "endDate": "2026-04-30T00:00:00.000Z",
+    "resource": "65861fdde7b41d3c43c9ec02",
+    "startDate": "2026-04-13T00:00:00.000Z",
+    "membership": "69eb45c100b9199e8a9e01e9"
+  },
+  {
+    "_id": "69eb46be1dc11da97c560d96",
+    "endDate": "2026-04-30T00:00:00.000Z",
+    "resource": "65861f2c4714a77c0823ae31",
+    "startDate": "2026-04-13T00:00:00.000Z",
+    "membership": "69eb46be201a82d74bbf59a9"
+  },
+  {
+    "_id": "69f0aa3437750a2778fc87f9",
+    "endDate": "2026-05-31T00:00:00.000Z",
+    "resource": "64e7417ca35ea90fe53df675",
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "membership": "69f0a9de8cf2842da32d6dd4"
+  },
+  {
+    "_id": "69fcd41821b2534b4cc78c47",
+    "endDate": "2026-05-31T00:00:00.000Z",
+    "resource": "64e74122c826435bc698f1e8",
+    "startDate": "2026-05-08T00:00:00.000Z",
+    "membership": "69fcd417adf8b0723a37bcfe"
+  },
+  {
+    "_id": "69fcd43ccd8a14f1779cacc1",
+    "endDate": null,
+    "resource": "64e74122c826435bc698f1e8",
+    "startDate": "2026-06-01T00:00:00.000Z",
+    "membership": "69fcd436a3db48dc0815c043"
+  },
+  {
+    "_id": "69fe082dd597eda5d17c5e92",
+    "endDate": null,
+    "resource": "64de8be79e2247112276836b",
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "membership": "69fe082d56af425515837909"
+  },
+  {
+    "_id": "6a01dfb03ce6daa607992773",
+    "endDate": "2026-05-31T00:00:00.000Z",
+    "resource": "64e7412e2b76be6c46bff60f",
+    "startDate": "2026-05-12T00:00:00.000Z",
+    "membership": "6a01dfafe226c0ee1685b380"
+  },
+  {
+    "_id": "6a01ed267038acf068f4a7c2",
+    "endDate": null,
+    "resource": "64e7412e2b76be6c46bff60f",
+    "startDate": "2026-06-01T00:00:00.000Z",
+    "membership": "6a01ed26ac84ba5fa462e045"
+  },
+  {
+    "_id": "6a070284fd4b0b0c40e48506",
+    "endDate": null,
+    "resource": "658ebd72ccd7223ff5865485",
+    "startDate": "2026-05-01T00:00:00.000Z",
+    "membership": "6a0701321f5304cfab25d3d2"
+  },
+  {
+    "_id": "6a0de794ea621bdcd45be4e9",
+    "endDate": null,
+    "resource": "64de8be79e2247194e768369",
+    "startDate": "2026-05-20T00:00:00.000Z",
+    "membership": "6a0de794813c5afea60d8ec5"
+  },
+  {
+    "_id": "6a0de7bfea621bdcd45bf43e",
+    "endDate": null,
+    "resource": "64de8be79e2247033476836a",
+    "startDate": "2026-05-20T00:00:00.000Z",
+    "membership": "6a0de7bf8da438f6097e71ff"
+  },
+  {
+    "_id": "6a10325b41fd9f3a91c6ad12",
+    "endDate": null,
+    "resource": "6a1031555ebb59fab305b122",
+    "startDate": "2026-05-21T00:00:00.000Z",
+    "membership": "6a10325a351b4a4379c1269d"
+  },
+  {
+    "_id": "6a10327641fd9f3a91c6b628",
+    "endDate": null,
+    "resource": "6a10316b2999fdf279205887",
+    "startDate": "2026-05-21T00:00:00.000Z",
+    "membership": "6a1032762999fdf27920fb19"
+  },
+  {
+    "_id": "6a1032952999fdf27921098a",
+    "endDate": null,
+    "resource": "6a1031784da209b873688926",
+    "startDate": "2026-05-21T00:00:00.000Z",
+    "membership": "6a1032941857ca32fcb5bd6e"
+  },
+  {
+    "_id": "6a1d46e5af1593868dba0df3",
+    "endDate": "2026-06-30T00:00:00.000Z",
+    "resource": "6606fc106522a80fd9a2d51b",
+    "startDate": "2026-06-01T00:00:00.000Z",
+    "membership": "6a1961ab402b1504bf7ce916"
+  },
+  {
+    "_id": "6a1d97070ff02f9cfb4fd1bc",
+    "endDate": null,
+    "resource": "64e7417ca35ea90fe53df675",
+    "startDate": "2026-06-01T00:00:00.000Z",
+    "membership": "6a1d96f3d648c2b7173f8c85"
+  },
+  {
+    "_id": "6a3012fdc4f2ad3e66a3fd97",
+    "endDate": null,
+    "resource": "6a3010bf12af58c1731e30f2",
+    "startDate": "2025-06-01T00:00:00.000Z",
+    "membership": "6839dd36add4ce0420029dca"
+  }
+]

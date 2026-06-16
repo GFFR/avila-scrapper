@@ -1,0 +1,245 @@
+[
+  {
+    "_id": "6475a07d362b01550a920c96",
+    "code": "REUN-LARGE",
+    "name": "Large meeting room",
+    "type": "meeting_room",
+    "price": 34,
+    "rates": [
+      {
+        "_id": "672a3c3deb7b89dc4694c63a",
+        "price": 68,
+        "isOffRate": true,
+        "intervalCount": 1,
+        "intervalLength": "hour"
+      },
+      {
+        "_id": "672a3c3deb7b89dc4694c63b",
+        "price": 68,
+        "intervalCount": 1,
+        "isWeekendRate": true,
+        "intervalLength": "hour"
+      }
+    ],
+    "extras": [],
+    "useCoins": true,
+    "amenities": [
+      "6475a07d362b01ad4c920c8e",
+      "6475a07d362b014046920c8f",
+      "64a950fa0267ae67c259ae96",
+      "64a951980267ae1aba59af71"
+    ],
+    "locations": [
+      "647a1afd46677c1cf57f4416",
+      "64a1c07bc31445076eb246c2",
+      "657b91bf7f60e04798908d9b"
+    ],
+    "description": "Os preços incluem:\nServiço de Receção, TV LCD, Internet Wireless, Logitech Video Conference System (quando disponível), Cafés (nº de cafés de acordo com a capacidade da sala) e Àguas.\n--\nIncluded in the price:\nReception Service, LCD TV, Internet Wireless, Whiteboard, Logitech Video Conference System (when available), Coffees (number of coffees according to room capacity) and waters.",
+    "intervalCount": 1,
+    "shouldProrate": true,
+    "intervalLength": "hour",
+    "revenueAccount": "64a857416c34d2f8fe98711b"
+  },
+  {
+    "_id": "6475a07d362b01630d920c95",
+    "code": "REUN-SMALL",
+    "name": "Small meeting room",
+    "type": "meeting_room",
+    "price": 30,
+    "rates": [
+      {
+        "_id": "672a3c3690ade35329ae0a71",
+        "price": 60,
+        "isOffRate": true,
+        "intervalCount": 1,
+        "intervalLength": "hour"
+      },
+      {
+        "_id": "672a3c3690ade35329ae0a72",
+        "price": 60,
+        "intervalCount": 1,
+        "isWeekendRate": true,
+        "intervalLength": "hour"
+      }
+    ],
+    "extras": [],
+    "useCoins": true,
+    "amenities": [
+      "64a950fa0267ae67c259ae96",
+      "6475a07d362b014046920c8f",
+      "6475a07d362b01ad4c920c8e",
+      "64a951980267ae1aba59af71"
+    ],
+    "locations": [
+      "647a1afd46677c1cf57f4416",
+      "64a1c07bc31445076eb246c2",
+      "657b91bf7f60e04798908d9b"
+    ],
+    "description": "Os preços incluem:\nServiço de Receção, TV LCD, Internet Wireless,  Logitech Video Conference System (quando disponível), Cafés (nº de cafés de acordo com a capacidade da sala) e Àguas.\n--\nIncluded in the price:\nReception Service, LCD TV, Internet Wireless, Whiteboard, logitech Video Conference System (when available), Coffees (number of coffees according to room capacity) and waters",
+    "intervalCount": 1,
+    "shouldProrate": true,
+    "intervalLength": "hour",
+    "revenueAccount": "64a857416c34d2f8fe98711b"
+  },
+  {
+    "_id": "64a96f96f6c6338a3bf4e4c3",
+    "code": "REUN-AUD-ATR",
+    "name": "Auditorium Atrium Saldanha",
+    "type": "meeting_room",
+    "price": 75,
+    "rates": [
+      {
+        "_id": "672a3c4c90ade35329ae14d7",
+        "price": 150,
+        "isOffRate": true,
+        "intervalCount": 1,
+        "intervalLength": "hour"
+      },
+      {
+        "_id": "672a3c4c90ade35329ae14d8",
+        "price": 150,
+        "intervalCount": 1,
+        "isWeekendRate": true,
+        "intervalLength": "hour"
+      }
+    ],
+    "extras": [],
+    "useCoins": true,
+    "amenities": [
+      "6475a07d362b01ad4c920c8e",
+      "6475a07d362b014046920c8f",
+      "64a950fa0267ae67c259ae96",
+      "64a951980267ae1aba59af71"
+    ],
+    "createdAt": "2023-07-08T14:15:50.807Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "description": "Os preços incluem:\nServiço de Receção, TV LCD, Internet Wireless, Logitech Video Conference System (quando disponível), Cafés (nº de cafés de acordo com a capacidade da sala) e Àguas.\n--\nIncluded in the price:\nReception Service, LCD TV, Internet Wireless, Whiteboard, Logitech Video Conference System (when available), Coffees (number of coffees according to room capacity) and waters.",
+    "intervalCount": 1,
+    "shouldProrate": true,
+    "intervalLength": "hour",
+    "revenueAccount": "64a857416c34d2f8fe98711b"
+  },
+  {
+    "_id": "64a97004f6c6339d00f4e536",
+    "code": "REUN-BL-ATR",
+    "name": "Business Lounge Atrium Saldanha",
+    "type": "meeting_room",
+    "price": 150,
+    "rates": [
+      {
+        "_id": "6728c69ee0f54331952d773f",
+        "price": 150,
+        "isOffRate": true,
+        "intervalCount": 1,
+        "intervalLength": "hour"
+      },
+      {
+        "_id": "6728c69ee0f54331952d7740",
+        "price": 150,
+        "intervalCount": 1,
+        "isWeekendRate": true,
+        "intervalLength": "hour"
+      },
+      {
+        "_id": "6728c69ee0f54331952d7741",
+        "price": 0,
+        "intervalCount": 4,
+        "isHalfDayRate": true,
+        "intervalLength": "hour"
+      }
+    ],
+    "extras": [],
+    "useCoins": true,
+    "amenities": [
+      "64a950fa0267ae67c259ae96",
+      "64a951980267ae1aba59af71",
+      "6475a07d362b014046920c8f",
+      "6475a07d362b01ad4c920c8e"
+    ],
+    "createdAt": "2023-07-08T14:17:40.595Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "description": "Os preços incluem:\nServiço de Receção, TV LCD, Internet Wireless, Logitech Video Conference System (quando disponível), Cafés (nº de cafés de acordo com a capacidade da sala) e Àguas.\n--\nIncluded in the price:\nReception Service, LCD TV, Internet Wireless, Whiteboard, Logitech Video Conference System (when available), Coffees (number of coffees according to room capacity) and waters.",
+    "intervalCount": 1,
+    "shouldProrate": true,
+    "intervalLength": "hour",
+    "revenueAccount": "64a857416c34d2f8fe98711b"
+  },
+  {
+    "_id": "65872f71ccd7229b347465cb",
+    "code": "REUN-AUD-PN-2",
+    "name": "Auditorium Parque das Nações 2 (Max. 50 pax)",
+    "type": "meeting_room",
+    "price": 600,
+    "rates": [
+      {
+        "_id": "672a3c653bb7167cee5408cf",
+        "price": 500,
+        "intervalCount": 4,
+        "isHalfDayRate": true,
+        "intervalLength": "hour"
+      },
+      {
+        "_id": "672a3c653bb7167cee5408d0",
+        "price": 50,
+        "isOffRate": true,
+        "intervalCount": 1,
+        "intervalLength": "hour"
+      }
+    ],
+    "extras": [],
+    "useCoins": true,
+    "amenities": [],
+    "createdAt": "2023-12-23T19:05:21.664Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "description": "Os preços incluem:\nServiço de Receção, TV LCD, Internet Wireless, Logitech Video Conference System (quando disponível), Cafés (nº de cafés de acordo com a capacidade da sala) e Àguas.\n--\nIncluded in the price:\nReception Service, LCD TV, Internet Wireless, Whiteboard, Logitech Video Conference System (when available), Coffees (number of coffees according to room capacity) and waters.",
+    "intervalCount": 1,
+    "shouldProrate": true,
+    "intervalLength": "day",
+    "revenueAccount": "64a857416c34d2f8fe98711b"
+  },
+  {
+    "_id": "658ae7fa7e6feffda9a4372f",
+    "code": "REUN-AUD-PN-1",
+    "name": "Auditorium Parque das Nações 1 (Max. 100 pax)",
+    "type": "meeting_room",
+    "price": 1200,
+    "rates": [
+      {
+        "_id": "672a3c7590274728bd9fdb75",
+        "price": 1000,
+        "intervalCount": 4,
+        "isHalfDayRate": true,
+        "intervalLength": "hour"
+      },
+      {
+        "_id": "672a3c7590274728bd9fdb76",
+        "price": 50,
+        "isOffRate": true,
+        "intervalCount": 1,
+        "intervalLength": "hour"
+      }
+    ],
+    "extras": [],
+    "useCoins": true,
+    "amenities": [],
+    "createdAt": "2023-12-26T14:49:30.430Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "description": "Os preços incluem:\nServiço de Receção, TV LCD, Internet Wireless, Logitech Video Conference System (quando disponível), Cafés (nº de cafés de acordo com a capacidade da sala) e Àguas.\n--\nIncluded in the price:\nReception Service, LCD TV, Internet Wireless, Whiteboard, Logitech Video Conference System (when available), Coffees (number of coffees according to room capacity) and waters.",
+    "intervalCount": 1,
+    "shouldProrate": true,
+    "intervalLength": "day",
+    "revenueAccount": "64a857416c34d2f8fe98711b"
+  }
+]

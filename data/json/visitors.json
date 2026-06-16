@@ -1,0 +1,724 @@
+[
+  {
+    "_id": "6511dc2c1cb1d761a76f2f84",
+    "name": "Tuquetas",
+    "type": "preregistration",
+    "email": "jorge.galrito+tuco@gmail.com"
+  },
+  {
+    "_id": "6512d091ef31b602355924cf",
+    "name": "Novo visitante",
+    "type": "preregistration",
+    "email": "jorge.galrito+gato@gmail.com"
+  },
+  {
+    "_id": "660a6ea95f8af25159893ff6",
+    "name": "Isabel Fernandez de Cordova",
+    "type": "preregistration",
+    "email": "isabel.fernandezdecordova@bridgestone.eu",
+    "phone": "+34 630 20 99 60"
+  },
+  {
+    "_id": "660a70c9abd1636100e1b279",
+    "name": "David Soromenho de Alvito",
+    "type": "preregistration",
+    "email": "dalvito@eversheds-sutherland.net"
+  },
+  {
+    "_id": "660a73282f1f842841e68a56",
+    "name": "ANABELA CONCEIÇÃO COSTA SANTOS",
+    "type": "preregistration",
+    "email": "anabela84santos@gmail.com"
+  },
+  {
+    "_id": "660a73406522a8827ca8788e",
+    "name": "MARTA FILIPA ANTUNES VIEIRA",
+    "type": "preregistration",
+    "email": "marta.f.vieira@sapo.pt"
+  },
+  {
+    "_id": "660a73542f1f844b8de68ad9",
+    "name": "MARIA HELENA G. FERREIRA ALVES",
+    "type": "preregistration",
+    "email": "helenaalves9@gmail.com"
+  },
+  {
+    "_id": "660a73752f1f843bade68bc9",
+    "name": "HENRIQUE MIGUEL FRANCO RODRIGUES",
+    "type": "preregistration",
+    "email": "hmf.rodrigues@gmail.com"
+  },
+  {
+    "_id": "660a73a423812e574a2051d3",
+    "name": "LURDES SANTOS MAGALHAES",
+    "type": "preregistration",
+    "email": "lurdes.magalhaes@outlook.com"
+  },
+  {
+    "_id": "660a73c36522a80c76a87a9b",
+    "name": "João Ricardo Passos Bastos Coelho de Medeiros",
+    "type": "preregistration",
+    "email": "joaoricardomedeiros@gmail.com"
+  },
+  {
+    "_id": "6614fe672bf8a9d027ba7bd6",
+    "name": "Thomas Bosse",
+    "type": "preregistration",
+    "email": "thomasbosse79@gmail.com"
+  },
+  {
+    "_id": "6614fe7522219b4f23c7fc81",
+    "name": "Thomas Bosse",
+    "type": "preregistration",
+    "email": "thomasbosse79@gmail.com"
+  },
+  {
+    "_id": "66212b481c42e66bac021ecb",
+    "name": "Marlene Marques",
+    "type": "preregistration",
+    "email": "marlenemateus1996@gmail.com"
+  },
+  {
+    "_id": "6646195ccac345181463ad11",
+    "name": "Rodrigo",
+    "type": "preregistration",
+    "email": "rodrigo.pinto@clearis.pt"
+  },
+  {
+    "_id": "6646197354b8b76eb4f365e3",
+    "name": "João",
+    "type": "preregistration",
+    "email": "joao.castro@clearis.pt"
+  },
+  {
+    "_id": "66461985b15a8e3791628987",
+    "name": "Miguel",
+    "type": "preregistration",
+    "email": "miguel.pereira@clearis.pt"
+  },
+  {
+    "_id": "667dad06ba187eb34f8ecf6c",
+    "name": "André Almeida",
+    "type": "preregistration",
+    "email": "aalmeida@egasmoniz.edu.pt"
+  },
+  {
+    "_id": "6686c9860cbe8b07169b8bd3",
+    "name": "rai",
+    "type": "preregistration",
+    "email": "raissa.santos@avilaspaces.com"
+  },
+  {
+    "_id": "669155f49c10e0dbb7660841",
+    "name": "Michał Witkowski",
+    "type": "preregistration",
+    "email": "witkowskimichau@gmail.com",
+    "phone": "+48 792 471 445"
+  },
+  {
+    "_id": "66c5d87f55555a589a51e579",
+    "name": "Carla",
+    "type": "preregistration",
+    "email": "carla.dias@clearis.pt"
+  },
+  {
+    "_id": "66c5d88d4c2c57b48aba28fc",
+    "name": "Nélia",
+    "type": "preregistration",
+    "email": "nelia.silva@clearis.pt"
+  },
+  {
+    "_id": "66d990612c64d40fd009c651",
+    "name": "Louise Hare",
+    "type": "preregistration",
+    "email": "louisemhare@gmail.com"
+  },
+  {
+    "_id": "66ec175f7bed4ed543d51056",
+    "name": "Marcus Eisenhuth (CEO Carrier Commercial Refrigeration)",
+    "type": "preregistration",
+    "email": "marcus.eisenhuth@carrier.com"
+  },
+  {
+    "_id": "66ec1788f3511bb26d789d65",
+    "name": "Marcus Eisenhuth (CEO Carrier Commercial Refrigeration)",
+    "type": "preregistration",
+    "email": "marcus.eisenhuth@carrier.com"
+  },
+  {
+    "_id": "66ec17c3569a7a665696b87f",
+    "name": "Johannes Krabichler (CFO Carrier Commercial Refrigeration)",
+    "type": "preregistration",
+    "email": "johannes.krabichler@carrier.com"
+  },
+  {
+    "_id": "66ec17d896b0d737abadda7b",
+    "name": "Johannes Krabichler (CFO Carrier Commercial Refrigeration)",
+    "type": "preregistration",
+    "email": "johannes.krabichler@carrier.com"
+  },
+  {
+    "_id": "66fa89ded5fc9919b2999dd0",
+    "name": "Diogo Cabral",
+    "type": "preregistration",
+    "email": "dcabral@peritidigital.com"
+  },
+  {
+    "_id": "66fa89ead5fc9919b299a12a",
+    "name": "Kellie Fogarty",
+    "type": "preregistration",
+    "email": "kfogarty@peritidigital.com"
+  },
+  {
+    "_id": "66fa89f5f566ad1aada4876c",
+    "name": "Alex Kilroy",
+    "type": "preregistration",
+    "email": "akilroy@peritidigital.com"
+  },
+  {
+    "_id": "66fa8a062a3608b5d23f5fcc",
+    "name": "Lar Harney",
+    "type": "preregistration",
+    "email": "lharney@peritidigital.com"
+  },
+  {
+    "_id": "66fa8a1b21616cd6555ecda5",
+    "name": "Callum McDonnell",
+    "type": "preregistration",
+    "email": "cmcdonnell@peritidigitial.com"
+  },
+  {
+    "_id": "66fa8a2fee5dd900c35d8642",
+    "name": "Cian Boland",
+    "type": "preregistration",
+    "email": "cboland@peritidigital.com"
+  },
+  {
+    "_id": "66fa8a44ee5dd900c35d92f5",
+    "name": "Caleb Mobisson",
+    "type": "preregistration",
+    "email": "cmobisson@peritidigitial.com"
+  },
+  {
+    "_id": "66fa8a57ee5dd900c35d9c32",
+    "name": "Chloe Coyle",
+    "type": "preregistration",
+    "email": "ccoyle@peritidigital.com"
+  },
+  {
+    "_id": "671622617d2dfa92c3ee4a78",
+    "name": "Pedro Manso",
+    "type": "preregistration",
+    "email": "pmanso@orasroc.pt"
+  },
+  {
+    "_id": "671622780400809274984822",
+    "name": "Milan Maluk",
+    "type": "preregistration",
+    "email": "m.maluk@martrust.com"
+  },
+  {
+    "_id": "671622a63e4333205a67df41",
+    "name": "André Pereira",
+    "type": "preregistration",
+    "email": "a.pereira@martrust.com"
+  },
+  {
+    "_id": "671623523ec2bb7f06707708",
+    "name": "Clarisse Alves",
+    "type": "preregistration",
+    "email": "c.alves@martrust.com"
+  },
+  {
+    "_id": "671b97e5152b70f47c9d2043",
+    "name": "Raj Tandon",
+    "type": "preregistration",
+    "email": "thetandons@yahoo.com"
+  },
+  {
+    "_id": "6728998260c5a11ab762b3c9",
+    "name": "Ligia Peres",
+    "type": "preregistration",
+    "email": "ligia.peres@clearis.pt"
+  },
+  {
+    "_id": "6728c09a44e17a76e311ea6c",
+    "name": "Vannesa Delgado",
+    "type": "preregistration",
+    "email": "vdelgado@boostinginspiration.com"
+  },
+  {
+    "_id": "6732287ded60734c1d7a1353",
+    "name": "Vania Rodrigues ",
+    "type": "preregistration",
+    "email": "vaniarodrigues@tropicalfm.pt"
+  },
+  {
+    "_id": "6734afc075a4b65376af99a3",
+    "name": "Luciana Abreu",
+    "type": "preregistration",
+    "email": "lvamproductions@gmail.com"
+  },
+  {
+    "_id": "6752dbebfdadc5e89da73a72",
+    "name": "António Simões",
+    "type": "preregistration",
+    "email": "as@ophiodrinks.pt"
+  },
+  {
+    "_id": "676802f32ec91e4a824d6e22",
+    "name": "Andrea Duarte",
+    "type": "preregistration",
+    "email": "andreaduarte@tropicalfm.pt"
+  },
+  {
+    "_id": "67680327729173359bf3709f",
+    "name": "Rodrigo Djlyxs",
+    "type": "preregistration",
+    "email": "rodrigodjlyxs@tropicalfm.pt"
+  },
+  {
+    "_id": "676803292ec91e4a824d71cf",
+    "name": "Rodrigo Djlyxs",
+    "type": "preregistration",
+    "email": "rodrigodjlyxs@tropicalfm.pt"
+  },
+  {
+    "_id": "679a4007e6639b10d92ca7b3",
+    "name": "Gonçalo",
+    "type": "preregistration",
+    "email": "gsa@kgsa.pt"
+  },
+  {
+    "_id": "67a08a6f5172d62949afdacd",
+    "name": "\nHorstmann, Tobias",
+    "type": "preregistration",
+    "email": "tobias.horstmann@carrier.com"
+  },
+  {
+    "_id": "67c9ab229bdf554fe6e6d5c9",
+    "name": "Sandra Ribeiro",
+    "type": "preregistration",
+    "email": "sandra.ribeiro@clovio.com"
+  },
+  {
+    "_id": "67d066f513d33f35e1474bb3",
+    "name": "João Camacho",
+    "type": "preregistration",
+    "email": "joao.pedro@skillup.online"
+  },
+  {
+    "_id": "67d0670629d5f2f877df50cc",
+    "name": "Filipe Martins",
+    "type": "preregistration",
+    "email": "filipe.martins@skillup.online"
+  },
+  {
+    "_id": "67f63f2d769846c143c0cdef",
+    "name": "Tarun Joshi",
+    "type": "preregistration",
+    "email": "tarun.joshi@tataelxsi.com"
+  },
+  {
+    "_id": "68109841d72101cbd0a080a8",
+    "name": "Rohan Daniels",
+    "type": "preregistration",
+    "email": "rohan.daniels@carrier.com"
+  },
+  {
+    "_id": "6810986ad72101cbd0a0939b",
+    "name": "Konstantin Tcuprov",
+    "type": "preregistration",
+    "email": "konstantin.tcuprov@carrier.com"
+  },
+  {
+    "_id": "681098c8d72101cbd0a0b825",
+    "name": "Yiran Wang",
+    "type": "preregistration",
+    "email": "yiran.wang@carrier.com"
+  },
+  {
+    "_id": "681098f10b0df1bce80feb3e",
+    "name": "Alina Z.",
+    "type": "preregistration",
+    "email": "alina.zainutdinova@carrie.com"
+  },
+  {
+    "_id": "6811e410e5d1a4c2cac26781",
+    "name": "Frederico Rebelo de Sousa Paiva",
+    "type": "preregistration",
+    "email": "frederico.paiva@securitas.pt"
+  },
+  {
+    "_id": "6811e8b7e5d1a4c2cac2930a",
+    "name": "Miguel Raposo Rodrigues",
+    "type": "preregistration",
+    "email": "miguel-raposo.rodrigues@prosegur.com"
+  },
+  {
+    "_id": "6811e8cce5d1a4c2cac29372",
+    "name": "Rui Sanches ",
+    "type": "preregistration",
+    "email": "rui.sanches@loomis.com"
+  },
+  {
+    "_id": "68230e38e6a4947bfa91983d",
+    "name": "Logesh Kumar",
+    "type": "preregistration",
+    "email": "tklogesh.k@tataelxsi.co.in"
+  },
+  {
+    "_id": "6825a024e6a4947bfa99b6c1",
+    "name": "Joana Gama",
+    "type": "preregistration",
+    "email": "joana.gama@kellyocg.com"
+  },
+  {
+    "_id": "68303f349795b53146feb726",
+    "name": "Carlos Salgueiro",
+    "type": "preregistration",
+    "email": "carlos.salgueiro@gmail.com"
+  },
+  {
+    "_id": "685032139d3eed29475d4193",
+    "name": "Gonçalo Jorge ",
+    "type": "preregistration",
+    "email": "goncalo.jorge@wisdom.com.pt"
+  },
+  {
+    "_id": "685032279d3eed29475d4226",
+    "name": "Domingas Carvalhosa",
+    "type": "preregistration",
+    "email": "domingas.carvalhosa@wisdom.com.pt"
+  },
+  {
+    "_id": "6850325d9d3eed29475d429d",
+    "name": "Maria Gamboa",
+    "type": "preregistration",
+    "email": "maria.gamboa@wisdom.com.pt"
+  },
+  {
+    "_id": "68591caf68222c8c71b5c8ab",
+    "name": "Tiago Gonçalves",
+    "type": "preregistration",
+    "email": "t.goncalves@novaportugal.pt"
+  },
+  {
+    "_id": "687e1e4d6e8f3efd5887ce51",
+    "name": "Martim",
+    "type": "preregistration",
+    "email": "martim.ferreira@clearis.pt"
+  },
+  {
+    "_id": "687e1f1d6e8f3efd5887d381",
+    "name": "João Almeida",
+    "type": "preregistration",
+    "email": "joao.almeidaa@icloud.com"
+  },
+  {
+    "_id": "68889a474e2ebe6e3c5bf805",
+    "name": "Cristiane Reis ",
+    "type": "preregistration",
+    "email": "cristiane.c.reis@meo.pt"
+  },
+  {
+    "_id": "68c941675f988ebd723eff0a",
+    "name": "Rodrigo Pinto",
+    "type": "preregistration",
+    "email": "rodrigo.pinto@clearis.pt"
+  },
+  {
+    "_id": "68c9417a5f988ebd723eff58",
+    "name": "Teresa Trindade",
+    "type": "preregistration",
+    "email": "teresa.trindade@clearis.pt"
+  },
+  {
+    "_id": "68c9418e5f988ebd723eff87",
+    "name": "Miguel Pereira",
+    "type": "preregistration",
+    "email": "miguel.pereira@clearis.pt"
+  },
+  {
+    "_id": "68c941915f988ebd723eff94",
+    "name": "Miguel Pereira",
+    "type": "preregistration",
+    "email": "miguel.pereira@clearis.pt"
+  },
+  {
+    "_id": "68c941a85f988ebd723f0046",
+    "name": "João Castro",
+    "type": "preregistration",
+    "email": "joao.castro@clearis.pt"
+  },
+  {
+    "_id": "68c941dc5f988ebd723f019f",
+    "name": "Martim Ferreira",
+    "type": "preregistration",
+    "email": "martim.ferreira@clearis.pt"
+  },
+  {
+    "_id": "68f1fdca5e23e41c7523efe4",
+    "name": "Catarina Mota",
+    "type": "preregistration",
+    "email": "tarinamota81@gmail.com"
+  },
+  {
+    "_id": "68f1fe345e23e41c7523f1f7",
+    "name": "Sergio Moises",
+    "type": "preregistration",
+    "email": "scabritam@gmail.com"
+  },
+  {
+    "_id": "68f1fe675e23e41c7523f2b2",
+    "name": "Carla Natário",
+    "type": "preregistration",
+    "email": "carlanatario@remax.pt"
+  },
+  {
+    "_id": "68f1ff445e23e41c7523f74e",
+    "name": "Ana Salgado",
+    "type": "preregistration",
+    "email": "anasalgado@remax.pt"
+  },
+  {
+    "_id": "68fa37c01dcff44ca2d51b99",
+    "name": "Luisa",
+    "type": "preregistration",
+    "email": "luisa@caonosso.pt"
+  },
+  {
+    "_id": "68fb56ea1dcff44ca2d85718",
+    "name": "Pedro Pires",
+    "type": "preregistration",
+    "email": "pedro.pires@ultracon.pt"
+  },
+  {
+    "_id": "68fb57161dcff44ca2d857b3",
+    "name": "Luzia Santos",
+    "type": "preregistration",
+    "email": "lsantos@funchalnegocios.com.br"
+  },
+  {
+    "_id": "691b2f01a8a7d33aa60e592c",
+    "name": "Rajat Tandom",
+    "type": "preregistration",
+    "email": "r.tandon@marcura.com"
+  },
+  {
+    "_id": "691b2f11a8a7d33aa60e59c0",
+    "name": "Milan Maluk",
+    "type": "preregistration",
+    "email": "m.maluk@marcura.com"
+  },
+  {
+    "_id": "691b2f36a8a7d33aa60e5ac6",
+    "name": "Kish Chandarana",
+    "type": "preregistration",
+    "email": "k.chandarana@marcura.com"
+  },
+  {
+    "_id": "691b2f50a8a7d33aa60e5b95",
+    "name": "Andre Pereira",
+    "type": "preregistration",
+    "email": "a.pereira@marcura.com"
+  },
+  {
+    "_id": "691b2f72a8a7d33aa60e5c77",
+    "name": "Abigail Gries",
+    "type": "preregistration",
+    "email": "a.gries@maruca.com"
+  },
+  {
+    "_id": "692ff179d7c4e9471cb362d4",
+    "name": "Rute Pereira",
+    "type": "preregistration",
+    "email": "rute.pereira@clearis.pt"
+  },
+  {
+    "_id": "692ff18fd7c4e9471cb36326",
+    "name": "Samuel Pereira",
+    "type": "preregistration",
+    "email": "samuel.pereira@clearis.pt"
+  },
+  {
+    "_id": "692ff19ed7c4e9471cb363d8",
+    "name": "Maria Marques",
+    "type": "preregistration",
+    "email": "mariajosemarques@gmail.com"
+  },
+  {
+    "_id": "692ff1bbd7c4e9471cb36495",
+    "name": "Luis Oliveira",
+    "type": "preregistration",
+    "email": "luis.oliveira@clearis.pt"
+  },
+  {
+    "_id": "693c4e2589c9697c109eb211",
+    "name": "Maria Anitan",
+    "type": "preregistration",
+    "email": "maria.anitan@medcomminc.com"
+  },
+  {
+    "_id": "693c4e3a89c9697c109eb26d",
+    "name": "Ana Augusto",
+    "type": "preregistration",
+    "email": "ana.augusto@medcomminc.com"
+  },
+  {
+    "_id": "694115f889c9697c10a7d138",
+    "name": "Hannes Bitto",
+    "type": "preregistration",
+    "email": "hannes.bitto@inventsys.com"
+  },
+  {
+    "_id": "694115f989c9697c10a7d146",
+    "name": "Hannes Bitto",
+    "type": "preregistration",
+    "email": "hannes.bitto@inventsys.com"
+  },
+  {
+    "_id": "695434c289c9697c10e6e408",
+    "name": "Henrique Santos",
+    "type": "preregistration",
+    "email": "henrike_1998@hotmail.com"
+  },
+  {
+    "_id": "69a580b07484de726520a01f",
+    "name": "Lana Shlafer",
+    "type": "preregistration",
+    "email": "lana@cashflowy.ai"
+  },
+  {
+    "_id": "69a580c97484de726520a0c7",
+    "name": "Sacha Dumay",
+    "type": "preregistration",
+    "email": "sacha@cashflowy.ai"
+  },
+  {
+    "_id": "69a581217484de726520a283",
+    "name": "Matilde Costa",
+    "type": "preregistration",
+    "email": "matilde@cashflowy.ai"
+  },
+  {
+    "_id": "69a581327484de726520a2cc",
+    "name": "Paula Gutiérrez",
+    "type": "preregistration",
+    "email": "paula@cashflowy.ai"
+  },
+  {
+    "_id": "69ca9bf840bfb2d17ed36e20",
+    "name": "David Vieira ",
+    "type": "preregistration",
+    "email": "david.vieira@zbizba.com"
+  },
+  {
+    "_id": "69cbe36940bfb2d17ed92b30",
+    "name": "Diogo Neves",
+    "type": "preregistration",
+    "email": "diogo.neves@sembi.com"
+  },
+  {
+    "_id": "69ce9f2940bfb2d17ee606d2",
+    "name": "Mariana Viriato",
+    "type": "preregistration",
+    "email": "mariana.viriato@ultracon.pt"
+  },
+  {
+    "_id": "69d90fb99540f1b7ecaf8c33",
+    "name": "Diogo Marnoto",
+    "type": "preregistration",
+    "email": "diogo.marnoto@wppmedia.com"
+  },
+  {
+    "_id": "69d90fe69540f1b7ecaf8db2",
+    "name": "José Frade",
+    "type": "preregistration",
+    "email": "josefrade@medialivre.pt"
+  },
+  {
+    "_id": "69d910279540f1b7ecaf8fcc",
+    "name": "Francisco Sousa de Brito",
+    "type": "preregistration",
+    "email": "franciscosbrito@fpfsb.pt"
+  },
+  {
+    "_id": "69ea669bb3b8acc22d650d8d",
+    "name": "Pavel Golub",
+    "type": "preregistration",
+    "email": "golub.p@gmail.com"
+  },
+  {
+    "_id": "69ea66a5b3b8acc22d650da4",
+    "name": "Dmitry Chistov",
+    "type": "preregistration",
+    "email": "2chistov@gmail.com"
+  },
+  {
+    "_id": "69ea66abb3b8acc22d650dbd",
+    "name": "Timur",
+    "type": "preregistration",
+    "email": "timur@gurucan.com"
+  },
+  {
+    "_id": "69ea66b3b3b8acc22d650dd8",
+    "name": "Yana",
+    "type": "preregistration",
+    "email": "ypatolya@gmail.com"
+  },
+  {
+    "_id": "69ea66bab3b8acc22d650de5",
+    "name": "Masha",
+    "type": "preregistration",
+    "email": "maria@rippla.com"
+  },
+  {
+    "_id": "69ea66c1b3b8acc22d650df3",
+    "name": "Sergey",
+    "type": "preregistration",
+    "email": "ceo@dgstay.com"
+  },
+  {
+    "_id": "69ea66c9b3b8acc22d650e1b",
+    "name": "Dmitry Kudinov",
+    "type": "preregistration",
+    "email": "d@kudinov.io"
+  },
+  {
+    "_id": "69ea66cfb3b8acc22d650e2b",
+    "name": "Roman",
+    "type": "preregistration",
+    "email": "roman.persiyanov@gmail.com"
+  },
+  {
+    "_id": "6a031abe494efa444cdd1989",
+    "name": "Pedro Zanetti",
+    "type": "preregistration",
+    "email": "michelini.pt@gmail.com"
+  },
+  {
+    "_id": "6a0c7c8e494efa444cf8220c",
+    "name": "Ermelinda",
+    "type": "preregistration",
+    "email": "0000@gmail.com"
+  },
+  {
+    "_id": "6a0c7d8d494efa444cf82687",
+    "name": "Sandra M",
+    "type": "preregistration",
+    "email": "0@gmail.com"
+  },
+  {
+    "_id": "6a19820e494efa444c1d4a31",
+    "name": "Joana Jordão",
+    "type": "preregistration",
+    "email": "joana.jordao@iberdrola.pt"
+  },
+  {
+    "_id": "6a27fc84494efa444c4604f1",
+    "name": "Ana Melo",
+    "type": "preregistration",
+    "email": "anamelo@faunalab.com"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "6475a07d362b01026f920c83",
+    "icon": "fa-building",
+    "type": "team_room",
+    "title": "Private office",
+    "canBook": false,
+    "canAssign": true,
+    "isPrimary": true,
+    "bookingMode": "time",
+    "checkinMode": "day",
+    "isHierarchical": false
+  },
+  {
+    "_id": "6475a07d362b0137d8920c82",
+    "icon": "fa-desktop",
+    "type": "desk",
+    "title": "Dedicated desk",
+    "canBook": false,
+    "canAssign": true,
+    "isPrimary": true,
+    "bookingMode": "time",
+    "checkinMode": "day",
+    "isHierarchical": false
+  },
+  {
+    "_id": "6475a07d362b013d7f920c87",
+    "icon": "fa-sitemap",
+    "type": "desk_tr",
+    "title": "Office desk",
+    "canAssign": true,
+    "bookingMode": "time",
+    "checkinMode": "day",
+    "isHierarchical": false
+  },
+  {
+    "_id": "6475a07d362b015ea1920c86",
+    "icon": "fa-user-times",
+    "type": "desk_na",
+    "title": "Not available",
+    "bookingMode": "time",
+    "checkinMode": "day",
+    "isHierarchical": false
+  },
+  {
+    "_id": "6475a07d362b0171da920c85",
+    "icon": "fa-calendar-check-o",
+    "type": "meeting_room",
+    "title": "Meeting room",
+    "canBook": true,
+    "bookingMode": "time",
+    "checkinMode": "day",
+    "isHierarchical": true
+  },
+  {
+    "_id": "6475a07d362b01766c920c84",
+    "icon": "fa-laptop",
+    "type": "hotdesk",
+    "title": "Hotdesk",
+    "canBook": false,
+    "isPrimary": true,
+    "bookingMode": "time",
+    "checkinMode": "day",
+    "isHierarchical": false
+  }
+]

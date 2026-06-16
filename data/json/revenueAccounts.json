@@ -1,0 +1,70 @@
+[
+  {
+    "_id": "5d1bcda0dbd6e40010479ed6",
+    "name": "Deposits / Adiantamentos",
+    "taxRate": "64a55f7dd28ef65b7b29bbc2",
+    "defaultFor": "deposit",
+    "description": "System account for refundable deposits"
+  },
+  {
+    "_id": "5d1bcda0dbd6e40010479ed7",
+    "name": "Membership Fees",
+    "taxRate": "64a55f7dd28ef65b7b29bbc2",
+    "defaultFor": "membership",
+    "description": "Default system account for membership fees."
+  },
+  {
+    "_id": "5d1bcda0dbd6e40010479ed8",
+    "name": "One-off Fees",
+    "taxRate": "64a55f7dd28ef65b7b29bbc2",
+    "defaultFor": "fee",
+    "description": "Default system account for one-off fees."
+  },
+  {
+    "_id": "5d1bcda0dbd6e40010479ed9",
+    "name": "Booking Fees",
+    "taxRate": "64a55f7dd28ef65b7b29bbc2",
+    "defaultFor": "booking",
+    "description": "Default system account for meeting room booking fees."
+  },
+  {
+    "_id": "635f98da67656fc7ea41a4e1",
+    "name": "Order Fees",
+    "taxRate": "64a55f7dd28ef65b7b29bbc2",
+    "defaultFor": "order",
+    "description": "Default system account for order fees."
+  },
+  {
+    "_id": "64a840920267ae9b5856aaf0",
+    "name": "Rendas Escritórios Fisicos",
+    "taxRate": "64a55f7dd28ef65b7b29bbc2"
+  },
+  {
+    "_id": "64a845be6c34d21cbf97e6e8",
+    "name": "Outros Serviços",
+    "description": ""
+  },
+  {
+    "_id": "64a84d5fe229f0d01d2d0544",
+    "name": "Chamadas telefónicas",
+    "taxRate": "64a55f7dd28ef65b7b29bbc2",
+    "description": "Serviço de Chamadas Telefónicas;"
+  },
+  {
+    "_id": "64a857416c34d2f8fe98711b",
+    "name": "Salas de Reunião",
+    "taxRate": "64a55f7dd28ef65b7b29bbc2"
+  },
+  {
+    "_id": "64a8591b68a4c4838054eaa4",
+    "name": "Rendas Coworking",
+    "taxRate": "64a55f7dd28ef65b7b29bbc2",
+    "description": ""
+  },
+  {
+    "_id": "64a85f05746ca0038c6e2733",
+    "name": "Rendas Escritórios Virtuais",
+    "taxRate": "64a55f7dd28ef65b7b29bbc2",
+    "description": ""
+  }
+]

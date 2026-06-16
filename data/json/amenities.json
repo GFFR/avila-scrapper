@@ -1,0 +1,219 @@
+[
+  {
+    "_id": "6475a07d362b014046920c8f",
+    "icon": null,
+    "title": "Logitech Video Conference  System (quando disponível / Upon availability)",
+    "createdAt": "2020-04-18T19:43:00.542Z",
+    "createdBy": "5c98f3256f9ac200105a2700"
+  },
+  {
+    "_id": "6475a07d362b01ad4c920c8e",
+    "icon": "fa-television",
+    "title": "LCD TV",
+    "createdAt": "2020-04-18T19:42:18.861Z",
+    "createdBy": "5c98f3256f9ac200105a2700"
+  },
+  {
+    "_id": "64a950fa0267ae67c259ae96",
+    "title": "Águas / Waters",
+    "createdAt": "2023-07-08T12:05:14.472Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "64a9510be229f0019c2fb046",
+    "icon": "fa-pencil",
+    "title": "Whiteboard",
+    "createdAt": "2023-07-08T12:05:31.094Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "64a951980267ae1aba59af71",
+    "icon": "fa-wifi",
+    "title": "Internet Wireless",
+    "createdAt": "2023-07-08T12:07:52.747Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "653562c9db3cb3b9caca4249",
+    "title": "Receção / Reception Service",
+    "createdAt": "2023-10-22T17:58:33.268Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "653562f1d17c4a81fdc5aed1",
+    "icon": "fa-coffee",
+    "title": "Café / Coffee",
+    "createdAt": "2023-10-22T17:59:13.976Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "653a8663fb4e8662ce36af29",
+    "icon": "fa-commenting",
+    "title": "Virtual Office",
+    "createdAt": "2023-10-26T15:31:47.232Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "653a8682fb4e86331836b104",
+    "icon": "fa-lock",
+    "title": "Locker",
+    "createdAt": "2023-10-26T15:32:18.891Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "653bd048fb1873251ecae922",
+    "icon": "fa-mobile",
+    "title": "Avila Connect APP",
+    "createdAt": "2023-10-27T14:59:20.827Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "653bd0d8d7cc141a3b994951",
+    "icon": "fa-phone",
+    "title": "Dedicated Phone Line",
+    "createdAt": "2023-10-27T15:01:44.494Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "653bd1624611375434bc4f1f",
+    "icon": "fa-envelope-square",
+    "title": "Voice mail  to Email",
+    "createdAt": "2023-10-27T15:04:02.736Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "653bd1959d0cc27e7c0d598c",
+    "title": "Avila Connect - Text Message (SMS)",
+    "createdAt": "2023-10-27T15:04:53.883Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "653bdfaafb18731d2dcbcdc2",
+    "icon": "fa-glass",
+    "title": "Co-Kitchen",
+    "createdAt": "2023-10-27T16:04:58.976Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "653be007d7cc14a74c9a249b",
+    "icon": "fa-meetup",
+    "title": "Workshops and Network Actions",
+    "createdAt": "2023-10-27T16:06:31.914Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "653be5d176b299d717e47575",
+    "icon": "fa-id-badge",
+    "title": "Logo in the reception",
+    "createdAt": "2023-10-27T16:31:13.438Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "653e99d14a040a014aa3c12b",
+    "icon": "fa-envelope",
+    "title": "Mail Reception",
+    "createdAt": "2023-10-29T17:43:45.195Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "653ec0b90d7179c0f84dd4ab",
+    "icon": "fa-phone-square",
+    "title": "Call Answering",
+    "createdAt": "2023-10-29T20:29:45.864Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "653ee4fe29d35a1591bbaa44",
+    "title": "Costumized Call Answering",
+    "createdAt": "2023-10-29T23:04:30.112Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "653fc3c23494635e07d75c96",
+    "icon": "fa-hourglass-half",
+    "title": "4h Meeting Room/per Month",
+    "createdAt": "2023-10-30T14:54:58.336Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "65438f111e677e7fed0de83c",
+    "icon": "fa-volume-control-phone",
+    "title": "Automatic Answering with Call Forwarding",
+    "createdAt": "2023-11-02T11:59:13.821Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "654392c8a9c20b709ac71307",
+    "title": "Personalised Attendance in the Name of your Company with Call Forwarding",
+    "createdAt": "2023-11-02T12:15:04.773Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "65439607ccd1667896db5fa6",
+    "icon": "fa-fax",
+    "title": "Fax Line",
+    "createdAt": "2023-11-02T12:28:55.851Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "6797a1b1f337c6fade51bad5",
+    "icon": "fa-phone-square",
+    "title": "Phone Booths",
+    "createdAt": "2025-01-27T15:09:37.682Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "6797a2a4e0d86759b41be41a",
+    "icon": "fa-plus-square",
+    "title": "Free Access to all AvilaSpaces centers",
+    "createdAt": "2025-01-27T15:13:40.764Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "6797a32faeccc845eb4bdb03",
+    "icon": "fa-calendar-check-o",
+    "title": "Without Expiry Date",
+    "createdAt": "2025-01-27T15:15:59.382Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "6797a4c7cdd8dc73a3a2ec34",
+    "icon": "fa-check",
+    "title": "Lounge Workstation",
+    "createdAt": "2025-01-27T15:22:47.074Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "6797bd624d9388e3c3d85f72",
+    "icon": "fa-address-book",
+    "title": "Address for head office or branch",
+    "createdAt": "2025-01-27T17:07:46.654Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "67982470105176cb458b4de4",
+    "title": "Desk, drawer unit and locker",
+    "createdAt": "2025-01-28T00:27:28.151Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "67982527779228917dcff5a6",
+    "icon": "fa-hourglass",
+    "title": "24h Access",
+    "createdAt": "2025-01-28T00:30:31.836Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "67982556de72dadcf628c676",
+    "title": "Lounge",
+    "createdAt": "2025-01-28T00:31:18.435Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  },
+  {
+    "_id": "67982c5dde72dadcf62be0f6",
+    "icon": "fa-hourglass",
+    "title": "8h Meeting Room/per Month",
+    "createdAt": "2025-01-28T01:01:17.538Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a"
+  }
+]

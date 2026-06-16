@@ -1,0 +1,5413 @@
+[
+  {
+    "_id": "6614540fa363b32bf9b9f78a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1P3OqOBGYBAQ24lUrTS0UKfo",
+      "name": "Alexander Danichev",
+      "brand": "Visa",
+      "last4": "8757",
+      "country": "CY",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 4
+    },
+    "createdAt": "2024-04-08T20:31:11.462Z",
+    "createdBy": "6414df20754b32e056c1bd6e",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1P3OqOBGYBAQ24lUrTS0UKfo",
+    "paymentCustomer": "cus_PtBCTO97dpZiOj"
+  },
+  {
+    "_id": "66260ade9d23064aa6d4fed6",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "8232",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2027,
+      "expirationMonth": 6
+    },
+    "createdAt": "2024-04-22T06:59:42.040Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1P8GqBBGYBAQ24lUq0qpGQpe",
+    "paymentCustomer": "cus_PyDFpn4yx9IiZ6"
+  },
+  {
+    "_id": "66338ab01d654c2c3da9cb81",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "8232",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2027,
+      "expirationMonth": 6
+    },
+    "createdAt": "2024-05-02T12:44:32.363Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1PByzKBGYBAQ24lUo5XTECxS",
+    "paymentCustomer": "cus_PyDFpn4yx9IiZ6"
+  },
+  {
+    "_id": "663b5f91c7e2c780ad20ec77",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2024-05-08T11:18:41.196Z",
+    "createdBy": "660a0759e394446caaa0982b",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1PE8WCBGYBAQ24lUe5LhPQDd",
+    "paymentCustomer": "cus_Q4H0L4QDc3DVnB"
+  },
+  {
+    "_id": "663cad57bc8715b1bc22ca04",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "3009",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2027,
+      "expirationMonth": 4
+    },
+    "createdAt": "2024-05-09T11:02:47.384Z",
+    "createdBy": "655b9794b6f0c52a50c06d1b",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1PEUkKBGYBAQ24lUpKxWcGhg",
+    "paymentCustomer": "cus_Q4e2zqjvjytd48"
+  },
+  {
+    "_id": "663cadacbc87155a8122cf39",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "9007",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2027,
+      "expirationMonth": 2
+    },
+    "createdAt": "2024-05-09T11:04:12.536Z",
+    "createdBy": "655b9794b6f0c52a50c06d1b",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1PEUlhBGYBAQ24lUdLSw7FA9",
+    "paymentCustomer": "cus_Q4e3I9S2Y3nFlX"
+  },
+  {
+    "_id": "663cae193b2986ad48119c5d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "3931",
+      "country": "IE",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2025,
+      "expirationMonth": 9
+    },
+    "createdAt": "2024-05-09T11:06:01.718Z",
+    "createdBy": "655b9794b6f0c52a50c06d1b",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1PEUnSBGYBAQ24lUZrYblSLc",
+    "paymentCustomer": "cus_Q4e5qqJH82YzCN"
+  },
+  {
+    "_id": "663caede1214a8bb76298ac0",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "6281",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2027,
+      "expirationMonth": 10
+    },
+    "createdAt": "2024-05-09T11:09:18.139Z",
+    "createdBy": "655b9794b6f0c52a50c06d1b",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1PEUqdBGYBAQ24lUuUxAf0CZ",
+    "paymentCustomer": "cus_Q4e8ZIS8MYUYqe"
+  },
+  {
+    "_id": "663caf5bb1ff2422aed9c4de",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "3868",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 1
+    },
+    "createdAt": "2024-05-09T11:11:23.389Z",
+    "createdBy": "655b9794b6f0c52a50c06d1b",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1PEUseBGYBAQ24lUmze9Xr4R",
+    "paymentCustomer": "cus_Q4eBSpCkbXxeaF"
+  },
+  {
+    "_id": "663cb1fbbc8715489d22f62f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "4566",
+      "country": "PL",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2027,
+      "expirationMonth": 4
+    },
+    "createdAt": "2024-05-09T11:22:35.605Z",
+    "createdBy": "655b9794b6f0c52a50c06d1b",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1PEV3UBGYBAQ24lU3WfCGlRD",
+    "paymentCustomer": "cus_Q4eMXPWAu4YWOY"
+  },
+  {
+    "_id": "663cb2673b2986395a11cb60",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "6131",
+      "country": "GB",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2024,
+      "expirationMonth": 7
+    },
+    "createdAt": "2024-05-09T11:24:23.847Z",
+    "createdBy": "655b9794b6f0c52a50c06d1b",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1PEV5DBGYBAQ24lUlh0R8hFc",
+    "paymentCustomer": "cus_Q4eOfYOOFrNjWs"
+  },
+  {
+    "_id": "663e2d67d6704e47f6a4ae23",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "1326",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2025,
+      "expirationMonth": 9
+    },
+    "createdAt": "2024-05-10T14:21:27.622Z",
+    "createdBy": "660a074230e13b2ae2863d19",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1PEuJMBGYBAQ24lU1g5volqe",
+    "paymentCustomer": "cus_Q54Rx16dIpto7S"
+  },
+  {
+    "_id": "6687c9527fc67956bae5b0ef",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2024-07-05T10:22:10.947Z",
+    "createdBy": "655b93ccb6f0c5726ac03eb6",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "src_1PZ9HKBGYBAQ24lUuLlLMbKO",
+    "paymentCustomer": "cus_QPzFMy07XorkbJ"
+  },
+  {
+    "_id": "66cf7e71e969aca837377703",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "9557",
+      "country": "EE",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 7
+    },
+    "createdAt": "2024-08-28T19:45:53.993Z",
+    "createdBy": "661fc424d08c577bc488480b",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Psro1BGYBAQ24lUCboBj2cz",
+    "paymentCustomer": "cus_Ptla4EcywGs8tI"
+  },
+  {
+    "_id": "674edc0a5dc87672b8bc5fd1",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2024-12-03T10:23:06.850Z",
+    "createdBy": "6414df20754b32e056c1bd6e",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1QRtG1BGYBAQ24lU1TuvR2Bj",
+    "paymentCustomer": "cus_Q6W2FpjMQycLSf"
+  },
+  {
+    "_id": "674f15d1eb95daae2c68de91",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2024-12-03T14:29:37.021Z",
+    "createdBy": "674edefe58b0435f381d4902",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1QRx6FBGYBAQ24lUJwYACTAD",
+    "paymentCustomer": "cus_RKcKvSTrV6dkJx"
+  },
+  {
+    "_id": "674f17c73db9d1a481d77a94",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2024-12-03T14:37:59.886Z",
+    "createdBy": "674edefe58b0435f381d4902",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1QRx6FBGYBAQ24lUJwYACTAD",
+    "paymentCustomer": "cus_RKcKvSTrV6dkJx"
+  },
+  {
+    "_id": "674f1871bbc5aac0305e6766",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2024-12-03T14:40:49.868Z",
+    "createdBy": "674edefe58b0435f381d4902",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1QRx6FBGYBAQ24lUJwYACTAD",
+    "paymentCustomer": "cus_RKcKvSTrV6dkJx"
+  },
+  {
+    "_id": "675038fadc3606033fd2035f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2024-12-04T11:11:54.616Z",
+    "createdBy": "6414df20754b32e056c1bd6e",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1QSGUnBGYBAQ24lUdiJRi4v6",
+    "paymentCustomer": "cus_Q6W2FpjMQycLSf"
+  },
+  {
+    "_id": "6750667b306b8c2b9b087501",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2024-12-04T14:26:03.951Z",
+    "createdBy": "674edefe58b0435f381d4902",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1QSJWgBGYBAQ24lUOGsKDfmZ",
+    "paymentCustomer": "cus_Q6W2FpjMQycLSf"
+  },
+  {
+    "_id": "6758abc91c2af6e2f0327e65",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2024-12-10T20:59:53.909Z",
+    "createdBy": "671e23986050aa3e4e8dcf60",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1QUaX6BGYBAQ24lU35Tw9ifI",
+    "paymentCustomer": "cus_QPhMT4z2U82PLs"
+  },
+  {
+    "_id": "675968984ec6e362414622a3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "8797",
+      "country": "US",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 9
+    },
+    "createdAt": "2024-12-11T10:25:28.094Z",
+    "createdBy": "655b9794b6f0c52a50c06d1b",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1QUn6fBGYBAQ24lU3CITWPwv",
+    "paymentCustomer": "cus_Q4eQR4JpmALe7n"
+  },
+  {
+    "_id": "675c36d55cc7e8985c51b6ea",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "7133",
+      "country": "BR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 5
+    },
+    "createdAt": "2024-12-13T13:29:57.006Z",
+    "createdBy": "655b9794b6f0c52a50c06d1b",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1QVYwIBGYBAQ24lUXsWzZcF2",
+    "paymentCustomer": "cus_NzsViTwEp49n2K"
+  },
+  {
+    "_id": "678533d85af65d5aa0e038eb",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-01-13T15:40:08.986Z",
+    "createdBy": "660a0e8f3730f7604f4cec64",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1QgpkKBGYBAQ24lU6waH5iES",
+    "paymentCustomer": "cus_Pz45MzlB6QSSUj"
+  },
+  {
+    "_id": "6793767d1bbd6ebed8930929",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "0173",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-01-24T11:16:13.416Z",
+    "createdBy": "6414ec7b2acfb023e9fd488a",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1QkkrvBGYBAQ24lUuRfZRc1i",
+    "paymentCustomer": "cus_Q6W2FpjMQycLSf"
+  },
+  {
+    "_id": "6793f406c9fa7530fc664282",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "American Express",
+      "last4": "1009",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 2
+    },
+    "createdAt": "2025-01-24T20:11:50.254Z",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1QktECI8B1riowTw6Kr0ogdu",
+    "paymentCustomer": "cus_ReBa8HiTDbpz7R"
+  },
+  {
+    "_id": "679a489bc7a015c162bc65a9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "7233",
+      "country": "SG",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 7
+    },
+    "createdAt": "2025-01-29T15:26:19.661Z",
+    "createdBy": "655b9794b6f0c52a50c06d1b",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1Qmd9gCdbiaQLvgX7wuH6to2",
+    "paymentCustomer": "cus_Rfz7IVYdWEulsv"
+  },
+  {
+    "_id": "679a492ce6639b10d9301891",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "8832",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-01-29T15:28:44.024Z",
+    "createdBy": "655b9794b6f0c52a50c06d1b",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1QmdC0CdbiaQLvgXafqsWuA0",
+    "paymentCustomer": "cus_RfzAP4QYx9WWK4"
+  },
+  {
+    "_id": "67a3a36f86ce94188915940b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "7447",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2027,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-02-05T17:44:15.608Z",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1QpCdmI8B1riowTwL7Sra6r5",
+    "paymentCustomer": "cus_RidtZg9RGgcN96"
+  },
+  {
+    "_id": "67a5feb0e9edfc8a7b94444e",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "American Express",
+      "last4": "1007",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-02-07T12:38:08.114Z",
+    "createdBy": "67a0e34b8fb553334af78dcb",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1QpqorCdbiaQLvgXXL9bXpjV",
+    "paymentCustomer": "cus_RjJRT7AcXbEJWt"
+  },
+  {
+    "_id": "67a9bf13b1bb58eabca1eff8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1QqsmHCdbiaQLvgXwDK3wIB6",
+      "name": "James Lynch",
+      "brand": "MasterCard",
+      "last4": "2624",
+      "country": "GB",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1QqsmMCdbiaQLvgXuf4uAhyo"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 2
+    },
+    "createdAt": "2025-02-10T08:55:47.367Z",
+    "createdBy": "67a9bf0f856abda252b7fb22",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1QqsmHCdbiaQLvgXwDK3wIB6",
+    "paymentCustomer": "cus_RkNXnIEwkOXcYf"
+  },
+  {
+    "_id": "67ab982ba793be56b3512304",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-02-11T18:34:19.770Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1QrOHkCdbiaQLvgXFtjcZxht",
+    "paymentCustomer": "cus_Rku1jP8LZ6jgL4"
+  },
+  {
+    "_id": "67ac7d56556e3a6579fba292",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "9646",
+      "country": "SG",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 7
+    },
+    "createdAt": "2025-02-12T10:52:06.590Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1QrdXwBGYBAQ24lUJdYWWm4X",
+    "paymentCustomer": "cus_Rl9pJfJmHFitMw"
+  },
+  {
+    "_id": "67ac8bb9b0f6af3c8c67b889",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1QreVDI8B1riowTwgCBpawwl",
+      "name": "FB VOYAGES",
+      "brand": "Visa",
+      "last4": "1009",
+      "country": "FR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1QreVQI8B1riowTwXByXRb1X"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-02-12T11:53:29.374Z",
+    "createdBy": "67ac8bb57c86986ece16c6c3",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1QreVDI8B1riowTwgCBpawwl",
+    "paymentCustomer": "cus_RlArXz6p0LDOZA"
+  },
+  {
+    "_id": "67ac8d224699dc4a7c9e7d71",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-02-12T11:59:30.627Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1QrebDCdbiaQLvgXiQF5BlA9",
+    "paymentCustomer": "cus_RlAuNC93sDQmF0"
+  },
+  {
+    "_id": "67acef6d87cf9550ed08f054",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "0053",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-02-12T18:58:53.647Z",
+    "createdBy": "67a9e6818681b1ae3bb45d0d",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Qrl8cBGYBAQ24lUJ6bbOICg",
+    "paymentCustomer": "cus_RkQFDpFLP1jd0O"
+  },
+  {
+    "_id": "67adf62ba930f05f1311ff64",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-02-13T13:39:55.502Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1Qs2dwCdbiaQLvgXmx5ZqVRi",
+    "paymentCustomer": "cus_RlZKlYJgzsPMXS"
+  },
+  {
+    "_id": "67ae1a783ec6406a7e7838d0",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "3001",
+      "country": "ES",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2030,
+      "expirationMonth": 12
+    },
+    "createdAt": "2025-02-13T16:14:48.075Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Qs53JBGYBAQ24lU5HjEndEu",
+    "paymentCustomer": "cus_RlcGol2SusvcRt"
+  },
+  {
+    "_id": "67af235543b8bb9bc28f7984",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1QsMhCI8B1riowTwEt5N3ryH",
+      "name": "Marina Ferreira",
+      "brand": "Visa",
+      "last4": "9499",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1QsMhUI8B1riowTwriV62RjO"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-02-14T11:04:53.291Z",
+    "createdBy": "67af2351b74304201b2b5e0c",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1QsMhCI8B1riowTwEt5N3ryH",
+    "paymentCustomer": "cus_RluWHlXT0u5x0I"
+  },
+  {
+    "_id": "67af763343b8bb9bc2b05fca",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1QsSDSCdbiaQLvgXuRwWKnAz",
+      "name": "Diogo Carvalho",
+      "brand": "Visa",
+      "last4": "1170",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1QsSDfCdbiaQLvgXEB4JFXZj"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-02-14T16:58:27.990Z",
+    "createdBy": "67af76306d24ce72f4df40b0",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1QsSDSCdbiaQLvgXuRwWKnAz",
+    "paymentCustomer": "cus_Rm0EZyqzzYHu1q"
+  },
+  {
+    "_id": "67b1cb29a816ede5c864581b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Qt5yMBGYBAQ24lU8KPse5WQ",
+      "name": "Pedro Almeida Cruz",
+      "brand": "Visa",
+      "last4": "5872",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1Qt5yWBGYBAQ24lUIDy7K7zz"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-02-16T11:25:29.125Z",
+    "createdBy": "67b1cb25a816ede5c864578c",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1Qt5yMBGYBAQ24lU8KPse5WQ",
+    "paymentCustomer": "cus_RmfJGP86AR5xz8"
+  },
+  {
+    "_id": "67b31bc008e1f815d1eddf10",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-02-17T11:21:36.641Z",
+    "createdBy": "6650bd79a7a09b8896db44d1",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1QtSOJCdbiaQLvgXlo6QSBMb",
+    "paymentCustomer": "cus_Rn2QSKMIemqxzC"
+  },
+  {
+    "_id": "67b36edf764323be2183ad5d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1QtXvTCdbiaQLvgXiGh9Ftlj",
+      "name": "Kornel Zaziemski",
+      "brand": "Visa",
+      "last4": "1600",
+      "country": "PL",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1QtXvWCdbiaQLvgXir4o8H78"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-02-17T17:16:15.113Z",
+    "createdBy": "67ae7f601bb4b02345c916b0",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1QtXvTCdbiaQLvgXiGh9Ftlj",
+    "paymentCustomer": "cus_Rn8BGnLAMhyzjx"
+  },
+  {
+    "_id": "67b47b41ce3b02897bf2edff",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1QtpnHBGYBAQ24lUvHns2joD",
+      "name": "Catia Gomes",
+      "brand": "Visa",
+      "last4": "4173",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1QtpngBGYBAQ24lUPzErX3dS"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 8
+    },
+    "createdAt": "2025-02-18T12:21:21.066Z",
+    "createdBy": "67b47b3c205bffed2a2ca07b",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1QtpnHBGYBAQ24lUvHns2joD",
+    "paymentCustomer": "cus_RnQeu6oLFCWnkg"
+  },
+  {
+    "_id": "67b5f37ae45dc1cd27be4cb9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1QuEquI8B1riowTwnldhYQMu",
+      "name": "Mário Mateus",
+      "brand": "Visa",
+      "last4": "2828",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1QuEr7I8B1riowTw8QL3Snhu"
+      },
+      "expirationYear": 2025,
+      "expirationMonth": 12
+    },
+    "createdAt": "2025-02-19T15:06:34.486Z",
+    "createdBy": "67b5f3774c7ca56d5cb5c2ec",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1QuEquI8B1riowTwnldhYQMu",
+    "paymentCustomer": "cus_RnqY9ldiS0Co9N"
+  },
+  {
+    "_id": "67b8558934b6ced4624fe210",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "7941",
+      "country": "IE",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 7
+    },
+    "createdAt": "2025-02-21T10:29:29.771Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1QutTCCdbiaQLvgXWXWKZMvG",
+    "paymentCustomer": "cus_RoWVyX84h7JYsF"
+  },
+  {
+    "_id": "67b8585cef73424b49fecc3b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "7300",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-02-21T10:41:32.368Z",
+    "createdBy": "67b456f39768208f1dd68931",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1QutfGBGYBAQ24lURGNTlQ2R",
+    "paymentCustomer": "cus_RoWFLDwJmw4LC2"
+  },
+  {
+    "_id": "67b8604fa2f115b79f91c1b1",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1QuuCNCdbiaQLvgXxO4XvMiJ",
+      "name": "Kakumanu Narasimha Kamal",
+      "brand": "MasterCard",
+      "last4": "7914",
+      "country": "DE",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1QuuCYCdbiaQLvgX5tOG0zDm"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 8
+    },
+    "createdAt": "2025-02-21T11:15:27.230Z",
+    "createdBy": "67b8604a4cb7e62acf697da9",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1QuuCNCdbiaQLvgXxO4XvMiJ",
+    "paymentCustomer": "cus_RoXHPFq6Chqykj"
+  },
+  {
+    "_id": "67b861a2b7ee0500904a98e8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1QuuHZI8B1riowTwv339T222",
+      "name": "Darriall Portillo",
+      "brand": "Visa",
+      "last4": "8948",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1QuuI2I8B1riowTwQUxqAgzN"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-02-21T11:21:06.644Z",
+    "createdBy": "67b8619f3dd0f35241f5be8b",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1QuuHZI8B1riowTwv339T222",
+    "paymentCustomer": "cus_RoXMO5Y3WZsZG1"
+  },
+  {
+    "_id": "67b8649bb7ee0500904b9066",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1QuuTpBGYBAQ24lUZmZTZ7xA",
+      "name": "PHILIPPE SCHAFER",
+      "brand": "Visa",
+      "last4": "2505",
+      "country": "FR",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1QuuUIBGYBAQ24lUhOH7o9hJ"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-02-21T11:33:47.585Z",
+    "createdBy": "67b86498eb2f930433b15a98",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1QuuTpBGYBAQ24lUZmZTZ7xA",
+    "paymentCustomer": "cus_RoXZVzqNsPmiTF"
+  },
+  {
+    "_id": "67b875403dd0f35241fcff3c",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "3831",
+      "country": "BR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2025,
+      "expirationMonth": 12
+    },
+    "createdAt": "2025-02-21T12:44:48.630Z",
+    "createdBy": "66b2242094cbb46508bb8e0e",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1QuvazBGYBAQ24lUM8obXvmQ",
+    "paymentCustomer": "cus_QchWs9pWMiDM1D"
+  },
+  {
+    "_id": "67b88a82e1e9482f4dafbca8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Qux0dCdbiaQLvgX1SLNMHBw",
+      "name": "Berkin Ozmen",
+      "brand": "MasterCard",
+      "last4": "6856",
+      "country": "TR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1Qux0mCdbiaQLvgX6jGFfO7y"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 8
+    },
+    "createdAt": "2025-02-21T14:15:30.294Z",
+    "createdBy": "67b88a7d3dd0f3524107bb89",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1Qux0dCdbiaQLvgX1SLNMHBw",
+    "paymentCustomer": "cus_RoaBjraTABljfs"
+  },
+  {
+    "_id": "67bc82bc3d280ed6861cd245",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Qw2geCdbiaQLvgXYhNQvqEO",
+      "name": "D SOARES GONCALVES",
+      "brand": "Visa",
+      "last4": "7570",
+      "country": "BR",
+      "funding": "prepaid",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1Qw2goCdbiaQLvgXIMHU6VIj"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-02-24T14:31:24.363Z",
+    "createdBy": "67bc82b60f085386f89065d5",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1Qw2geCdbiaQLvgXYhNQvqEO",
+    "paymentCustomer": "cus_Rpi7M0Rk560L1a"
+  },
+  {
+    "_id": "67bca7bb3c7baa6c0eec94d9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Qw59VCdbiaQLvgXHskBnpUF",
+      "name": "Eneko knorr de santiago",
+      "brand": "Visa",
+      "last4": "5409",
+      "country": "ES",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1Qw59bCdbiaQLvgXbCQH64n8"
+      },
+      "expirationYear": 2025,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-02-24T17:09:15.804Z",
+    "createdBy": "67bca7b7c779e01444ea67a1",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1Qw59VCdbiaQLvgXHskBnpUF",
+    "paymentCustomer": "cus_RpkeZ5VhONwJkK"
+  },
+  {
+    "_id": "67bca988156cfce8de98d185",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-02-24T17:16:56.727Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1Qw5GzCdbiaQLvgXhnDXjblY",
+    "paymentCustomer": "cus_RpklmdAAvePHnV"
+  },
+  {
+    "_id": "67bd9358b1cbda44f4f04673",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-02-25T09:54:32.054Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1QwKZ1CdbiaQLvgXNIWMW2Rc",
+    "paymentCustomer": "cus_Rn622vSKr2wFxH"
+  },
+  {
+    "_id": "67bd9b2da3d35729982a3742",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-02-25T10:27:57.465Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1QwLMjCdbiaQLvgXqtnPyGgQ",
+    "paymentCustomer": "cus_Rn622vSKr2wFxH"
+  },
+  {
+    "_id": "67be1b84875b1e1ed59acba0",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1QwTtsCdbiaQLvgX27hlKirJ",
+      "name": "Diego A Pesantez Delgado",
+      "brand": "MasterCard",
+      "last4": "3936",
+      "country": "US",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "not_required",
+        "authProvider": "seti_1QwTuhCdbiaQLvgXTSIvR7TW"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-02-25T19:35:32.297Z",
+    "createdBy": "67be1b79875b1e1ed59ac90b",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1QwTtsCdbiaQLvgX27hlKirJ",
+    "paymentCustomer": "cus_RqAFzNnkxRkFNc"
+  },
+  {
+    "_id": "67bf028cdb3b7fa88ad2ea13",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1QwjHQBGYBAQ24lUfFkx3Lcc",
+      "name": "JOSE ABELLAN",
+      "brand": "Visa",
+      "last4": "4465",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1QwjIdBGYBAQ24lUzwgE8sSo"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-02-26T12:01:16.386Z",
+    "createdBy": "67bf028844aa8a22e6491f4a",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1QwjHQBGYBAQ24lUfFkx3Lcc",
+    "paymentCustomer": "cus_RqQ8jpf9ITsOcq"
+  },
+  {
+    "_id": "67bf4cf4f7347293deee0317",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1QwoFXBGYBAQ24lUxhJIWNdX",
+      "name": "Grazielle Mioranda da Silva",
+      "brand": "MasterCard",
+      "last4": "6715",
+      "country": "FR",
+      "funding": "prepaid",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1QwoFsBGYBAQ24lUvo6O4obZ"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 8
+    },
+    "createdAt": "2025-02-26T17:18:44.958Z",
+    "createdBy": "67bf4cf1f7347293deee0253",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1QwoFXBGYBAQ24lUxhJIWNdX",
+    "paymentCustomer": "cus_RqVGvcNNMXKERO"
+  },
+  {
+    "_id": "67c0669260a92bba7c4c5772",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Qx6y0CdbiaQLvgXXWVodx4g",
+      "name": "Simone Ancillotti",
+      "brand": "MasterCard",
+      "last4": "2421",
+      "country": "IT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1Qx70fCdbiaQLvgXe0eoFXjT"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 6
+    },
+    "createdAt": "2025-02-27T13:20:18.399Z",
+    "createdBy": "67c0668d2b3dafc37606affc",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1Qx6y0CdbiaQLvgXXWVodx4g",
+    "paymentCustomer": "cus_Rqodt0s4NvOTkG"
+  },
+  {
+    "_id": "67c0a609b4719e3feb20cae9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-02-27T17:51:05.600Z",
+    "createdBy": "660a0ca46522a8c25fa6fe67",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1QxBEiBGYBAQ24lUuJCpH1ce",
+    "paymentCustomer": "cus_QPKrPXzOyjLvfy"
+  },
+  {
+    "_id": "67c1c846b9155f4ac518e798",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-02-28T14:29:26.115Z",
+    "createdBy": "67b35c08d121735ae671d209",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1QxUZ6CdbiaQLvgXwthcjVjg",
+    "paymentCustomer": "cus_RjoGXFhIQPyhad"
+  },
+  {
+    "_id": "67c6cb8d5d880ab0f8f5aae0",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-03-04T09:44:45.091Z",
+    "createdBy": "67c5d45024f6a3a777ddc96c",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1Qys1nCdbiaQLvgX6XPRMnQC",
+    "paymentCustomer": "cus_RsMHJRH5hKxIk7"
+  },
+  {
+    "_id": "67c6cdd30045f46318e72d3b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "8062",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 2
+    },
+    "createdAt": "2025-03-04T09:54:27.728Z",
+    "createdBy": "67c5d45024f6a3a777ddc96c",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1QysAcCdbiaQLvgXM3wx24Dp",
+    "paymentCustomer": "cus_RsMHJRH5hKxIk7"
+  },
+  {
+    "_id": "67d068b332b15abcd95ceb76",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "5242",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2025,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-03-11T16:45:39.770Z",
+    "createdBy": "679b64195174157ff8ded817",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1R1VvjI8B1riowTwKCUW8DDY",
+    "paymentCustomer": "cus_RgIhBsAN8bZtyI"
+  },
+  {
+    "_id": "67d2e76e3d49045e2fc3d3d0",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-03-13T14:10:54.310Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1R2CT3BGYBAQ24lUqvH0iYUV",
+    "paymentCustomer": "cus_QmthUefQScL9mh"
+  },
+  {
+    "_id": "67da8ddf74e468f2158ef097",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "1189",
+      "country": "NL",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2027,
+      "expirationMonth": 3
+    },
+    "createdAt": "2025-03-19T09:26:55.413Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1R4IqUBGYBAQ24lU1mQWu3SZ",
+    "paymentCustomer": "cus_RxtxWyh8rjEjb0"
+  },
+  {
+    "_id": "67e291fe7b30b93a7c86f771",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-03-25T11:22:38.854Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1R6VZ1CdbiaQLvgXEbmmZdu7",
+    "paymentCustomer": "cus_S0Wbdb1Enb2MX4"
+  },
+  {
+    "_id": "67e2a37fbc5c7a766a005527",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "5442",
+      "country": "BR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2032,
+      "expirationMonth": 12
+    },
+    "createdAt": "2025-03-25T12:37:19.637Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1R6WjFBGYBAQ24lUnF9kz3rF",
+    "paymentCustomer": "cus_Q4e3Wec4bNqM8u"
+  },
+  {
+    "_id": "67e2e6125f71249ff6e01552",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-03-25T17:21:22.392Z",
+    "createdBy": "660a0771e39444e811a09a9a",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1R6bABBGYBAQ24lUEtQVdACp",
+    "paymentCustomer": "cus_S0cMvvzkosBau1"
+  },
+  {
+    "_id": "67e6db4f234fb430e398349a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-03-28T17:24:31.808Z",
+    "createdBy": "675c4c86a3a9a75cbd15631b",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1R7gduI8B1riowTwqiYoBJ5c",
+    "paymentCustomer": "cus_S1jmNFPo1czFk3"
+  },
+  {
+    "_id": "67ea671f17f3997e4197a5d4",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "4903",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 12
+    },
+    "createdAt": "2025-03-31T09:57:51.887Z",
+    "createdBy": "672cf8738b1d3a352d97c198",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1R8f5hI8B1riowTwBi2Odfs0",
+    "paymentCustomer": "cus_S2kZZVHF5rsSzU"
+  },
+  {
+    "_id": "67eacb6bd1811440b0298ebb",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-03-31T17:05:47.589Z",
+    "createdBy": "660a0ffd86c9625301ee6266",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1R8lmQI8B1riowTwajaxvgEw",
+    "paymentCustomer": "cus_S2rTd0rO7YT8Ib"
+  },
+  {
+    "_id": "67ead4f6f84b2fe7c9a67722",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "3293",
+      "country": "BR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-03-31T17:46:30.862Z",
+    "createdBy": "663ba6e8c7e2c74bc4238a87",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1R8mPoCdbiaQLvgXtLuTwocQ",
+    "paymentCustomer": "cus_Rfz9gFA0GDL7gU"
+  },
+  {
+    "_id": "67f7fde5d9c6b3987de460ca",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "4520",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 3
+    },
+    "createdAt": "2025-04-10T17:20:37.237Z",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1RCOmBI8B1riowTwa18h9wp3",
+    "paymentCustomer": "cus_S6bzKfPCW5IJkE"
+  },
+  {
+    "_id": "680a11efd35e70a14b313adf",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "9187",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 3
+    },
+    "createdAt": "2025-04-24T10:26:55.999Z",
+    "createdBy": "675aca6354b44e6385ec3b03",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1RHMzDI8B1riowTwCR58P2Q3",
+    "paymentCustomer": "cus_SBkGLLQEgIjf08"
+  },
+  {
+    "_id": "6810c5b2d72101cbd0b091d8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-04-29T12:27:30.314Z",
+    "createdBy": "6810ab2b6f46e79febc190ef",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1RJDG1I8B1riowTwE2fpiesm",
+    "paymentCustomer": "cus_SDeTRUt7twosc4"
+  },
+  {
+    "_id": "6813843567067b6e057c6ea3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-05-01T14:24:53.354Z",
+    "createdBy": "67ab8d8158114f1ffa1a1a60",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1RJy2hI8B1riowTwZBWtq6Q4",
+    "paymentCustomer": "cus_SEQsMX34hks1cA"
+  },
+  {
+    "_id": "6819029ebf08d6785c1bae40",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "7141",
+      "country": "BR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2032,
+      "expirationMonth": 3
+    },
+    "createdAt": "2025-05-05T18:25:34.832Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RLThkBGYBAQ24lUp2TWPXQ9",
+    "paymentCustomer": "cus_Q4e9D2shfLgf1G"
+  },
+  {
+    "_id": "6819fc9c0e31e7d5c1f44c00",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1RLkLuI8B1riowTw12OEszw1",
+      "name": "TERESA PEIXOTO",
+      "brand": "Visa",
+      "last4": "3319",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1RLkM3I8B1riowTwdqSNwmp0"
+      },
+      "expirationYear": 2028,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-05-06T12:12:12.138Z",
+    "createdBy": "660a7628aa653118a2d5d15d",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1RLkLuI8B1riowTw12OEszw1",
+    "paymentCustomer": "cus_SGGt1cz5wGBlea"
+  },
+  {
+    "_id": "681a3cef755d5b5c8a86b72c",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "8021",
+      "country": "UA",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 8
+    },
+    "createdAt": "2025-05-06T16:46:39.875Z",
+    "createdBy": "66ba0c5a1f53144340a501de",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1RLoddCdbiaQLvgXfsOnG4XE",
+    "paymentCustomer": "cus_SGLI8AuoLBw04I"
+  },
+  {
+    "_id": "681a400a64de1ead49571731",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "0118",
+      "country": "BR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2030,
+      "expirationMonth": 11
+    },
+    "createdAt": "2025-05-06T16:59:54.532Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RLoqGBGYBAQ24lUeuCSHW7D",
+    "paymentCustomer": "cus_Nq7J6iYiKNZ7xM"
+  },
+  {
+    "_id": "68309b425212e2632e1f9b58",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-05-23T15:58:58.865Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RRxzmBGYBAQ24lU27VmhtHW",
+    "paymentCustomer": "cus_QPL4GjELFulw0N"
+  },
+  {
+    "_id": "68359c6f148f42e60635ab4c",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "5058",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 5
+    },
+    "createdAt": "2025-05-27T11:05:19.629Z",
+    "createdBy": "67c049eed03c63f7e1165e7e",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1RTLJaI8B1riowTwoKxmuhik",
+    "paymentCustomer": "cus_SO7YFopJcxT0gR"
+  },
+  {
+    "_id": "6835dfa5cb1f5386387a1e8d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-05-27T15:52:05.100Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RRxzmBGYBAQ24lU27VmhtHW",
+    "paymentCustomer": "cus_QPL4GjELFulw0N"
+  },
+  {
+    "_id": "68387e03a9f0364caa505a7f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-05-29T15:32:19.962Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RRxzmBGYBAQ24lU27VmhtHW",
+    "paymentCustomer": "cus_QPL4GjELFulw0N"
+  },
+  {
+    "_id": "6839b67532263cc0f35c588a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-05-30T13:45:25.582Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RRxzmBGYBAQ24lU27VmhtHW",
+    "paymentCustomer": "cus_QPL4GjELFulw0N"
+  },
+  {
+    "_id": "683f044469f84420c312e163",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-06-03T14:18:44.895Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1RVvfqCdbiaQLvgXpOtEwlDH",
+    "paymentCustomer": "cus_SQj4P3NkLeeXBf"
+  },
+  {
+    "_id": "6840b22748309095569444bb",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-06-04T20:52:55.061Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RRxzmBGYBAQ24lU27VmhtHW",
+    "paymentCustomer": "cus_QPL4GjELFulw0N"
+  },
+  {
+    "_id": "684995a9a3838f5607c01e1a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-06-11T14:41:45.255Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RRxzmBGYBAQ24lU27VmhtHW",
+    "paymentCustomer": "cus_QPL4GjELFulw0N"
+  },
+  {
+    "_id": "68519f70fb0f2a0500326a51",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-06-17T17:01:36.412Z",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1Rb2t7I8B1riowTwccti1tmw",
+    "paymentCustomer": "cus_SVy5yCJri8JM7h"
+  },
+  {
+    "_id": "6867bde5865ddbba22979fb7",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "2799",
+      "country": "GB",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-07-04T11:41:25.092Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1Rh7z8CdbiaQLvgXp9m7Z1jx",
+    "paymentCustomer": "cus_ScMd10ajjmgN2Q"
+  },
+  {
+    "_id": "686ce2007cd0d9c52cc41a58",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "3515",
+      "country": "KZ",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 6
+    },
+    "createdAt": "2025-07-08T09:16:48.130Z",
+    "createdBy": "679d098c3908ce7bb20493e3",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1RiXdnCdbiaQLvgXV0V1SJ10",
+    "paymentCustomer": "cus_RgldOyYQISGZnx"
+  },
+  {
+    "_id": "687a3eaf95b48c5b7ee93c7f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "5740",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2027,
+      "expirationMonth": 10
+    },
+    "createdAt": "2025-07-18T12:31:43.026Z",
+    "createdBy": "67f52db407b81cbe40c58c59",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1QahDfBGYBAQ24lUOVqtP7yv",
+    "paymentCustomer": "cus_RTeWvWmbJbwV3o"
+  },
+  {
+    "_id": "687f6b28c7e542d75bb4b9c5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-22T10:42:48.129Z",
+    "createdBy": "687f69b5946d210a29545f69",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1RndelCdbiaQLvgX0K6mSbyO",
+    "paymentCustomer": "cus_SBMgqkl7xNHS0m"
+  },
+  {
+    "_id": "687f6ca36095c578f2b25ca0",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-22T10:49:07.643Z",
+    "createdBy": "687f69b5946d210a29545f69",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RndkqBGYBAQ24lUhpwjEq0Y",
+    "paymentCustomer": "cus_QPM0351FWJQ8Re"
+  },
+  {
+    "_id": "688b704b1c1deab467c53561",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.929Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrsBGYBAQ24lUeVTx281A",
+    "paymentCustomer": "cus_QPLofzSmpmoRrY"
+  },
+  {
+    "_id": "688b704b1c1deab467c53563",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.931Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrxBGYBAQ24lUpy9UyzgU",
+    "paymentCustomer": "cus_QPfZCVxZWeR4fy"
+  },
+  {
+    "_id": "688b704b1c1deab467c53565",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.933Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrtBGYBAQ24lURAxgpZum",
+    "paymentCustomer": "cus_QPLs9Vj15PTgYQ"
+  },
+  {
+    "_id": "688b704b1c1deab467c53567",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.935Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrfBGYBAQ24lUfyTgwxVn",
+    "paymentCustomer": "cus_QPKd0DDWFWCuYK"
+  },
+  {
+    "_id": "688b704b1c1deab467c53569",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.937Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrxBGYBAQ24lUwxx9EvzW",
+    "paymentCustomer": "cus_QPfYfqtSlHzEWk"
+  },
+  {
+    "_id": "688b704b1c1deab467c5356b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.939Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxraBGYBAQ24lUhqPB7H7d",
+    "paymentCustomer": "cus_QPCKYwuZ98oLWz"
+  },
+  {
+    "_id": "688b704b1c1deab467c5356d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.941Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrVBGYBAQ24lUIPxJ1Njd",
+    "paymentCustomer": "cus_QOu6ABUGgMnerh"
+  },
+  {
+    "_id": "688b704b1c1deab467c5356f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.947Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrkBGYBAQ24lUg53y94rJ",
+    "paymentCustomer": "cus_QPKzT3dBQD74bH"
+  },
+  {
+    "_id": "688b704b1c1deab467c53571",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.949Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrmBGYBAQ24lU1Vnx1N6Y",
+    "paymentCustomer": "cus_QPLE3WWcpKCU30"
+  },
+  {
+    "_id": "688b704b1c1deab467c53573",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.950Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrsBGYBAQ24lU5HsKhXjf",
+    "paymentCustomer": "cus_QPLooEV5sy3wQ6"
+  },
+  {
+    "_id": "688b704b1c1deab467c53575",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.953Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxriBGYBAQ24lU9zP4xMWN",
+    "paymentCustomer": "cus_QPKv4soXIAueS0"
+  },
+  {
+    "_id": "688b704b1c1deab467c53577",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.955Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrdBGYBAQ24lUfZvAqsMz",
+    "paymentCustomer": "cus_QPKaaCg6stsQMq"
+  },
+  {
+    "_id": "688b704b1c1deab467c53579",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.956Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxreBGYBAQ24lURq4vF7UW",
+    "paymentCustomer": "cus_QPKbd4H5QO5cvF"
+  },
+  {
+    "_id": "688b704b1c1deab467c5357b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.958Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrrBGYBAQ24lUZOCfqVOk",
+    "paymentCustomer": "cus_QPLmJkfijqoTN7"
+  },
+  {
+    "_id": "688b704b1c1deab467c5357d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.960Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrzBGYBAQ24lUevcOzqF0",
+    "paymentCustomer": "cus_QPfdq7D488xBjm"
+  },
+  {
+    "_id": "688b704b1c1deab467c5357f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.962Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxryBGYBAQ24lUeZODbTOU",
+    "paymentCustomer": "cus_QPfaA7vPZpkOMa"
+  },
+  {
+    "_id": "688b704b1c1deab467c53581",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.963Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrbBGYBAQ24lUYbrhRfdx",
+    "paymentCustomer": "cus_QPCPGLPnowAuWp"
+  },
+  {
+    "_id": "688b704b1c1deab467c53583",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.965Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrbBGYBAQ24lUxEx9fC3Z",
+    "paymentCustomer": "cus_QPCOVNdXZ8xZFc"
+  },
+  {
+    "_id": "688b704b1c1deab467c53585",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:55.967Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxroBGYBAQ24lUN7AGNKiQ",
+    "paymentCustomer": "cus_QPLWg0HeLEz2SW"
+  },
+  {
+    "_id": "688b704c1c1deab467c53587",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.025Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxruBGYBAQ24lUKnHJcG0m",
+    "paymentCustomer": "cus_QPLtS7k9rLs09L"
+  },
+  {
+    "_id": "688b704c1c1deab467c53589",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.028Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrpBGYBAQ24lU0wlUUi5n",
+    "paymentCustomer": "cus_QPLdGuHASh42ZZ"
+  },
+  {
+    "_id": "688b704c1c1deab467c5358b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.030Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxreBGYBAQ24lUhsJXbd2H",
+    "paymentCustomer": "cus_QPKcfvXEbvMehk"
+  },
+  {
+    "_id": "688b704c1c1deab467c5358f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.034Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs1BGYBAQ24lUsGfwh5If",
+    "paymentCustomer": "cus_QPfy9lGFcspTd9"
+  },
+  {
+    "_id": "688b704c1c1deab467c53591",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.036Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs0BGYBAQ24lUsIQwirr7",
+    "paymentCustomer": "cus_QPfs4UmIzZbSBR"
+  },
+  {
+    "_id": "688b704c1c1deab467c53593",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.038Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrtBGYBAQ24lUANJb4svC",
+    "paymentCustomer": "cus_QPLpn1jgCgD8yn"
+  },
+  {
+    "_id": "688b704c1c1deab467c53595",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.040Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrnBGYBAQ24lUC6iujJbr",
+    "paymentCustomer": "cus_QPLFKqWJJ1vYgl"
+  },
+  {
+    "_id": "688b704c1c1deab467c53597",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.042Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrvBGYBAQ24lUTBaoDcsQ",
+    "paymentCustomer": "cus_QPLxSya0Ny1XEr"
+  },
+  {
+    "_id": "688b704c1c1deab467c53599",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.044Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrvBGYBAQ24lUgAvCrdMT",
+    "paymentCustomer": "cus_QPLuHv21jcm7rK"
+  },
+  {
+    "_id": "688b704c1c1deab467c5359b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.050Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxryBGYBAQ24lUL3s61HbE",
+    "paymentCustomer": "cus_QPfcZoaWQikB1S"
+  },
+  {
+    "_id": "688b704c1c1deab467c5359d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.052Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrlBGYBAQ24lU6hIE0WnS",
+    "paymentCustomer": "cus_QPL9WHSO1cBdc5"
+  },
+  {
+    "_id": "688b704c1c1deab467c5359f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.054Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrtBGYBAQ24lURjoWOPDJ",
+    "paymentCustomer": "cus_QPLqXdPrBCYFEk"
+  },
+  {
+    "_id": "688b704c1c1deab467c535a1",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.056Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrvBGYBAQ24lUQsNmoZh4",
+    "paymentCustomer": "cus_QPLwAH2ziklUSk"
+  },
+  {
+    "_id": "688b704c1c1deab467c535a3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.058Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrhBGYBAQ24lUDAnNSrgI",
+    "paymentCustomer": "cus_QPKq7d51Gxhnht"
+  },
+  {
+    "_id": "688b704c1c1deab467c535a5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.060Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs1BGYBAQ24lUT4Up2jEn",
+    "paymentCustomer": "cus_QPft4XwZOOkWhC"
+  },
+  {
+    "_id": "688b704c1c1deab467c535a7",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.062Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrwBGYBAQ24lUAEVdQhJD",
+    "paymentCustomer": "cus_QPLzOeuLt2oNWi"
+  },
+  {
+    "_id": "688b704c1c1deab467c535a9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.063Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs2BGYBAQ24lUXn2hcHTc",
+    "paymentCustomer": "cus_QPgDI65BqC571K"
+  },
+  {
+    "_id": "688b704c1c1deab467c535ab",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.065Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs0BGYBAQ24lUH6E7QGje",
+    "paymentCustomer": "cus_QPff0xQKuFYAq8"
+  },
+  {
+    "_id": "688b704c1c1deab467c535ad",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.067Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrjBGYBAQ24lUT4lHR8ow",
+    "paymentCustomer": "cus_QPKyV1psSEGuA8"
+  },
+  {
+    "_id": "688b704c1c1deab467c535af",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.122Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrkBGYBAQ24lU7pLsSa0P",
+    "paymentCustomer": "cus_QPL5sGh1MTmGQm"
+  },
+  {
+    "_id": "688b704c1c1deab467c535b1",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.124Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrrBGYBAQ24lU5bm2Nzfa",
+    "paymentCustomer": "cus_QPLjgxWX5AI2mz"
+  },
+  {
+    "_id": "688b704c1c1deab467c535b3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.126Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs3BGYBAQ24lUnbHkpG8U",
+    "paymentCustomer": "cus_QPgOUIm4FbCBkA"
+  },
+  {
+    "_id": "688b704c1c1deab467c535b5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.128Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrgBGYBAQ24lUHxBqTcmy",
+    "paymentCustomer": "cus_QPKezXmKwdbLBK"
+  },
+  {
+    "_id": "688b704c1c1deab467c535b7",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.133Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxreBGYBAQ24lUUqGmBs5e",
+    "paymentCustomer": "cus_QPKc2r5bcGwUGK"
+  },
+  {
+    "_id": "688b704c1c1deab467c535b9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.135Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxroBGYBAQ24lU41m3tQUi",
+    "paymentCustomer": "cus_QPLXCdRynT3zWh"
+  },
+  {
+    "_id": "688b704c1c1deab467c535bb",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.137Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrdBGYBAQ24lU2GdgunXy",
+    "paymentCustomer": "cus_QPKaYxGI2PzWxs"
+  },
+  {
+    "_id": "688b704c1c1deab467c535bd",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.139Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrhBGYBAQ24lUplZpLqYJ",
+    "paymentCustomer": "cus_QPKuxlYyUXkChD"
+  },
+  {
+    "_id": "688b704c1c1deab467c535c1",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.143Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs2BGYBAQ24lUATW0FLRC",
+    "paymentCustomer": "cus_QPgNd0wYHEBplz"
+  },
+  {
+    "_id": "688b704c1c1deab467c535c3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.145Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxroBGYBAQ24lUqxR1vZ9D",
+    "paymentCustomer": "cus_QPLYRBCrmkPzRU"
+  },
+  {
+    "_id": "688b704c1c1deab467c535c7",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.148Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsHBGYBAQ24lU8W49g7Zn",
+    "paymentCustomer": "cus_QPykjUa9EreHQ3"
+  },
+  {
+    "_id": "688b704c1c1deab467c535c9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.150Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsPBGYBAQ24lUDyEbfTj2",
+    "paymentCustomer": "cus_QPz9FW98689isO"
+  },
+  {
+    "_id": "688b704c1c1deab467c535cb",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.151Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsGBGYBAQ24lUrNSdWW1a",
+    "paymentCustomer": "cus_QPyWwk3h9AUa2U"
+  },
+  {
+    "_id": "688b704c1c1deab467c535cd",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.153Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrhBGYBAQ24lUbJYUcrbf",
+    "paymentCustomer": "cus_QPKsC8EDva7vBY"
+  },
+  {
+    "_id": "688b704c1c1deab467c535cf",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.155Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs3BGYBAQ24lUvNJnMwZV",
+    "paymentCustomer": "cus_QPgPWDLk8k0oSU"
+  },
+  {
+    "_id": "688b704c1c1deab467c535d1",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.160Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs7BGYBAQ24lU2bzFV2Ia",
+    "paymentCustomer": "cus_QPh7nTo8FjDdtq"
+  },
+  {
+    "_id": "688b704c1c1deab467c535d3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.162Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs4BGYBAQ24lUt7RzAjkU",
+    "paymentCustomer": "cus_QPgRaDT1CVL81y"
+  },
+  {
+    "_id": "688b704c1c1deab467c535d5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.163Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsEBGYBAQ24lUz0oGqdf4",
+    "paymentCustomer": "cus_QPyUtZhGTdyVFo"
+  },
+  {
+    "_id": "688b704c1c1deab467c535d7",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.165Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs7BGYBAQ24lU6LDBCTUp",
+    "paymentCustomer": "cus_QPh7Ah6zDALGfL"
+  },
+  {
+    "_id": "688b704c1c1deab467c535d9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.167Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsEBGYBAQ24lUUWTRozK9",
+    "paymentCustomer": "cus_QPySBVQT6YBCM0"
+  },
+  {
+    "_id": "688b704c1c1deab467c535db",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.221Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsUBGYBAQ24lUzN0umZG6",
+    "paymentCustomer": "cus_QPzOIGN7KkuLkX"
+  },
+  {
+    "_id": "688b704c1c1deab467c535dd",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.224Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsABGYBAQ24lUIvngsv4Y",
+    "paymentCustomer": "cus_QPhKCUWGuooX1c"
+  },
+  {
+    "_id": "688b704c1c1deab467c535df",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.226Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsFBGYBAQ24lU4O3b2ASk",
+    "paymentCustomer": "cus_QPyUHECpZZQFwH"
+  },
+  {
+    "_id": "688b704c1c1deab467c535e1",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.227Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsUBGYBAQ24lU4wCL7zZJ",
+    "paymentCustomer": "cus_QPzPokjef24vhX"
+  },
+  {
+    "_id": "688b704c1c1deab467c535e3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.230Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsEBGYBAQ24lUbADmAfFX",
+    "paymentCustomer": "cus_QPyTS8lIz5Dibf"
+  },
+  {
+    "_id": "688b704c1c1deab467c535e5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.231Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsGBGYBAQ24lUbiNPztH6",
+    "paymentCustomer": "cus_QPyi6gwflpovnY"
+  },
+  {
+    "_id": "688b704c1c1deab467c535e7",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.233Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsKBGYBAQ24lUNYYFaoC6",
+    "paymentCustomer": "cus_QPytyT610SADao"
+  },
+  {
+    "_id": "688b704c1c1deab467c535e9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.235Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsDBGYBAQ24lUz2SMorou",
+    "paymentCustomer": "cus_QPi20MM99ozvwn"
+  },
+  {
+    "_id": "688b704c1c1deab467c535eb",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.241Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsDBGYBAQ24lU86j5tjI9",
+    "paymentCustomer": "cus_QPi4OJnMN8PJRQ"
+  },
+  {
+    "_id": "688b704c1c1deab467c535ed",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.243Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsFBGYBAQ24lUNzbYb4ec",
+    "paymentCustomer": "cus_QPyVLZ7K3bVeZv"
+  },
+  {
+    "_id": "688b704c1c1deab467c535ef",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.245Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs8BGYBAQ24lUApQCN3Ds",
+    "paymentCustomer": "cus_QPhBSX15tHPcF5"
+  },
+  {
+    "_id": "688b704c1c1deab467c535f1",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.247Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsLBGYBAQ24lUotrbtVvM",
+    "paymentCustomer": "cus_QPyu4nyRytsWbW"
+  },
+  {
+    "_id": "688b704c1c1deab467c535f3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.248Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsUBGYBAQ24lUCqq2RO9L",
+    "paymentCustomer": "cus_QPzQ9UUSj0ClgI"
+  },
+  {
+    "_id": "688b704c1c1deab467c535f5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.250Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsQBGYBAQ24lUyaQAAVtW",
+    "paymentCustomer": "cus_QPzGY4vhmOHhST"
+  },
+  {
+    "_id": "688b704c1c1deab467c535f7",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.252Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsHBGYBAQ24lURVQWvik0",
+    "paymentCustomer": "cus_QPylnR8fVO0Dzx"
+  },
+  {
+    "_id": "688b704c1c1deab467c535f9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.254Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrlBGYBAQ24lU8SWTG4VS",
+    "paymentCustomer": "cus_QPL9L8sAJ8AmDN"
+  },
+  {
+    "_id": "688b704c1c1deab467c535fb",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.256Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrdBGYBAQ24lU0gf16jxg",
+    "paymentCustomer": "cus_QPKZaRVj9pbVW6"
+  },
+  {
+    "_id": "688b704c1c1deab467c535fd",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.258Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs3BGYBAQ24lUVStekcJl",
+    "paymentCustomer": "cus_QPgOc5Q6A2zMSG"
+  },
+  {
+    "_id": "688b704c1c1deab467c535ff",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.259Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrwBGYBAQ24lU31LqM7IN",
+    "paymentCustomer": "cus_QPLzJU16qkKuKR"
+  },
+  {
+    "_id": "688b704c1c1deab467c53601",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.261Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrgBGYBAQ24lUFYvn3Uk4",
+    "paymentCustomer": "cus_QPKejdpp5AIBrU"
+  },
+  {
+    "_id": "688b704c1c1deab467c53603",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.263Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs2BGYBAQ24lUNZZJsbBI",
+    "paymentCustomer": "cus_QPgCsuGiAZ6aBU"
+  },
+  {
+    "_id": "688b704c1c1deab467c53605",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.324Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrjBGYBAQ24lU3nInEDTr",
+    "paymentCustomer": "cus_QPKyedvjhGKR12"
+  },
+  {
+    "_id": "688b704c1c1deab467c53607",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.326Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrcBGYBAQ24lUQC7PXxHE",
+    "paymentCustomer": "cus_QPCZSty8ju0Nse"
+  },
+  {
+    "_id": "688b704c1c1deab467c5360b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.330Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrqBGYBAQ24lUUP3PjqAW",
+    "paymentCustomer": "cus_QPLiUEK4TzzduE"
+  },
+  {
+    "_id": "688b704c1c1deab467c5360d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.332Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsABGYBAQ24lUvVTS9OgG",
+    "paymentCustomer": "cus_QPhNhPtjajsNWt"
+  },
+  {
+    "_id": "688b704c1c1deab467c5360f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.334Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsBBGYBAQ24lUgD2jlmiH",
+    "paymentCustomer": "cus_QPhOc3SqZd5lbR"
+  },
+  {
+    "_id": "688b704c1c1deab467c53611",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.335Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsGBGYBAQ24lUPcCNDCvX",
+    "paymentCustomer": "cus_QPyWYvAegZPS91"
+  },
+  {
+    "_id": "688b704c1c1deab467c53615",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.339Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsVBGYBAQ24lU6r8JlEhy",
+    "paymentCustomer": "cus_QPzRAaPHB2Gmfx"
+  },
+  {
+    "_id": "688b704c1c1deab467c53617",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.341Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs4BGYBAQ24lU4jrApLKI",
+    "paymentCustomer": "cus_QPgRuPTpnJ5oXT"
+  },
+  {
+    "_id": "688b704c1c1deab467c53619",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.344Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrjBGYBAQ24lUH45uAWJB",
+    "paymentCustomer": "cus_QPKxH1mhgC7pJw"
+  },
+  {
+    "_id": "688b704c1c1deab467c5361b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.346Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrbBGYBAQ24lUCEUlYKC4",
+    "paymentCustomer": "cus_QPCQsf0BrVHdcj"
+  },
+  {
+    "_id": "688b704c1c1deab467c5361d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.348Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrqBGYBAQ24lUVHAbdjiG",
+    "paymentCustomer": "cus_QPLhySSKuIlXGc"
+  },
+  {
+    "_id": "688b704c1c1deab467c5361f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.354Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrsBGYBAQ24lUeVTx281A",
+    "paymentCustomer": "cus_QPLofzSmpmoRrY"
+  },
+  {
+    "_id": "688b704c1c1deab467c53621",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.357Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrdBGYBAQ24lUfZvAqsMz",
+    "paymentCustomer": "cus_QPKaaCg6stsQMq"
+  },
+  {
+    "_id": "688b704c1c1deab467c53623",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.358Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxruBGYBAQ24lUInaqe6iz",
+    "paymentCustomer": "cus_QPLtekgW8odeS6"
+  },
+  {
+    "_id": "688b704c1c1deab467c53625",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.360Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsMBGYBAQ24lUedRxLzIj",
+    "paymentCustomer": "cus_QPz07PgRWge0X9"
+  },
+  {
+    "_id": "688b704c1c1deab467c53627",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.362Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsVBGYBAQ24lUJcZFUMGd",
+    "paymentCustomer": "cus_QPzTyry8lsCHPU"
+  },
+  {
+    "_id": "688b704c1c1deab467c53629",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.422Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrsBGYBAQ24lUz1sBRDQC",
+    "paymentCustomer": "cus_QPLpiNus4WWbst"
+  },
+  {
+    "_id": "688b704c1c1deab467c5362b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.425Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsRBGYBAQ24lUyclqQHNK",
+    "paymentCustomer": "cus_QPzIKZ828VjMy4"
+  },
+  {
+    "_id": "688b704c1c1deab467c5362d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.427Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsTBGYBAQ24lUUxkWneWQ",
+    "paymentCustomer": "cus_QPzNR7V4RtYQpN"
+  },
+  {
+    "_id": "688b704c1c1deab467c5362f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.429Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsTBGYBAQ24lUIzcbY57W",
+    "paymentCustomer": "cus_QPzN6WZ5t9p49G"
+  },
+  {
+    "_id": "688b704c1c1deab467c53631",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.431Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsTBGYBAQ24lUGJyhPRp0",
+    "paymentCustomer": "cus_QPzOvxxMftAIeH"
+  },
+  {
+    "_id": "688b704c1c1deab467c53633",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.433Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsHBGYBAQ24lUzChIHNy6",
+    "paymentCustomer": "cus_QPyj1hy3rVxlY7"
+  },
+  {
+    "_id": "688b704c1c1deab467c53635",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.435Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsIBGYBAQ24lUIB5acAUb",
+    "paymentCustomer": "cus_QPymB0mxLWKasw"
+  },
+  {
+    "_id": "688b704c1c1deab467c53637",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.437Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsKBGYBAQ24lU9C4bq0mi",
+    "paymentCustomer": "cus_QPysTdWXZFIZkG"
+  },
+  {
+    "_id": "688b704c1c1deab467c53639",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.442Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsKBGYBAQ24lUku1YoM9M",
+    "paymentCustomer": "cus_QPyuVW6FNcJ7Ae"
+  },
+  {
+    "_id": "688b704c1c1deab467c5363b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.445Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsMBGYBAQ24lUJvo69gzF",
+    "paymentCustomer": "cus_QPyyY5OD7X5j13"
+  },
+  {
+    "_id": "688b704c1c1deab467c5363d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.447Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsMBGYBAQ24lUcSgHNhQa",
+    "paymentCustomer": "cus_QPyz7g7YVgpc2O"
+  },
+  {
+    "_id": "688b704c1c1deab467c5363f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.449Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsRBGYBAQ24lURdQZzBwW",
+    "paymentCustomer": "cus_QPzGDrSfpldE4e"
+  },
+  {
+    "_id": "688b704c1c1deab467c53641",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.451Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsVBGYBAQ24lU6r8JlEhy",
+    "paymentCustomer": "cus_QPzRAaPHB2Gmfx"
+  },
+  {
+    "_id": "688b704c1c1deab467c53643",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.452Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsCBGYBAQ24lURjexUtG8",
+    "paymentCustomer": "cus_QPhyu7dpZGPBqa"
+  },
+  {
+    "_id": "688b704c1c1deab467c53645",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.454Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsOBGYBAQ24lUczCOb7bY",
+    "paymentCustomer": "cus_QPz7JhSWQyRZDL"
+  },
+  {
+    "_id": "688b704c1c1deab467c53647",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.456Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs6BGYBAQ24lUtCaTSte3",
+    "paymentCustomer": "cus_QPh448srnTdEtB"
+  },
+  {
+    "_id": "688b704c1c1deab467c53649",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.458Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsRBGYBAQ24lU6ZHBslMI",
+    "paymentCustomer": "cus_QPzHGmM42klfvk"
+  },
+  {
+    "_id": "688b704c1c1deab467c5364b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.459Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrnBGYBAQ24lUC6iujJbr",
+    "paymentCustomer": "cus_QPLFKqWJJ1vYgl"
+  },
+  {
+    "_id": "688b704c1c1deab467c5364d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T13:31:56.461Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsSBGYBAQ24lU4k8xscBr",
+    "paymentCustomer": "cus_QPzJEbGnewJIYu"
+  },
+  {
+    "_id": "688ba4cec7585952a923b3bb",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-07-31T17:15:58.680Z",
+    "createdBy": "6712634c71c71938d652ef69",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1Rr05BCdbiaQLvgX36Ux8Pr5",
+    "paymentCustomer": "cus_Sf0C6SdandnpAd"
+  },
+  {
+    "_id": "6891ab74f29ceb1ecac5f82c",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-05T06:57:56.108Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuHBGYBAQ24lUjT6ypE6w",
+    "paymentCustomer": "cus_QPCRF902N0mhL6"
+  },
+  {
+    "_id": "6891ab74f29ceb1ecac5f82e",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-05T06:57:56.110Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuJBGYBAQ24lUJjQbMA56",
+    "paymentCustomer": "cus_QPgY8PX1xl1o9K"
+  },
+  {
+    "_id": "6891ab74f29ceb1ecac5f830",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-05T06:57:56.113Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuIBGYBAQ24lU4lF4zVbI",
+    "paymentCustomer": "cus_QPCabQjqxzT8Eq"
+  },
+  {
+    "_id": "6891ab74f29ceb1ecac5f832",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-05T06:57:56.115Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuLBGYBAQ24lUz9oouyL5",
+    "paymentCustomer": "cus_QPi1sEm1Z7Kkhz"
+  },
+  {
+    "_id": "6891ab74f29ceb1ecac5f834",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-05T06:57:56.182Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuJBGYBAQ24lUPNS5Au2z",
+    "paymentCustomer": "cus_QPLfEIou47otZf"
+  },
+  {
+    "_id": "6891ab74f29ceb1ecac5f836",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-05T06:57:56.185Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuHBGYBAQ24lUhpHnGRNx",
+    "paymentCustomer": "cus_QPCWSwabnuT3t0"
+  },
+  {
+    "_id": "6891ab74f29ceb1ecac5f838",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-05T06:57:56.187Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuIBGYBAQ24lUXWbE2pvQ",
+    "paymentCustomer": "cus_QPLEbylAcWbmsJ"
+  },
+  {
+    "_id": "6891ab74f29ceb1ecac5f83a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-05T06:57:56.190Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuHBGYBAQ24lUYuXNUDYr",
+    "paymentCustomer": "cus_QPCXVNiaRMc1KC"
+  },
+  {
+    "_id": "6891ab74f29ceb1ecac5f83c",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-05T06:57:56.192Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuJBGYBAQ24lUJjQbMA56",
+    "paymentCustomer": "cus_QPgY8PX1xl1o9K"
+  },
+  {
+    "_id": "6891ab74f29ceb1ecac5f83e",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-05T06:57:56.197Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuKBGYBAQ24lUr7jAuZpe",
+    "paymentCustomer": "cus_QPhN0JrzaajeGW"
+  },
+  {
+    "_id": "6891ab74f29ceb1ecac5f840",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-05T06:57:56.199Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuMBGYBAQ24lUVacxQaVZ",
+    "paymentCustomer": "cus_QPzLbCzNNQ7W5Z"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa09",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.806Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuABGYBAQ24lUjTRmBtHR",
+    "paymentCustomer": "cus_PtBXPuP9LjXyXq"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa0a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.809Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuFBGYBAQ24lUGxa3KVr2",
+    "paymentCustomer": "cus_PtBwwKfzfUZ0CJ"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa0b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.810Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuFBGYBAQ24lUGdL5Udfe",
+    "paymentCustomer": "cus_PtC9AW229lOruU"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa0c",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.810Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1RrOuGBGYBAQ24lUM3VRguSX",
+    "paymentCustomer": "cus_QOSqjhrpvj7xA7"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa0d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.811Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrcBGYBAQ24lUqPD7vPBY",
+    "paymentCustomer": "cus_QPCR3H3RhnwYwT"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa0e",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.878Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrgBGYBAQ24lU4GgnsX2f",
+    "paymentCustomer": "cus_QPKftFIbrhB3N3"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa0f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.883Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrlBGYBAQ24lUbLycDNY5",
+    "paymentCustomer": "cus_QPL5yFqUvBDTgQ"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa10",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.884Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrmBGYBAQ24lUZ9QMHwVq",
+    "paymentCustomer": "cus_QPLCm5wZqi1nnR"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa11",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.885Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrqBGYBAQ24lUQxYspJKJ",
+    "paymentCustomer": "cus_QPLg7m62tJ5kbe"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa13",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.887Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrvBGYBAQ24lU9BS8Wx4P",
+    "paymentCustomer": "cus_QPLxxSpPAey9Pi"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa14",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.888Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrxBGYBAQ24lUuOnxCb3l",
+    "paymentCustomer": "cus_QPM0351FWJQ8Re"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa15",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.888Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxryBGYBAQ24lURN9QanBu",
+    "paymentCustomer": "cus_QPfaVbk6bzP6EK"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa16",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.889Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxrzBGYBAQ24lU0xWAY8p2",
+    "paymentCustomer": "cus_QPfeizRuee098S"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa17",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.890Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs0BGYBAQ24lU8gtuFULJ",
+    "paymentCustomer": "cus_QPfsAH4OU4zeDH"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa18",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.890Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs1BGYBAQ24lUHgytlR5G",
+    "paymentCustomer": "cus_QPfzysukvAOGfZ"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa19",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.891Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs4BGYBAQ24lUej2AyPny",
+    "paymentCustomer": "cus_QPgSu8bJMXAki2"
+  },
+  {
+    "_id": "689346ddf7f7d3f48badfa1a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:17.891Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs5BGYBAQ24lUW5ohUNxg",
+    "paymentCustomer": "cus_QPh2HHRcQ8mtcA"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfa98",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.194Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs5BGYBAQ24lUZrpqHe1l",
+    "paymentCustomer": "cus_QPh3ttld9KPqJH"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfa99",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.196Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs7BGYBAQ24lU4WBaoW8G",
+    "paymentCustomer": "cus_QPh6ashEvtrseg"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfa9a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.196Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs8BGYBAQ24lUbaYuk0Xe",
+    "paymentCustomer": "cus_QPhBgR1jcxms0Q"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfa9b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.197Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs9BGYBAQ24lUTqBxCDGn",
+    "paymentCustomer": "cus_QPhDBj4Wpeu9Er"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfa9c",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.197Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs9BGYBAQ24lUTosDFPP0",
+    "paymentCustomer": "cus_QPhHIoI63YfMeC"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfa9d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.198Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Rpxs9BGYBAQ24lUF81uSKgT",
+    "paymentCustomer": "cus_QPhJvndjHDrE30"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfa9e",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.198Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsBBGYBAQ24lUxLeTIXHQ",
+    "paymentCustomer": "cus_QPhyyiF2MURGDi"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfa9f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.199Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsCBGYBAQ24lULgOvrABY",
+    "paymentCustomer": "cus_QPhzVTutR146Vi"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfaa0",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.199Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuKBGYBAQ24lUvrLmMClC",
+    "paymentCustomer": "cus_QPi0Zf4nOEV9Xl"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfaa1",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.199Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuLBGYBAQ24lUOpxGigWK",
+    "paymentCustomer": "cus_QPi3oNNFzZ6Nkk"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfaa2",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.200Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsIBGYBAQ24lUYAT63nE7",
+    "paymentCustomer": "cus_QPyn6FrFc4y2Wp"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfaa3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.200Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsJBGYBAQ24lUFWa2T9qm",
+    "paymentCustomer": "cus_QPynPPCS0YIZpl"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfaa4",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.201Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsJBGYBAQ24lUVEsGmU0b",
+    "paymentCustomer": "cus_QPyq3NP1B29jK9"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfaa5",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.201Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsJBGYBAQ24lU9tTY0jzN",
+    "paymentCustomer": "cus_QPyrUER1J6vd3Z"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfaa6",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.202Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsLBGYBAQ24lUE6xC7doG",
+    "paymentCustomer": "cus_QPyx4Y6mTFi6SM"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfaa7",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.202Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RrOuLBGYBAQ24lUisZZmH3V",
+    "paymentCustomer": "cus_QPyzI7Hb3rjt4C"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfaa8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.272Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsNBGYBAQ24lUsrAAs2xS",
+    "paymentCustomer": "cus_QPz12fvLD6dntQ"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfaa9",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.273Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsNBGYBAQ24lUHL0YycNX",
+    "paymentCustomer": "cus_QPz2ptsOXU5f2J"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfaaa",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.273Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsOBGYBAQ24lUCfWTt6U0",
+    "paymentCustomer": "cus_QPz8UgoboZvkdz"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfaab",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.274Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsPBGYBAQ24lUTbPGv2St",
+    "paymentCustomer": "cus_QPz8BIjHmwvefy"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfaac",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.279Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsQBGYBAQ24lUhsE9yY1n",
+    "paymentCustomer": "cus_QPzCvrWUsUwDhk"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfaad",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.280Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsSBGYBAQ24lU6vcqluUb",
+    "paymentCustomer": "cus_QPzJj5uG5jzsue"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfaae",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.281Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsSBGYBAQ24lU4tAP5O3H",
+    "paymentCustomer": "cus_QPzKvbpKKdeCgC"
+  },
+  {
+    "_id": "689346dff7f7d3f48badfaaf",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-08-06T12:13:19.281Z",
+    "createdBy": "62de4473b8028a3517ef80fc",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RpxsVBGYBAQ24lU0qsGVdQO",
+    "paymentCustomer": "cus_QPzTnyFltNJe2V"
+  },
+  {
+    "_id": "68937234064591cd2d365a2a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "0337",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 7
+    },
+    "createdAt": "2025-08-06T15:18:12.940Z",
+    "createdBy": "660a101486c9627266ee631d",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1Rt96UI8B1riowTwym1qWArc",
+    "paymentCustomer": "cus_SoXJgB0IXuL4Hj"
+  },
+  {
+    "_id": "689627df33795230c7e91222",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "0860",
+      "country": "BR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2033,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-08-08T16:37:51.789Z",
+    "createdBy": "660a1008f59d2d573b01e9e1",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RttIfBGYBAQ24lUGlx3Jqmr",
+    "paymentCustomer": "cus_SpYOyEXOxXsRPR"
+  },
+  {
+    "_id": "6899d8fde0fbaacd3946d080",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "5486",
+      "country": "BR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 6
+    },
+    "createdAt": "2025-08-11T11:50:21.141Z",
+    "createdBy": "655b9794b6f0c52a50c06d1b",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RuuF4BGYBAQ24lUifkzak7L",
+    "paymentCustomer": "cus_RjPF6hfygfDLb7"
+  },
+  {
+    "_id": "689da4fbc6e7195ea180e572",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "8289",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-08-14T08:57:31.475Z",
+    "createdBy": "655b9794b6f0c52a50c06d1b",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1RvwySBGYBAQ24lUM0lSWMg7",
+    "paymentCustomer": "cus_SGLHIFpYvrc8Fw"
+  },
+  {
+    "_id": "68a364a09164d0c557072e96",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "0357",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-08-18T17:36:32.077Z",
+    "createdBy": "66ba0c5a1f53144340a501de",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1RxWy3I8B1riowTwouftd09d",
+    "paymentCustomer": "cus_StJaRiu4UfNkIv"
+  },
+  {
+    "_id": "68a483496d7b2713796346e2",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "2447",
+      "country": "DE",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2027,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-08-19T13:59:37.563Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1Rxq3tCdbiaQLvgXcWRV2yK6",
+    "paymentCustomer": "cus_StdJZimBaAgpWx"
+  },
+  {
+    "_id": "68ad949e61dac1b61223341a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "1414",
+      "country": "BR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2033,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-08-26T11:03:58.556Z",
+    "createdBy": "660a0895380962308d36ad1e",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1S0KfQCdbiaQLvgXSazY61id",
+    "paymentCustomer": "cus_Rfz9WzjluOczuD"
+  },
+  {
+    "_id": "68b72fc7fdd93f00f6f7597d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "1766",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2031,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-09-02T17:56:23.652Z",
+    "createdBy": "68b6ac0c295a98496367d23a",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1S2yPyCdbiaQLvgX6iHnqR5V",
+    "paymentCustomer": "cus_RtVE0cBPEhkmTU"
+  },
+  {
+    "_id": "68bef92952360393fee94aa7",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-09-08T15:41:29.052Z",
+    "createdBy": "67b4b4bd910e471d4d149b77",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1S57C8I8B1riowTwit7du00E",
+    "paymentCustomer": "cus_RnUcxEVkext6Sw"
+  },
+  {
+    "_id": "68c2f8d1f3eba4c1b493017c",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "0326",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 8
+    },
+    "createdAt": "2025-09-11T16:29:05.539Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1S6DK0CdbiaQLvgXyEqGcL5Y",
+    "paymentCustomer": "cus_SPcZ2ACMtj2N2S"
+  },
+  {
+    "_id": "68cd9b5f7cf126f9b77b52be",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1S98gJCdbiaQLvgXNXQwRnHw",
+      "name": "Paulo Costa",
+      "brand": "MasterCard",
+      "last4": "8502",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1S98gNCdbiaQLvgXerE4zOcJ"
+      },
+      "expirationYear": 2030,
+      "expirationMonth": 9
+    },
+    "createdAt": "2025-09-19T18:05:19.971Z",
+    "createdBy": "68cd9b5c313f6f7a1ef25a50",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1S98gJCdbiaQLvgXNXQwRnHw",
+    "paymentCustomer": "cus_T5JIRYzZnYddqT"
+  },
+  {
+    "_id": "68e4ec8755a9541271910fac",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-10-07T10:33:43.720Z",
+    "createdBy": "670556a7a6b6b4b433e764cb",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1SFYDCBGYBAQ24lUt5MMKFYt",
+    "paymentCustomer": "cus_TBw2JlcJvGSzar"
+  },
+  {
+    "_id": "68f5f41acfca3c48afdf1deb",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "1256",
+      "country": "NO",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2027,
+      "expirationMonth": 4
+    },
+    "createdAt": "2025-10-20T08:34:34.758Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1SKEVhBGYBAQ24lUD5uiATwA",
+    "paymentCustomer": "cus_TGm3s5fa5PAa4w"
+  },
+  {
+    "_id": "6908b5f02537baa14cc1fffa",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "1296",
+      "country": "DE",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2026,
+      "expirationMonth": 12
+    },
+    "createdAt": "2025-11-03T14:02:24.092Z",
+    "createdBy": "660a0ffd86c9620e80ee626e",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SPOJzCdbiaQLvgXcR7oADdp",
+    "paymentCustomer": "cus_RxXn4IwdBGeZyK"
+  },
+  {
+    "_id": "6926d988b4c7a13e48410e15",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-11-26T10:42:16.243Z",
+    "createdBy": "660a0cdc3730f7fa8e4ce654",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1SXgAtBGYBAQ24lUp7AowLcQ",
+    "paymentCustomer": "cus_QPymHi8hImiGO5"
+  },
+  {
+    "_id": "69308c463074401cc9eb9134",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-12-03T19:15:18.361Z",
+    "createdBy": "6749fa57eb8f89bdd589c4e8",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1SaLWDBGYBAQ24lUfVi5YRxb",
+    "paymentCustomer": "cus_RJ2nPLgmSuaFEa"
+  },
+  {
+    "_id": "693fec4ac53b038992755ef0",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2025-12-15T11:08:58.818Z",
+    "createdBy": "660a0d8586c9624a99ee5a15",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1SeZe9BGYBAQ24lURte4uiqc",
+    "paymentCustomer": "cus_QPLl9YUyHyr93v"
+  },
+  {
+    "_id": "6948f626c3bf42af16f65310",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1Sh3k7CdbiaQLvgXEN5D8jvw",
+      "name": "Francisco Arantes ",
+      "brand": "MasterCard",
+      "last4": "4707",
+      "country": "BE",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1Sh3k9CdbiaQLvgXloMUobG2"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 1
+    },
+    "createdAt": "2025-12-22T07:41:26.206Z",
+    "createdBy": "660a0771e394444b5ba09abc",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1Sh3k7CdbiaQLvgXEN5D8jvw",
+    "paymentCustomer": "cus_TeMOs3bx4AoceA"
+  },
+  {
+    "_id": "695ba601a3aa82849a998645",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "1279",
+      "country": "GB",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 8
+    },
+    "createdAt": "2026-01-05T11:52:33.731Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SmCKkCdbiaQLvgXpwh79J58",
+    "paymentCustomer": "cus_Rfz86OMVrdeUZY"
+  },
+  {
+    "_id": "696da0d130e5bb65387babe3",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "8929",
+      "country": "BR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2034,
+      "expirationMonth": 1
+    },
+    "createdAt": "2026-01-19T03:11:13.061Z",
+    "createdBy": "66a7a6c0218e0f620a8adf09",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1Sr8rzBGYBAQ24lUDrCodowU",
+    "paymentCustomer": "cus_QYVNcFOvTB5qJU"
+  },
+  {
+    "_id": "698cf33f9ffccdb8512e265e",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "4202",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2029,
+      "expirationMonth": 12
+    },
+    "createdAt": "2026-02-11T21:23:11.528Z",
+    "createdBy": "67b23049a3a726d59f575166",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1SzkqiCdbiaQLvgXd8lnDT3t",
+    "paymentCustomer": "cus_RmmGFQECdvazQj"
+  },
+  {
+    "_id": "698ecd67611bc8e7ec4d989f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1T0GS8I8B1riowTw9jujIzue",
+      "name": "Finout - Serviços Financeiros",
+      "brand": "MasterCard",
+      "last4": "7064",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1T0GSBI8B1riowTwfS9R3cJJ"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 12
+    },
+    "createdAt": "2026-02-13T07:06:15.580Z",
+    "createdBy": "671212c42180d3283fe4fb73",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1T0GS8I8B1riowTw9jujIzue",
+    "paymentCustomer": "cus_TyCrnz3xK7kkBS"
+  },
+  {
+    "_id": "6995c524988fb2f8bfa030c8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-02-18T13:56:52.961Z",
+    "createdBy": "67b5f3774c7ca56d5cb5c2ec",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1T2BFII8B1riowTwsLuITUka",
+    "paymentCustomer": "cus_RnqY9ldiS0Co9N"
+  },
+  {
+    "_id": "69972b3e480fd2e6e2161664",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-02-19T15:24:46.044Z",
+    "createdBy": "660a068bd8aac62a59ca564c",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1T2Z5tBGYBAQ24lUocywUDpN",
+    "paymentCustomer": "cus_QPCSKlnAZRN3DK"
+  },
+  {
+    "_id": "699c69b6841a7671feb7cfc2",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "7006",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2032,
+      "expirationMonth": 2
+    },
+    "createdAt": "2026-02-23T14:52:38.895Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1T40UvCdbiaQLvgXT2CBpWNm",
+    "paymentCustomer": "cus_U24cYwJ96akGao"
+  },
+  {
+    "_id": "699f141eff826648590518dd",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "2875",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2026,
+      "expirationMonth": 3
+    },
+    "createdAt": "2026-02-25T15:24:14.014Z",
+    "createdBy": "660a0670d8aac64f28ca537f",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1T4jviBGYBAQ24lUl4NJeG4T",
+    "paymentCustomer": "cus_QPKhYr0mhXkYOt"
+  },
+  {
+    "_id": "699f1c9373c88da7b85b72ba",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-02-25T16:00:19.594Z",
+    "createdBy": "699ef84073c88da7b84c6428",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1T4kVaBGYBAQ24lUqjAxPR91",
+    "paymentCustomer": "cus_QPLDlK0E8xnBiR"
+  },
+  {
+    "_id": "69a02372eeac8a5a16bcbe9a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1T520xCdbiaQLvgX5f9Pp2xB",
+      "name": "Gratifying idea, Unipessoal LDA",
+      "brand": "Visa",
+      "last4": "4679",
+      "country": "PT",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1T5210CdbiaQLvgXqABb80BV"
+      },
+      "expirationYear": 2027,
+      "expirationMonth": 1
+    },
+    "createdAt": "2026-02-26T10:41:54.823Z",
+    "createdBy": "660a0671d8aac63a2bca53a9",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1T520xCdbiaQLvgX5f9Pp2xB",
+    "paymentCustomer": "cus_U38Hj8bvJMpy6g"
+  },
+  {
+    "_id": "69b14330cb19bce07a300976",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-03-11T10:25:52.932Z",
+    "createdBy": "660a074230e13bee93863d21",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1T9jxbCdbiaQLvgXFCaAI4R6",
+    "paymentCustomer": "cus_RivzQgCPBA3BAw"
+  },
+  {
+    "_id": "69b9aa2dcb786f92ada0b97b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "8535",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-03-17T19:23:25.690Z",
+    "createdBy": "68513d51477a8d270b8c83a4",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1TC3D5CdbiaQLvgXn69yR3p1",
+    "paymentCustomer": "cus_RsjGaWuk9P5IEX"
+  },
+  {
+    "_id": "69c3e1baf82eb8b16be0047d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-03-25T13:23:06.581Z",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1TErOfI8B1riowTwjueK1qIJ",
+    "paymentCustomer": "cus_UDHws73UuiFFrB"
+  },
+  {
+    "_id": "69ca34d52ef9bd11443efc52",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "3776",
+      "country": "CH",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2026,
+      "expirationMonth": 10
+    },
+    "createdAt": "2026-03-30T08:31:17.871Z",
+    "createdBy": "69ca327de258d81666caff73",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1TGbE1BGYBAQ24lUjobV10TP",
+    "paymentCustomer": "cus_RQFfzZmNrOCY1h"
+  },
+  {
+    "_id": "69d657e02efbe2fd8ca60163",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TJw3uCdbiaQLvgXPoUhEuWH",
+      "name": "Amex",
+      "brand": "American Express",
+      "last4": "3000",
+      "country": "NL",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1TJw9ECdbiaQLvgXN1fjZ8jx"
+      },
+      "expirationYear": 2072,
+      "expirationMonth": 11
+    },
+    "createdAt": "2026-04-08T13:28:00.904Z",
+    "createdBy": "69d657ddb4f48c5524f332b2",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "card_1TJw3uCdbiaQLvgXPoUhEuWH",
+    "paymentCustomer": "cus_UIXDtdysf9TEf5"
+  },
+  {
+    "_id": "69d8c6f362452818b15e1cd8",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "2492",
+      "country": "US",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2028,
+      "expirationMonth": 6
+    },
+    "createdAt": "2026-04-10T09:46:27.655Z",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1TKbdqCdbiaQLvgXFPE53EyC",
+    "paymentCustomer": "cus_UJE4ra2fDZ8n8c"
+  },
+  {
+    "_id": "69dd02618a0bae0ab9b4869f",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-04-13T14:49:05.982Z",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "pm_1TLlnOI8B1riowTwjcn17PW9",
+    "paymentCustomer": "cus_UKQbYSvWac6HiP"
+  },
+  {
+    "_id": "69e1f69e4b33017d12d87a5a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-04-17T09:00:14.253Z",
+    "createdBy": "660a07aae39444d84fa09daa",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1TN8G1BGYBAQ24lUYwaLYdWJ",
+    "paymentCustomer": "cus_QPLFKXPQ3P3K9H"
+  },
+  {
+    "_id": "69ef3410006c4c7f0eb9dd87",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "4578",
+      "country": "IE",
+      "funding": "debit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-04-27T10:01:52.824Z",
+    "createdBy": "660a1008f59d2d6bce01e9e5",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1TQlyyCdbiaQLvgXiCtgl4NH",
+    "paymentCustomer": "cus_RfzBOvLMPZ5ZqI"
+  },
+  {
+    "_id": "69fb154d779fc100ec90947d",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TU2WUI8B1riowTwsnW0MWKI",
+      "name": "LRA Inovações Tecnologicas Unipessoal LDA",
+      "brand": "Visa",
+      "last4": "6766",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1TU2WXI8B1riowTwNtRhV9lv"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 7
+    },
+    "createdAt": "2026-05-06T10:17:49.858Z",
+    "createdBy": "6735de56f921986ae5ea102a",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TU2WUI8B1riowTwsnW0MWKI",
+    "paymentCustomer": "cus_USyTIY9RsGYOyX"
+  },
+  {
+    "_id": "69fb15a71041cd37e0fa1e78",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TU2XxI8B1riowTwa9t7qUk4",
+      "name": "LRA Inovações Tecnologicas Unipessoal LDA",
+      "brand": "Visa",
+      "last4": "6766",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized",
+        "authProvider": "seti_1TU2XyI8B1riowTwEHHNzZbv"
+      },
+      "expirationYear": 2031,
+      "expirationMonth": 7
+    },
+    "createdAt": "2026-05-06T10:19:19.443Z",
+    "createdBy": "6735de56f921986ae5ea102a",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TU2XxI8B1riowTwa9t7qUk4",
+    "paymentCustomer": "cus_USyTIY9RsGYOyX"
+  },
+  {
+    "_id": "6a01e906397adc9fde46bf87",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "MasterCard",
+      "last4": "5434",
+      "country": "BR",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {},
+      "expirationYear": 2026,
+      "expirationMonth": 6
+    },
+    "createdAt": "2026-05-11T14:34:46.292Z",
+    "createdBy": "660a0759e3944431aba0981d",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1TVuutBGYBAQ24lUDf3PI7VT",
+    "paymentCustomer": "cus_Pwljy2MGU2dUes"
+  },
+  {
+    "_id": "6a06e130ceb0e327664acb90",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "authorization": {}
+    },
+    "createdAt": "2026-05-15T09:02:40.367Z",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "pm_1TXHddBGYBAQ24lUr1fviRIQ",
+    "paymentCustomer": "cus_QPzRAaPHB2Gmfx"
+  },
+  {
+    "_id": "6a0c215d176314aec579a781",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "brand": "Visa",
+      "last4": "9148",
+      "country": "DE",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "authorized"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 7
+    },
+    "createdAt": "2026-05-19T08:37:49.756Z",
+    "createdBy": "691112f2dbf7019ca540fa22",
+    "locations": [
+      "64a1c07bc31445076eb246c2"
+    ],
+    "paymentSource": "pm_1TYj9qCdbiaQLvgXEDVNVL9C",
+    "paymentCustomer": "cus_UXonmPI8UTkJoZ"
+  },
+  {
+    "_id": "6a19ae3c986a8a6e58000b9a",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1TcSAII8B1riowTwBRe4le4r",
+      "name": "Carriço Company",
+      "brand": "MasterCard",
+      "last4": "6436",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1TcSAxI8B1riowTw2hVOLFXC"
+      },
+      "expirationYear": 2026,
+      "expirationMonth": 6
+    },
+    "createdAt": "2026-05-29T15:18:20.190Z",
+    "createdBy": "69838d42595bdbafb5d766d4",
+    "locations": [
+      "657b91bf7f60e04798908d9b"
+    ],
+    "paymentSource": "card_1TcSAII8B1riowTwBRe4le4r",
+    "paymentCustomer": "cus_Re6abYfOHXxt8v"
+  },
+  {
+    "_id": "6a2ad52421199177c08b0a3b",
+    "type": "stripe",
+    "method": "card",
+    "details": {
+      "id": "card_1ThAaxBGYBAQ24lUR2JI4fSW",
+      "name": "José Costa Pinto",
+      "brand": "Visa",
+      "last4": "9447",
+      "country": "PT",
+      "funding": "credit",
+      "cvcCheck": "pass",
+      "authorization": {
+        "status": "pending",
+        "authProvider": "seti_1ThAbABGYBAQ24lUivFlg9Tw"
+      },
+      "expirationYear": 2029,
+      "expirationMonth": 4
+    },
+    "createdAt": "2026-06-11T15:32:52.670Z",
+    "createdBy": "6a2ad52192dca1ba71187a58",
+    "locations": [
+      "647a1afd46677c1cf57f4416"
+    ],
+    "paymentSource": "card_1ThAaxBGYBAQ24lUR2JI4fSW",
+    "paymentCustomer": "cus_UgXg3PPHblQ0H4"
+  }
+]

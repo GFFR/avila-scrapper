@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "5d1bcda0dbd6e40010479ee4",
+    "name": "No Tax",
+    "rate": 0,
+    "components": [
+      {
+        "_id": "5d1bcda0dbd6e40010479ee5",
+        "name": "No Tax",
+        "rate": 0
+      }
+    ]
+  },
+  {
+    "_id": "64a55f7dd28ef65b7b29bbc2",
+    "name": "IVA - Portugal Continental - Taxa normal",
+    "rate": 23,
+    "type": "",
+    "components": [
+      {
+        "_id": "64a55f7dd28ef6583829bbc3",
+        "name": "Taxa normal",
+        "rate": 23
+      }
+    ]
+  },
+  {
+    "_id": "655aa1b85ec20903466d81bd",
+    "name": "IVA - Região Autónoma dos Açores - Taxa normal",
+    "rate": 16,
+    "type": "",
+    "components": [
+      {
+        "_id": "655aa1b85ec209d06d6d81be",
+        "name": "Taxa normal",
+        "rate": 16
+      }
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "_id": "64a434363937800867bd8b72",
+    "area": 0,
+    "name": "2º DTO",
+    "floor": "2",
+    "isOpen": true,
+    "location": "647a1afd46677c1cf57f4416",
+    "createdAt": "2023-07-04T15:01:10.412Z",
+    "modifiedAt": "2025-05-22T15:50:58.791Z"
+  },
+  {
+    "_id": "64a54165a0c22c16d57d7dea",
+    "area": 0,
+    "name": "1º ED",
+    "floor": "1",
+    "isOpen": true,
+    "location": "647a1afd46677c1cf57f4416",
+    "createdAt": "2023-07-05T10:09:41.597Z",
+    "modifiedAt": "2025-01-24T14:34:23.986Z"
+  },
+  {
+    "_id": "64a542120c247c3a96597ba8",
+    "area": 0,
+    "name": "6º ESQ",
+    "floor": "6",
+    "isOpen": true,
+    "location": "647a1afd46677c1cf57f4416",
+    "createdAt": "2023-07-05T10:12:34.694Z",
+    "modifiedAt": "2025-05-12T15:24:51.126Z"
+  },
+  {
+    "_id": "64a54231d28ef6807d284c4c",
+    "area": 0,
+    "name": "7º ED",
+    "floor": "7º",
+    "isOpen": true,
+    "location": "647a1afd46677c1cf57f4416",
+    "createdAt": "2023-07-05T10:13:05.244Z",
+    "modifiedAt": "2025-01-24T14:34:37.502Z"
+  },
+  {
+    "_id": "64a54248d28ef65fec284ce6",
+    "area": 0,
+    "name": "9º DTO",
+    "floor": "9",
+    "isOpen": true,
+    "location": "647a1afd46677c1cf57f4416",
+    "createdAt": "2023-07-05T10:13:28.642Z",
+    "modifiedAt": "2025-01-24T14:34:46.823Z"
+  },
+  {
+    "_id": "64a5429332a4a61da6aae3ed",
+    "area": 0,
+    "name": "3º D",
+    "floor": "3",
+    "isOpen": true,
+    "location": "64a1c07bc31445076eb246c2",
+    "createdAt": "2023-07-05T10:14:43.713Z",
+    "modifiedAt": "2025-01-24T14:35:03.263Z"
+  },
+  {
+    "_id": "64a542a9a0c22c6c617d8da6",
+    "area": 0,
+    "name": "3º E",
+    "floor": "3",
+    "isOpen": true,
+    "location": "64a1c07bc31445076eb246c2",
+    "createdAt": "2023-07-05T10:15:05.663Z",
+    "modifiedAt": "2026-05-15T10:59:16.063Z"
+  },
+  {
+    "_id": "64a54311f10bbcb3bbe6222c",
+    "area": 0,
+    "name": "Piso 5º / 5th Floor",
+    "floor": "5",
+    "isOpen": true,
+    "location": "657b91bf7f60e04798908d9b",
+    "createdAt": "2023-07-05T10:16:49.312Z",
+    "modifiedAt": "2025-01-24T14:35:51.328Z"
+  },
+  {
+    "_id": "64a988f668a4c48cbb579460",
+    "area": 0,
+    "name": "2º",
+    "floor": "2",
+    "isOpen": true,
+    "location": "64a1c07bc31445076eb246c2",
+    "createdAt": "2023-07-08T16:04:06.593Z",
+    "modifiedAt": "2026-04-20T16:46:25.713Z"
+  },
+  {
+    "_id": "64b005cbd3dbe64c5ab0244d",
+    "area": 0,
+    "name": "3L",
+    "floor": "3º",
+    "isOpen": true,
+    "location": "64a1c07bc31445076eb246c2",
+    "createdAt": "2023-07-13T14:10:19.496Z",
+    "modifiedAt": "2026-04-08T15:07:25.799Z"
+  },
+  {
+    "_id": "64e5ba5487fc162b345b6e13",
+    "area": 0,
+    "name": "4º ESQ",
+    "floor": "4",
+    "isOpen": true,
+    "location": "647a1afd46677c1cf57f4416",
+    "createdAt": "2023-08-23T07:50:44.335Z",
+    "modifiedAt": "2025-01-28T17:49:59.578Z"
+  },
+  {
+    "_id": "64e7159dd7a7194d18dc348b",
+    "area": 0,
+    "name": "5º ESQ",
+    "floor": "5",
+    "isOpen": true,
+    "location": "647a1afd46677c1cf57f4416",
+    "createdAt": "2023-08-24T08:32:29.664Z",
+    "modifiedAt": "2025-01-24T14:36:26.591Z"
+  },
+  {
+    "_id": "657b928b262df02b885407e3",
+    "area": 0,
+    "name": "Piso 0 / Ground floor",
+    "floor": "0",
+    "isOpen": true,
+    "location": "657b91bf7f60e04798908d9b",
+    "createdAt": "2023-12-14T23:40:59.970Z",
+    "modifiedAt": "2025-01-24T14:36:35.076Z"
+  },
+  {
+    "_id": "659dd19f9061db60e304c48c",
+    "area": 0,
+    "name": "Lisboa Centro",
+    "floor": "0",
+    "isOpen": false,
+    "location": "647a1afd46677c1cf57f4416",
+    "createdAt": "2024-01-09T23:07:11.902Z",
+    "modifiedAt": "2025-01-24T14:36:45.390Z"
+  },
+  {
+    "_id": "659de4667cd2a86ffe653b75",
+    "area": 0,
+    "name": "Piso 0",
+    "floor": "0",
+    "isOpen": false,
+    "location": "647a1afd46677c1cf57f4416",
+    "createdAt": "2024-01-10T00:27:18.069Z",
+    "modifiedAt": "2025-01-24T14:36:55.953Z"
+  }
+]

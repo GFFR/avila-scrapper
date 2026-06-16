@@ -9,3 +9,6 @@ dist/
 
 # Postgres is the live store (Dokploy-managed, with its own backups). The
 # canonical, vendor-portable backup committed here is data/json/.
+
+# Contains live Azure Function Keys / webhook secrets — never commit
+data/json/webhooks.json

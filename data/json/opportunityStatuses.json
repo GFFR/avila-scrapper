@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "5d1bcda0dbd6e40010479ede",
+    "isSystem": true,
+    "description": "System status for open opportunities",
+    "probability": 10
+  },
+  {
+    "_id": "5d1bcda0dbd6e40010479edf",
+    "isSystem": true,
+    "description": "System status for won opportunities",
+    "probability": 100
+  },
+  {
+    "_id": "5d1bcda0dbd6e40010479ee0",
+    "isSystem": true,
+    "description": "System status for lost opportunities",
+    "probability": 0
+  }
+]
